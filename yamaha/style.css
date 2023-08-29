@@ -123,8 +123,18 @@ table {
   border-spacing: 0;
 }
 
+/* General */
+
 body {
   font-family: "Fredoka";
+}
+
+.section-container {
+  max-width: 1100px;
+}
+
+.cream-bg {
+  background-color: #fff3e5;
 }
 
 /* NAVBAR */
@@ -150,9 +160,6 @@ nav {
   z-index: 999;
 }
 
-.nav-bar {
-  max-width: 1100px;
-}
 nav ul {
   display: flex;
 }
@@ -265,10 +272,6 @@ iframe {
   border-radius: 12px;
 }
 
-.about-video-container {
-  max-width: 1100px;
-}
-
 .about-video-description {
   background-color: #b4dbf5;
   border-radius: 12px;
@@ -288,6 +291,13 @@ iframe {
 
 .swiper {
   height: 300px;
+}
+
+.swiper-slide {
+  background-image: url("./pic/swiper/swiper-desktop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .school-competition {
@@ -356,22 +366,26 @@ iframe {
 .aggregator button {
   font-weight: 600;
 }
-
 footer {
-  background-color: #274d6e;
+  background-color: #bfe2ed;
 }
 
 footer p {
-  color: white;
   font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
 }
 
-.connect-with-us {
-  color: #517ea0;
+.sosmed-logo span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.005em;
+  text-align: center;
 }
 
-.footer-copyright-line {
-  border: solid 1px #517ea0;
+.copyright-line-separator {
+  border-top: solid 1px #517ea0;
 }
 
 @media (max-width: 576px) {
@@ -424,6 +438,14 @@ footer p {
   .hero-desc {
     padding: 10px 16px;
     font-size: 16px;
+  }
+
+  .row {
+    --bs-gutter-x: 0;
+  }
+
+  .swiper-slide {
+    background-image: url("./pic/swiper/swiper-mobile.png");
   }
 }
 

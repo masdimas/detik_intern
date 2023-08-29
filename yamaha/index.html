@@ -28,33 +28,34 @@
   </head>
   <body>
     <nav>
-      <div
-        class="container d-sm-flex d-block justify-content-between align-items-center nav-content px-4 py-2 mt-3 nav-bar"
-      >
+      <div class="mx-3">
         <div
-          class="d-flex justify-content-between align-items-center mobile-unexpanded-nav"
+          class="section-container container d-sm-flex d-block justify-content-between align-items-center nav-content px-4 py-2 mt-3 nav-bar"
         >
-          <img src="./pic/navbar/navbar-logo.png" alt="" />
-          <div class="hamburger bg-white p-3 rounded-pill">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+          <div
+            class="d-flex justify-content-between align-items-center mobile-unexpanded-nav"
+          >
+            <img src="./pic/navbar/navbar-logo.png" alt="" />
+            <div class="hamburger bg-white p-3 rounded-pill">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
           </div>
-        </div>
 
-        <ul
-          class="align-items-center justify-content-center gap-sm-2 nav-menu fs-6"
-        >
-          <li>
-            <a href="#" class="py-4 px-sm-4 py-sm-2 rounded-pill"> Home </a>
-          </li>
-          <li>
-            <a href="#about" class="py-4 px-sm-4 py-sm-2 rounded-pill">
-              About
-            </a>
-          </li>
+          <ul
+            class="align-items-center justify-content-center gap-sm-2 nav-menu fs-6"
+          >
+            <li>
+              <a href="#" class="py-4 px-sm-4 py-sm-2 rounded-pill"> Home </a>
+            </li>
+            <li>
+              <a href="#about" class="py-4 px-sm-4 py-sm-2 rounded-pill">
+                About
+              </a>
+            </li>
 
-          <!-- <div
+            <!-- <div
             class="authentification d-flex align-items-center justify-content-center dropdown"
             data-toggle="dropdown"
             aria-expanded="false"
@@ -68,7 +69,8 @@
             </button>
             <img src="./pic/accountInfo.svg" alt="" class="d-lg-block d-none" />
           </div> -->
-        </ul>
+          </ul>
+        </div>
       </div>
     </nav>
     <section
@@ -91,9 +93,11 @@
       </div>
     </section>
 
-    <section id="about" class="py-5">
-      <div class="container about-video-container">
-        <div class="d-flex flex-wrap justify-content-center">
+    <section id="about" class="py-5 px-4 cream-bg">
+      <div
+        class="section-container container about-video-container pe-md-3 p-0"
+      >
+        <div class="row justify-content-center align-items-center">
           <div class="col-12 col-md-7 col-lg-8 mb-md-0 mb-4">
             <div class="video-container-ratio">
               <iframe
@@ -135,25 +139,19 @@
     </section>
 
     <!-- Slider main container -->
-    <div class="swiper w-75 my-5">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        ...
+    <section id="about-swiper" class="cream-bg px-4 py-5">
+      <div class="swiper section-container container rounded">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
       </div>
-      <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
-
-      <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-
-      <!-- If we need scrollbar -->
-      <div class="swiper-scrollbar"></div>
-    </div>
+    </section>
 
     <!-- <section class="school-competition py-5">
       <div
@@ -269,15 +267,19 @@
       </div>
     </section> -->
 
-    <footer>
-      <div class="container py-5 d-grid">
-        <div class="row">
-          <div class="d-flex gap-4 col-12">
-            <img src="./pic/detikcomLogoFooter.svg" alt="" />
-            <img src="./pic/footerLogoSeparator.svg" alt="" />
-            <img src="./pic/yamahaLogo.svg" alt="" />
-          </div>
-          <p class="lh-base text-center text-lg-start col-9">
+    <footer class="py-5">
+      <div
+        class="container d-flex flex-column gap-4 align-items-lg-start align-items-center"
+      >
+        <div class="d-flex gap-4">
+          <img src="./pic/footer/footer-yamaha.svg" alt="" />
+          <img src="./pic/footer/logo-footer-line.svg" alt="" />
+          <img src="./pic/footer/footer-detikcom.svg" alt="" />
+        </div>
+        <div
+          class="row gx-2 justify-content-between gap-4 text-center text-lg-start"
+        >
+          <p class="col-lg-8 footer-desc">
             Classy Yamaha Youth Festival merupakan serangkaian fun event untuk
             high school students dari berbagai kota di Indonesia. Festival ini
             fokus pada spreading classy and fashionable spirit melalui produk
@@ -287,22 +289,22 @@
             contests, dan riding style contests. Selain itu, akan ada juga
             lifestyle workshops mengenai classy and fashionable living.
           </p>
-          <div class="d-flex flex-column align-items-center gap-2 col-lg-2">
-            <p class="fs-6 connect-with-us">Connect With Us</p>
+          <div
+            class="sosmed-logo d-flex flex-column align-items-center gap-2 col-lg-2"
+          >
+            <span>Connect With Us</span>
             <div class="d-flex gap-2">
-              <img src="./pic/facebook.svg" alt="" />
-              <img src="./pic/twitter.svg" alt="" />
-              <img src="./pic/instagram.svg" alt="" />
-              <img src="./pic/linkedin.svg" alt="" />
-              <img src="./pic/youtube.svg" alt="" />
+              <img src="./pic/footer/sosmed-logo/facebook.svg" alt="" />
+              <img src="./pic/footer/sosmed-logo/twitter.svg" alt="" />
+              <img src="./pic/footer/sosmed-logo/instagram.svg" alt="" />
+              <img src="./pic/footer/sosmed-logo/youtube.svg" alt="" />
             </div>
           </div>
         </div>
-        <div class="w-100 footer-copyright-line"></div>
+        <div class="copyright-line-separator w-100"></div>
         <p>Copyright @ 2023 detikcom. All right reserved</p>
       </div>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script
       src="https://kit.fontawesome.com/f5fe63c5d0.js"
