@@ -1,0 +1,101 @@
+.countdown {
+  min-width: 0;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.countdown-days, .countdown-hrs, .countdown-mins, .countdown-secs {
+  width: 100px;
+  height: 80px;
+  display: block;
+  padding: 10px;
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  border-right: 1px solid #ffffff;
+  font-family: 'sora-bold';
+}
+
+.countdown-secs {
+  border-right: none;
+}
+
+.countdown-days::after {
+  content: "Days";
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 60px;
+  font-family: 'sora-regular';
+}
+
+.countdown-hrs:after {
+  content: "Hours";
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 60px;
+  font-family: 'sora-regular';
+}
+
+.countdown-mins:after {
+  content: "Minutes";
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 60px;
+  font-family: 'sora-regular';
+}
+
+.countdown-secs:after {
+  content: "Seconds";
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 60px;
+  font-family: 'sora-regular';
+}
+
+#expiry-text {
+  color: #fff;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-shadow: 0px 0px 5px #1a1a1a;
+}
+
+@media screen and (max-width: 480px) {
+  .countdown-days, .countdown-hrs, .countdown-mins, .countdown-secs {
+    width: 80px;
+  }
+}
+/*# sourceMappingURL=countdown.css.map */

@@ -1,0 +1,254 @@
+#award-categories-page {
+  background: url(../images/bg-award.jpg) no-repeat;
+  background-position: top center;
+  margin-bottom: 140px;
+}
+
+#award-categories-page .mycontainer {
+  padding-top: 165px;
+}
+
+#award-categories-page .award-categories-title {
+  margin-bottom: 50px;
+}
+
+#award-categories-page .award-categories-title h1 {
+  font-size: 82px;
+}
+
+#award-categories-page .award-categories-list .accordion {
+  width: 100%;
+  max-width: 700px !important;
+  margin: auto;
+  border: 1px solid #3F3100;
+  background: #18150D;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 15px;
+}
+
+#award-categories-page .award-categories-list .accordion .accordion-item {
+  border-bottom: 1px solid #ffffff;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#award-categories-page .award-categories-list .accordion .card {
+  border: none;
+  border-bottom: 1px solid #3F3100;
+  border-radius: none;
+  background: none;
+}
+
+#award-categories-page .award-categories-list .accordion .card:last-child {
+  border-bottom: none;
+}
+
+#award-categories-page .award-categories-list .accordion .card-header h2 {
+  font-size: 24px;
+  line-height: 30.24px;
+}
+
+#award-categories-page .award-categories-list .accordion .card-header i {
+  position: absolute;
+  right: 15px;
+  top: 22px;
+  color: #6E6E73;
+}
+
+#award-categories-page .award-categories-list .accordion .card-header[aria-expanded="true"] i {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+#award-categories-page .award-categories-list .accordion .card-header:focus {
+  border-color: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#award-categories-page .award-categories-list .accordion .card-header:not(.colapsed) {
+  background: #18150D;
+  color: #FCFCFC;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#award-categories-page .award-categories-list .accordion .card-body {
+  background: #18150D;
+  color: #FCFCFC;
+  font-size: 17px;
+}
+
+#award-categories-page .award-categories-list .accordion .card-body .left-side .awardees-image {
+  width: 128px;
+  height: 128px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+
+#award-categories-page .award-categories-list .accordion .card-body .right-side .awardees-title {
+  font-size: 22px;
+  line-height: 27.22px;
+  margin-bottom: 10px;
+  color: #FCFCFC;
+}
+
+#award-categories-page .award-categories-list .accordion .card-body .right-side .awardees-corp {
+  font-size: 17px;
+  line-height: 21.42px;
+  margin-bottom: 10px;
+  color: #FCFCFC;
+}
+
+#award-categories-page .award-categories-list .accordion .card-body .right-side .awardees-desc {
+  font-size: 17px;
+  line-height: 21.42px;
+  margin-bottom: 21px;
+  color: #FCFCFC;
+}
+
+#award-categories-page .award-categories-list .accordion .card-body .right-side .awardees-cta {
+  font-size: 14px;
+  line-height: 17.64px;
+  color: #ffffff;
+}
+
+#award-categories-page .award-categories-list .accordion .card-body .right-side .awardees-cta img {
+  width: 100%;
+  max-width: 30px;
+  margin-left: 10px;
+}
+
+#award-categories-page .special-report-area {
+  max-width: 700px !important;
+  margin: auto;
+  background: #000;
+  color: #fff;
+  border-radius: 15px;
+  padding-top: 16px;
+  padding-bottom: 5px;
+  margin-bottom: 184px;
+  margin-top: 59px;
+}
+
+#award-categories-page .special-report-area img {
+  margin-top: 15px;
+}
+
+#award-categories-page .special-report-area h2 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#award-categories-page .special-report-area p {
+  font-size: 14px;
+}
+
+#award-categories-page .special-report-area button {
+  background: red;
+  border-radius: 100px;
+  width: 193px;
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: font-bold;
+  color: black;
+}
+
+#download-special-report {
+  background: url(../images/bg-special_report-min.png) no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+#download-special-report .mycontainer {
+  padding-top: 225px;
+  padding-bottom: 191px;
+}
+
+#download-special-report .mycontainer h2 {
+  font-size: 22px;
+  line-height: 27.72px;
+  color: #D8C270;
+  margin-bottom: 24px;
+}
+
+#download-special-report .mycontainer h1 {
+  max-width: 938px;
+  margin: auto;
+  font-size: 40px;
+  line-height: 50.4px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+#download-special-report .mycontainer a {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(36, 36, 36, 0.85)), to(rgba(36, 36, 36, 0.85))), -webkit-gradient(linear, left bottom, left top, from(#8C6D00), to(#8C6D00));
+  background: linear-gradient(0deg, rgba(36, 36, 36, 0.85), rgba(36, 36, 36, 0.85)), linear-gradient(0deg, #8C6D00, #8C6D00);
+  border: 1px solid #8C6D00;
+  color: #ffffff;
+  border-radius: 32px;
+  padding: 14px 24px;
+}
+
+@media screen and (max-width: 480px) {
+  #award-categories-page {
+    background-size: 150%;
+    background-position-y: -50px;
+  }
+  #award-categories-page .mycontainer {
+    padding-top: 120px;
+  }
+  #award-categories-page .mycontainer .award-categories-title h1 {
+    font-size: 32px;
+  }
+  #award-categories-page .mycontainer .accordion {
+    max-width: 320px !important;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #award-categories-page .mycontainer .accordion .card-header h2 {
+    font-size: 16px;
+    line-height: 20.16px;
+  }
+  #award-categories-page .mycontainer .accordion .card-header i {
+    top: 13px;
+  }
+  #award-categories-page .mycontainer .accordion .card-body {
+    font-size: 12px;
+  }
+  #award-categories-page .mycontainer .accordion .card-body .right-side .awardees-corp, #award-categories-page .mycontainer .accordion .card-body .right-side .awardees-desc {
+    font-size: 12px;
+    line-height: 15.12px;
+  }
+  #download-special-report .mycontainer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  #download-special-report .mycontainer h2 {
+    font-size: 18px;
+    line-height: 22.68px;
+  }
+  #download-special-report .mycontainer h1 {
+    max-width: 938px;
+    margin: auto;
+    font-size: 30px;
+    line-height: 37.8px;
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  #download-special-report .mycontainer a {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(36, 36, 36, 0.85)), to(rgba(36, 36, 36, 0.85))), -webkit-gradient(linear, left bottom, left top, from(#8C6D00), to(#8C6D00));
+    background: linear-gradient(0deg, rgba(36, 36, 36, 0.85), rgba(36, 36, 36, 0.85)), linear-gradient(0deg, #8C6D00, #8C6D00);
+    border: 1px solid #8C6D00;
+    color: #ffffff;
+    border-radius: 32px;
+    padding: 14px 24px;
+  }
+}
+/*# sourceMappingURL=award.css.map */

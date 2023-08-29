@@ -1,0 +1,216 @@
+@font-face {
+    font-family: sora-thin;
+    src: url(../fonts/Sora-Thin.ttf);
+}
+@font-face {
+    font-family: sora-extralight;
+    src: url(../fonts/Sora-ExtraLight.ttf);
+}
+@font-face {
+    font-family: sora-light;
+    src: url(../fonts/Sora-Light.ttf);
+}
+@font-face {
+    font-family: sora-regular;
+    src: url(../fonts/Sora-Regular.ttf);
+}
+@font-face {
+    font-family: sora-medium;
+    src: url(../fonts/Sora-Medium.ttf);
+}
+@font-face {
+    font-family: sora-semibold;
+    src: url(../fonts/Sora-SemiBold.ttf);
+}
+@font-face {
+    font-family: sora-bold;
+    src: url(../fonts/Sora-Bold.ttf);
+}
+@font-face {
+    font-family: sora-extrabold;
+    src: url(../fonts/Sora-ExtraBold.ttf);
+}
+
+.font-100{
+    font-family: sora-thin;
+}
+.font-200{
+    font-family: sora-extralight;
+}
+.font-300{
+    font-family: sora-light;
+}
+.font-400{
+    font-family: sora-regular;
+}
+.font-500{
+    font-family: sora-medium;
+}
+.font-600{
+    font-family: sora-semibold;
+}
+.font-700{
+    font-family: sora-bold;
+}
+.font-800{
+    font-family: sora-extrabold;
+}
+
+$white: #FFFFFF;
+$gold: #D8C270;
+.white{
+    color: $white;
+}
+.gold{
+    color: $gold;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+body{
+    background: #000000;
+}
+#cover{
+    background: url(../images/bg-cover.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    .mycontainer{
+        padding-top: 200px;
+        padding-bottom: 100px;
+        .left-side{
+            h1{
+                font-size: 82px;
+                max-width: 714px;
+                line-height: 82px;
+                margin-bottom: 15px;
+            }
+            p{
+                font-size: 20px;
+                max-width: 714px;
+                line-height: 25.2px;
+                margin-bottom: 40px;
+            }
+            .location{
+                font-size: 14px;
+                line-height: 22.68px;
+                margin-bottom: 32px;
+            }
+            .liveon-box{
+                border: 1px solid $white;
+                border-radius: 12px;
+                max-width: 315px;
+                height: 74px;
+                padding: 12px 10px;
+                margin-bottom: 33px;
+                .liveon-text{
+                    font-size: 12px;
+                    color: $white;
+                    line-height: 15.12px;
+                }
+                .left-side{
+                    position: relative;
+                    display: inline-block;
+                    text-align: center;
+                    bottom: 25px;
+                    left: 6px;
+                    .liveon-text{
+                        &::before{
+                            animation: blinker 1s cubic-bezier(0.5, 0, 1, 1) infinite alternate;
+                            display: inline-block;
+                            content: '';
+                            border-radius: 0.375rem;
+                            height: 10px;
+                            width: 10px;
+                            margin-right: 4px;
+                            background-color: #9C0000;
+                        }
+                    }
+                }
+                .right-side{
+                    position: relative;
+                    display: inline-block;
+                    width: auto;
+                    text-align: center;
+                    bottom: 7px;
+                    left: 20px;
+                    .liveon-tv{
+                        display: inline-block;
+                    }
+                    .logo-cnbctv{
+                        width: 100%;
+                        max-width: 29px;
+                        display: inline-block;
+                        position: relative;
+                    }
+                    .divider{
+                        width: auto;
+                        margin-top: 7px;
+                        margin-bottom: 4px;
+                        border-bottom: 1px solid #ffffff;
+                        height: 1px;
+                    }
+                }
+            }
+        }
+        .right-side{
+            position: relative;
+            height: auto;
+            .image-trophy{
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 0;
+                margin: auto;
+            }
+        }
+    }
+}
+
+@keyframes blinker {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@media screen and (max-width:768px) {
+    #cover{
+        .mycontainer{
+            .right-side{
+                .image-trophy{
+                    bottom: 150px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #cover{
+        .mycontainer{
+            .left-side{
+                h1{
+                    font-size: 48px;
+                    line-height: 48px;
+                }
+                p{
+                    font-size: 20px;
+                    line-height: 25.2px;
+                }
+                .location{
+                    font-size: 18px;
+                    line-height: 22.68px;
+                }
+            }
+            .right-side{
+                .image-trophy{
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+        }
+    }
+}
