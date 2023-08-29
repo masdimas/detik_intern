@@ -29,7 +29,7 @@
   <body>
     <nav>
       <div
-        class="container d-lg-flex d-block justify-content-between align-items-center nav-content px-4 py-2 mt-3"
+        class="container d-sm-flex d-block justify-content-between align-items-center nav-content px-4 py-2 mt-3 nav-bar"
       >
         <div
           class="d-flex justify-content-between align-items-center mobile-unexpanded-nav"
@@ -43,30 +43,42 @@
         </div>
 
         <ul
-          class="align-items-center justify-content-center gap-md-5 nav-menu fs-6"
+          class="align-items-center justify-content-center gap-sm-2 nav-menu fs-6"
         >
-          <li class="my-5 my-lg-0"><a href=""> Home </a></li>
-          <li class="my-5 my-lg-0"><a href=""> About </a></li>
-          <div
-            class="authentification d-flex align-items-center justify-content-center"
+          <li>
+            <a href="#" class="py-4 px-sm-4 py-sm-2 rounded-pill"> Home </a>
+          </li>
+          <li>
+            <a href="#about" class="py-4 px-sm-4 py-sm-2 rounded-pill">
+              About
+            </a>
+          </li>
+
+          <!-- <div
+            class="authentification d-flex align-items-center justify-content-center dropdown"
+            data-toggle="dropdown"
+            aria-expanded="false"
           >
-            <!-- <div class="auth-user">
+            <div class="auth-user">
               <p>Ayub Tahang</p>
               <button>Logout</button>
-            </div> -->
-            <!-- <button class="btn w-100 py-2 px-4 rounded-pill login-button d-none">
+            </div>
+            <button class="btn w-100 py-2 px-4 rounded-pill login-button d-none">
               Login
-            </button> -->
+            </button>
             <img src="./pic/accountInfo.svg" alt="" class="d-lg-block d-none" />
-          </div>
+          </div> -->
         </ul>
       </div>
     </nav>
     <section
       class="hero d-grid align-items-center justify-content-center flex-column"
     >
-      <div class="container d-flex align-items-center justify-content-center">
+      <div
+        class="container d-flex flex-column align-items-center justify-content-center gap-4"
+      >
         <img src="./pic/heroLogo.svg" alt="" class="w-75 w-lg-100" />
+        <div class="hero-desc">DUKUNG SEKOLAHMU DENGAN PENUH GAYA</div>
       </div>
       <div
         class="overlay w-100 d-flex justify-content-center align-items-center"
@@ -74,7 +86,7 @@
         <img src="./pic/arrowDown.svg" alt="" />
       </div>
     </section>
-    <section class="video py-3">
+    <section class="video py-3" id="about">
       <div class="container d-flex gap-3 justify-content-center py-3">
         <div class="w-50 yamahaVideo">
           <iframe
