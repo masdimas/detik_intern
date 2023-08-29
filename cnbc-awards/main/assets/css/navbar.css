@@ -1,0 +1,66 @@
+.mynavbar {
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(23px);
+          backdrop-filter: blur(23px);
+  border-bottom: 1px solid #8C6D0080;
+}
+
+.mynavbar .mycontainer {
+  max-width: 1100px;
+}
+
+.mynavbar .mycontainer .navbar-toggler > .close {
+  display: inline;
+}
+
+.mynavbar .mycontainer .navbar-toggler.collapsed > .close, .mynavbar .mycontainer .navbar-toggler:not(.collapsed) > .navbar-toggler-icon {
+  display: none;
+}
+
+.mynavbar .mycontainer .navbar-brand img {
+  width: 100%;
+  max-width: 120.02px;
+}
+
+.mynavbar .mycontainer .navbar-nav li {
+  margin-left: 29px;
+  margin-right: 29px;
+}
+
+.mynavbar .mycontainer .navbar-nav li a {
+  font-size: 14px;
+  color: #FFFFFFCC;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.mynavbar .mycontainer .navbar-nav li a:hover, .mynavbar .mycontainer .navbar-nav li a:active, .mynavbar .mycontainer .navbar-nav li a:focus {
+  color: #ffffff;
+}
+
+.mynavbar .mycontainer .navbar-nav li .dropdown-menu {
+  background: #00000080;
+}
+
+.mynavbar .mycontainer .navbar-nav li .dropdown-menu li {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.mynavbar .mycontainer .navbar-nav li .dropdown-menu li .dropdown-item:hover {
+  background: none;
+}
+
+.mynavbar .mycontainer .navbar-nav li .dropdown-toggle:after {
+  display: none;
+}
+
+.mynavbar .mycontainer .navbar-nav li .dropdown-toggle i {
+  margin-left: 5px;
+}
+
+.mynavbar .mycontainer .navbar-toggler-icon img, .mynavbar .mycontainer .close img {
+  max-width: 24px;
+}
+/*# sourceMappingURL=navbar.css.map */
