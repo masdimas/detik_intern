@@ -1,0 +1,74 @@
+@import "../css/global.scss";
+#ticker{
+    width: 100%;
+    max-width: 1100px;
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    .mycontainer{
+        .box-ticker{
+            z-index: 9999;
+            top: 100px;
+            max-width: 350px;
+            position: absolute;
+            right: 0;
+            .btn-default{
+                background: #CD1F43;
+                color: white;
+                border-radius: 6px;
+                padding: 10px 20px;
+                position: relative;
+                -webkit-animation-name: color-transition;
+                animation-name: color-transition;
+                -webkit-animation-duration: 1s;
+                animation-duration: 1s;
+                -webkit-animation-direction: alternate;
+                animation-direction: alternate;
+                -webkit-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+                -webkit-animation-timing-function: linear;
+                animation-timing-function: linear;
+            }
+            i{
+                position: absolute;
+                color: white;
+                right: 10px;
+                top: -7px;
+            }
+        }
+    }
+}
+
+/*This is the animation used to change colors; In this instance, I made sure to have the same color at 0% as I did at 100% */
+
+@-webkit-keyframes color-transition {
+	0% {
+		background: #CD1F43;
+	}
+	100% {
+		background: red;
+		
+	}
+}
+
+@keyframes color-transition {
+	0% {
+		background: #CD1F43;
+	}
+	100% {
+		background: red;
+	}
+}
+
+@media (max-width: 480px) {
+    #ticker{
+        .box-ticker{
+            right: 0;
+            top: 500px !important;
+            left: 0;
+            margin: auto;
+        }
+    }
+}

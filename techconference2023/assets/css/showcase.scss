@@ -1,0 +1,200 @@
+@import "../css/global.scss";
+#showcase-hero{
+    background: url("../images/bg-cover.jpg") no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    h1{
+        font-size: 48px;
+        color: $white;
+        margin-bottom: 30px;
+    }
+    p{
+        font-family: sg-400;
+        font-size: 18px;
+        color:$white;
+    }
+    .btn-primary, .btn-primary:focus{
+        color: $dark-blue;
+        background-color: #00B0BF;
+        line-height: 17.86px;
+        height: 50px;
+        padding: 16px 20px;
+        box-shadow: none;
+        margin-bottom: 30px;
+        border: none;
+    }
+    h3{
+        font-family: sg-400;
+        font-size: 14px;
+        a{
+            color: $white;
+            display: inline-block;
+            text-decoration: none;
+        }
+    }
+    img{
+        width: 100%;
+        max-width: 375px;
+        margin-top: 70px;
+    }
+}
+#startup-logo{
+    background-size: cover;
+    background-position: top center;
+    .form-control{
+        border: none !important;
+        &:focus{
+            box-shadow: none;
+        }
+    }
+    .btn-secondary{
+        background: #00B0BF;
+        border: none !important;
+    }
+    .swiper-container {
+        overflow: visible;
+        .swiper-pagination{
+            bottom: -30px;
+        }
+        .swiper-pagination-bullet{
+            background: $white;
+        }
+      }
+      $slide: ".swiper-slide";
+      .swiper-slide {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out;
+        &-active {
+          opacity: 1;
+          visibility: visible;
+      
+          @for $i from 1 through 3 {
+            & + #{$slide} {
+              opacity: 1;
+              visibility: visible;
+            }
+            $slide: "#{$slide} + .swiper-slide";
+          }
+        }
+      }
+      
+    h1{
+        font-family: sg-700;
+        font-size: 24px;
+        color: $white;
+        margin-bottom: 30px;
+    }
+    .featured-startup{
+        padding: 0.25rem;
+        margin-bottom: 50px;
+    }
+    .box-logo{
+        width: 100%;
+        height: 150px;
+        background: $white;
+        position: relative;
+        border-radius: 8px;
+        .startup-logo-img{
+            width: auto;
+            max-width: 150px;
+            max-height: 85px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+        }
+    &:hover + .hovered{
+        visibility: visible;
+        position: absolute;
+        display: block;
+        padding: 20px;
+        top: 0;
+    } 
+    }
+    .hovered{
+        visibility: hidden;
+        background: $white;
+        border-radius: 8px;
+        z-index: 99;
+        position: absolute;
+        top: 0;
+        padding: 1rem;
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        img{
+            width: auto;
+            max-width: 150px;
+            max-height: 90px;
+        }
+        h1{
+            color: black;
+            margin-bottom: 10px;
+            border-top: 1px solid #071424;
+            padding-top: 20px;
+            font-size: 16px;
+            font-family: 'sg-700';
+        }
+        p{
+            font-size: 12px;
+            font-family: 'sg-400';
+        }
+        .btn-primary{
+            width: 100%;
+            margin-bottom: 10px;
+            background: #071424;
+            border: none;
+            font-family: 'sg-700';
+        }
+    }
+    .hovered{
+        &:hover{
+            visibility: visible;
+        }
+    }
+    .pagination{
+        margin-top: 30px !important;
+        a{
+            background: none;
+            border: 1px solid #00B0BF;
+            width: 38px;
+            height: 38px;
+            border: radius 5px;
+            font-family: sg-700;
+            color: #00B0BF;
+        }
+        li.active{
+            width: 38px;
+            height: 38px;
+            background: #00B0BF;
+            border-radius: 5px;
+            a{
+                color: $dark-blue !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px){
+    #showcase-hero{
+        padding-top: 60px;
+        h1{
+            font-size: 32px;
+        }
+    }
+    #startup-logo{
+        .input-group{
+            margin-bottom: 30px;
+        }
+    }
+    .hovered{
+        p{
+            margin-bottom: 15px;
+        }
+    }
+}

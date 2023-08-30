@@ -1,0 +1,42 @@
+  <div class="container fixed-top">
+    <input type="checkbox" id="nav_burger">
+    <nav class="nav">
+      <label for="nav_burger" class="checkbtn">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+      </label>
+      <a class="logo">
+        <img src="assets/images/icon/cnbc.png">
+      </a>
+      <ul class="menu">
+
+        <li><a class="<?php if($page=='home') echo 'active' ?>" href="index-new.php?page=home&login=<?= $login ?>">About
+            G20</a></li>
+        <li><a class="<?php if($page=='tebak') echo 'active' ?>"
+            href="index-new.php?page=tebak&login=<?= $login ?>">Explore Indonesia</a></li>
+        <li>
+          News
+          <ul>
+            <li><a class="" href="https://www.detik.com/tag/motogp-2021" target="_blank">HIGHLIGHT</a></li>
+            <li><a class="" href="https://www.detik.com/tag/motogp-2021" target="_blank">HIGHLIGHT</a></li>
+            <li><a class="" href="https://www.detik.com/tag/motogp-2021" target="_blank">HIGHLIGHT</a></li>
+            <li><a class="" href="https://www.detik.com/tag/motogp-2021" target="_blank">HIGHLIGHT</a></li>
+            <li><a class="" href="https://www.detik.com/tag/motogp-2021" target="_blank">HIGHLIGHT</a></li>
+          </ul>
+        </li>
+        <li class="lang-menu">
+          <div class="selected-lang">
+            English
+          </div>
+          <ul>
+            <li>
+              <span>Indonesia</span>
+            </li>
+            <li>
+              <span>Indonesia</span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>

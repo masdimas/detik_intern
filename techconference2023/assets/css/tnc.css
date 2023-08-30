@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&family=Space+Grotesk:wght@400;700&display=swap");
+@font-face {
+  font-family: sg-700;
+  src: url(../fonts/SpaceGrotesk-Bold.ttf);
+}
+@font-face {
+  font-family: sg-400;
+  src: url(../fonts/SpaceGrotesk-Regular.ttf);
+}
+@font-face {
+  font-family: q-400;
+  src: url(../fonts/Questrial-Regular.ttf);
+}
+.sg-700 {
+  font-family: sg-700;
+}
+
+.sg-400 {
+  font-family: sg-400;
+}
+
+.q-400 {
+  font-family: q-400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #1B1E28;
+}
+
+a {
+  text-decoration: none;
+}
+
+.tnc-page {
+  background: #1B1E28;
+}
+.tnc-page #tnc {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.tnc-page #tnc .mycontainer .tnc-box {
+  max-width: 700px;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px 20px;
+}
+.tnc-page #tnc .mycontainer .tnc-box h1 {
+  color: #1B1E28;
+  font-size: 32px;
+  line-height: 40.83px;
+  margin-bottom: 20px;
+}
+.tnc-page #tnc .mycontainer .tnc-box ol li {
+  color: #1B1E28;
+  font-size: 16px;
+  line-height: 19.2px;
+}/*# sourceMappingURL=tnc.css.map */

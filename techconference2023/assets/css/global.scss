@@ -1,0 +1,41 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Space+Grotesk:wght@400;700&display=swap');
+
+@font-face {
+    font-family: sg-700;
+    src: url(../fonts/SpaceGrotesk-Bold.ttf);
+}
+@font-face {
+    font-family: sg-400;
+    src: url(../fonts/SpaceGrotesk-Regular.ttf);
+}
+@font-face {
+    font-family: q-400;
+    src: url(../fonts/Questrial-Regular.ttf);
+}
+.sg-700{
+    font-family: sg-700;
+}
+.sg-400{
+    font-family: sg-400;
+}
+.q-400{
+    font-family: q-400;
+}
+
+// Colors
+$dark-blue: #1B1E28;
+$secondary: #01091C;
+$titanium: #BEA888;
+$white: #ffffff;
+
+// Global CSS
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: $dark-blue;
+}
+a{
+    text-decoration: none;
+}

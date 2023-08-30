@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&family=Space+Grotesk:wght@400;700&display=swap");
+@font-face {
+  font-family: sg-700;
+  src: url(../fonts/SpaceGrotesk-Bold.ttf);
+}
+@font-face {
+  font-family: sg-400;
+  src: url(../fonts/SpaceGrotesk-Regular.ttf);
+}
+@font-face {
+  font-family: q-400;
+  src: url(../fonts/Questrial-Regular.ttf);
+}
+.sg-700 {
+  font-family: sg-700;
+}
+
+.sg-400 {
+  font-family: sg-400;
+}
+
+.q-400 {
+  font-family: q-400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #1B1E28;
+}
+
+a {
+  text-decoration: none;
+}
+
+#ticker {
+  width: 100%;
+  max-width: 1100px;
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+#ticker .mycontainer .box-ticker {
+  z-index: 9999;
+  top: 100px;
+  max-width: 350px;
+  position: absolute;
+  right: 0;
+}
+#ticker .mycontainer .box-ticker .btn-default {
+  background: #CD1F43;
+  color: white;
+  border-radius: 6px;
+  padding: 10px 20px;
+  position: relative;
+  animation-name: color-transition;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#ticker .mycontainer .box-ticker i {
+  position: absolute;
+  color: white;
+  right: 10px;
+  top: -7px;
+}
+
+/*This is the animation used to change colors; In this instance, I made sure to have the same color at 0% as I did at 100% */
+@keyframes color-transition {
+  0% {
+    background: #CD1F43;
+  }
+  100% {
+    background: red;
+  }
+}
+@media (max-width: 480px) {
+  #ticker .box-ticker {
+    right: 0;
+    top: 500px !important;
+    left: 0;
+    margin: auto;
+  }
+}/*# sourceMappingURL=ticker.css.map */
