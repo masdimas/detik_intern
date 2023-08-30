@@ -25,10 +25,21 @@
           >
             <span>Connect With Us</span>
             <div class="d-flex gap-2">
+              <a href="https://www.facebook.com/yamaholigan/?locale=id_ID" target="_blank">
                 <img src="./assets/images/footer/sosmed-logo/facebook.svg" alt="">
-                <img src="./assets/images/footer/sosmed-logo/twitter.svg" alt="">
-                <img src="./assets/images/footer/sosmed-logo/instagram.svg" alt="">
-                <img src="./assets/images/footer/sosmed-logo/youtube.svg" alt="">
+              </a>
+                <a href=" https://www.instagram.com/yamahaindonesia/" target="_blank">
+                  <img src="./assets/images/footer/sosmed-logo/instagram.svg" alt="">
+                </a>
+                <a href="https://twitter.com/yamahaindonesia " target="_blank">
+                  <img src="./assets/images/footer/sosmed-logo/twitter.svg" alt="">
+                </a>
+                <a href="https://www.tiktok.com/@yamahaindonesia?_t=8fGMYYWgTyc&_r=1" target="_blank">
+                  <img src="./assets/images/footer/sosmed-logo/tiktok.svg" alt="">
+                </a>
+                <a href="https://www.youtube.com/user/yamahamotorindonesia" target="_blank"> 
+                  <img src="./assets/images/footer/sosmed-logo/youtube.svg" alt="">
+                </a>
             </div>
           </div>
         </div>

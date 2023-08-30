@@ -6,7 +6,10 @@
           <div
             class="d-flex justify-content-between align-items-center mobile-unexpanded-nav"
           >
+          <a href="#">
+
             <img src="./assets/images/navbar/navbar-logo.png" alt="" />
+          </a>
             <div class="hamburger bg-white p-3 rounded-pill">
               <span class="bar"></span>
               <span class="bar"></span>

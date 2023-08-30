@@ -38,3 +38,11 @@ iframe {
   font-size: 15px;
   line-height: 18.15px;
 }
+
+@media (max-width: 576px) {
+  .about-video-container .row {
+    --bs-gutter-x: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

@@ -1,9 +1,9 @@
-<section id="about" class="py-5 px-4 cream-bg">
+ <section id="about" class="py-5 px-4 cream-bg">
       <div
-        class="section-container container about-video-container pe-md-3 p-0"
+        class="section-container container about-video-container pe-md-3"
       >
         <div class="row justify-content-center align-items-center">
-          <div class="col-12 col-md-7 col-lg-8 mb-md-0 mb-4">
+          <div class="col-12 col-lg-8 mb-lg-0 mb-4 p-lg-4 p-0">
             <div class="video-container-ratio">
               <iframe
                 src="https://www.cnbcindonesia.com/embed/tv"
@@ -16,7 +16,7 @@
             </div>
           </div>
           <div
-            class="col-12 col-md-5 col-lg-4 p-3 about-video-description gap-3"
+            class="col-12  col-lg-4 p-3 about-video-description gap-3"
           >
             <h3 class="gill-sans-1000 px-3 mb-3">
               CLASSY YAMAHA YOUTH FESTIVAL
