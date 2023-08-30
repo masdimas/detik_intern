@@ -2,6 +2,11 @@ const swiper = new Swiper(".swiper", {
   // Optional parameters
   direction: "horizontal",
   loop: true,
+  autoHeight: true,
+  observer: true,
+  autoplay: {
+    delay: 5000,
+  },
 
   // If we need pagination
   pagination: {
@@ -18,9 +23,6 @@ const swiper = new Swiper(".swiper", {
   scrollbar: {
     el: ".swiper-scrollbar",
   },
-
-  autoplay: {
-    delay: 3500,
-    disableOnInteraction: true,
-  },
 });
+
+console.log(swiper);
