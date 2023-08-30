@@ -1,0 +1,40 @@
+/* Video */
+
+#about {
+  background-color: #fff3e5;
+}
+
+.video-container-ratio {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  width: 100%;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.about-video-description {
+  background-color: #b4dbf5;
+  border-radius: 12px;
+  border: solid 2px #c0e7f5;
+}
+.about-video-description h3 {
+  color: #5180a2;
+  font-size: 20px;
+  line-height: 24px;
+}
+.about-video-description .paragraph {
+  background-color: #dff2ff;
+  color: #5180a2;
+  font-size: 15px;
+  line-height: 18.15px;
+}
