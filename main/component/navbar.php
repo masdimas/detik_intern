@@ -10,10 +10,12 @@
 
             <img src="./assets/images/navbar/navbar-logo.png" alt="" />
           </a>
-            <button class="hamburger bg-white rounded-pill navbar-toggler shadow-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              
-              <img src="./assets/images/navbar/mobile-hamburger-nav.svg" alt="">
-            </button>
+            <div class="hamburger bg-white rounded-pill shadow-none" >
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <!-- <img src="./assets/images/navbar/mobile-hamburger-nav.svg" alt=""> -->
+            </div>
           </div>
 
           <ul

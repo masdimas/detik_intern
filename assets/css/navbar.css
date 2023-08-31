@@ -70,6 +70,8 @@ nav a {
   width: 25px;
   height: 1.5px;
   margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   background-color: #1f2937;
 }
 
@@ -107,6 +109,17 @@ nav a {
 
   .mobile-unexpanded-nav {
     width: 100%;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translate(0, 8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translate(0, -5px) rotate(-45deg);
   }
 }
 
