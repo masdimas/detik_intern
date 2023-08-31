@@ -3,7 +3,7 @@
         class="section-container container about-video-container pe-md-3"
       >
         <div class="row justify-content-center align-items-center">
-          <div class="col-12 col-lg-8 mb-lg-0 mb-4 p-lg-4 p-0">
+          <div class="col-12 col-lg-8 mb-lg-0 mb-4 p-lg-5 ps-lg-0 p-0">
             <div class="video-container-ratio">
               <iframe
                 src="https://www.cnbcindonesia.com/embed/tv"

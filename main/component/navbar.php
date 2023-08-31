@@ -10,10 +10,10 @@
 
             <img src="./assets/images/navbar/navbar-logo.png" alt="" />
           </a>
-            <div class="hamburger bg-white rounded-pill">
+            <button class="hamburger bg-white rounded-pill navbar-toggler shadow-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               
               <img src="./assets/images/navbar/mobile-hamburger-nav.svg" alt="">
-            </div>
+            </button>
           </div>
 
           <ul
@@ -32,3 +32,4 @@
         </div>
       </div>
     </nav>
+
