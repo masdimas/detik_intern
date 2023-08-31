@@ -5,13 +5,15 @@ const swiper = new Swiper(".swiper", {
   autoHeight: true,
   observer: true,
   autoplay: {
-    delay: 5000,
+    delay: 2500,
     disableOnInteraction: true,
   },
 
   // If we need pagination
   pagination: {
     el: ".swiper-pagination",
+    dynamicBullets: true,
+    clickable: true,
   },
 
   // Navigation arrows

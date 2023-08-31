@@ -26,3 +26,14 @@
 .swiper-pagination-bullet {
   background-color: #9a0808 !important;
 }
+
+.image-desktop {
+  max-width: 970px;
+  max-height: 250px;
+  object-fit: contain;
+}
+.image-mobile {
+  width: 324px;
+  max-height: 250px;
+  object-fit: contain;
+}
