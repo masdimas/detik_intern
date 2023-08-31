@@ -55,12 +55,13 @@ nav a {
   display: none;
   cursor: pointer;
   border: solid 1px #e5e7eb;
+  padding: 0.8rem;
 }
 
 .bar {
   display: block;
   width: 25px;
-  height: 1px;
+  height: 1.5px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -106,7 +107,7 @@ nav a {
     transform: translate(0, 8px) rotate(45deg);
   }
   .hamburger.active .bar:nth-child(3) {
-    transform: translate(0, -8px) rotate(-45deg);
+    transform: translate(0, -5px) rotate(-45deg);
   }
 
   .mobile-unexpanded-nav {

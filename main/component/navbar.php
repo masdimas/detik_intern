@@ -10,7 +10,7 @@
 
             <img src="./assets/images/navbar/navbar-logo.png" alt="" />
           </a>
-            <div class="hamburger bg-white p-3 rounded-pill">
+            <div class="hamburger bg-white rounded-pill">
               <span class="bar"></span>
               <span class="bar"></span>
               <span class="bar"></span>
