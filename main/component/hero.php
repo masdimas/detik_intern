@@ -1,5 +1,6 @@
 <section
       class="hero d-grid align-items-center justify-content-center flex-column"
+      id="home"
     >
       <div
         class="container d-flex flex-column align-items-center justify-content-center gap-4 hero-content"
