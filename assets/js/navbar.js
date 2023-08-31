@@ -12,6 +12,7 @@ const aboutButton = document.querySelectorAll(".nav-item");
 aboutButton.forEach((button) => {
   button.addEventListener("click", function handleClick(event) {
     navMenu.classList.toggle("active");
+    hamburger.classList.toggle("active");
   });
 });
 
@@ -27,7 +28,6 @@ window.onscroll = () => {
   });
 
   aboutButton.forEach((li) => {
-    // console.log(li.classList.contains(current));
     li.classList.remove("active");
     if (li.classList.contains(current)) {
       li.classList.add("active");
@@ -35,9 +35,3 @@ window.onscroll = () => {
     }
   });
 };
-
-// for (button in aboutButton) {
-//   button.addEventListener("click", () => {
-//     navMenu.classList.toggle("active");
-//   });
-// }
