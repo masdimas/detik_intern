@@ -16,20 +16,9 @@
     
     <!-- Style Sheet -->
     <!-- Library -->
-<<<<<<< HEAD
-    
     <link rel="stylesheet" href="./assets/include/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/include/swiper/swiper.min.css">
     <link rel="stylesheet" href="./assets/include/swiper/swiper-bundle.min.css">
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-    /> -->
-
-=======
-    <link rel="stylesheet" href="./assets/include/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/include/swiper/swiper.min.css">
->>>>>>> c0f28ff86a05fab1affe93d9102f2e581a5df288
 
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/general.css">
