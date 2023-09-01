@@ -14,7 +14,7 @@
         class="overlay w-100 d-flex justify-content-center align-items-center"
       >
         <a href="#about" class="py-4 px-3 rounded-pill">
-          <img src="./assets/images/navbar/arrow-down.svg" alt="">
+          <img src="./assets/images/hero/arrow-down.svg" alt="">
         </a>
       </div>
     </section>
