@@ -14,7 +14,6 @@
               <span class="bar"></span>
               <span class="bar"></span>
               <span class="bar"></span>
-              <!-- <img src="./assets/images/navbar/mobile-hamburger-nav.svg" alt=""> -->
             </div>
           </div>
 
