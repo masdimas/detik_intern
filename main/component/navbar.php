@@ -22,10 +22,10 @@
             class=" align-items-center justify-content-center gap-sm-2 nav-menu fs-6 py-2"
           >
             <li class="d-flex justify-content-center align-item-center ">
-              <a href="#home" class="w-sm-100 px-sm-4 py-sm-2 rounded-pill nav-item home"> Home </a>
+              <a href="#home" class="fredoka-600 w-sm-100 px-sm-4 py-sm-2 rounded-pill nav-item home"> Home </a>
             </li>
             <li class="d-flex justify-content-center align-item-center about">
-              <a href="#about" class=" px-sm-4 py-sm-2 rounded-pill nav-item about">
+              <a href="#about" class="fredoka-600 px-sm-4 py-sm-2 rounded-pill nav-item about">
                 About
               </a>
             </li>

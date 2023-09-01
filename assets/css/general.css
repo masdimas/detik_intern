@@ -83,7 +83,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -124,8 +123,42 @@ table {
 }
 
 /* General */
+@font-face {
+  font-family: "Fredoka";
+  font-style: light;
+  font-weight: 300;
+  src: local(""), url("../fonts/Fredoka/static/Fredoka-Light.ttf");
+}
+/* General */
+@font-face {
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/Fredoka/static/Fredoka-Regular.ttf");
+}
+/* General */
+@font-face {
+  font-family: "Fredoka";
+  font-style: medium;
+  font-weight: 500;
+  src: local(""), url("../fonts/Fredoka/static/Fredoka-Medium.ttf");
+}
+/* General */
+@font-face {
+  font-family: "Fredoka-600";
+  font-style: semibold;
+  font-weight: 600;
+  src: url("../fonts/Fredoka/static/Fredoka-SemiBold.ttf");
+}
+/* General */
+@font-face {
+  font-family: "Fredoka";
+  font-style: bold;
+  font-weight: 700;
+  src: url("../fonts/Fredoka/static/Fredoka-Bold.ttf");
+}
 
-body {
+* {
   font-family: "Fredoka";
 }
 
