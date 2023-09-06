@@ -10,7 +10,7 @@
 }
 
 .SnK-logo {
-  margin-top: 125px;
+  padding: 0 20%;
 }
 
 .snk-content {
@@ -61,6 +61,10 @@ ul {
     padding: 24px 30px;
     font-size: 14px;
   }
+  .SnK-logo {
+    margin-top: 125px;
+    padding: 0 10%;
+  }
 }
 @media (max-width: 768px) {
   .snk-content h4 {
@@ -75,5 +79,13 @@ ul {
     font-size: 12px;
     gap: 14px;
     padding: 16px 20px;
+  }
+  .SnK-logo {
+    padding: 0 5%;
+  }
+}
+@media (max-width: 768px) {
+  .SnK-logo {
+    padding: 0;
   }
 }
