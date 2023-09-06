@@ -17,6 +17,7 @@ aboutButton.forEach((button) => {
 });
 
 const sections = document.querySelectorAll("section");
+const heroContent = document.query;
 window.onscroll = () => {
   let current = "";
 

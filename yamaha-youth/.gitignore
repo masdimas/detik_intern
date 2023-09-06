@@ -2,4 +2,5 @@
 cnbc-awards/.DS_Store
 .DS_Store
 assets/.DS_Store
-index.html
+ignore.html
+node_modules
