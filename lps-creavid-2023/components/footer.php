@@ -3,11 +3,10 @@
         class="container d-flex flex-column gap-4 align-items-lg-start align-items-center"
       >
         <div class="d-flex gap-4">
-          <img src="./assets/images/footer/lps-footer-logo.png" alt="" />
-          <img
-            src="./assets/images/footer/footer-logo-line-separator.svg"
-            alt=""
-          />
+          <img src="./assets/images/footer/lps-footer-logo.svg" alt="" />
+          <span
+            class="border border-start border-1 border-secondary opacity-50"
+          ></span>
           <img src="./assets/images/footer/detikcom-footer-logo.svg" alt="" />
         </div>
         <div
