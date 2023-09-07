@@ -628,6 +628,9 @@ body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shar
   body #form {
     padding-top: 40px;
   }
+  body #form .container {
+    max-width: 720px;
+  }
   body #form .container .requisite-wrap {
     padding: 20px 0;
   }
@@ -746,5 +749,116 @@ body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shar
   }
   body #headline .container .sub-headline img {
     max-width: 607px;
+  }
+  body #form {
+    padding-top: 40px;
+  }
+  body #form .container {
+    max-width: 720px;
+  }
+  body #form .container .requisite-wrap {
+    padding: 20px 0;
+  }
+  body #form .container .requisite-wrap .requisite {
+    background: #F5F9FA;
+    padding: 25px;
+    border-radius: 12px;
+    height: 100%;
+  }
+  body #form .container .requisite-wrap .requisite .about .title {
+    font-size: 23px;
+    color: #1C3C70;
+    font-family: "montserat-bold";
+  }
+  body #form .container .requisite-wrap .requisite .about .konten {
+    font-size: 14px;
+    font-family: "montserat-regular";
+  }
+  body #form .container .requisite-wrap .requisite .snk .title {
+    font-size: 23px;
+    color: #1C3C70;
+    font-family: "montserat-bold";
+  }
+  body #form .container .requisite-wrap .requisite .snk .konten {
+    font-size: 14px;
+    font-family: "montserat-regular";
+  }
+  body #form .container .requisite-wrap .requisite .snk .konten ol {
+    padding: 0 16px;
+  }
+  body #form .container .fill-wrap {
+    padding: 20px 0;
+  }
+  body #form .container .fill-wrap .fill {
+    background: #FFFFFF;
+    padding: 25px;
+    border-radius: 12px;
+    height: 100%;
+  }
+  body #form .container .fill-wrap .fill .title-wrap {
+    text-align: center;
+  }
+  body #form .container .fill-wrap .fill .title-wrap .title {
+    font-size: 23px;
+    color: #BD191A;
+    font-family: "montserat-bold";
+  }
+  body #form .container .fill-wrap .fill .form-wrap form label {
+    font-family: "montserat-semibold";
+    font-size: 14px;
+    color: #1C3C70;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form input {
+    font-family: "montserat-regular";
+    font-size: 12px;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form input::placeholder {
+    color: #999999;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .text-area {
+    padding: 6px;
+    background: #F0F0F0;
+    border-radius: 8px;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .text-area textarea {
+    resize: none;
+    font-family: "montserat-regular";
+    font-size: 12px;
+    border: unset;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .text-area textarea::placeholder {
+    color: #999999;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .form-text {
+    font-family: "montserat-regular";
+    font-size: 12px;
+    color: #999999;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .wrap-count {
+    height: 20px;
+    background: #f0f0f0;
+    margin-top: 5px;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .wrap-count #count_message {
+    background-color: smoke;
+    margin-top: 2px;
+    margin-right: 5px;
+    float: right !important;
+    color: #999999;
+    font-size: 12px;
+    font-family: "montserat-regular";
+  }
+  body #form .container .fill-wrap .fill .form-wrap form button {
+    width: 100%;
+    background-color: #257AE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form button img {
+    width: 18px;
+    height: auto;
+    margin-left: 10px;
   }
 }
