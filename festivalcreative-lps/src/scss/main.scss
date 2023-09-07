@@ -303,6 +303,9 @@ body {
                 .swiper-pagination{
                     position: relative;
                     margin-top: 20px;
+                    .swiper-pagination-bullet{
+                        background-color: #9a0808 !important;
+                    }
                 }
             }
         }
