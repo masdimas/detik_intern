@@ -302,6 +302,9 @@ body #banner .container .banner-wrap .swiper-pagination {
   position: relative;
   margin-top: 20px;
 }
+body #banner .container .banner-wrap .swiper-pagination-bullet {
+  background-color: #9a0808 !important;
+}
 body #timeline {
   margin-bottom: 120px;
 }

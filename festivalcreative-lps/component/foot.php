@@ -7,8 +7,13 @@
       slidesPerView: 1,
       spaceBetween: 30,
       loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: true,
+    },
       pagination: {
         el: ".swiper-pagination",
+        dynamicBullets: true,
         clickable: true,
       },
       navigation: false,
