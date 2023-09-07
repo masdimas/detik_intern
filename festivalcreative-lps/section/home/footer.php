@@ -1,7 +1,7 @@
 <footer class="py-5">
   <div class="container d-flex flex-column gap-4 align-items-lg-start align-items-center">
     <div class="d-flex gap-4">
-      <img src="./src/image/footer/lps-footer-logo.png" alt="" class="footer-logo" />
+      <img src="./src/image/footer/lps-footer-logo.svg" alt="" class="footer-logo" />
       <span class="border border-start border-1 border-secondary opacity-50"></span>
       <img src="./src/image/footer/detikcom-footer-logo.svg" alt="" class="footer-logo" />
     </div>
