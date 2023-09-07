@@ -12,9 +12,7 @@
 
                 <!-- Modal body -->
                 <div class="modal-body">
-                    <div class="wrap-img">
-                    <img src="./src/image/home/form/rakyat.png" alt="">
-                    </div>
+
                     
 
                     <h4>Terima Kasih Telah Mendaftar!</h4>
