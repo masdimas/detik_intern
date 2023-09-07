@@ -27,8 +27,8 @@ footer .copy {
 }
 
 @media (max-width: 400px) {
-  footer img {
-    width: 90%;
+  .footer-logo {
+    width: 40%;
     height: auto;
   }
 }

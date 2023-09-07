@@ -3,7 +3,7 @@
         class="container SnK-container d-flex align-items-center flex-column"
       >
         <img
-          src="./assets/images/SnK/SnK-lps-logo.svg"
+          src="./src/image/home/headline/headline.png"
           alt=""
           class="SnK-logo w-75"
         />

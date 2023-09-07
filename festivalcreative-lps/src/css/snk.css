@@ -1,5 +1,5 @@
 #SnK {
-  background-image: url("../images/SnK/SnK-bg.svg");
+  background-image: url("./src/image/home/headline/headline-mobile.png");
   background-position: top;
   background-size: cover;
   background-repeat: none;
@@ -21,13 +21,14 @@
 }
 
 .snk-content h4 {
-  font-weight: 700;
   font-size: 23px;
   color: #1b4193;
+  font-family: "montserat-semibold", sans-serif;
 }
 .snk-content {
   margin-bottom: 0;
   font-size: 16px;
+  font-family: "montserat-regular";
 }
 
 .snk-content-container {
@@ -52,7 +53,7 @@ ul {
     margin-bottom: 150px;
   }
   #SnK {
-    background-image: url("../images/SnK/SnK-mobile-bg.svg");
+    background-image: url("./src/image/universal/bg-home-mobile.png");
     background-position: top;
     background-size: cover;
     background-repeat: none;
@@ -81,11 +82,8 @@ ul {
     gap: 14px;
     padding: 16px 20px;
   }
-  .SnK-logo {
-    padding: 0 5%;
-  }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .SnK-logo {
     padding: 0;
   }
