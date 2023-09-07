@@ -7,12 +7,14 @@
                 <!-- Modal Header -->
                 <div class="modal-header">
 
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"><img src="./src/image/home/form/close.png" alt=""></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
 
                 <!-- Modal body -->
                 <div class="modal-body">
-
+                    <div class="wrap-img">
+                    <img src="./src/image/home/form/rakyat.png" alt="">
+                    </div>
                     
 
                     <h4>Terima Kasih Telah Mendaftar!</h4>
