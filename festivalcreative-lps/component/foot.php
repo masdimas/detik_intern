@@ -119,3 +119,44 @@
         });
     });
 </script>
+
+<script>
+        var selectOption = document.getElementById('selectKategori');
+
+        var linkVideo = document.getElementById('link_video');
+        var linkPost = document.getElementById('link_post');
+
+        var textareaJudulVideo = document.getElementById('textarea_judul_video');
+        var textareaJudulPost = document.getElementById('textarea_judul_post');
+
+        var textareaDescVideo = document.getElementById('textarea_desc_video');
+        var textareaDescPost = document.getElementById('textarea_desc_post');
+
+        // Menambahkan event listener untuk perubahan pada select
+        selectOption.addEventListener('change', function () {
+            // Mengecek apakah "Video Pendek" dipilih
+            if (selectOption.value === '1') {
+                linkVideo.style.display = 'block';
+                textareaJudulVideo.style.display = 'block';
+                textareaDescVideo.style.display = 'block';
+                linkPost.style.display = 'none';
+                textareaJudulPost.style.display = 'none';
+                textareaDescPost.style.display = 'none';
+            }
+            else if (selectOption.value === '2') {
+                linkVideo.style.display = 'none';
+                textareaJudulVideo.style.display = 'none';
+                textareaDescVideo.style.display = 'none';
+                linkPost.style.display = 'block';
+                textareaJudulPost.style.display = 'block';
+                textareaDescPost.style.display = 'block';
+            } else if (selectOption.value === '0') {
+                linkVideo.style.display = 'none';
+                textareaJudulVideo.style.display = 'none';
+                textareaDescVideo.style.display = 'none';
+                linkPost.style.display = 'none';
+                textareaJudulPost.style.display = 'none';
+                textareaDescPost.style.display = 'none';
+            }
+        });
+    </script>
