@@ -4,6 +4,7 @@
 
 <body>
     <?php include "section/home/navbar.php"; ?>
+    <?php include "section/home/headline.php"; ?>
     <?php include "component/snk.php"; ?>
     <?php include "section/home/footer.php"; ?>
 </body>
