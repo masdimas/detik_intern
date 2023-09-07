@@ -95,7 +95,7 @@
                                     Tolong pilih salah satu kategori
                                 </div>
                             </div>
-                            <div class="mb-3" id="">
+                            <div class="mb-3" id="link_video">
                                 <label for="validationDefaultUsername" class="form-label">Link Video Pendek</label>
                                 <div class="input-group">
                                     <span class="input-group-text" id="inputGroupPrepend2">https://</span>
@@ -108,7 +108,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="mb-3">
+                            <div class="mb-3" id="link_post">
                                 <label for="validationDefaultPoster" class="form-label">Link Post Instagram</label>
                                 <div class="input-group">
                                     <span class="input-group-text" id="inputGroupPrepend3">https://</span>
@@ -121,7 +121,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="mb-3 well">
+                            <div class="mb-3 well" id="textarea_judul_video">
                                 <div class="text-area">
                                     <textarea class="form-control" id="text_judul" name="text" maxlength="100" placeholder="Tambahkan Judul yang menjelaskan video Anda" rows="5" required></textarea>
                                     <div class="wrap-count">
@@ -135,7 +135,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="mb-3 well">
+                            <div class="mb-3 well" id="textarea_judul_post">
                                 <div class="text-area">
                                     <textarea class="form-control" id="text_judul_poster" name="text" maxlength="100" placeholder="Tambahkan Judul yang menjelaskan poster Anda" rows="5" required></textarea>
                                     <div class="wrap-count">
@@ -149,7 +149,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="mb-3 well">
+                            <div class="mb-3 well" id="textarea_desc_video">
                                 <div class="text-area">
                                     <textarea class="form-control" id="text" name="text" maxlength="1000" placeholder="Beri tahu penonton tentang video Anda" rows="5" required></textarea>
                                     <div class="wrap-count">
@@ -163,7 +163,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="mb-3 well">
+                            <div class="mb-3 well" id="textarea_desc_post">
                                 <div class="text-area">
                                     <textarea class="form-control" id="text_poster" name="text" maxlength="1000" placeholder="Beri tahu penonton tentang poster Anda" rows="5" required></textarea>
                                     <div class="wrap-count">
