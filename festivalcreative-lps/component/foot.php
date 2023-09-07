@@ -1,5 +1,5 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="./src/js/bootstrap-5.3.1/bootstrap.bundle.min.js"></script>
+<script src="./src/js/swiperjs/swiper-bundle.min.js"></script>
 
 <!-- Initialize Swiper -->
 <script>
