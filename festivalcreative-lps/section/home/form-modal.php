@@ -7,7 +7,7 @@
                 <!-- Modal Header -->
                 <div class="modal-header">
 
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"><img src="./src/image/form/close.png" alt=""></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"><img src="./src/image/home/form/close.png" alt=""></button>
                 </div>
 
                 <!-- Modal body -->
