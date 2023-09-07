@@ -1,0 +1,994 @@
+@font-face {
+    font-family: "montserat-medium";
+    src: local("montserat-medium"),
+        url(../fonts/Montserrat-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "montserat-bold";
+    src: local("montserat-bold"),
+        url(../fonts/Montserrat-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "montserat-semibold";
+    src: local("montserat-semibold"),
+        url(../fonts/Montserrat-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "montserat-regular";
+    src: local("montserat-regular"),
+        url(../fonts/Montserrat-Regular.ttf) format("truetype");
+}
+
+body {
+    background-color: #FFFFFF;
+    background: url(../image/universal/bg-home.png);
+    background-size: cover;
+    background-position: top;
+    margin-bottom: -250px;
+
+    .container {
+        max-width: 1000px;
+    }
+
+
+    #headline {
+        .container {
+            .headline {
+                padding-top: 120px;
+
+                img {
+                    max-width: 474px;
+                }
+            }
+
+            .sub-headline {
+                padding-top: 40px;
+
+                img {
+                    max-width: 607px;
+                }
+            }
+        }
+    }
+
+    #form {
+        padding-top: 40px;
+
+        .container {
+            .requisite-wrap {
+                padding: 20px 0;
+
+                .requisite {
+                    background: #F5F9FA;
+                    padding: 25px;
+                    border-radius: 12px 0 0 12px;
+                    height: 100%;
+
+                    .about {
+                        .title {
+                            font-size: 23px;
+                            color: #1C3C70;
+                            font-family: "montserat-bold";
+                        }
+
+                        .konten {
+                            font-size: 14px;
+                            font-family: "montserat-regular";
+                        }
+                    }
+
+                    .snk {
+                        .title {
+                            font-size: 23px;
+                            color: #1C3C70;
+                            font-family: "montserat-bold";
+                        }
+
+                        .konten {
+                            font-size: 14px;
+                            font-family: "montserat-regular";
+
+                            ol {
+                                padding: 0 16px;
+                            }
+
+                            a:link {
+                                color: #292929;
+                              }
+
+                            div {
+                                text-align: center;
+                                img {
+                                    max-width: 280px;
+                                    margin-left: auto !important;
+                                    margin-right: auto !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .fill-wrap {
+                padding: 20px 0;
+
+                .fill {
+                    background: #FFFFFF;
+                    padding: 25px; 
+                    border-radius: 0 12px 12px 0;
+                    height: 100%;
+
+                    .title-wrap {
+                        text-align: center;
+
+                        .title {
+                            font-size: 23px;
+                            color: #EE420C;
+                            font-family: "montserat-bold";
+                            width: 100%;
+                            margin-right: auto !important;
+                            margin-left: auto !important;
+                        }
+                    }
+
+                    .form-wrap {
+                        form {
+
+                            .custom-file-button {
+                                input[type="file"] {
+                                    margin-left: -2px !important;
+                            
+                                    &::-webkit-file-upload-button {
+                                        display: none;
+                                    }
+                                    &::file-selector-button {
+                                        display: none;
+                                    }
+                                    color: #999999;
+                                }
+
+                                label {
+                                    font-family: "montserat-regular";
+                                    color: #999999;
+                                    font-size: 12px;
+                                }
+                            
+                                &:hover {
+                                    label {
+                                        background-color: #dde0e3;
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                            
+
+                            label {
+                                font-family: "montserat-semibold";
+                                font-size: 14px;
+                                color: #1C3C70;
+                            }
+
+                            select {
+                                font-family: "montserat-regular";
+                                font-size: 12px;
+                                color: #999999;
+                            }
+
+                            select::placeholder {
+                                color: #999999;
+                            }
+
+                            input {
+                                font-family: "montserat-regular";
+                                font-size: 12px;
+                            }
+
+                            input::placeholder {
+                                color: #999999;
+                            }
+
+                            .text-area {
+                                padding: 6px;
+                                background: #F0F0F0;
+                                border-radius: 8px;
+
+                                textarea {
+                                    resize: none;
+                                    font-family: "montserat-regular";
+                                    font-size: 12px;
+                                    border: unset;
+                                }
+
+                                textarea::placeholder {
+                                    color: #999999;
+                                }
+                            }
+
+                            #text_judul{
+                                height: 87px;
+                            }
+
+                            #text{
+                                height: 134px;
+                            }
+
+                            .form-text {
+                                font-family: "montserat-regular";
+                                font-size: 12px;
+                                color: #999999;
+                            }
+
+                            .wrap-count {
+                                height: 20px;
+                                background: #f0f0f0;
+                                margin-top: 5px;
+
+                                #count_message_judul {
+                                    background-color: smoke;
+                                    margin-top: 2px;
+                                    margin-right: 5px;
+                                    float: right !important;
+                                    color: #999999;
+                                    font-size: 12px;
+                                    font-family: "montserat-regular";
+                                }
+
+                                #count_message {
+                                    background-color: smoke;
+                                    margin-top: 2px;
+                                    margin-right: 5px;
+                                    float: right !important;
+                                    color: #999999;
+                                    font-size: 12px;
+                                    font-family: "montserat-regular";
+                                }
+                            }
+
+                            .alert {
+                                div{
+                                    font-family: "montserat-semibold";
+                                    font-size: 12px;
+                                    color: #1F2937;
+                                    p {
+                                        font-family: "montserat-regular";
+                                        font-size: 10px; 
+                                        color: #6B7280;
+                                    }
+                                }
+                            }
+
+                            .form-check-label{
+                                font-size: 12px;
+                                color: #1F2937;
+                            }
+
+                            button {
+                                width: 100%;
+                                background-color: #257AE4;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                font-size: 14px;
+                                font-family: "montserat-regular";
+                                img {
+                                    width: 18px;
+                                    height: auto;
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    #banner{
+        margin-top: 140px;
+        .container{
+            .banner-wrap{
+                margin-bottom: 80px;
+                margin-top: 80px;
+                .swiper{
+                    .swiper-wrapper{
+                        .swiper-slide{
+
+                        }
+                    }
+                }
+                .swiper-pagination{
+                    position: relative;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+
+    #timeline{
+        margin-bottom: 120px;
+        .container{
+            .timeline-wrap{
+                img{
+
+                }
+            }
+        }
+    }
+
+    #sponsor {
+        padding: 20px 0 220px 0;
+
+        .container {
+            .spsr-wrap {
+                background: #fff;
+                border-radius: 20px;
+                height: auto;
+
+                .desktop {
+                    display: block;
+
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .mobile {
+                    display: none;
+
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    #form-modal {
+        #myModal {
+            .modal-dialog {
+                max-width: 766px;
+
+                .modal-content {
+                    border-radius: 15px;
+
+                    .modal-header {
+                        border-bottom: unset;
+                        padding-top: 16px;
+
+                        h4 {}
+
+                        button {
+                            right: 10px !important;
+
+                            img {
+                                width: 20px;
+                            }
+                        }
+                    }
+
+                    .modal-body {
+                        text-align: center;
+                        padding: 10px 50px;
+
+                        .wrap-img{
+                            margin-bottom: 40px;
+                            img {
+                                width: 257px;
+                            }
+                        }
+
+                        h4 {
+                            font-size: 20px;
+                            line-height: 28px;
+                            font-family: "montserat-bold";
+                            color: #25438E;
+                        }
+
+                        p {
+                            font-size: 16px;
+                            line-height: 22px;
+                            font-family: "montserat-regular";
+                            color: #292929;
+                        }
+                    }
+
+                    .modal-footer {
+                        button {}
+                    }
+
+                    .box-sticky {
+                        position: relative;
+                        display: block;
+                        color: #000000;
+                        bottom: 8px;
+                        padding: 1em 0;
+                        width: 100%;
+                        z-index: 999;
+                        padding: 10px 0 40px 0;
+
+                        .sticky {
+                            justify-content: center;
+                            display: flex;
+
+                            #shared {
+                                background: #ffffff;
+                                padding: 8px;
+                                border-radius: 50px;
+                                box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.25) !important;
+
+                                span {
+                                    font-size: 14px;
+                                    font-family: "montserat-medium";
+                                    color: #292929;
+                                    padding: 0 6px;
+                                }
+
+                                a {
+                                    color: #007bff;
+                                    text-decoration: none;
+                                    background-color: transparent;
+
+                                    img {
+                                        width: 30px !important;
+                                        height: 30px !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Responsive Breakpoint */
+
+//extra small
+
+@media (min-width: 0px) and (max-width: 575px) {
+    body {
+        background-color: #FFFFFF;
+        background: url(../image/universal/bg-home-mobile.png);
+        background-size: cover;
+        background-position: bottom;
+
+        .container {
+            max-width: 100%;
+        }
+
+        #nav-bar {
+            nav {
+                div {
+                    a {
+                        img {
+                            width: 67px;
+                        }
+                    }
+
+                    button {
+                        .hamburger {
+                            padding: 5px;
+                        }
+                    }
+                }
+            }
+        }
+
+        #headline {
+            .container {
+                .headline {
+                    padding-top: 120px;
+
+                    img {
+                        max-width: 250px;
+                        height: auto;
+                    }
+                }
+
+                .sub-headline {
+                    padding-top: 40px;
+
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        #form {
+            padding-top: 40px;
+
+            .container {
+                .requisite-wrap {
+                    padding: 20px;
+
+                    .requisite {
+                        background: #F5F9FA;
+                        padding: 25px;
+                        border-radius: 12px;
+                        height: 100%;
+
+                        .about {
+                            .title {
+                                font-size: 23px;
+                                color: #1C3C70;
+                                font-family: "montserat-bold";
+                            }
+
+                            .konten {
+                                font-size: 14px;
+                                font-family: "montserat-regular";
+                            }
+                        }
+
+                        .snk {
+                            .title {
+                                font-size: 23px;
+                                color: #1C3C70;
+                                font-family: "montserat-bold";
+                            }
+
+                            .konten {
+                                font-size: 14px;
+                                font-family: "montserat-regular";
+
+                                ol {
+                                    padding: 0 16px;
+                                }
+
+                                div {
+                                    text-align: center;
+                                    padding-top: 30px;
+                                    img {
+                                        max-width: 280px;
+                                        margin-left: auto !important;
+                                        margin-right: auto !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .fill-wrap {
+                    padding: 20px;
+
+                    .fill {
+                        background: #FFFFFF;
+                        padding: 25px;
+                        border-radius: 12px;
+                        height: 100%;
+
+                        .title-wrap {
+                            text-align: center;
+
+                            .title {
+                                font-size: 23px;
+                                color: #EE420C;
+                                font-family: "montserat-bold";
+                                width: 100%;
+                                margin-right: auto !important;
+                                margin-left: auto !important;
+                            }
+                        }
+
+                        .form-wrap {
+                            form {
+                                label {
+                                    font-family: "montserat-semibold";
+                                    font-size: 14px;
+                                    color: #1C3C70;
+                                }
+
+                                input {
+                                    font-family: "montserat-regular";
+                                    font-size: 12px;
+                                }
+
+                                input::placeholder {
+                                    color: #999999;
+                                }
+
+                                .text-area {
+                                    padding: 6px;
+                                    background: #F0F0F0;
+                                    border-radius: 8px;
+
+                                    textarea {
+                                        resize: none;
+                                        font-family: "montserat-regular";
+                                        font-size: 12px;
+                                        border: unset;
+                                    }
+
+                                    textarea::placeholder {
+                                        color: #999999;
+                                    }
+                                }
+
+                                .form-text {
+                                    font-family: "montserat-regular";
+                                    font-size: 12px;
+                                    color: #999999;
+                                }
+
+                                .wrap-count {
+                                    height: 20px;
+                                    background: #f0f0f0;
+                                    margin-top: 5px;
+
+                                    #count_message {
+                                        background-color: smoke;
+                                        margin-top: 2px;
+                                        margin-right: 5px;
+                                        float: right !important;
+                                        color: #999999;
+                                        font-size: 12px;
+                                        font-family: "montserat-regular";
+                                    }
+                                }
+
+                                .form-check-label{
+                                    font-size: 12px;
+                                    color: #1F2937;
+                                }
+
+                                button {
+                                    width: 100%;
+                                    background-color: #257AE4;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    font-size: 14px;
+
+                                    img {
+                                        width: 18px;
+                                        height: auto;
+                                        margin-left: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        #sponsor {
+            padding: 20px 0 220px 0;
+
+            .container {
+                .spsr-wrap {
+                    background: #fff;
+                    border-radius: 20px;
+                    height: auto;
+
+                    .desktop {
+                        display: none;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+
+                    .mobile {
+                        display: block;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+
+        #form-modal {
+            #myModal {
+                .modal-dialog {
+                    max-width: 766px;
+    
+                    .modal-content {
+                        border-radius: 15px;
+    
+                        .modal-header {
+                            border-bottom: unset;
+                            padding-top: 16px;
+    
+                            h4 {}
+    
+                            button {
+                                right: 10px !important;
+    
+                                img {
+                                    width: 20px;
+                                }
+                            }
+                        }
+    
+                        .modal-body {
+                            text-align: center;
+                            padding: 10px 50px;
+                            
+                            .wrap-img{
+                                margin-bottom: 40px;
+                                img {
+                                    width: 257px;
+                                }
+                            }
+
+                            h4 {
+                                font-size: 20px;
+                                line-height: 28px;
+                                font-family: "montserat-bold";
+                                color: #25438E;
+                            }
+    
+                            p {
+                                font-size: 12px;
+                                line-height: 22px;
+                                font-family: "montserat-regular";
+                                color: #292929;
+                            }
+                        }
+    
+                        .modal-footer {
+                            button {}
+                        }
+    
+                        .box-sticky {
+                            position: relative;
+                            display: block;
+                            color: #000000;
+                            bottom: 8px;
+                            padding: 1em 0;
+                            width: 100%;
+                            z-index: 999;
+                            padding: 10px 0 40px 0;
+    
+                            .sticky {
+                                justify-content: center;
+                                display: flex;
+    
+                                #shared {
+                                    background: #ffffff;
+                                    padding: 8px;
+                                    border-radius: 50px;
+                                    box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.25) !important;
+    
+                                    span {
+                                        font-size: 14px;
+                                        font-family: "montserat-medium";
+                                        color: #292929;
+                                        padding: 0 6px;
+                                    }
+    
+                                    a {
+                                        color: #007bff;
+                                        text-decoration: none;
+                                        background-color: transparent;
+    
+                                        img {
+                                            width: 30px !important;
+                                            height: 30px !important;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//small
+
+@media (min-width: 576px) and (max-width: 767px) {
+    body {
+        #headline {
+            .container {
+                .headline {
+                    padding-top: 140px;
+
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .sub-headline {
+                    padding-top: 40px;
+
+                    img {
+                        max-width: 607px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        #form {
+            padding-top: 40px;
+
+            .container {
+                .requisite-wrap {
+                    padding: 20px 0;
+
+                    .requisite {
+                        background: #F5F9FA;
+                        padding: 25px;
+                        border-radius: 12px;
+                        height: 100%;
+
+                        .about {
+                            .title {
+                                font-size: 23px;
+                                color: #1C3C70;
+                                font-family: "montserat-bold";
+                            }
+
+                            .konten {
+                                font-size: 14px;
+                                font-family: "montserat-regular";
+                            }
+                        }
+
+                        .snk {
+                            .title {
+                                font-size: 23px;
+                                color: #1C3C70;
+                                font-family: "montserat-bold";
+                            }
+
+                            .konten {
+                                font-size: 14px;
+                                font-family: "montserat-regular";
+
+                                ol {
+                                    padding: 0 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .fill-wrap {
+                    padding: 20px 0;
+
+                    .fill {
+                        background: #FFFFFF;
+                        padding: 25px;
+                        border-radius: 12px;
+                        height: 100%;
+
+                        .title-wrap {
+                            text-align: center;
+
+                            .title {
+                                font-size: 23px;
+                                color: #BD191A;
+                                font-family: "montserat-bold";
+                            }
+                        }
+
+                        .form-wrap {
+                            form {
+                                label {
+                                    font-family: "montserat-semibold";
+                                    font-size: 14px;
+                                    color: #1C3C70;
+                                }
+
+                                input {
+                                    font-family: "montserat-regular";
+                                    font-size: 12px;
+                                }
+
+                                input::placeholder {
+                                    color: #999999;
+                                }
+
+                                .text-area {
+                                    padding: 6px;
+                                    background: #F0F0F0;
+                                    border-radius: 8px;
+
+                                    textarea {
+                                        resize: none;
+                                        font-family: "montserat-regular";
+                                        font-size: 12px;
+                                        border: unset;
+                                    }
+
+                                    textarea::placeholder {
+                                        color: #999999;
+                                    }
+                                }
+
+                                .form-text {
+                                    font-family: "montserat-regular";
+                                    font-size: 12px;
+                                    color: #999999;
+                                }
+
+                                .wrap-count {
+                                    height: 20px;
+                                    background: #f0f0f0;
+                                    margin-top: 5px;
+
+                                    #count_message {
+                                        background-color: smoke;
+                                        margin-top: 2px;
+                                        margin-right: 5px;
+                                        float: right !important;
+                                        color: #999999;
+                                        font-size: 12px;
+                                        font-family: "montserat-regular";
+                                    }
+                                }
+
+                                button {
+                                    width: 100%;
+                                    background-color: #257AE4;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    font-size: 14px;
+
+                                    img {
+                                        width: 18px;
+                                        height: auto;
+                                        margin-left: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+//medium
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        #headline {
+            .container {
+                .headline {
+                    padding-top: 140px;
+
+                    img {
+                        max-width: 474px;
+                    }
+                }
+
+                .sub-headline {
+                    padding-top: 40px;
+
+                    img {
+                        max-width: 607px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// large
+
+@media (min-width: 992px) and (max-width: 1199px) {}
