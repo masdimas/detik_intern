@@ -100,6 +100,16 @@ body #form .container .fill-wrap .fill .title-wrap .title {
   margin-right: auto !important;
   margin-left: auto !important;
 }
+body #form .container .fill-wrap .fill .form-wrap form .input-group #inputGroupPrepend2 {
+  font-family: "montserat-regular";
+  font-size: 12px;
+  color: #999999;
+}
+body #form .container .fill-wrap .fill .form-wrap form .input-group #inputGroupPrepend3 {
+  font-family: "montserat-regular";
+  font-size: 12px;
+  color: #999999;
+}
 body #form .container .fill-wrap .fill .form-wrap form .custom-file-button input[type=file] {
   margin-left: -2px !important;
   color: #999999;
@@ -159,6 +169,9 @@ body #form .container .fill-wrap .fill .form-wrap form #text_judul {
 body #form .container .fill-wrap .fill .form-wrap form #text {
   height: 134px;
 }
+body #form .container .fill-wrap .fill .form-wrap form #text_poster {
+  height: 134px;
+}
 body #form .container .fill-wrap .fill .form-wrap form .form-text {
   font-family: "montserat-regular";
   font-size: 12px;
@@ -178,7 +191,25 @@ body #form .container .fill-wrap .fill .form-wrap form .wrap-count #count_messag
   font-size: 12px;
   font-family: "montserat-regular";
 }
+body #form .container .fill-wrap .fill .form-wrap form .wrap-count #count_message_judul_poster {
+  background-color: smoke;
+  margin-top: 2px;
+  margin-right: 5px;
+  float: right !important;
+  color: #999999;
+  font-size: 12px;
+  font-family: "montserat-regular";
+}
 body #form .container .fill-wrap .fill .form-wrap form .wrap-count #count_message {
+  background-color: smoke;
+  margin-top: 2px;
+  margin-right: 5px;
+  float: right !important;
+  color: #999999;
+  font-size: 12px;
+  font-family: "montserat-regular";
+}
+body #form .container .fill-wrap .fill .form-wrap form .wrap-count #count_message_poster {
   background-color: smoke;
   margin-top: 2px;
   margin-right: 5px;

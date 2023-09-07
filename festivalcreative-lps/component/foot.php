@@ -33,6 +33,18 @@
 </script>
 
 <script>
+    var text_max_judul_poster = 100;
+    $('#count_message_judul_poster').html('0 / ' + text_max_judul_poster + ' Karakter ');
+
+    $('#text_judul_poster').keyup(function() {
+        var text_length_judul_poster = $('#text_judul_poster').val().length;
+        var text_remaining_judul_poster = text_max_judul_poster - text_length_judul_poster;
+
+        $('#count_message_judul_poster').html(text_length_judul_poster + ' / ' + text_max_judul_poster + ' Karakter ');
+    });
+</script>
+
+<script>
     var text_max = 1000;
     $('#count_message').html('0 / ' + text_max + ' Karakter ');
 
@@ -41,6 +53,18 @@
         var text_remaining = text_max - text_length;
 
         $('#count_message').html(text_length + ' / ' + text_max + ' Karakter ');
+    });
+</script>
+
+<script>
+    var text_max_poster = 1000;
+    $('#count_message_poster').html('0 / ' + text_max_poster + ' Karakter ');
+
+    $('#text_poster').keyup(function() {
+        var text_length_poster = $('#text_poster').val().length;
+        var text_remaining_poster = text_max_poster - text_length_poster;
+
+        $('#count_message_poster').html(text_length_poster + ' / ' + text_max_poster + ' Karakter ');
     });
 </script>
 
