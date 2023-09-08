@@ -39,7 +39,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 fill-wrap">
+            <div class="col-12 col-sm-12 col-md-6 fill-wrap" id="form-section">
                 <div class="fill">
                     <div class="title-wrap mb-3">
                         <div class="title">
