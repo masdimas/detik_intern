@@ -39,7 +39,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 fill-wrap">
+            <div class="col-12 col-sm-12 col-md-6 fill-wrap" id="form-section">
                 <div class="fill">
                     <div class="title-wrap mb-3">
                         <div class="title">
@@ -50,7 +50,7 @@
                         <form class="needs-validation" novalidate>
                             <div class="mb-3">
                                 <label for="nama" class="form-label">Nama</label>
-                                <input type="text" class="form-control" id="nama" placeholder="Tuliskan nama Anda disini" required>
+                                <input type="text" class="form-control" id="nama" placeholder="Tuliskan nama Anda di sini" required>
                                 <div class="valid-feedback">
                                     Terlihat bagus!
                                 </div>
@@ -60,7 +60,7 @@
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Tuliskan alamat email Anda disini" required>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Tuliskan alamat email Anda di sini" required>
                                 <div id="emailHelp" class="form-text">*Pastikan aktif</div>
                                 <div class="valid-feedback">
                                     Terlihat bagus!
@@ -71,7 +71,7 @@
                             </div>
                             <div class="mb-3">
                                 <label for="no-telp" class="form-label">Nomor Telepon</label>
-                                <input type="tel" class="form-control" id="no-telp" aria-describedby="no-telphelp" placeholder="Tuliskan nomor telepon Anda disini" onkeypress="return onlyNumberKey(event)" required>
+                                <input type="tel" class="form-control" id="no-telp" aria-describedby="no-telphelp" placeholder="Tuliskan nomor telepon Anda di sini" onkeypress="return onlyNumberKey(event)" required>
                                 <div id="no-telphelp" class="form-text">*Pastikan aktif</div>
                                 <div class="valid-feedback">
                                     Terlihat bagus!
