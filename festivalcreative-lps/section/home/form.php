@@ -26,7 +26,7 @@
                                 <li>Musik/suara latar karya video atau segala elemen dalam poster tidak melanggar ketentuan terkait Hak Cipta.</li>
                             </ol>
 
-                            <p>Syarat ketentuan selengkapnya <a href="{clickurl}">klik di sini</a> </p>
+                            <p>Syarat ketentuan selengkapnya <a href="snk-view.php">klik di sini</a> </p>
 
                             </p>
 
