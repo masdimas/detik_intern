@@ -25,9 +25,9 @@
             <a class="nav-link" href="snk-view.php">Syarat & Ketentuan</a>
           </li>
           <li class="nav-item d-flex justify-content-center">
-            <button class="btn rounded-pill px-4 py-2" href="#">
+            <a class="btn rounded-pill px-4 py-2" href="index.php#form">
               Daftar Sekarang
-            </button>
+            </a>
           </li>
         </ul>
       </div>
