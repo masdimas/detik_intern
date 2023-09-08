@@ -1,38 +1,38 @@
 //Hamburger navbar in mobile display
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
+// const hamburger = document.querySelector(".hamburger");
+// const navMenu = document.querySelector(".nav-menu");
 
-hamburger.addEventListener("click", () => {
-  navMenu.classList.toggle("active");
-  hamburger.classList.toggle("active");
-});
+// hamburger.addEventListener("click", () => {
+//   navMenu.classList.toggle("active");
+//   hamburger.classList.toggle("active");
+// });
 
-const aboutButton = document.querySelectorAll(".nav-item");
+// const aboutButton = document.querySelectorAll(".nav-item");
 
-aboutButton.forEach((button) => {
-  button.addEventListener("click", function handleClick(event) {
-    navMenu.classList.toggle("active");
-    hamburger.classList.toggle("active");
-  });
-});
+// aboutButton.forEach((button) => {
+//   button.addEventListener("click", function handleClick(event) {
+//     navMenu.classList.toggle("active");
+//     hamburger.classList.toggle("active");
+//   });
+// });
 
-const sections = document.querySelectorAll("section");
-const heroContent = document.query;
-window.onscroll = () => {
-  let current = "";
+// const sections = document.querySelectorAll("section");
+// const heroContent = document.query;
+// window.onscroll = () => {
+//   let current = "";
 
-  sections.forEach((section) => {
-    const sectionTop = section.offsetTop;
-    if (pageYOffset >= sectionTop - 60) {
-      current = section.getAttribute("id");
-    }
-  });
+//   sections.forEach((section) => {
+//     const sectionTop = section.offsetTop;
+//     if (pageYOffset >= sectionTop - 60) {
+//       current = section.getAttribute("id");
+//     }
+//   });
 
-  aboutButton.forEach((li) => {
-    li.classList.remove("active");
-    if (li.classList.contains(current)) {
-      li.classList.add("active");
-      console.log(li.classList.contains("active"));
-    }
-  });
-};
+//   aboutButton.forEach((li) => {
+//     li.classList.remove("active");
+//     if (li.classList.contains(current)) {
+//       li.classList.add("active");
+//       console.log(li.classList.contains("active"));
+//     }
+//   });
+// };
