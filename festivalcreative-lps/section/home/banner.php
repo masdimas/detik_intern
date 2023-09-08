@@ -16,22 +16,16 @@
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="{clickurl}">
                             <img class="img-fluid d-none d-sm-block" src="./src/image/home/banner/banner-3.png" alt="">
                             <img class="img-fluid d-block d-sm-none" src="./src/image/home/banner/banner-mobile-3.png" alt="">
-                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="{clickurl}">
                             <img class="img-fluid d-none d-sm-block" src="./src/image/home/banner/banner-2.png" alt="">
                             <img class="img-fluid d-block d-sm-none" src="./src/image/home/banner/banner-mobile-2.png" alt="">
-                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="{clickurl}">
                             <img class="img-fluid d-none d-sm-block" src="./src/image/home/banner/banner-3.png" alt="">
                             <img class="img-fluid d-block d-sm-none" src="./src/image/home/banner/banner-mobile-3.png" alt="">
-                        </a>
                     </div>
                 </div>
 
