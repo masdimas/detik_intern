@@ -1,29 +1,28 @@
 @font-face {
   font-family: "montserat-medium";
-  src: local("montserat-medium"),
-    url(../fonts/Montserrat-Medium.ttf) format("truetype");
+  src: local("montserat-medium"), url(../fonts/Montserrat-Medium.ttf) format("truetype");
 }
 @font-face {
   font-family: "montserat-bold";
-  src: local("montserat-bold"),
-    url(../fonts/Montserrat-Bold.ttf) format("truetype");
+  src: local("montserat-bold"), url(../fonts/Montserrat-Bold.ttf) format("truetype");
 }
 @font-face {
   font-family: "montserat-semibold";
-  src: local("montserat-semibold"),
-    url(../fonts/Montserrat-SemiBold.ttf) format("truetype");
+  src: local("montserat-semibold"), url(../fonts/Montserrat-SemiBold.ttf) format("truetype");
 }
 @font-face {
   font-family: "montserat-regular";
-  src: local("montserat-regular"),
-    url(../fonts/Montserrat-Regular.ttf) format("truetype");
+  src: local("montserat-regular"), url(../fonts/Montserrat-Regular.ttf) format("truetype");
 }
 body {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   background: url(../image/universal/bg-home.jpg);
   background-size: cover;
   background-position: top;
   margin-bottom: -250px;
+}
+body a {
+  text-decoration: none;
 }
 body .container {
   max-width: 1000px;
@@ -47,14 +46,14 @@ body #form .container .requisite-wrap {
   padding: 20px 0;
 }
 body #form .container .requisite-wrap .requisite {
-  background: #f5f9fa;
+  background: #F5F9FA;
   padding: 25px;
   border-radius: 12px 0 0 12px;
   height: 100%;
 }
 body #form .container .requisite-wrap .requisite .about .title {
   font-size: 23px;
-  color: #1c3c70;
+  color: #1C3C70;
   font-family: "montserat-bold";
 }
 body #form .container .requisite-wrap .requisite .about .konten {
@@ -63,7 +62,7 @@ body #form .container .requisite-wrap .requisite .about .konten {
 }
 body #form .container .requisite-wrap .requisite .snk .title {
   font-size: 23px;
-  color: #1c3c70;
+  color: #1C3C70;
   font-family: "montserat-bold";
 }
 body #form .container .requisite-wrap .requisite .snk .konten {
@@ -88,7 +87,7 @@ body #form .container .fill-wrap {
   padding: 20px 0;
 }
 body #form .container .fill-wrap .fill {
-  background: #ffffff;
+  background: #FFFFFF;
   padding: 25px;
   border-radius: 0 12px 12px 0;
   height: 100%;
@@ -98,80 +97,45 @@ body #form .container .fill-wrap .fill .title-wrap {
 }
 body #form .container .fill-wrap .fill .title-wrap .title {
   font-size: 23px;
-  color: #ee420c;
+  color: #EE420C;
   font-family: "montserat-bold";
   width: 100%;
   margin-right: auto !important;
   margin-left: auto !important;
 }
-
-body
-  #form
-  .container
-  .fill-wrap
-  .fill
-  .form-wrap
-  form
-  .custom-file-button
-  input[type="file"] {
+body #form .container .fill-wrap .fill .form-wrap form .input-group #inputGroupPrepend2 {
+  font-family: "montserat-regular";
+  font-size: 12px;
+  color: #999999;
+}
+body #form .container .fill-wrap .fill .form-wrap form .input-group #inputGroupPrepend3 {
+  font-family: "montserat-regular";
+  font-size: 12px;
+  color: #999999;
+}
+body #form .container .fill-wrap .fill .form-wrap form .custom-file-button input[type=file] {
   margin-left: -2px !important;
   color: #999999;
 }
-
-body
-  #form
-  .container
-  .fill-wrap
-  .fill
-  .form-wrap
-  form
-  .custom-file-button
-  input[type="file"]::-webkit-file-upload-button {
+body #form .container .fill-wrap .fill .form-wrap form .custom-file-button input[type=file]::-webkit-file-upload-button {
   display: none;
 }
-
-body
-  #form
-  .container
-  .fill-wrap
-  .fill
-  .form-wrap
-  form
-  .custom-file-button
-  input[type="file"]::file-selector-button {
+body #form .container .fill-wrap .fill .form-wrap form .custom-file-button input[type=file]::file-selector-button {
   display: none;
 }
-
-body
-  #form
-  .container
-  .fill-wrap
-  .fill
-  .form-wrap
-  form
-  .custom-file-button
-  label {
+body #form .container .fill-wrap .fill .form-wrap form .custom-file-button label {
   font-family: "montserat-regular";
   color: #999999;
   font-size: 12px;
 }
-
-body
-  #form
-  .container
-  .fill-wrap
-  .fill
-  .form-wrap
-  form
-  .custom-file-button:hover
-  label {
+body #form .container .fill-wrap .fill .form-wrap form .custom-file-button:hover label {
   background-color: #dde0e3;
   cursor: pointer;
 }
 body #form .container .fill-wrap .fill .form-wrap form label {
   font-family: "montserat-semibold";
   font-size: 14px;
-  color: #1c3c70;
+  color: #1C3C70;
 }
 body #form .container .fill-wrap .fill .form-wrap form select {
   font-family: "montserat-regular";
@@ -190,7 +154,7 @@ body #form .container .fill-wrap .fill .form-wrap form input::placeholder {
 }
 body #form .container .fill-wrap .fill .form-wrap form .text-area {
   padding: 6px;
-  background: #f0f0f0;
+  background: #F0F0F0;
   border-radius: 8px;
 }
 body #form .container .fill-wrap .fill .form-wrap form .text-area textarea {
@@ -199,22 +163,16 @@ body #form .container .fill-wrap .fill .form-wrap form .text-area textarea {
   font-size: 12px;
   border: unset;
 }
-
-body
-  #form
-  .container
-  .fill-wrap
-  .fill
-  .form-wrap
-  form
-  .text-area
-  textarea::placeholder {
+body #form .container .fill-wrap .fill .form-wrap form .text-area textarea::placeholder {
   color: #999999;
 }
 body #form .container .fill-wrap .fill .form-wrap form #text_judul {
   height: 87px;
 }
 body #form .container .fill-wrap .fill .form-wrap form #text {
+  height: 134px;
+}
+body #form .container .fill-wrap .fill .form-wrap form #text_poster {
   height: 134px;
 }
 body #form .container .fill-wrap .fill .form-wrap form .form-text {
@@ -227,16 +185,7 @@ body #form .container .fill-wrap .fill .form-wrap form .wrap-count {
   background: #f0f0f0;
   margin-top: 5px;
 }
-
-body
-  #form
-  .container
-  .fill-wrap
-  .fill
-  .form-wrap
-  form
-  .wrap-count
-  #count_message_judul {
+body #form .container .fill-wrap .fill .form-wrap form .wrap-count #count_message_judul {
   background-color: smoke;
   margin-top: 2px;
   margin-right: 5px;
@@ -245,16 +194,25 @@ body
   font-size: 12px;
   font-family: "montserat-regular";
 }
-
-body
-  #form
-  .container
-  .fill-wrap
-  .fill
-  .form-wrap
-  form
-  .wrap-count
-  #count_message {
+body #form .container .fill-wrap .fill .form-wrap form .wrap-count #count_message_judul_poster {
+  background-color: smoke;
+  margin-top: 2px;
+  margin-right: 5px;
+  float: right !important;
+  color: #999999;
+  font-size: 12px;
+  font-family: "montserat-regular";
+}
+body #form .container .fill-wrap .fill .form-wrap form .wrap-count #count_message {
+  background-color: smoke;
+  margin-top: 2px;
+  margin-right: 5px;
+  float: right !important;
+  color: #999999;
+  font-size: 12px;
+  font-family: "montserat-regular";
+}
+body #form .container .fill-wrap .fill .form-wrap form .wrap-count #count_message_poster {
   background-color: smoke;
   margin-top: 2px;
   margin-right: 5px;
@@ -266,20 +224,20 @@ body
 body #form .container .fill-wrap .fill .form-wrap form .alert div {
   font-family: "montserat-semibold";
   font-size: 12px;
-  color: #1f2937;
+  color: #1F2937;
 }
 body #form .container .fill-wrap .fill .form-wrap form .alert div p {
   font-family: "montserat-regular";
   font-size: 10px;
-  color: #6b7280;
+  color: #6B7280;
 }
 body #form .container .fill-wrap .fill .form-wrap form .form-check-label {
   font-size: 12px;
-  color: #1f2937;
+  color: #1F2937;
 }
 body #form .container .fill-wrap .fill .form-wrap form button {
   width: 100%;
-  background-color: #257ae4;
+  background-color: #257AE4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -302,7 +260,7 @@ body #banner .container .banner-wrap .swiper-pagination {
   position: relative;
   margin-top: 20px;
 }
-body #banner .container .banner-wrap .swiper-pagination-bullet {
+body #banner .container .banner-wrap .swiper-pagination .swiper-pagination-bullet {
   background-color: #9a0808 !important;
 }
 body #timeline {
@@ -343,15 +301,7 @@ body #form-modal #myModal .modal-dialog .modal-content .modal-header {
 body #form-modal #myModal .modal-dialog .modal-content .modal-header button {
   right: 10px !important;
 }
-
-body
-  #form-modal
-  #myModal
-  .modal-dialog
-  .modal-content
-  .modal-header
-  button
-  img {
+body #form-modal #myModal .modal-dialog .modal-content .modal-header button img {
   width: 20px;
 }
 body #form-modal #myModal .modal-dialog .modal-content .modal-body {
@@ -361,22 +311,14 @@ body #form-modal #myModal .modal-dialog .modal-content .modal-body {
 body #form-modal #myModal .modal-dialog .modal-content .modal-body .wrap-img {
   margin-bottom: 40px;
 }
-
-body
-  #form-modal
-  #myModal
-  .modal-dialog
-  .modal-content
-  .modal-body
-  .wrap-img
-  img {
+body #form-modal #myModal .modal-dialog .modal-content .modal-body .wrap-img img {
   width: 257px;
 }
 body #form-modal #myModal .modal-dialog .modal-content .modal-body h4 {
   font-size: 20px;
   line-height: 28px;
   font-family: "montserat-bold";
-  color: #25438e;
+  color: #25438E;
 }
 body #form-modal #myModal .modal-dialog .modal-content .modal-body p {
   font-size: 16px;
@@ -398,60 +340,24 @@ body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky {
   justify-content: center;
   display: flex;
 }
-
-body
-  #form-modal
-  #myModal
-  .modal-dialog
-  .modal-content
-  .box-sticky
-  .sticky
-  #shared {
+body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shared {
   background: #ffffff;
   padding: 8px;
   border-radius: 50px;
   box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.25) !important;
 }
-
-body
-  #form-modal
-  #myModal
-  .modal-dialog
-  .modal-content
-  .box-sticky
-  .sticky
-  #shared
-  span {
+body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shared span {
   font-size: 14px;
   font-family: "montserat-medium";
   color: #292929;
   padding: 0 6px;
 }
-
-body
-  #form-modal
-  #myModal
-  .modal-dialog
-  .modal-content
-  .box-sticky
-  .sticky
-  #shared
-  a {
+body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shared a {
   color: #007bff;
   text-decoration: none;
   background-color: transparent;
 }
-
-body
-  #form-modal
-  #myModal
-  .modal-dialog
-  .modal-content
-  .box-sticky
-  .sticky
-  #shared
-  a
-  img {
+body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shared a img {
   width: 30px !important;
   height: 30px !important;
 }
@@ -459,7 +365,7 @@ body
 /* Responsive Breakpoint */
 @media (min-width: 0px) and (max-width: 575px) {
   body {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     background: url(../image/universal/bg-home-mobile.png);
     background-size: cover;
     background-position: bottom;
@@ -494,14 +400,14 @@ body
     padding: 20px;
   }
   body #form .container .requisite-wrap .requisite {
-    background: #f5f9fa;
+    background: #F5F9FA;
     padding: 25px;
     border-radius: 12px;
     height: 100%;
   }
   body #form .container .requisite-wrap .requisite .about .title {
     font-size: 23px;
-    color: #1c3c70;
+    color: #1C3C70;
     font-family: "montserat-bold";
   }
   body #form .container .requisite-wrap .requisite .about .konten {
@@ -510,7 +416,7 @@ body
   }
   body #form .container .requisite-wrap .requisite .snk .title {
     font-size: 23px;
-    color: #1c3c70;
+    color: #1C3C70;
     font-family: "montserat-bold";
   }
   body #form .container .requisite-wrap .requisite .snk .konten {
@@ -533,7 +439,7 @@ body
     padding: 20px;
   }
   body #form .container .fill-wrap .fill {
-    background: #ffffff;
+    background: #FFFFFF;
     padding: 25px;
     border-radius: 12px;
     height: 100%;
@@ -543,7 +449,7 @@ body
   }
   body #form .container .fill-wrap .fill .title-wrap .title {
     font-size: 23px;
-    color: #ee420c;
+    color: #EE420C;
     font-family: "montserat-bold";
     width: 100%;
     margin-right: auto !important;
@@ -552,7 +458,7 @@ body
   body #form .container .fill-wrap .fill .form-wrap form label {
     font-family: "montserat-semibold";
     font-size: 14px;
-    color: #1c3c70;
+    color: #1C3C70;
   }
   body #form .container .fill-wrap .fill .form-wrap form input {
     font-family: "montserat-regular";
@@ -563,7 +469,7 @@ body
   }
   body #form .container .fill-wrap .fill .form-wrap form .text-area {
     padding: 6px;
-    background: #f0f0f0;
+    background: #F0F0F0;
     border-radius: 8px;
   }
   body #form .container .fill-wrap .fill .form-wrap form .text-area textarea {
@@ -572,15 +478,7 @@ body
     font-size: 12px;
     border: unset;
   }
-  body
-    #form
-    .container
-    .fill-wrap
-    .fill
-    .form-wrap
-    form
-    .text-area
-    textarea::placeholder {
+  body #form .container .fill-wrap .fill .form-wrap form .text-area textarea::placeholder {
     color: #999999;
   }
   body #form .container .fill-wrap .fill .form-wrap form .form-text {
@@ -593,15 +491,7 @@ body
     background: #f0f0f0;
     margin-top: 5px;
   }
-  body
-    #form
-    .container
-    .fill-wrap
-    .fill
-    .form-wrap
-    form
-    .wrap-count
-    #count_message {
+  body #form .container .fill-wrap .fill .form-wrap form .wrap-count #count_message {
     background-color: smoke;
     margin-top: 2px;
     margin-right: 5px;
@@ -612,11 +502,11 @@ body
   }
   body #form .container .fill-wrap .fill .form-wrap form .form-check-label {
     font-size: 12px;
-    color: #1f2937;
+    color: #1F2937;
   }
   body #form .container .fill-wrap .fill .form-wrap form button {
     width: 100%;
-    background-color: #257ae4;
+    background-color: #257AE4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -662,14 +552,7 @@ body
   body #form-modal #myModal .modal-dialog .modal-content .modal-header button {
     right: 10px !important;
   }
-  body
-    #form-modal
-    #myModal
-    .modal-dialog
-    .modal-content
-    .modal-header
-    button
-    img {
+  body #form-modal #myModal .modal-dialog .modal-content .modal-header button img {
     width: 20px;
   }
   body #form-modal #myModal .modal-dialog .modal-content .modal-body {
@@ -679,21 +562,14 @@ body
   body #form-modal #myModal .modal-dialog .modal-content .modal-body .wrap-img {
     margin-bottom: 40px;
   }
-  body
-    #form-modal
-    #myModal
-    .modal-dialog
-    .modal-content
-    .modal-body
-    .wrap-img
-    img {
+  body #form-modal #myModal .modal-dialog .modal-content .modal-body .wrap-img img {
     width: 257px;
   }
   body #form-modal #myModal .modal-dialog .modal-content .modal-body h4 {
     font-size: 20px;
     line-height: 28px;
     font-family: "montserat-bold";
-    color: #25438e;
+    color: #25438E;
   }
   body #form-modal #myModal .modal-dialog .modal-content .modal-body p {
     font-size: 12px;
@@ -715,56 +591,24 @@ body
     justify-content: center;
     display: flex;
   }
-  body
-    #form-modal
-    #myModal
-    .modal-dialog
-    .modal-content
-    .box-sticky
-    .sticky
-    #shared {
+  body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shared {
     background: #ffffff;
     padding: 8px;
     border-radius: 50px;
     box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.25) !important;
   }
-  body
-    #form-modal
-    #myModal
-    .modal-dialog
-    .modal-content
-    .box-sticky
-    .sticky
-    #shared
-    span {
+  body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shared span {
     font-size: 14px;
     font-family: "montserat-medium";
     color: #292929;
     padding: 0 6px;
   }
-  body
-    #form-modal
-    #myModal
-    .modal-dialog
-    .modal-content
-    .box-sticky
-    .sticky
-    #shared
-    a {
+  body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shared a {
     color: #007bff;
     text-decoration: none;
     background-color: transparent;
   }
-  body
-    #form-modal
-    #myModal
-    .modal-dialog
-    .modal-content
-    .box-sticky
-    .sticky
-    #shared
-    a
-    img {
+  body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shared a img {
     width: 30px !important;
     height: 30px !important;
   }
@@ -787,18 +631,21 @@ body
   body #form {
     padding-top: 40px;
   }
+  body #form .container {
+    max-width: 720px;
+  }
   body #form .container .requisite-wrap {
     padding: 20px 0;
   }
   body #form .container .requisite-wrap .requisite {
-    background: #f5f9fa;
+    background: #F5F9FA;
     padding: 25px;
     border-radius: 12px;
     height: 100%;
   }
   body #form .container .requisite-wrap .requisite .about .title {
     font-size: 23px;
-    color: #1c3c70;
+    color: #1C3C70;
     font-family: "montserat-bold";
   }
   body #form .container .requisite-wrap .requisite .about .konten {
@@ -807,7 +654,7 @@ body
   }
   body #form .container .requisite-wrap .requisite .snk .title {
     font-size: 23px;
-    color: #1c3c70;
+    color: #1C3C70;
     font-family: "montserat-bold";
   }
   body #form .container .requisite-wrap .requisite .snk .konten {
@@ -821,7 +668,7 @@ body
     padding: 20px 0;
   }
   body #form .container .fill-wrap .fill {
-    background: #ffffff;
+    background: #FFFFFF;
     padding: 25px;
     border-radius: 12px;
     height: 100%;
@@ -831,13 +678,13 @@ body
   }
   body #form .container .fill-wrap .fill .title-wrap .title {
     font-size: 23px;
-    color: #bd191a;
+    color: #BD191A;
     font-family: "montserat-bold";
   }
   body #form .container .fill-wrap .fill .form-wrap form label {
     font-family: "montserat-semibold";
     font-size: 14px;
-    color: #1c3c70;
+    color: #1C3C70;
   }
   body #form .container .fill-wrap .fill .form-wrap form input {
     font-family: "montserat-regular";
@@ -848,7 +695,7 @@ body
   }
   body #form .container .fill-wrap .fill .form-wrap form .text-area {
     padding: 6px;
-    background: #f0f0f0;
+    background: #F0F0F0;
     border-radius: 8px;
   }
   body #form .container .fill-wrap .fill .form-wrap form .text-area textarea {
@@ -857,15 +704,7 @@ body
     font-size: 12px;
     border: unset;
   }
-  body
-    #form
-    .container
-    .fill-wrap
-    .fill
-    .form-wrap
-    form
-    .text-area
-    textarea::placeholder {
+  body #form .container .fill-wrap .fill .form-wrap form .text-area textarea::placeholder {
     color: #999999;
   }
   body #form .container .fill-wrap .fill .form-wrap form .form-text {
@@ -878,15 +717,7 @@ body
     background: #f0f0f0;
     margin-top: 5px;
   }
-  body
-    #form
-    .container
-    .fill-wrap
-    .fill
-    .form-wrap
-    form
-    .wrap-count
-    #count_message {
+  body #form .container .fill-wrap .fill .form-wrap form .wrap-count #count_message {
     background-color: smoke;
     margin-top: 2px;
     margin-right: 5px;
@@ -897,7 +728,7 @@ body
   }
   body #form .container .fill-wrap .fill .form-wrap form button {
     width: 100%;
-    background-color: #257ae4;
+    background-color: #257AE4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -921,5 +752,116 @@ body
   }
   body #headline .container .sub-headline img {
     max-width: 607px;
+  }
+  body #form {
+    padding-top: 40px;
+  }
+  body #form .container {
+    max-width: 720px;
+  }
+  body #form .container .requisite-wrap {
+    padding: 20px 0;
+  }
+  body #form .container .requisite-wrap .requisite {
+    background: #F5F9FA;
+    padding: 25px;
+    border-radius: 12px;
+    height: 100%;
+  }
+  body #form .container .requisite-wrap .requisite .about .title {
+    font-size: 23px;
+    color: #1C3C70;
+    font-family: "montserat-bold";
+  }
+  body #form .container .requisite-wrap .requisite .about .konten {
+    font-size: 14px;
+    font-family: "montserat-regular";
+  }
+  body #form .container .requisite-wrap .requisite .snk .title {
+    font-size: 23px;
+    color: #1C3C70;
+    font-family: "montserat-bold";
+  }
+  body #form .container .requisite-wrap .requisite .snk .konten {
+    font-size: 14px;
+    font-family: "montserat-regular";
+  }
+  body #form .container .requisite-wrap .requisite .snk .konten ol {
+    padding: 0 16px;
+  }
+  body #form .container .fill-wrap {
+    padding: 20px 0;
+  }
+  body #form .container .fill-wrap .fill {
+    background: #FFFFFF;
+    padding: 25px;
+    border-radius: 12px;
+    height: 100%;
+  }
+  body #form .container .fill-wrap .fill .title-wrap {
+    text-align: center;
+  }
+  body #form .container .fill-wrap .fill .title-wrap .title {
+    font-size: 23px;
+    color: #BD191A;
+    font-family: "montserat-bold";
+  }
+  body #form .container .fill-wrap .fill .form-wrap form label {
+    font-family: "montserat-semibold";
+    font-size: 14px;
+    color: #1C3C70;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form input {
+    font-family: "montserat-regular";
+    font-size: 12px;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form input::placeholder {
+    color: #999999;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .text-area {
+    padding: 6px;
+    background: #F0F0F0;
+    border-radius: 8px;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .text-area textarea {
+    resize: none;
+    font-family: "montserat-regular";
+    font-size: 12px;
+    border: unset;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .text-area textarea::placeholder {
+    color: #999999;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .form-text {
+    font-family: "montserat-regular";
+    font-size: 12px;
+    color: #999999;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .wrap-count {
+    height: 20px;
+    background: #f0f0f0;
+    margin-top: 5px;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .wrap-count #count_message {
+    background-color: smoke;
+    margin-top: 2px;
+    margin-right: 5px;
+    float: right !important;
+    color: #999999;
+    font-size: 12px;
+    font-family: "montserat-regular";
+  }
+  body #form .container .fill-wrap .fill .form-wrap form button {
+    width: 100%;
+    background-color: #257AE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form button img {
+    width: 18px;
+    height: auto;
+    margin-left: 10px;
   }
 }

@@ -26,7 +26,7 @@
                                 <li>Musik/suara latar karya video atau segala elemen dalam poster tidak melanggar ketentuan terkait Hak Cipta.</li>
                             </ol>
 
-                            <p>Syarat ketentuan selengkapnya <a href="{clickurl}">klik di sini</a> </p>
+                            <p>Syarat ketentuan selengkapnya <a href="snk-view.php">klik di sini</a> </p>
 
                             </p>
 
@@ -81,9 +81,9 @@
                                 </div>
                             </div>
                             <div class="mb-3">
-                                <label for="no-telp" class="form-label">Kategori Lomba</label>
-                                <select class="form-select" required aria-label="Default select example">
-                                    <option value="">Pilih kategori lomba</option>
+                                <label for="selectKategori" class="form-label">Kategori Lomba</label>
+                                <select class="form-select" required aria-label="Default select example" id="selectKategori">
+                                    <option value="0">Pilih kategori lomba</option>
                                     <option value="1">Video Pendek 🎞️</option>
                                     <option value="2">Poster Iklan Layanan Masyarakat 🖼️</option>
                                 </select>
@@ -95,22 +95,33 @@
                                     Tolong pilih salah satu kategori
                                 </div>
                             </div>
-                            <div class="mb-3">
-                                <div class="mb-3">
-                                    <label for="no-telp" class="form-label">Link Video Pendek</label>
-                                    <div class="input-group custom-file-button">
-                                        <label class="input-group-text" for="inputGroupFile">https://</label>
-                                        <input type="file" class="form-control" id="inputGroupFile" required>
+                            <div class="mb-3" id="link_video" style="display: none;">
+                                <label for="validationDefaultUsername" class="form-label">Link Video Pendek</label>
+                                <div class="input-group">
+                                    <span class="input-group-text" id="inputGroupPrepend2">https://</span>
+                                    <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" placeholder="youtu.be/" required>
+                                    <div id="validationServerUsernameFeedback" class="valid-feedback">
+                                        Terlihat bagus!
+                                    </div>
+                                    <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                                        Tolong inputkan link youtube anda
                                     </div>
                                 </div>
-                                <div class="valid-feedback">
-                                    Terlihat bagus!
-                                </div>
-                                <div class="invalid-feedback">
-                                    Tolong inputkan file
+                            </div>
+                            <div class="mb-3" id="link_post" style="display: none;">
+                                <label for="validationDefaultPoster" class="form-label">Link Post Instagram</label>
+                                <div class="input-group">
+                                    <span class="input-group-text" id="inputGroupPrepend3">https://</span>
+                                    <input type="text" class="form-control" id="validationDefaultPoster" aria-describedby="inputGroupPrepend3" placeholder="instagram.com/" required>
+                                    <div id="validationServerPosterFeedback" class="valid-feedback">
+                                        Terlihat bagus!
+                                    </div>
+                                    <div id="validationServerPosterFeedback" class="invalid-feedback">
+                                        Tolong inputkan link instagram anda
+                                    </div>
                                 </div>
                             </div>
-                            <div class="mb-3 well">
+                            <div class="mb-3 well" id="textarea_judul_video" style="display: none;">
                                 <div class="text-area">
                                     <textarea class="form-control" id="text_judul" name="text" maxlength="100" placeholder="Tambahkan Judul yang menjelaskan video Anda" rows="5" required></textarea>
                                     <div class="wrap-count">
@@ -124,11 +135,39 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="mb-3 well">
+                            <div class="mb-3 well" id="textarea_judul_post" style="display: none;">
+                                <div class="text-area">
+                                    <textarea class="form-control" id="text_judul_poster" name="text" maxlength="100" placeholder="Tambahkan Judul yang menjelaskan poster Anda" rows="5" required></textarea>
+                                    <div class="wrap-count">
+                                        <span class="pull-right label label-default" id="count_message_judul_poster"></span>
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Terlihat bagus!
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Tolong inputkan judul poster anda
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3 well" id="textarea_desc_video" style="display: none;">
                                 <div class="text-area">
                                     <textarea class="form-control" id="text" name="text" maxlength="1000" placeholder="Beri tahu penonton tentang video Anda" rows="5" required></textarea>
                                     <div class="wrap-count">
                                         <span class="pull-right label label-default" id="count_message"></span>
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Terlihat bagus!
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Tolong inputkan deskripsi video anda
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3 well" id="textarea_desc_post" style="display: none;">
+                                <div class="text-area">
+                                    <textarea class="form-control" id="text_poster" name="text" maxlength="1000" placeholder="Beri tahu penonton tentang poster Anda" rows="5" required></textarea>
+                                    <div class="wrap-count">
+                                        <span class="pull-right label label-default" id="count_message_poster"></span>
                                     </div>
                                     <div class="valid-feedback">
                                         Terlihat bagus!

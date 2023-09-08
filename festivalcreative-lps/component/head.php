@@ -3,9 +3,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Festival Creative LPS</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/css/bootstrap-5.3.1/bootstrap.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./src/css/swiperjs/swiper-bundle.min.css" />
     <link type="image/x-icon" rel="shortcut icon" href="https://cdn.detik.net.id/detikcom/images/favicon.ico?v=2023080115111">
 
     <link rel="stylesheet" href="src/css/main.css">

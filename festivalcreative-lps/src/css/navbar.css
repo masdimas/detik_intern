@@ -23,7 +23,7 @@ html {
   color: white;
   font-weight: 500;
 }
-.navbar-nav button {
+.navbar-nav .rounded-pill {
   color: white;
   font-weight: 500;
   background-color: #fd8b00;
@@ -36,6 +36,7 @@ html {
 .nav-item > .btn:hover {
   color: #ffa42a;
   border: solid 1px #ffa42a;
+  background-color: transparent;
 }
 .nav-item > .btn:focus {
   color: #ffffff;
