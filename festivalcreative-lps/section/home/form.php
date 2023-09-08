@@ -70,15 +70,19 @@
                                 </div>
                             </div>
                             <div class="mb-3">
-                                <label for="no-telp" class="form-label">Nomor Telepon</label>
-                                <input type="tel" class="form-control" id="no-telp" aria-describedby="no-telphelp" placeholder="Tuliskan nomor telepon Anda di sini" onkeypress="return onlyNumberKey(event)" required>
+                                <label for="validationDefaultUsername" class="form-label">Nomor Telepon</label>
+                                <div class="input-group">
+                                    <span class="input-group-text" id="inputGroupPrepend2">+62</span>
+                                    <input type="tel" class="form-control" id="no-telp" aria-describedby="no-telphelp" placeholder="Tuliskan nomor telepon Anda di sini" onkeypress="return onlyNumberKey(event)" required>
+                                    
+                                    <div id="validationServerUsernameFeedback" class="valid-feedback">
+                                        Terlihat bagus!
+                                    </div>
+                                    <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                                        Tuliskan nomor telepon Anda di sini
+                                    </div>
+                                </div>
                                 <div id="no-telphelp" class="form-text">*Pastikan aktif</div>
-                                <div class="valid-feedback">
-                                    Terlihat bagus!
-                                </div>
-                                <div class="invalid-feedback">
-                                    Tolong isikan no telepon
-                                </div>
                             </div>
                             <div class="mb-3">
                                 <label for="selectKategori" class="form-label">Kategori Lomba</label>
