@@ -21,6 +21,9 @@ body {
   background-position: top;
   margin-bottom: -250px;
 }
+body a {
+  text-decoration: none;
+}
 body .container {
   max-width: 1000px;
 }
