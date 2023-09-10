@@ -24,6 +24,11 @@
             include "./main/component/about-swiper.php";
         ?>
 
+        <!-- Welcome Page School Competition Section -->
+        <?php
+            include "./main/component/wp-school-competition.php";
+        ?>
+
         <!-- Footer -->
         <?php
             include "./main/component/footer.php";
