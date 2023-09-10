@@ -66,21 +66,36 @@ body {
                 padding: 20px 0;
 
                 .requisite {
-                    background: #F5F9FA;
+                    background: #FCF8F0;
                     padding: 25px;
                     border-radius: 12px 0 0 12px;
                     height: 100%;
 
                     .about {
+                        .about-icon-box{
+                            margin-bottom: 40px;
+                            .about-icon{
+                                width: 100%;
+                                max-width: 336px;
+                            }
+                        }
                         .title {
-                            font-size: 23px;
+                            font-size: 36px;
                             color: #1C3C70;
                             font-family: "montserat-bold";
+                            line-height: 46px;
+                            margin-bottom: 15px !important;
                         }
 
                         .konten {
-                            font-size: 14px;
+                            font-size: 16px;
+                            line-height: 24px;
+                            text-align: center;
                             font-family: "montserat-regular";
+                            color: #292929;
+                            b{
+                                font-family: "montserat-bold";
+                            }
                         }
                     }
 
@@ -331,15 +346,29 @@ body {
     }
 
     #banner{
-        margin-top: 140px;
+        margin-top: 40px;
+        margin-bottom: 40px;
         .container{
             .banner-wrap{
-                margin-bottom: 80px;
-                margin-top: 80px;
+                // margin-bottom: 80px;
+                // margin-top: 80px;
                 .swiper{
                     .swiper-wrapper{
                         .swiper-slide{
-
+                            .banner-desktop{
+                                width: 970px;
+                                height: 250px;
+                                object-fit: cover;
+                                position: relative;
+                                margin: auto;
+                            }
+                            .banner-mobile{
+                                width: 324px;
+                                height: 250px;
+                                object-fit: cover;
+                                position: relative;
+                                margin: auto;
+                            }
                         }
                     }
                 }
@@ -353,7 +382,40 @@ body {
             }
         }
     }
-
+    #new-snk{
+        margin-bottom: 40px;
+        .mycontainer{
+            padding: 32px;
+            border-radius: 16px;
+            border: 1px solid #FD6801;
+            background: #FCF8F0;
+            .new-snk-title{
+                font-family: "montserat-bold";
+                font-size: 23px;
+                line-height: 32px;
+                color: #1C3C70;
+                margin-bottom: 15px;
+            }
+            .new-snk-list{
+                font-family: "montserat-regular";
+                font-size: 14px;
+                line-height: 20px;
+                color: #292929;
+                margin-bottom: 15px;
+            }
+            .new-snk-cta{
+                font-family: "montserat-bold";
+                font-size: 14px;
+                line-height: 32px;
+                color: #F4564A;
+                img{
+                    width: 16px;
+                    margin-left: 15px;
+                    margin-top: -1px;
+                }
+            }
+        }
+    }
     #timeline{
         margin-bottom: 120px;
         .container{
@@ -557,7 +619,7 @@ body {
                     padding: 20px;
 
                     .requisite {
-                        background: #F5F9FA;
+                        background: #FCF8F0;
                         padding: 25px;
                         border-radius: 12px;
                         height: 100%;
@@ -708,7 +770,9 @@ body {
 
             }
         }
-
+        #banner{
+            margin-top: 0 !important;
+        }
         #sponsor {
             padding: 20px 0 220px 0;
 
@@ -874,7 +938,7 @@ body {
                     padding: 20px 0;
 
                     .requisite {
-                        background: #F5F9FA;
+                        background: #FCF8F0;
                         padding: 25px;
                         border-radius: 12px;
                         height: 100%;
@@ -1043,7 +1107,7 @@ body {
                     padding: 20px 0;
 
                     .requisite {
-                        background: #F5F9FA;
+                        background: #FCF8F0;
                         padding: 25px;
                         border-radius: 12px;
                         height: 100%;
