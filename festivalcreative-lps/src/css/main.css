@@ -46,19 +46,34 @@ body #form .container .requisite-wrap {
   padding: 20px 0;
 }
 body #form .container .requisite-wrap .requisite {
-  background: #F5F9FA;
+  background: #FCF8F0;
   padding: 25px;
   border-radius: 12px 0 0 12px;
   height: 100%;
 }
+body #form .container .requisite-wrap .requisite .about .about-icon-box {
+  margin-bottom: 40px;
+}
+body #form .container .requisite-wrap .requisite .about .about-icon-box .about-icon {
+  width: 100%;
+  max-width: 336px;
+}
 body #form .container .requisite-wrap .requisite .about .title {
-  font-size: 23px;
+  font-size: 36px;
   color: #1C3C70;
   font-family: "montserat-bold";
+  line-height: 46px;
+  margin-bottom: 15px !important;
 }
 body #form .container .requisite-wrap .requisite .about .konten {
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
   font-family: "montserat-regular";
+  color: #292929;
+}
+body #form .container .requisite-wrap .requisite .about .konten b {
+  font-family: "montserat-bold";
 }
 body #form .container .requisite-wrap .requisite .snk .title {
   font-size: 23px;
@@ -250,11 +265,20 @@ body #form .container .fill-wrap .fill .form-wrap form button img {
   margin-left: 10px;
 }
 body #banner {
-  margin-top: 140px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
-body #banner .container .banner-wrap {
-  margin-bottom: 80px;
-  margin-top: 80px;
+body #banner .container .banner-wrap .swiper .swiper-wrapper .swiper-slide .banner-desktop {
+  width: 970px;
+  height: 250px;
+  object-fit: cover;
+}
+body #banner .container .banner-wrap .swiper .swiper-wrapper .swiper-slide .banner-mobile {
+  width: 324px;
+  height: 250px;
+  object-fit: cover;
+  position: relative;
+  margin: auto;
 }
 body #banner .container .banner-wrap .swiper-pagination {
   position: relative;
@@ -400,7 +424,7 @@ body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shar
     padding: 20px;
   }
   body #form .container .requisite-wrap .requisite {
-    background: #F5F9FA;
+    background: #FCF8F0;
     padding: 25px;
     border-radius: 12px;
     height: 100%;
@@ -516,6 +540,9 @@ body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shar
     width: 18px;
     height: auto;
     margin-left: 10px;
+  }
+  body #banner {
+    margin-top: 0 !important;
   }
   body #sponsor {
     padding: 20px 0 220px 0;
@@ -638,7 +665,7 @@ body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shar
     padding: 20px 0;
   }
   body #form .container .requisite-wrap .requisite {
-    background: #F5F9FA;
+    background: #FCF8F0;
     padding: 25px;
     border-radius: 12px;
     height: 100%;
@@ -763,7 +790,7 @@ body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shar
     padding: 20px 0;
   }
   body #form .container .requisite-wrap .requisite {
-    background: #F5F9FA;
+    background: #FCF8F0;
     padding: 25px;
     border-radius: 12px;
     height: 100%;

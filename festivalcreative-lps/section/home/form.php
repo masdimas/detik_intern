@@ -4,15 +4,18 @@
             <div class="col-12 col-sm-12 col-md-6 requisite-wrap">
                 <div class="requisite">
                     <div class="about">
+                        <h1 class="about-icon-box text-center">
+                            <img class="about-icon" src="./src/image/home/form/about-icon.png" alt="about-icon">
+                        </h1>
                         <div class="title text-center m-2">
-                            <span class="">Tentang CREARTIVE LPS 2023</span>
+                            <span class="">CREARTIVE LPS 2023</span>
                         </div>
                         <div class="konten">
-                            <p>CREARTIVE LPS 2023 adalah festival kreatif yang diselenggarakan oleh Lembaga Penjamin Simpanan (LPS). Festival ini mengundang masyarakat Indonesia dari berbagai kalangan untuk mengungkapkan ide kreatif mereka mengenai literasi keuangan melalui kompetisi video pendek dan poster. </p>
-                            <p>Dengan hashtag #LPSBangunGenerasiCreArtive , LPS berkomitmen untuk menjadi wadah aman yang mendukung kreativitas positif, mengajak semua orang untuk aktif berpartisipasi dalam meningkatkan pemahaman tentang pengelolaan keuangan yang baik.</p>
+                            <p>CREARTIVE LPS 2023 adalah festival kreatif yang diselenggarakan oleh Lembaga Penjamin Simpanan (LPS). Festival ini mengundang masyarakat Indonesia dari berbagai kalangan untuk mengungkapkan ide kreatif mereka mengenai literasi keuangan melalui kompetisi video pendek dan poster.</p>
+                            <p>Dengan hashtag <b>#LPSBangunGenerasiCreArtive</b> , LPS berkomitmen untuk menjadi wadah aman yang mendukung kreativitas positif, mengajak semua orang untuk aktif berpartisipasi dalam meningkatkan pemahaman tentang pengelolaan keuangan yang baik.</p>
                         </div>
                     </div>
-                    <div class="snk">
+                    <!-- <div class="snk">
                         <div class="title text-center m-2">
                             <span>Syarat & Ketentuan</span>
                         </div>
@@ -36,7 +39,7 @@
 
 
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-12 col-sm-12 col-md-6 fill-wrap" id="form-section">
@@ -102,8 +105,8 @@
                             <div class="mb-3" id="link_video" style="display: none;">
                                 <label for="validationDefaultUsername" class="form-label">Link Video Pendek</label>
                                 <div class="input-group">
-                                    <span class="input-group-text" id="inputGroupPrepend2">https://</span>
-                                    <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" placeholder="youtu.be/" required>
+                                    <!-- <span class="input-group-text" id="inputGroupPrepend2">https://</span> -->
+                                    <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" placeholder="https://youtu.be/" required>
                                     <div id="validationServerUsernameFeedback" class="valid-feedback">
                                         Terlihat bagus!
                                     </div>
@@ -115,8 +118,8 @@
                             <div class="mb-3" id="link_post" style="display: none;">
                                 <label for="validationDefaultPoster" class="form-label">Link Post Instagram</label>
                                 <div class="input-group">
-                                    <span class="input-group-text" id="inputGroupPrepend3">https://</span>
-                                    <input type="text" class="form-control" id="validationDefaultPoster" aria-describedby="inputGroupPrepend3" placeholder="instagram.com/" required>
+                                    <!-- <span class="input-group-text" id="inputGroupPrepend3">https://</span> -->
+                                    <input type="text" class="form-control" id="validationDefaultPoster" aria-describedby="inputGroupPrepend3" placeholder="https://instagram.com/" required>
                                     <div id="validationServerPosterFeedback" class="valid-feedback">
                                         Terlihat bagus!
                                     </div>

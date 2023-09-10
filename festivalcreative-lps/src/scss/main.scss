@@ -66,21 +66,36 @@ body {
                 padding: 20px 0;
 
                 .requisite {
-                    background: #F5F9FA;
+                    background: #FCF8F0;
                     padding: 25px;
                     border-radius: 12px 0 0 12px;
                     height: 100%;
 
                     .about {
+                        .about-icon-box{
+                            margin-bottom: 40px;
+                            .about-icon{
+                                width: 100%;
+                                max-width: 336px;
+                            }
+                        }
                         .title {
-                            font-size: 23px;
+                            font-size: 36px;
                             color: #1C3C70;
                             font-family: "montserat-bold";
+                            line-height: 46px;
+                            margin-bottom: 15px !important;
                         }
 
                         .konten {
-                            font-size: 14px;
+                            font-size: 16px;
+                            line-height: 24px;
+                            text-align: center;
                             font-family: "montserat-regular";
+                            color: #292929;
+                            b{
+                                font-family: "montserat-bold";
+                            }
                         }
                     }
 
@@ -331,15 +346,27 @@ body {
     }
 
     #banner{
-        margin-top: 140px;
+        margin-top: 40px;
+        margin-bottom: 40px;
         .container{
             .banner-wrap{
-                margin-bottom: 80px;
-                margin-top: 80px;
+                // margin-bottom: 80px;
+                // margin-top: 80px;
                 .swiper{
                     .swiper-wrapper{
                         .swiper-slide{
-
+                            .banner-desktop{
+                                width: 970px;
+                                height: 250px;
+                                object-fit: cover;
+                            }
+                            .banner-mobile{
+                                width: 324px;
+                                height: 250px;
+                                object-fit: cover;
+                                position: relative;
+                                margin: auto;
+                            }
                         }
                     }
                 }
@@ -557,7 +584,7 @@ body {
                     padding: 20px;
 
                     .requisite {
-                        background: #F5F9FA;
+                        background: #FCF8F0;
                         padding: 25px;
                         border-radius: 12px;
                         height: 100%;
@@ -708,7 +735,9 @@ body {
 
             }
         }
-
+        #banner{
+            margin-top: 0 !important;
+        }
         #sponsor {
             padding: 20px 0 220px 0;
 
@@ -874,7 +903,7 @@ body {
                     padding: 20px 0;
 
                     .requisite {
-                        background: #F5F9FA;
+                        background: #FCF8F0;
                         padding: 25px;
                         border-radius: 12px;
                         height: 100%;
@@ -1043,7 +1072,7 @@ body {
                     padding: 20px 0;
 
                     .requisite {
-                        background: #F5F9FA;
+                        background: #FCF8F0;
                         padding: 25px;
                         border-radius: 12px;
                         height: 100%;
