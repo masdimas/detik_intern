@@ -359,6 +359,8 @@ body {
                                 width: 970px;
                                 height: 250px;
                                 object-fit: cover;
+                                position: relative;
+                                margin: auto;
                             }
                             .banner-mobile{
                                 width: 324px;
@@ -380,7 +382,40 @@ body {
             }
         }
     }
-
+    #new-snk{
+        margin-bottom: 40px;
+        .mycontainer{
+            padding: 32px;
+            border-radius: 16px;
+            border: 1px solid #FD6801;
+            background: #FCF8F0;
+            .new-snk-title{
+                font-family: "montserat-bold";
+                font-size: 23px;
+                line-height: 32px;
+                color: #1C3C70;
+                margin-bottom: 15px;
+            }
+            .new-snk-list{
+                font-family: "montserat-regular";
+                font-size: 14px;
+                line-height: 20px;
+                color: #292929;
+                margin-bottom: 15px;
+            }
+            .new-snk-cta{
+                font-family: "montserat-bold";
+                font-size: 14px;
+                line-height: 32px;
+                color: #F4564A;
+                img{
+                    width: 16px;
+                    margin-left: 15px;
+                    margin-top: -1px;
+                }
+            }
+        }
+    }
     #timeline{
         margin-bottom: 120px;
         .container{

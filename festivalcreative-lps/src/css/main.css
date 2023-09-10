@@ -272,6 +272,8 @@ body #banner .container .banner-wrap .swiper .swiper-wrapper .swiper-slide .bann
   width: 970px;
   height: 250px;
   object-fit: cover;
+  position: relative;
+  margin: auto;
 }
 body #banner .container .banner-wrap .swiper .swiper-wrapper .swiper-slide .banner-mobile {
   width: 324px;
@@ -286,6 +288,40 @@ body #banner .container .banner-wrap .swiper-pagination {
 }
 body #banner .container .banner-wrap .swiper-pagination .swiper-pagination-bullet {
   background-color: #9a0808 !important;
+}
+body #new-snk {
+  margin-bottom: 40px;
+}
+body #new-snk .mycontainer {
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid #FD6801;
+  background: #FCF8F0;
+}
+body #new-snk .mycontainer .new-snk-title {
+  font-family: "montserat-bold";
+  font-size: 23px;
+  line-height: 32px;
+  color: #1C3C70;
+  margin-bottom: 15px;
+}
+body #new-snk .mycontainer .new-snk-list {
+  font-family: "montserat-regular";
+  font-size: 14px;
+  line-height: 20px;
+  color: #292929;
+  margin-bottom: 15px;
+}
+body #new-snk .mycontainer .new-snk-cta {
+  font-family: "montserat-bold";
+  font-size: 14px;
+  line-height: 32px;
+  color: #F4564A;
+}
+body #new-snk .mycontainer .new-snk-cta img {
+  width: 16px;
+  margin-left: 15px;
+  margin-top: -1px;
 }
 body #timeline {
   margin-bottom: 120px;

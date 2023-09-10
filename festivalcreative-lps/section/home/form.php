@@ -205,7 +205,7 @@
                             <div class="mb-3">
                                 <div class="form-check mb-3">
                                     <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
-                                    <label class="form-check-label" for="validationFormCheck1">Saya menyetujui syarat dan ketentuan yang berlaku serta kebijakan yang berlaku dari Detiknetwork.</label>
+                                    <label class="form-check-label" for="validationFormCheck1">Saya menyetujui <a href="snk-view.php">syarat dan ketentuan</a> yang berlaku serta kebijakan yang berlaku dari Detiknetwork.</label>
                                     <div class="invalid-feedback">Silahkan checklist untuk melanjutkan</div>
                                 </div>
                             </div>
