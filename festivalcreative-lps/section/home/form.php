@@ -11,35 +11,13 @@
                             <span class="">CREARTIVE LPS 2023</span>
                         </div>
                         <div class="konten">
-                            <p>CREARTIVE LPS 2023 adalah festival kreatif yang diselenggarakan oleh Lembaga Penjamin Simpanan (LPS). Festival ini mengundang masyarakat Indonesia dari berbagai kalangan untuk mengungkapkan ide kreatif mereka mengenai literasi keuangan melalui kompetisi video pendek dan poster.</p>
-                            <p>Dengan hashtag <b>#LPSBangunGenerasiCreArtive</b> , LPS berkomitmen untuk menjadi wadah aman yang mendukung kreativitas positif, mengajak semua orang untuk aktif berpartisipasi dalam meningkatkan pemahaman tentang pengelolaan keuangan yang baik.</p>
+                            <p>FESTIVAL CREARTIVE LPS 2023 adalah festival kreatif yang diselenggarakan oleh Lembaga Penjamin Simpanan (LPS). LPS merupakan lembaga Independen yang bertugas menjamin simpanan nasabah dan turut aktif dalam memelihara stabilitas perbankan sesuai kewenangannya. Dalam hal ini, LPS mengundang masyarakat Indonesia dari berbagai kalangan untuk mengungkapkan ide kreatif mereka mengenai literasi keuangan melalui kompetisi video pendek dan poster.</p>
+                            <p>Dengan hashtag <b><i>#LPSBangunGenerasiCreArtive</i></b> , LPS berkomitmen untuk menjadi wadah aman yang mendukung kreativitas positif, mengajak semua orang untuk aktif berpartisipasi dalam meningkatkan pemahaman tentang pengelolaan keuangan yang baik.</p>
+                            <p class="text-center cta-lps">
+                                Website: <a href="https://www.lps.go.id/" target="_blank">lps.go.id</a>
+                            </p>
                         </div>
                     </div>
-                    <!-- <div class="snk">
-                        <div class="title text-center m-2">
-                            <span>Syarat & Ketentuan</span>
-                        </div>
-                        <div class="konten">
-                            <p>
-                            <ol>
-                                <li>Buat karya video pendek atau poster iklan layanan masyarakat sesuai dengan tema yang sudah ditentukan.</li>
-                                <li>Narasi video atau poster iklan layanan masyarakat dapat berupa himbauan, ajakan, testimoni, tutorial kepada masyarakat terkait tema.</li>
-                                <li>Karya video dan poster iklan layanan masyarakat tidak mengandung SARA dan tidak melanggar hukum/aturan yang berlaku.</li>
-                                <li>Karya video atau poster iklan layanan masyarakat yang di submit merupakan karya asli pribadi/kelompok dan peserta wajib bertanggung jawab penuh terhadap karya tersebut.</li>
-                                <li>Musik/suara latar karya video atau segala elemen dalam poster tidak melanggar ketentuan terkait Hak Cipta.</li>
-                            </ol>
-
-                            <p>Syarat ketentuan selengkapnya <a href="snk-view.php">klik di sini</a> </p>
-
-                            </p>
-
-                            <div>
-                                <img src="./src/image/home/form/hadiah.png" alt="">
-                            </div>
-
-
-                        </div>
-                    </div> -->
                 </div>
             </div>
             <div class="col-12 col-sm-12 col-md-6 fill-wrap" id="form-section">
