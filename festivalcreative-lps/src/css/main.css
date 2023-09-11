@@ -59,15 +59,14 @@ body #form .container .requisite-wrap .requisite .about .about-icon-box .about-i
   max-width: 336px;
 }
 body #form .container .requisite-wrap .requisite .about .title {
-  font-size: 36px;
+  font-size: 20px;
   color: #1C3C70;
   font-family: "montserat-bold";
-  line-height: 46px;
   margin-bottom: 15px !important;
 }
 body #form .container .requisite-wrap .requisite .about .konten {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 20px;
   text-align: center;
   font-family: "montserat-regular";
   color: #292929;
