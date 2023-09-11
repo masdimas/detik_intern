@@ -4,7 +4,7 @@
       <a class="navbar-brand" href="#"><img src="./src/image/navbar/logo-lps-creavid-2023.svg" alt="LPS Creavid 2023" /></a>
 
       <button class="navbar-toggler p-0 rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <div class="hamburger bg-white shadow-none rounded-pill">
+        <div class="hamburger shadow-none rounded-pill">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
