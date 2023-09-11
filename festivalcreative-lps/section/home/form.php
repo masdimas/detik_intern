@@ -4,15 +4,18 @@
             <div class="col-12 col-sm-12 col-md-6 requisite-wrap">
                 <div class="requisite">
                     <div class="about">
+                        <h1 class="about-icon-box text-center">
+                            <img class="about-icon" src="./src/image/home/form/about-icon.png" alt="about-icon">
+                        </h1>
                         <div class="title text-center m-2">
-                            <span class="">Tentang CREARTIVE LPS 2023</span>
+                            <span class="">CREARTIVE LPS 2023</span>
                         </div>
                         <div class="konten">
-                            <p>CREARTIVE LPS 2023 adalah festival kreatif yang diselenggarakan oleh Lembaga Penjamin Simpanan (LPS). Festival ini mengundang masyarakat Indonesia dari berbagai kalangan untuk mengungkapkan ide kreatif mereka mengenai literasi keuangan melalui kompetisi video pendek dan poster. </p>
-                            <p>Dengan hashtag #LPSBangunGenerasiCreArtive , LPS berkomitmen untuk menjadi wadah aman yang mendukung kreativitas positif, mengajak semua orang untuk aktif berpartisipasi dalam meningkatkan pemahaman tentang pengelolaan keuangan yang baik.</p>
+                            <p>CREARTIVE LPS 2023 adalah festival kreatif yang diselenggarakan oleh Lembaga Penjamin Simpanan (LPS). Festival ini mengundang masyarakat Indonesia dari berbagai kalangan untuk mengungkapkan ide kreatif mereka mengenai literasi keuangan melalui kompetisi video pendek dan poster.</p>
+                            <p>Dengan hashtag <b>#LPSBangunGenerasiCreArtive</b> , LPS berkomitmen untuk menjadi wadah aman yang mendukung kreativitas positif, mengajak semua orang untuk aktif berpartisipasi dalam meningkatkan pemahaman tentang pengelolaan keuangan yang baik.</p>
                         </div>
                     </div>
-                    <div class="snk">
+                    <!-- <div class="snk">
                         <div class="title text-center m-2">
                             <span>Syarat & Ketentuan</span>
                         </div>
@@ -36,7 +39,7 @@
 
 
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-12 col-sm-12 col-md-6 fill-wrap" id="form-section">
@@ -70,15 +73,19 @@
                                 </div>
                             </div>
                             <div class="mb-3">
-                                <label for="no-telp" class="form-label">Nomor Telepon</label>
-                                <input type="tel" class="form-control" id="no-telp" aria-describedby="no-telphelp" placeholder="Tuliskan nomor telepon Anda di sini" onkeypress="return onlyNumberKey(event)" required>
+                                <label for="validationDefaultUsername" class="form-label">Nomor Telepon</label>
+                                <div class="input-group">
+                                    <span class="input-group-text" id="inputGroupPrepend2">+62</span>
+                                    <input type="tel" class="form-control" id="no-telp" aria-describedby="no-telphelp" placeholder="Tuliskan nomor telepon Anda di sini" onkeypress="return onlyNumberKey(event)" required>
+                                    
+                                    <div id="validationServerUsernameFeedback" class="valid-feedback">
+                                        Terlihat bagus!
+                                    </div>
+                                    <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                                        Tuliskan nomor telepon Anda di sini
+                                    </div>
+                                </div>
                                 <div id="no-telphelp" class="form-text">*Pastikan aktif</div>
-                                <div class="valid-feedback">
-                                    Terlihat bagus!
-                                </div>
-                                <div class="invalid-feedback">
-                                    Tolong isikan no telepon
-                                </div>
                             </div>
                             <div class="mb-3">
                                 <label for="selectKategori" class="form-label">Kategori Lomba</label>
@@ -87,7 +94,7 @@
                                     <option value="1">Video Pendek 🎞️</option>
                                     <option value="2">Poster Iklan Layanan Masyarakat 🖼️</option>
                                 </select>
-                                <div id="emailHelp" class="form-text">*Karya video pendek sudah diupload di youtube dengan durasi maksimal 3 menit.</div>
+                                
                                 <div class="valid-feedback">
                                     Terlihat bagus!
                                 </div>
@@ -98,28 +105,31 @@
                             <div class="mb-3" id="link_video" style="display: none;">
                                 <label for="validationDefaultUsername" class="form-label">Link Video Pendek</label>
                                 <div class="input-group">
-                                    <span class="input-group-text" id="inputGroupPrepend2">https://</span>
-                                    <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" placeholder="youtu.be/" required>
+                                    <!-- <span class="input-group-text" id="inputGroupPrepend2">https://</span> -->
+                                    <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" placeholder="https://youtu.be/" required>
                                     <div id="validationServerUsernameFeedback" class="valid-feedback">
                                         Terlihat bagus!
                                     </div>
                                     <div id="validationServerUsernameFeedback" class="invalid-feedback">
                                         Tolong inputkan link youtube anda
                                     </div>
+                                    <div id="emailHelp" class="form-text">*Karya video pendek sudah diupload di youtube dengan durasi maksimal 3 menit.</div>
                                 </div>
                             </div>
                             <div class="mb-3" id="link_post" style="display: none;">
                                 <label for="validationDefaultPoster" class="form-label">Link Post Instagram</label>
                                 <div class="input-group">
-                                    <span class="input-group-text" id="inputGroupPrepend3">https://</span>
-                                    <input type="text" class="form-control" id="validationDefaultPoster" aria-describedby="inputGroupPrepend3" placeholder="instagram.com/" required>
+                                    <!-- <span class="input-group-text" id="inputGroupPrepend3">https://</span> -->
+                                    <input type="text" class="form-control" id="validationDefaultPoster" aria-describedby="inputGroupPrepend3" placeholder="https://instagram.com/" required>
                                     <div id="validationServerPosterFeedback" class="valid-feedback">
                                         Terlihat bagus!
                                     </div>
                                     <div id="validationServerPosterFeedback" class="invalid-feedback">
                                         Tolong inputkan link instagram anda
                                     </div>
+                                   
                                 </div>
+                                <div id="emailHelp" class="form-text">*Karya poster sudah diupload di instagram yang tidak diprivate.</div>
                             </div>
                             <div class="mb-3 well" id="textarea_judul_video" style="display: none;">
                                 <div class="text-area">
@@ -198,7 +208,7 @@
                             <div class="mb-3">
                                 <div class="form-check mb-3">
                                     <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
-                                    <label class="form-check-label" for="validationFormCheck1">Saya menyetujui syarat dan ketentuan yang berlaku serta kebijakan yang berlaku dari Detiknetwork.</label>
+                                    <label class="form-check-label" for="validationFormCheck1">Saya menyetujui <a href="snk-view.php">syarat dan ketentuan</a> yang berlaku serta kebijakan yang berlaku dari Detiknetwork.</label>
                                     <div class="invalid-feedback">Silahkan checklist untuk melanjutkan</div>
                                 </div>
                             </div>
