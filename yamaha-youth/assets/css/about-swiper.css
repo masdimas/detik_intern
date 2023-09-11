@@ -1,17 +1,17 @@
 /* SWIPER */
 
-.swiper {
+#about-swiper .swiper {
   height: 100%;
   max-width: 1100px;
   margin: 0 auto;
 }
-.swiper-wrapper {
+#about-swiper .swiper-wrapper {
   height: 100%;
   max-width: 1100px;
   margin: 0 auto;
 }
 
-#swiper-pagination {
+#about-swiper #swiper-pagination {
   position: relative;
   margin-top: 15px;
   left: 50%;
@@ -19,20 +19,20 @@
   z-index: 100;
 }
 
-.swiper-slide {
+#about-swiper .swiper-slide {
   overflow: hidden;
 }
 
-.swiper-pagination-bullet {
+#about-swiper .swiper-pagination-bullet {
   background-color: #9a0808 !important;
 }
 
-.image-desktop {
+#about-swiper .image-desktop {
   max-width: 970px;
   max-height: 250px;
   object-fit: contain;
 }
-.image-mobile {
+#about-swiper .image-mobile {
   width: 324px;
   max-height: 250px;
   object-fit: contain;
