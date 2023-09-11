@@ -164,6 +164,7 @@ table {
 
 .section-container {
   max-width: 1100px;
+  overflow: hidden;
 }
 
 .cream-bg {
