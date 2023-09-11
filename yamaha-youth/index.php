@@ -28,6 +28,10 @@
         <?php
             include "./main/component/wp-school-competition.php";
         ?>
+        <!-- Welcome Page School Competition Section -->
+        <?php
+            include "./main/component/photo-gallery.php";
+        ?>
 
         <!-- Footer -->
         <?php

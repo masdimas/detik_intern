@@ -5,3 +5,4 @@
     <script src="./assets/js/about-swiper.js" type="module"></script>
     <script src="./assets/js/index.js" type="module"></script>
     <script src="./node_modules/aos/dist/aos.js"></script>
+    <script src="./assets/js/photo-gallery.js"></script>    
