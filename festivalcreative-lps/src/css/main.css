@@ -274,6 +274,7 @@ body #banner .container .banner-wrap .swiper .swiper-wrapper .swiper-slide .bann
   object-fit: cover;
   position: relative;
   margin: auto;
+  border-radius: 8px;
 }
 body #banner .container .banner-wrap .swiper .swiper-wrapper .swiper-slide .banner-mobile {
   width: 324px;
@@ -281,6 +282,7 @@ body #banner .container .banner-wrap .swiper .swiper-wrapper .swiper-slide .bann
   object-fit: cover;
   position: relative;
   margin: auto;
+  border-radius: 8px;
 }
 body #banner .container .banner-wrap .swiper-pagination {
   position: relative;

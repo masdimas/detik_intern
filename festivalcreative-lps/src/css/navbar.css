@@ -11,16 +11,16 @@ html {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   max-width: 1100px;
-  background: linear-gradient(to right, #1b4194, #05305b);
+  background: #F8F8F8;
   border-radius: 30px;
-  border: solid 1px #fff;
+  border: solid 1px #FFC78F;
   box-shadow: 0 9px 14px rgb(0, 0, 0, 0.35);
   top: 10px;
   font-family: "montserat-regular";
 }
 
 .navbar-nav a {
-  color: white;
+  color: #616163;
   font-weight: 500;
 }
 .navbar-nav .rounded-pill {

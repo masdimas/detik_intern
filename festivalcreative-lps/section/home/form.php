@@ -94,7 +94,7 @@
                                     <option value="1">Video Pendek 🎞️</option>
                                     <option value="2">Poster Iklan Layanan Masyarakat 🖼️</option>
                                 </select>
-                                <div id="emailHelp" class="form-text">*Karya video pendek sudah diupload di youtube dengan durasi maksimal 3 menit.</div>
+                                
                                 <div class="valid-feedback">
                                     Terlihat bagus!
                                 </div>
@@ -113,6 +113,7 @@
                                     <div id="validationServerUsernameFeedback" class="invalid-feedback">
                                         Tolong inputkan link youtube anda
                                     </div>
+                                    <div id="emailHelp" class="form-text">*Karya video pendek sudah diupload di youtube dengan durasi maksimal 3 menit.</div>
                                 </div>
                             </div>
                             <div class="mb-3" id="link_post" style="display: none;">
@@ -126,7 +127,9 @@
                                     <div id="validationServerPosterFeedback" class="invalid-feedback">
                                         Tolong inputkan link instagram anda
                                     </div>
+                                   
                                 </div>
+                                <div id="emailHelp" class="form-text">*Karya poster sudah diupload di instagram yang tidak diprivate.</div>
                             </div>
                             <div class="mb-3 well" id="textarea_judul_video" style="display: none;">
                                 <div class="text-area">
