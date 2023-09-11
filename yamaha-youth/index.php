@@ -33,6 +33,11 @@
             include "./main/component/photo-gallery.php";
         ?>
 
+        <!-- Aggregator page in Welcome Page -->
+        <?php
+            include "./main/component/wp-aggregator.php";
+        ?>
+
         <!-- Footer -->
         <?php
             include "./main/component/footer.php";

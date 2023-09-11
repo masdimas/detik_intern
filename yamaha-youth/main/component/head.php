@@ -31,5 +31,6 @@
     <link rel="stylesheet" href="./assets/css/about-swiper.css">
     <link rel="stylesheet" href="./assets/css/wp-school-competition.css" />
     <link rel="stylesheet" href="./assets/css/photo-gallery.css" />
+    <link rel="stylesheet" href="./assets/css/wp-aggregator.css" />
     <link rel="stylesheet" href="./assets/css/footer.css">
   </head>
