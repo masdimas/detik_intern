@@ -8,38 +8,20 @@
                             <img class="about-icon" src="./src/image/home/form/about-icon.png" alt="about-icon">
                         </h1>
                         <div class="title text-center m-2">
-                            <span class="">CREARTIVE LPS 2023</span>
+                            <span class="">TENTANG FESTIVAL CREARTIVE LPS 2023</span>
                         </div>
                         <div class="konten">
-                            <p>CREARTIVE LPS 2023 adalah festival kreatif yang diselenggarakan oleh Lembaga Penjamin Simpanan (LPS). Festival ini mengundang masyarakat Indonesia dari berbagai kalangan untuk mengungkapkan ide kreatif mereka mengenai literasi keuangan melalui kompetisi video pendek dan poster.</p>
-                            <p>Dengan hashtag <b>#LPSBangunGenerasiCreArtive</b> , LPS berkomitmen untuk menjadi wadah aman yang mendukung kreativitas positif, mengajak semua orang untuk aktif berpartisipasi dalam meningkatkan pemahaman tentang pengelolaan keuangan yang baik.</p>
+                            <p>FESTIVAL CREARTIVE LPS 2023 merupakan ajang kompetisi video pendek dan poster iklan layanan masyarakat yang ditujukan bagi insan kreatif Indonesia. Kegiatan ini secara rutin diselenggarakan oleh Lembaga Penjamin Simpanan (LPS) dan telah memasuki tahun kedua. Di tahun ini, LPS menambahkan satu kategori kompetisi yaitu kompetisi poster iklan layanan masyarakat. </p>
+                            <p>Mengusung tema <b>&quot;Bangun Budaya Menabung, Wujudkan Finansial yang Sehat&quot;</b>, LPS mengajak seluruh lapisan masyarakat untuk berkontribusi dan memberikan ide kreatif sekaligus mengedukasi masyarakat mengenai manfaat <b>menabung di bank</b>. Melalui tagline #LPSBangunGenerasiCreArtive, LPS berkomitmen untuk mendukung ide-ide kreatif dari generasi muda Indonesia untuk turut aktif berpartisipasi dalam meningkatkan pemahaman masyarakat mengenai peran dan fungsi LPS.</p>
+                            <p>
+                            Sekilas mengenai LPS:<br>
+                            LPS merupakan lembaga yang memiliki fungsi untuk menjamin simpanan nasabah di bank dan turut aktif dalam menjaga stabilitas sistem perbankan Indonesia.
+                            </p>
+                            <p class="text-center cta-lps">
+                                Website: <a href="https://www.lps.go.id/" target="_blank"> lps.go.id</a>
+                            </p>
                         </div>
                     </div>
-                    <!-- <div class="snk">
-                        <div class="title text-center m-2">
-                            <span>Syarat & Ketentuan</span>
-                        </div>
-                        <div class="konten">
-                            <p>
-                            <ol>
-                                <li>Buat karya video pendek atau poster iklan layanan masyarakat sesuai dengan tema yang sudah ditentukan.</li>
-                                <li>Narasi video atau poster iklan layanan masyarakat dapat berupa himbauan, ajakan, testimoni, tutorial kepada masyarakat terkait tema.</li>
-                                <li>Karya video dan poster iklan layanan masyarakat tidak mengandung SARA dan tidak melanggar hukum/aturan yang berlaku.</li>
-                                <li>Karya video atau poster iklan layanan masyarakat yang di submit merupakan karya asli pribadi/kelompok dan peserta wajib bertanggung jawab penuh terhadap karya tersebut.</li>
-                                <li>Musik/suara latar karya video atau segala elemen dalam poster tidak melanggar ketentuan terkait Hak Cipta.</li>
-                            </ol>
-
-                            <p>Syarat ketentuan selengkapnya <a href="snk-view.php">klik di sini</a> </p>
-
-                            </p>
-
-                            <div>
-                                <img src="./src/image/home/form/hadiah.png" alt="">
-                            </div>
-
-
-                        </div>
-                    </div> -->
                 </div>
             </div>
             <div class="col-12 col-sm-12 col-md-6 fill-wrap" id="form-section">
