@@ -9,3 +9,48 @@ body {
 #school-content {
   margin-top: 180px;
 }
+#school-content .section-container .wrap-content .left-side .destination {
+  height: 800px;
+}
+#school-content .section-container .wrap-content .left-side .destination .latarkota {
+  position: relative;
+}
+#school-content .section-container .wrap-content .left-side .destination .latarkota img {
+  border-radius: 20px;
+}
+#school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc {
+  position: absolute;
+  top: 140px;
+}
+#school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc .logo-wrap img {
+  max-width: 267px;
+}
+#school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc .about-destination {
+  margin-top: 80px;
+  background: #B4DBF5;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+#school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc .about-destination .title {
+  color: #5180A2;
+  height: 174px;
+  padding-top: 10px;
+}
+#school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc .about-destination .title h4 {
+  font-size: 20px;
+  font-family: "gill-sans-1000", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc .about-destination .title .captions {
+  background: #fff;
+  margin: 10px;
+  border-radius: 8px;
+}
+#school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc .about-destination .title .captions p {
+  font-size: 12px;
+  line-height: normal;
+  padding: 10px;
+}
+#school-content .section-container .wrap-content .left-side .destination .wrap-kategori .kategori {
+  font-size: 14px;
+}
