@@ -22,10 +22,10 @@
           <div class="collapse navbar-collapse justify-content-lg-between d-lg-block flex-column flex-lg-row justify-content-center" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-3 gap-0 w-sm-100 w-lg-auto">
               <li class="nav-item">
-                <a class="nav-link px-3 py-lg-2 py-3 w-100" href="#">Home</a>
+                <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-3 py-lg-2 py-3 w-100" href="#">School Competition</a>
+                <a class="nav-link px-3 py-lg-2 py-3 w-100 wp-school-competition" href="#wp-school-competition">School Competition</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle px-3 py-lg-2 py-3 w-100" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,7 +44,7 @@
                 <a class="nav-link px-3 py-lg-2 py-3 w-100" href="#">Content Creation</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-3 py-lg-2 py-3 w-100" href="#">News</a>
+                <a class="nav-link px-3 py-lg-2 py-3 w-100 aggregator" href="#aggregator">News</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle px-3 py-lg-2 py-3 w-100" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -63,10 +63,10 @@
                           <img src='./assets/images/navbar/auth-icon.svg' alt='Account' />
                         </a>
                         <ul class='dropdown-menu p-2 account-desc ' aria-labelledby='navbarDropdown'>
-                          <li class='d-flex align-items-center'><a class='dropdown-item account-name' href='#'>I Gusti Bagus Ngurah</a> <button class='btn logout-button auth-button'>Logout</button></li>              
+                          <li class='d-flex align-items-center'><a class='dropdown-item account-name' href='#'>I Gusti Bagus Ngurah</a> <button class='btn logout-button auth-button' id='logout-button'>Logout</button></li>              
                         </ul>";
                 } elseif ($_GET["login"] == "0") {
-                  echo "<button class='btn login-button auth-button'>Login</button>";
+                  echo "<button class='btn login-button auth-button' id='login-button'>Login</button>";
                 } 
               ?>
                 

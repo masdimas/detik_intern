@@ -17,12 +17,21 @@
   position: relative;
   width: 100%;
   height: 180px;
+  overflow: hidden;
+  border-radius: 20px;
 }
 #aggregator .aggregator-card .img-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 20px;
+  transition: all 0.2s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+#aggregator .aggregator-card:hover .img-container img {
+  transform: scale(1.2);
+}
+#aggregator .aggregator-card:hover {
+  cursor: pointer;
 }
 
 #aggregator .aggregator-card h4 {
@@ -33,6 +42,10 @@
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  transition: color 0.2s ease-out;
+}
+#aggregator .aggregator-card:hover h4 {
+  color: #274d6e;
 }
 
 #aggregator .aggregator-card-content span {
