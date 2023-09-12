@@ -22,6 +22,10 @@
   align-items: center; /* Center the content vertically */
 }
 
+.sc-cities-container::-webkit-scrollbar {
+  display: none;
+}
+
 .sc-city-image {
   max-width: 100%; /* Ensure images do not exceed the container width */
   height: auto; /* Maintain the aspect ratio of the images */

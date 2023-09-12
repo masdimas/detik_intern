@@ -63,12 +63,14 @@
 .dropdown-menu[data-bs-popper] {
   top: 200%;
   background-color: rgb(255, 255, 255, 0.3);
+  backdrop-filter: blur(24px);
   border-radius: 20px;
   border: solid 1px #d1d5db;
 }
 .auth-nav .dropdown-menu[data-bs-popper] {
   left: -150px;
   background-color: rgb(255, 255, 255, 0.3);
+  backdrop-filter: blur(24px);
   border-radius: 20px;
   border: solid 1px #d1d5db;
   top: 125%;
