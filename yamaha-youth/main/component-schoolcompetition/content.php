@@ -6,7 +6,7 @@
                     <div class="left-side">
                         <div class="destination ">
                             <div class="latarkota">
-                                <img class="img-fluid" src="./assets/images/school-competition/Background Kota.png" alt="">
+                                <img class="" src="./assets/images/school-competition/Background Kota.png" alt="">
 
                                 <div class="wrap-desc mx-auto d-block">
                                     <div class="logo-wrap">

@@ -14,19 +14,25 @@ body {
 }
 #school-content .section-container .wrap-content .left-side .destination .latarkota {
   position: relative;
+  height: 180px;
 }
 #school-content .section-container .wrap-content .left-side .destination .latarkota img {
   border-radius: 20px;
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
 }
 #school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc {
   position: absolute;
-  top: 140px;
+  top: 110px;
 }
 #school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc .logo-wrap img {
   max-width: 267px;
+  height: unset;
+  object-fit: unset;
 }
 #school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc .about-destination {
-  margin-top: 80px;
+  margin-top: 30px;
   background: #B4DBF5;
   margin-left: 10px;
   margin-right: 10px;
@@ -34,8 +40,9 @@ body {
 }
 #school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc .about-destination .title {
   color: #5180A2;
-  height: 174px;
+  height: 100%;
   padding-top: 10px;
+  padding-bottom: 2px;
 }
 #school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc .about-destination .title h4 {
   font-size: 20px;
