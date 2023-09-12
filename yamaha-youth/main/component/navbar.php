@@ -57,14 +57,20 @@
               </li>
             </ul>
             <li class="nav-item dropdown auth-nav">
-                <a class="nav-link dropdown-toggle px-3 py-2 d-none d-lg-block" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="./assets/images/navbar/auth-icon.svg" alt="Account" />
-                </a>
-                <ul class="dropdown-menu p-2 account-desc " aria-labelledby="navbarDropdown">
-                  <li class="d-flex align-items-center"><a class="dropdown-item account-name" href="#">I Gusti Bagus Ngurah</a> <button class="btn logout-button auth-button">Logout</button></li>              
-                </ul>
+              <?php 
+                if ($_GET["login"] == "1") {
+                  echo "<a class='nav-link dropdown-toggle px-3 py-2 d-none d-lg-block' href='#' id='navbarDropdown' role='button' data-bs-toggle='dropdown' aria-expanded'false'>
+                          <img src='./assets/images/navbar/auth-icon.svg' alt='Account' />
+                        </a>
+                        <ul class='dropdown-menu p-2 account-desc ' aria-labelledby='navbarDropdown'>
+                          <li class='d-flex align-items-center'><a class='dropdown-item account-name' href='#'>I Gusti Bagus Ngurah</a> <button class='btn logout-button auth-button'>Logout</button></li>              
+                        </ul>";
+                } elseif ($_GET["login"] == "0") {
+                  echo "<button class='btn login-button auth-button'>Login</button>";
+                } 
+              ?>
+                
             </li>
-            <!-- <button class="btn login-button auth-button">Login</button> -->
           </div>
         </div>
       </nav>
