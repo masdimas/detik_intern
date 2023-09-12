@@ -1,36 +1,51 @@
-#sidebarWrap {
-  height: auto;
-  width: 210px;
-  float: right;
-  position: relative;
-  box-shadow: none;
-  border: none;
-  margin: 0;
-  padding: 0;
-}
+#school-content {
+  margin-top: 120px;
+  .section-container {
+    .wrap-content{
+      .left-side{
+        .destination{
+          .latarkota{
+            img{
 
-#content {
-  width: 568px;
-  height: 800px;
-}
+            }
+          }
+          .about-destination{
+            .title{
+              h4{
 
-#footer {
-  clear: both;
-  margin: 10px 0;
-}
+              }
+              .captions{
+                p{
 
-#sidebar {
-  width: 200px;
-  height: 300px;
-  position: absolute;
-}
+                }
+              }
+            }
+          }
 
-#header {
-  height: 80px;
-  margin-bottom: 10px;
-}
+          .share{
 
-#sidebar.fixed {
-  position: fixed;
-  top: 0;
+          }
+
+          .wrap-kategori{
+            .kategori{
+
+            }
+          }
+        }
+      }
+
+      .content{
+        .wrap{
+          .title{
+
+          }
+          .slider-content-1{
+            h4{
+
+            }
+          }
+        }
+      }
+    }
+  }
 }
