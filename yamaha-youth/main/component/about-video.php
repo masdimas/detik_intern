@@ -1,7 +1,6 @@
-<!-- About Video -->
 <section id="about" class="py-5 px-4 cream-bg">
       <div class="section-container container about-video-container pe-md-3">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center align-items-start">
           <div class="col-12 col-lg-8 mb-lg-0 mb-4 p-lg-5 ps-lg-0 pt-lg-0 p-0">
             <div class="video-container-ratio">
               <iframe
@@ -38,11 +37,38 @@
               </div>
             </div>
             <div class="d-flex justify-content-center">
-              <?php 
-                include "./main/component/social-media-share.php";
-              ?>
+              <div
+                class="social-media-share d-flex rounded-pill col-12 mt-4"
+                id="social-media-share"
+              >
+                <span>Share</span>
+                <div
+                  class="share-facebook sosmed-share-logo rounded-pill"
+                ></div>
+                <div class="share-twitter sosmed-share-logo rounded-pill"></div>
+                <div
+                  class="share-telegram sosmed-share-logo rounded-pill"
+                ></div>
+                <div
+                  class="share-whatsapp sosmed-share-logo rounded-pill"
+                ></div>
+
+                <div
+                  id="copy-link"
+                  data-bs-trigger="click  "
+                  data-bs-placement="bottom"
+                  data-bs-animation="true"
+                  data-bs-toggle="tooltip"
+                  title="Tautan Disalin"
+                >
+                  <img
+                    src="./assets/images/social-media-share/copylink.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+</section>
