@@ -77,18 +77,18 @@ body {
 
               .share {}
 
-                .wrap-kategori {
-                  .kategori {
-                    font-size: 14px;
-                    font-weight: 500; 
-                    background: #B4DBF5;
-                    border-radius: 8px;
-                    text-transform: uppercase;
-                    color: #5180A2; 
-                    padding: 10px 10px;
-                    margin: 10px 0;
-                  }
+              .wrap-kategori {
+                .kategori {
+                  font-size: 14px;
+                  font-weight: 500;
+                  background: #B4DBF5;
+                  border-radius: 8px;
+                  text-transform: uppercase;
+                  color: #5180A2;
+                  padding: 10px 10px;
+                  margin: 10px 0;
                 }
+              }
             }
           }
 
@@ -102,14 +102,32 @@ body {
         }
       }
 
-
-
       .content {
         .wrap {
           .title {}
 
           .slider-content-1 {
-            h4 {}
+            .swiper {
+              border-radius: 8px;
+
+              .swiper-wrapper {
+                height: 361px;
+
+                .swiper-slide {
+                  img {
+                    width: 100%;
+                    object-fit: cover;
+                    height: auto;
+                  }
+                }
+              }
+
+              .swiper-button-next {}
+
+              .swiper-button-prev {}
+
+              .swiper-pagination {}
+            }
           }
         }
       }

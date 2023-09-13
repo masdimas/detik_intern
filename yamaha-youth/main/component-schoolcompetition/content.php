@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-8">
-                    <div class="content">
+                    <div class="content" id="content-fill">
                         <?php include "content-fill.php"; ?>
                     </div>
                 </div>
