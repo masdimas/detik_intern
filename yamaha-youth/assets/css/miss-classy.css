@@ -1,0 +1,115 @@
+#miss-classy {
+  background: url(../images/miss-classy/miss-classy-bg.jpg);
+  background-position: top;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  padding-top: 125px;
+  background-color: #fff3e5;
+}
+
+/* Sidebar */
+#miss-classy .sidebar-city-image-canvas {
+  max-width: 360px;
+  max-height: 360px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#miss-classy .sidebar-city-img {
+  object-fit: cover;
+}
+#miss-classy .miss-classy-desc {
+  max-width: 360px;
+  padding: 18px;
+}
+#miss-classy .sidebar-city-desc {
+  position: relative;
+  margin-top: -100px;
+  border-radius: 8px;
+  background-color: #b4dbf5;
+  border: solid 2px #c0e7f5;
+  color: #5180a2;
+}
+#miss-classy .sidebar-city-desc h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+#miss-classy .sidebar-city-desc .paragraph {
+  background-color: #dff2ff;
+  line-height: 1.2rem;
+}
+#miss-classy .accordion-button {
+  background-color: #b4dbf5;
+  color: #5180a2;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+}
+#miss-classy .accordion-body {
+  background-color: #b4dbf5;
+  padding: 1rem 1rem;
+}
+#miss-classy .accordion-body .list-container {
+  background-color: #dff2ff;
+  padding: 0.75rem;
+  border-radius: 8px;
+}
+#miss-classy .accordion-body ol {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.2rem;
+  color: #5180a2;
+  list-style: decimal;
+  padding-left: 1.25rem;
+}
+
+/* Sidebar */
+
+/* Miss-Classy Vote */
+#miss-classy #pills-tab {
+  background-color: #f0d6b7;
+  max-width: 340px;
+  width: 100%;
+  border-radius: 8px;
+}
+#miss-classy #pills-tab button {
+  font-size: 14px;
+  padding: 12px 20px;
+  width: 100%;
+}
+
+#miss-classy .vote-miss-classy-card {
+  max-width: 280px;
+  background-color: #b4dbf5;
+  padding: 4px;
+  border-radius: 20px;
+}
+
+#miss-classy .miss-classy-img-container {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+#miss-classy .miss-classy-img-container img {
+  object-fit: cover;
+}
+#miss-classy .vote-miss-classy-card h4 {
+  color: #5180a2;
+  font-size: 14px;
+  font-weight: 600;
+}
+#miss-classy .vote-miss-classy-card span {
+  color: #5180a2;
+  font-size: 10px;
+  font-weight: 400;
+}
+#miss-classy .vote-button {
+  background-color: #f0952b;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  width: 100%;
+}

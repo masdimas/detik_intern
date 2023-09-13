@@ -34,5 +34,6 @@
     <link rel="stylesheet" href="./assets/css/photo-gallery.css" />
     <link rel="stylesheet" href="./assets/css/wp-aggregator.css" />
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/miss-classy.css">
     <link rel="stylesheet" href="./src/css/school.css">
   </head>

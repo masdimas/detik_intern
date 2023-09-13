@@ -32,11 +32,11 @@
                 Miss Classy Contest
                 </a>
                 <ul class="dropdown-menu p-2" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Bandung</a></li>
-                  <li><a class="dropdown-item" href="#">Makassar</a></li>
-                  <li><a class="dropdown-item" href="#">Medan</a></li>
-                  <li><a class="dropdown-item" href="#">Denpasar</a></li>
-                  <li><a class="dropdown-item" href="#">Jakarta</a></li>
+                  <li><a class="dropdown-item" href="miss-classy.php">Bandung</a></li>
+                  <li><a class="dropdown-item" href="miss-classy.php">Makassar</a></li>
+                  <li><a class="dropdown-item" href="miss-classy.php">Medan</a></li>
+                  <li><a class="dropdown-item" href="miss-classy.php">Denpasar</a></li>
+                  <li><a class="dropdown-item" href="miss-classy.php">Jakarta</a></li>
               
                 </ul>
               </li>
