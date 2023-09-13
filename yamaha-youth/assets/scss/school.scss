@@ -104,7 +104,13 @@ body {
 
       .content {
         .wrap {
-          .title {}
+          .title {
+            background: #5180A2; 
+            color: #FFF; 
+            padding: 10px 10px;
+            margin: 10px 0;
+            border-radius: 8px;
+          }
 
           .slider-content-1 {
             .swiper {
@@ -126,7 +132,10 @@ body {
 
               .swiper-button-prev {}
 
-              .swiper-pagination {}
+            }
+            .swiper-pagination {
+              position: initial;
+              margin: 10px 0 30px 0;
             }
           }
         }
