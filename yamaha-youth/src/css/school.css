@@ -1,3 +1,7 @@
+html {
+  scroll-padding-top: 200px;
+}
+
 body {
   height: 100vh;
   background-image: url("../../assets/images/school-competition/bg-school.jpg");
@@ -19,6 +23,7 @@ body {
 #school-content .section-container .wrap-content .left-side .destination {
   position: absolute;
   height: 80vh;
+  width: 330px;
 }
 #school-content .section-container .wrap-content .left-side .destination .wrap-destination {
   height: 100%;
@@ -50,6 +55,7 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 8px;
+  padding: 12px;
 }
 #school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .about-destination .title {
   color: #5180A2;
@@ -65,13 +71,18 @@ body {
   background: #fff;
   margin: 10px;
   border-radius: 8px;
+  margin: 10px 0;
 }
 #school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .about-destination .title .captions p {
   font-size: 12px;
   line-height: normal;
   padding: 10px;
 }
-#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .wrap-kategori .kategori {
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .wrap-kategori a {
+  text-decoration: none;
+  cursor: pointer;
+}
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .wrap-kategori a .kategori {
   font-size: 14px;
   font-weight: 500;
   background: #B4DBF5;

@@ -29,30 +29,54 @@
 
                                         </div>
                                         <div class="wrap-kategori">
-                                            <div class="kategori">
-                                                <span>🖼️ Best Moments</span>
-                                            </div>
-                                            <div class="kategori">
-                                                <span>👑 Miss Classy</span>
-                                            </div>
-                                            <div class="kategori">
-                                                <span>🧥 Outfit Of The Day</span>
-                                            </div>
-                                            <div class="kategori">
-                                                <span>⚽ Futsal</span>
-                                            </div>
-                                            <div class="kategori">
-                                                <span>🏀 Basketball</span>
-                                            </div>
-                                            <div class="kategori">
-                                                <span>📣 Supporter</span>
-                                            </div>
-                                            <div class="kategori">
-                                                <span>💃🏻 Cheersleader / Modern Dance</span>
-                                            </div>
-                                            <div class="kategori">
-                                                <span>🎥 Content Creation challenge</span>
-                                            </div>
+                                            <a href="#best-moments">
+                                                <div class="kategori">
+                                                    <span>🖼️ Best Moments</span>
+                                                </div>
+                                            </a>
+
+                                            <a href="#miss-classy">
+                                                <div class="kategori">
+                                                    <span>👑 Miss Classy</span>
+                                                </div>
+                                            </a>
+
+                                            <a href="#ootd">
+                                                <div class="kategori">
+                                                    <span>🧥 Outfit Of The Day</span>
+                                                </div>
+                                            </a>
+
+                                            <a href="#futsal">
+                                                <div class="kategori">
+                                                    <span>⚽ Futsal</span>
+                                                </div>
+                                            </a>
+
+                                            <a href="#basketball">
+                                                <div class="kategori">
+                                                    <span>🏀 Basketball</span>
+                                                </div>
+                                            </a>
+
+                                            <a href="#supporter">
+                                                <div class="kategori">
+                                                    <span>📣 Supporter</span>
+                                                </div>
+                                            </a>
+
+                                            <a href="#cheersleader">
+                                                <div class="kategori">
+                                                    <span>💃🏻 Cheersleader / Modern Dance</span>
+                                                </div>
+                                            </a>
+
+                                            <a href="#ccc">
+                                                <div class="kategori">
+                                                    <span>🎥 Content Creation challenge</span>
+                                                </div>
+                                            </a>
+
                                         </div>
                                     </div>
                                 </div>
