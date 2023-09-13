@@ -11,7 +11,7 @@ body {
 
   .section-container {
     .wrap-content {
-      height: 1800px;
+      height: auto;
 
       .left-side {
         position: relative;
@@ -105,16 +105,18 @@ body {
       .content {
         .wrap {
           .title {
-            background: #5180A2; 
-            color: #FFF; 
+            background: #5180A2;
+            color: #FFF;
             padding: 10px 10px;
             margin: 10px 0;
             border-radius: 8px;
+            text-transform: uppercase;
           }
 
           .slider-content-1 {
             .swiper {
               border-radius: 8px;
+              height: 322px;
 
               .swiper-wrapper {
                 height: 361px;
@@ -133,9 +135,61 @@ body {
               .swiper-button-prev {}
 
             }
+
             .swiper-pagination {
               position: initial;
               margin: 10px 0 30px 0;
+              height: 20px;
+              text-align: center;
+            }
+
+            .swiper-pagination-2 {
+              position: initial;
+              margin: 10px 0 30px 0;
+              height: 20px;
+              text-align: center;
+            }
+
+            .swiper-pagination-3 {
+              position: initial;
+              margin: 10px 0 30px 0;
+              height: 20px;
+              text-align: center;
+            }
+
+            .swiper-pagination-4 {
+              position: initial;
+              margin: 10px 0 30px 0;
+              height: 20px;
+              text-align: center;
+            }
+
+            .swiper-pagination-5 {
+              position: initial;
+              margin: 10px 0 30px 0;
+              height: 20px;
+              text-align: center;
+            }
+
+            .swiper-pagination-6 {
+              position: initial;
+              margin: 10px 0 30px 0;
+              height: 20px;
+              text-align: center;
+            }
+
+            .swiper-pagination-7 {
+              position: initial;
+              margin: 10px 0 30px 0;
+              height: 20px;
+              text-align: center;
+            }
+
+            .swiper-pagination-8 {
+              position: initial;
+              margin: 10px 0 30px 0;
+              height: 20px;
+              text-align: center;
             }
           }
         }

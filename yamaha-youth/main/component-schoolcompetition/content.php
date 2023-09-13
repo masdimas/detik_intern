@@ -37,11 +37,24 @@
                                         <div class="kategori">
                                             <span>Outfit Of The Day</span>
                                         </div>
+                                        <div class="kategori">
+                                            <span>Futsal</span>
+                                        </div>
+                                        <div class="kategori">
+                                            <span>Basketball</span>
+                                        </div>
+                                        <div class="kategori">
+                                            <span>Supporter</span>
+                                        </div>
+                                        <div class="kategori">
+                                            <span>Cheersleader / Modern Dance</span>
+                                        </div>
+                                        <div class="kategori">
+                                            <span>Content Creation challenge</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
