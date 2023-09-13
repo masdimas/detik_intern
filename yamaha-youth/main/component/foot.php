@@ -20,7 +20,7 @@
   <script>
     $(function() {
     var top = $('#destination').offset().top - parseFloat($('#destination').css('marginTop').replace(/auto/, 0));
-    var footTop = $('#bottom').offset().top - parseFloat($('#bottom').css('marginTop').replace(/auto/, 0));
+    var footTop = $('#footer').offset().top - parseFloat($('#footer').css('marginTop').replace(/auto/, 0));
 
     var maxY = footTop - $('#destination').outerHeight();
 

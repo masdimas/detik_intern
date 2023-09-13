@@ -30,28 +30,28 @@
                                         </div>
                                         <div class="wrap-kategori">
                                             <div class="kategori">
-                                                <span>Best Moments</span>
+                                                <span>🖼️ Best Moments</span>
                                             </div>
                                             <div class="kategori">
-                                                <span>Miss Classy</span>
+                                                <span>👑 Miss Classy</span>
                                             </div>
                                             <div class="kategori">
-                                                <span>Outfit Of The Day</span>
+                                                <span>🧥 Outfit Of The Day</span>
                                             </div>
                                             <div class="kategori">
-                                                <span>Futsal</span>
+                                                <span>⚽ Futsal</span>
                                             </div>
                                             <div class="kategori">
-                                                <span>Basketball</span>
+                                                <span>🏀 Basketball</span>
                                             </div>
                                             <div class="kategori">
-                                                <span>Supporter</span>
+                                                <span>📣 Supporter</span>
                                             </div>
                                             <div class="kategori">
-                                                <span>Cheersleader / Modern Dance</span>
+                                                <span>💃🏻 Cheersleader / Modern Dance</span>
                                             </div>
                                             <div class="kategori">
-                                                <span>Content Creation challenge</span>
+                                                <span>🎥 Content Creation challenge</span>
                                             </div>
                                         </div>
                                     </div>
