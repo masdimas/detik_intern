@@ -47,12 +47,7 @@
                 </div>
                 <div class="col-12 col-md-8">
                     <div class="content">
-                        <div class="wrap">
-                            <div class="title">Best Moments</div>
-                            <div class="slider-content-1">
-                                <h4>ini slider 1</h4>
-                            </div>
-                        </div>
+                        <?php include "content-fill.php"; ?>
                     </div>
                 </div>
             </div>
