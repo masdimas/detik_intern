@@ -10,62 +10,67 @@ body {
   margin-top: 120px;
 }
 #school-content .section-container .wrap-content {
-  height: 1200px;
+  height: auto;
 }
 #school-content .section-container .wrap-content .left-side {
   position: relative;
 }
 #school-content .section-container .wrap-content .left-side .destination {
   position: absolute;
-  height: 800px;
+  height: 80vh;
 }
-#school-content .section-container .wrap-content .left-side .destination .latarkota {
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota {
   position: relative;
   height: 180px;
 }
-#school-content .section-container .wrap-content .left-side .destination .latarkota img {
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota img {
   border-radius: 20px;
   width: 100%;
   object-fit: cover;
   height: 300px;
 }
-#school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc {
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc {
   position: absolute;
   top: 110px;
 }
-#school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc .logo-wrap img {
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .logo-wrap img {
   max-width: 267px;
   height: unset;
   object-fit: unset;
 }
-#school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc .about-destination {
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .about-destination {
   margin-top: 30px;
   background: #B4DBF5;
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 8px;
 }
-#school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc .about-destination .title {
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .about-destination .title {
   color: #5180A2;
   height: 100%;
   padding-top: 10px;
   padding-bottom: 2px;
 }
-#school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc .about-destination .title h4 {
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .about-destination .title h4 {
   font-size: 20px;
   font-family: "gill-sans-1000", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-#school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc .about-destination .title .captions {
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .about-destination .title .captions {
   background: #fff;
   margin: 10px;
   border-radius: 8px;
 }
-#school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc .about-destination .title .captions p {
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .about-destination .title .captions p {
   font-size: 12px;
   line-height: normal;
   padding: 10px;
 }
-#school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc .wrap-kategori .kategori {
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .wrap-kategori .kategori {
   font-size: 14px;
   font-weight: 500;
   background: #B4DBF5;
@@ -79,4 +84,72 @@ body {
   position: fixed;
   top: 0;
   margin-top: 120px;
+}
+#school-content .section-container .wrap-content .content .wrap .title {
+  background: #5180A2;
+  color: #FFF;
+  padding: 10px 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper {
+  border-radius: 8px;
+  height: 322px;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper .swiper-wrapper {
+  height: 361px;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination {
+  position: initial;
+  margin: 10px 0 30px 0;
+  height: 20px;
+  text-align: center;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-2 {
+  position: initial;
+  margin: 10px 0 30px 0;
+  height: 20px;
+  text-align: center;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-3 {
+  position: initial;
+  margin: 10px 0 30px 0;
+  height: 20px;
+  text-align: center;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-4 {
+  position: initial;
+  margin: 10px 0 30px 0;
+  height: 20px;
+  text-align: center;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-5 {
+  position: initial;
+  margin: 10px 0 30px 0;
+  height: 20px;
+  text-align: center;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-6 {
+  position: initial;
+  margin: 10px 0 30px 0;
+  height: 20px;
+  text-align: center;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-7 {
+  position: initial;
+  margin: 10px 0 30px 0;
+  height: 20px;
+  text-align: center;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-8 {
+  position: initial;
+  margin: 10px 0 30px 0;
+  height: 20px;
+  text-align: center;
 }
