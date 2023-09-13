@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="./assets/css/navbar.css">
     <link rel="stylesheet" href="./assets/css/hero.css">
     <link rel="stylesheet" href="./assets/css/about-video.css">
+    <link rel="stylesheet" href="./assets/css/social-media-share.css" />
     <link rel="stylesheet" href="./assets/css/about-swiper.css">
     <link rel="stylesheet" href="./assets/css/wp-school-competition.css" />
     <link rel="stylesheet" href="./assets/css/photo-gallery.css" />

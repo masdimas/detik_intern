@@ -1,0 +1,26 @@
+<div
+    class="social-media-share d-flex rounded-pill col-12 mt-4"
+    id="social-media-share"
+    >
+    <span>Share</span>
+    <img
+        src="./assets/images/social-media-share/facebook.svg"
+        alt=""
+    />
+    <img
+        src="./assets/images/social-media-share/twitter.svg"
+        alt=""
+    />
+    <img
+        src="./assets/images/social-media-share/whatsapp.svg"
+        alt=""
+    />
+    <img
+        src="./assets/images/social-media-share/telegram.svg"
+        alt=""
+    />
+    <img
+        src="./assets/images/social-media-share/copylink.svg"
+        alt=""
+    />
+</div>

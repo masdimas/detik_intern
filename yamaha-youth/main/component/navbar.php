@@ -59,7 +59,7 @@
             <li class="nav-item dropdown auth-nav">
               <?php 
                 if ($_GET["login"] == "1") {
-                  echo "<a class='nav-link dropdown-toggle px-3 py-2 d-none d-lg-block' href='#' id='navbarDropdown' role='button' data-bs-toggle='dropdown' aria-expanded'false'>
+                  echo "<a class='nav-link dropdown-toggle px-3 py-2 d-none d-lg-block' href='#' id='navbarDropdown' role='button' data-bs-toggle='dropdown' aria-expanded='false'>
                           <img src='./assets/images/navbar/auth-icon.svg' alt='Account' />
                         </a>
                         <ul class='dropdown-menu p-2 account-desc ' aria-labelledby='navbarDropdown'>

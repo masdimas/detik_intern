@@ -39,6 +39,10 @@ iframe {
   line-height: 18.15px;
 }
 
+#copy-link {
+  cursor: pointer;
+}
+
 @media (max-width: 576px) {
   .about-video-container .row {
     --bs-gutter-x: 0;

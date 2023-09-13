@@ -1,0 +1,59 @@
+#social-media-share {
+  background-color: #dff2ff;
+  width: fit-content;
+  padding: 0.5rem 0.4rem 0.5rem 1rem;
+  gap: 8px;
+}
+#social-media-share span {
+  line-height: 1.4;
+  color: #274d6e;
+}
+#social-media-share .sosmed-share-logo {
+  width: 24px;
+  height: 24px;
+}
+#social-media-share .share-facebook {
+  background-image: url("../images/social-media-share/facebook.svg");
+  transition: 0.2s ease;
+}
+#social-media-share .share-twitter {
+  background-image: url("../images/social-media-share/twitter.svg");
+  transition: 0.2s ease;
+}
+#social-media-share .share-telegram {
+  background-image: url("../images/social-media-share/telegram.svg");
+  transition: 0.2s ease;
+}
+#social-media-share .share-whatsapp {
+  background-image: url("../images/social-media-share/whatsapp.svg");
+  transition: 0.2s ease;
+}
+
+#social-media-share .share-facebook:hover {
+  background-image: url("../images/social-media-share/facebook-hover.svg");
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+}
+#social-media-share .share-twitter:hover {
+  background-image: url("../images/social-media-share/twitter-hover.svg");
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+}
+#social-media-share .share-telegram:hover {
+  background-image: url("../images/social-media-share/telegram-hover.svg");
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+}
+#social-media-share .share-whatsapp:hover {
+  background-image: url("../images/social-media-share/whatsapp-hover.svg");
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+}
+#social-media-share button {
+  border: none;
+  background-color: transparent;
+}

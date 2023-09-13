@@ -20,5 +20,3 @@ const swiper = new Swiper(".about-swiper", {
     el: ".swiper-scrollbar",
   },
 });
-
-console.log(swiper);
