@@ -65,8 +65,15 @@ body {
   line-height: normal;
   padding: 10px;
 }
-#school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc .about-destination .wrap-kategori .kategori {
+#school-content .section-container .wrap-content .left-side .destination .latarkota .wrap-desc .wrap-kategori .kategori {
   font-size: 14px;
+  font-weight: 500;
+  background: #B4DBF5;
+  border-radius: 8px;
+  text-transform: uppercase;
+  color: #5180A2;
+  padding: 10px 10px;
+  margin: 10px 0;
 }
 #school-content .section-container .wrap-content .left-side #destination.fixed {
   position: fixed;

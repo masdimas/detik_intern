@@ -28,9 +28,15 @@
 
                                     </div>
                                     <div class="wrap-kategori">
-                                        <div class="kategori">Best Moments</div>
-                                        <div class="kategori">Miss Classy</div>
-                                        <div class="kategori">Outfit Of The Day</div>
+                                        <div class="kategori">
+                                            <span>Best Moments</span>
+                                        </div>
+                                        <div class="kategori">
+                                            <span>Miss Classy</span>
+                                        </div>
+                                        <div class="kategori">
+                                            <span>Outfit Of The Day</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
