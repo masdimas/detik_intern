@@ -11,33 +11,32 @@
     var tooltipTriggerList = [].slice.call(
       document.querySelectorAll('[data-bs-toggle="tooltip"]')
     );
-    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
       return new bootstrap.Tooltip(tooltipTriggerEl);
     });
   </script>
 
-    <script>
-        $(function() {
-        var top = $('#sidebar').offset().top - parseFloat($('#sidebar').css('marginTop').replace(/auto/, 0));
-        var footTop = $('#footer').offset().top - parseFloat($('#footer').css('marginTop').replace(/auto/, 0));
+  <script>
+    $(function() {
+      var top = $('#destination').offset().top - parseFloat($('#destination').css('marginTop').replace(/auto/, 0));
+      var footTop = $('#bottom').offset().top - parseFloat($('#bottom').css('marginTop').replace(/auto/, 0));
 
-        var maxY = footTop - $('#sidebar').outerHeight();
+      var maxY = footTop - $('#destination').outerHeight();
 
-        $(window).scroll(function(evt) {
-          var y = $(this).scrollTop();
-          if (y > top) {
-            if (y < maxY) {
-              $('#sidebar').addClass('fixed').removeAttr('style');
-            } else {
-              $('#sidebar').removeClass('fixed').css({
-                position: 'absolute',
-                top: (maxY - top) + 'px'
-              });
-            }
+      $(window).scroll(function(evt) {
+        var y = $(this).scrollTop();
+        if (y > top) {
+          if (y < maxY) {
+            $('#destination').addClass('fixed').removeAttr('style');
           } else {
-            $('#sidebar').removeClass('fixed');
+            $('#destination').removeClass('fixed').css({
+              position: 'absolute',
+              top: (maxY - top) + 'px'
+            });
           }
-        });
+        } else {
+          $('#destination').removeClass('fixed');
+        }
       });
-
-    </script>
+    });
+  </script>

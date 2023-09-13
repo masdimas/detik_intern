@@ -7,9 +7,16 @@ body {
 }
 
 #school-content {
-  margin-top: 180px;
+  margin-top: 120px;
+}
+#school-content .section-container .wrap-content {
+  height: 1200px;
+}
+#school-content .section-container .wrap-content .left-side {
+  position: relative;
 }
 #school-content .section-container .wrap-content .left-side .destination {
+  position: absolute;
   height: 800px;
 }
 #school-content .section-container .wrap-content .left-side .destination .latarkota {
@@ -60,4 +67,9 @@ body {
 }
 #school-content .section-container .wrap-content .left-side .destination .wrap-kategori .kategori {
   font-size: 14px;
+}
+#school-content .section-container .wrap-content .left-side #destination.fixed {
+  position: fixed;
+  top: 0;
+  margin-top: 120px;
 }

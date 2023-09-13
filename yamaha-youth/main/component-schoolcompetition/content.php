@@ -3,8 +3,8 @@
         <div class="wrap-content">
             <div class="row justify-content-center g-2">
                 <div class="col-12 col-md-4">
-                    <div class="left-side">
-                        <div class="destination ">
+                    <div class="left-side" id="left-side">
+                        <div class="destination" id="destination">
                             <div class="latarkota">
                                 <img class="" src="./assets/images/school-competition/Background Kota.png" alt="">
 

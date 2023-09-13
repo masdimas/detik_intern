@@ -44,6 +44,6 @@
           </div>
         </div>
         <div class="copyright-line-separator w-100"></div>
-        <p>Copyright @ 2023 detikcom. All right reserved</p>
+        <p id="bottom">Copyright @ 2023 detikcom. All right reserved</p>
       </div>
     </footer>
