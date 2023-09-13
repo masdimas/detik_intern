@@ -12,14 +12,18 @@ body {
   .section-container {
     .wrap-content {
       height: 1200px;
+
       .left-side {
         position: relative;
+
         .destination {
           position: absolute;
           height: 800px;
+
           .latarkota {
             position: relative;
             height: 180px;
+
             img {
               border-radius: 20px;
               width: 100%;
@@ -30,6 +34,7 @@ body {
             .wrap-desc {
               position: absolute;
               top: 110px;
+
               .logo-wrap {
                 img {
                   max-width: 267px;
@@ -37,17 +42,20 @@ body {
                   object-fit: unset;
                 }
               }
+
               .about-destination {
                 margin-top: 30px;
                 background: #B4DBF5;
                 margin-left: 10px;
                 margin-right: 10px;
                 border-radius: 8px;
+
                 .title {
-                  color: #5180A2; 
+                  color: #5180A2;
                   height: 100%;
                   padding-top: 10px;
                   padding-bottom: 2px;
+
                   h4 {
                     font-size: 20px;
                     font-family: "gill-sans-1000", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -57,24 +65,27 @@ body {
                     background: #fff;
                     margin: 10px;
                     border-radius: 8px;
+
                     p {
                       font-size: 12px;
-                      line-height: normal; 
+                      line-height: normal;
                       padding: 10px;
                     }
+                  }
+                }
+
+                .share {}
+
+                .wrap-kategori {
+                  .kategori {
+                    font-size: 14px;
                   }
                 }
               }
             }
           }
 
-          .share {}
 
-          .wrap-kategori {
-            .kategori {
-              font-size: 14px;
-            }
-          }
         }
 
         #destination.fixed {
@@ -84,7 +95,7 @@ body {
         }
       }
 
-      
+
 
       .content {
         .wrap {

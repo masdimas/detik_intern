@@ -23,17 +23,19 @@
                                             </div>
                                         </div>
                                     </div>
+
+                                    <div class="share">
+
+                                    </div>
+                                    <div class="wrap-kategori">
+                                        <div class="kategori">Best Moments</div>
+                                        <div class="kategori">Miss Classy</div>
+                                        <div class="kategori">Outfit Of The Day</div>
+                                    </div>
                                 </div>
                             </div>
 
-                            <!-- <div class="share">
 
-                            </div>
-                            <div class="wrap-kategori">
-                                <div class="kategori">Best Moments</div>
-                                <div class="kategori">Miss Classy</div>
-                                <div class="kategori">Outfit Of The Day</div>
-                            </div> -->
                         </div>
                     </div>
                 </div>
