@@ -1,3 +1,6 @@
+.font-bold{
+  font-family: "montserat-bold";
+}
 #SnK {
   background-image: url("./src/image/home/headline/headline-mobile.png");
   background-position: top;
