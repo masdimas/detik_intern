@@ -40,9 +40,10 @@
               });
             }
           }
-        } else {
+         else {
           $('#destination').removeClass('fixed');
         }
+      }
       });
     });
   </script>
