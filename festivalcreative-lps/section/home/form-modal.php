@@ -1,7 +1,7 @@
 <!-- The Modal -->
 <div id="form-modal">
     <div class="modal" id="myModal">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
 
                 <!-- Modal Header -->
