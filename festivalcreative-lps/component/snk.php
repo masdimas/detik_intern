@@ -176,6 +176,48 @@
           </ol>
         </div>
       </div>
+
+      <div class="bg-white w-100 border rounded mt-5 d-flex flex-column snk-content">
+        <h4>Tema Kompetisi Poster</h4>
+        <div>
+          <p>
+          Tema : <span class="font-bold"><q>Bangun Budaya Menabung, Wujudkan Finansial yang Sehat</q></span>
+          </p>
+          <p>
+          Berikut adalah beberapa contoh tema poster Kompetisi Festival Creartive LPS. Adapun judul lain di luar contoh diperbolehkan.
+          </p>
+          <ol>
+            <li class="mb-2">
+            <q class="font-bold">Bangun Budaya Menabung Untuk Bangun Generasi Sehat</q><br>Praktik menabung dan mengelola uang sejak dini memiliki tujuan yang lebih besar daripada sekadar mengumpulkan dana
+            </li>
+
+            <li class="mb-2">
+            <q class="font-bold">Menabung Untuk Masa Depan yang Cerah</q><br>Dengan membiasakan diri untuk menabung dapat menciptakan keadaan keuangan yang lebih baik dan lebih positif di masa depan
+            </li>
+
+            <li class="mb-2">
+            <q class="font-bold">Masih Jaman Nabung Pake Celengan, Nabung Yuk Di Bank</q><br>Ajakan untuk menabung di bank karena tabungan kita di bank aman dijamin LPS
+            </li>
+
+            <li class="mb-2">
+            <q class="font-bold">Tabungan Sehat, Finansial Sehat</q><br>Memiliki kebiasaan atau budaya menabung sejak ini, dapat menjadikan kondisi finansial kita sehat dan baik.
+            </li>
+            
+            <li class="mb-2">
+            <q class="font-bold">Menabung Itu Juga Investasi Lho</q><br>Investasi bukan berarti tentang menanam saham, bagi investor pemula menabung atau deposito dapat menjadi salah satu pilihan investasi juga
+            </li>
+
+            <li class="mb-2">
+            <q class="font-bold">Langkah Pertama Menuju Kebebasan Finansial</q><br>Menabung secara rutin dan konsisten dapat menjadi langkah awal dalam perjalanan mencapai kebebasan finansial
+            </li>
+            
+            <li class="mb-2">
+            <q class="font-bold">Generasi Menabung Tercipta Dari Generasi Muda</q><br>Ajakan kepada generasi muda untuk membiasakan diri untuk menabung di bank karena aman dijamin LPS. 
+            </li>
+            
+          </ol>
+        </div>
+      </div>
     </div>
   </div>
 </section>
