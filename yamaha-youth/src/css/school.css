@@ -117,7 +117,7 @@ body {
   top: 0;
   margin-top: 120px;
   flex: 0 0 auto;
-  width: 28%;
+  width: 23%;
   display: flex;
   max-width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
@@ -166,52 +166,100 @@ body {
   height: auto;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination {
-  position: initial;
-  margin: 10px 0 30px 0;
+  position: relative;
+  margin: 25px 0 20px 0;
   height: 20px;
   text-align: center;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination .swiper-pagination-bullet {
+  background: #9A0808;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination .swiper-pagination-bullet-active {
+  background: #9A0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-2 {
-  position: initial;
-  margin: 10px 0 30px 0;
+  position: relative;
+  margin: 25px 0 20px 0;
   height: 20px;
   text-align: center;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-2 .swiper-pagination-bullet {
+  background: #9A0808;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-2 .swiper-pagination-bullet-active {
+  background: #9A0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-3 {
-  position: initial;
-  margin: 10px 0 30px 0;
+  position: relative;
+  margin: 25px 0 20px 0;
   height: 20px;
   text-align: center;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-3 .swiper-pagination-bullet {
+  background: #9A0808;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-3 .swiper-pagination-bullet-active {
+  background: #9A0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-4 {
-  position: initial;
-  margin: 10px 0 30px 0;
+  position: relative;
+  margin: 25px 0 20px 0;
   height: 20px;
   text-align: center;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-4 .swiper-pagination-bullet {
+  background: #9A0808;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-4 .swiper-pagination-bullet-active {
+  background: #9A0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-5 {
-  position: initial;
-  margin: 10px 0 30px 0;
+  position: relative;
+  margin: 25px 0 20px 0;
   height: 20px;
   text-align: center;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-5 .swiper-pagination-bullet {
+  background: #9A0808;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-5 .swiper-pagination-bullet-active {
+  background: #9A0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-6 {
-  position: initial;
-  margin: 10px 0 30px 0;
+  position: relative;
+  margin: 25px 0 20px 0;
   height: 20px;
   text-align: center;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-6 .swiper-pagination-bullet {
+  background: #9A0808;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-6 .swiper-pagination-bullet-active {
+  background: #9A0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-7 {
-  position: initial;
-  margin: 10px 0 30px 0;
+  position: relative;
+  margin: 25px 0 20px 0;
   height: 20px;
   text-align: center;
 }
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-7 .swiper-pagination-bullet {
+  background: #9A0808;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-7 .swiper-pagination-bullet-active {
+  background: #9A0808;
+}
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-8 {
-  position: initial;
-  margin: 10px 0 30px 0;
+  position: relative;
+  margin: 25px 0 20px 0;
   height: 20px;
   text-align: center;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-8 .swiper-pagination-bullet {
+  background: #9A0808;
+}
+#school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-8 .swiper-pagination-bullet-active {
+  background: #9A0808;
 }
 
 /* Responsive Breakpoint */
@@ -350,50 +398,50 @@ body {
     height: auto;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-2 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-3 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-4 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-5 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-6 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-7 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-8 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
@@ -533,50 +581,50 @@ body {
     height: auto;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-2 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-3 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-4 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-5 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-6 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-7 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-8 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
@@ -738,50 +786,50 @@ body {
     height: auto;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-2 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-3 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-4 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-5 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-6 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-7 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-8 {
-    position: initial;
-    margin: 10px 0 30px 0;
+    position: relative;
+    margin: 25px 0 20px 0;
     height: 20px;
     text-align: center;
   }

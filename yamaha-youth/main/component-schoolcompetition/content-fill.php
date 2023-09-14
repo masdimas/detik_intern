@@ -160,7 +160,7 @@
 </div>
 
 <div class="wrap">
-    <div class="title" id="ccc">🎥 Content Creation challenge</div>
+    <div class="title" id="best-moments">🎥 Content Creation challenge</div>
     <div class="slider-content-1">
         <div class="swiper school-slider8">
             <div class="swiper-wrapper">

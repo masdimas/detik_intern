@@ -153,7 +153,7 @@ body {
         top: 0;
         margin-top: 120px;
         flex: 0 0 auto;
-        width: 28%;
+        width: 23%;
         display: flex;
         max-width: 100%;
         padding-right: calc(var(--bs-gutter-x) * .5);
@@ -217,67 +217,110 @@ body {
                   }
                 }
               }
-
-              .swiper-button-next {}
-
-              .swiper-button-prev {}
-
             }
 
             .swiper-pagination {
-              position: initial;
-              margin: 10px 0 30px 0;
+              position: relative;
+              margin: 25px 0 20px 0;
               height: 20px;
               text-align: center;
+              .swiper-pagination-bullet{
+                background: #9A0808;
+              }
+              .swiper-pagination-bullet-active{
+                background: #9A0808;
+              }
             }
 
             .swiper-pagination-2 {
-              position: initial;
-              margin: 10px 0 30px 0;
+              position: relative;
+              margin: 25px 0 20px 0;
               height: 20px;
               text-align: center;
+              .swiper-pagination-bullet{
+                background: #9A0808;
+              }
+              .swiper-pagination-bullet-active{
+                background: #9A0808;
+              }
             }
 
             .swiper-pagination-3 {
-              position: initial;
-              margin: 10px 0 30px 0;
+              position: relative;
+              margin: 25px 0 20px 0;
               height: 20px;
               text-align: center;
+              .swiper-pagination-bullet{
+                background: #9A0808;
+              }
+              .swiper-pagination-bullet-active{
+                background: #9A0808;
+              }
             }
 
             .swiper-pagination-4 {
-              position: initial;
-              margin: 10px 0 30px 0;
+              position: relative;
+              margin: 25px 0 20px 0;
               height: 20px;
               text-align: center;
+              .swiper-pagination-bullet{
+                background: #9A0808;
+              }
+              .swiper-pagination-bullet-active{
+                background: #9A0808;
+              }
             }
 
             .swiper-pagination-5 {
-              position: initial;
-              margin: 10px 0 30px 0;
+              position: relative;
+              margin: 25px 0 20px 0;
               height: 20px;
               text-align: center;
+              .swiper-pagination-bullet{
+                background: #9A0808;
+              }
+              .swiper-pagination-bullet-active{
+                background: #9A0808;
+              }
             }
 
             .swiper-pagination-6 {
-              position: initial;
-              margin: 10px 0 30px 0;
+              position: relative;
+              margin: 25px 0 20px 0;
               height: 20px;
               text-align: center;
+              .swiper-pagination-bullet{
+                background: #9A0808;
+              }
+              .swiper-pagination-bullet-active{
+                background: #9A0808;
+              }
             }
 
             .swiper-pagination-7 {
-              position: initial;
-              margin: 10px 0 30px 0;
+              position: relative;
+              margin: 25px 0 20px 0;
               height: 20px;
               text-align: center;
+              .swiper-pagination-bullet{
+                background: #9A0808;
+              }
+              .swiper-pagination-bullet-active{
+                background: #9A0808;
+              }
             }
 
             .swiper-pagination-8 {
-              position: initial;
-              margin: 10px 0 30px 0;
+              position: relative;
+              margin: 25px 0 20px 0;
               height: 20px;
               text-align: center;
+              .swiper-pagination-bullet{
+                background: #9A0808;
+              }
+              .swiper-pagination-bullet-active{
+                background: #9A0808;
+              }
             }
           }
         }
@@ -462,65 +505,60 @@ body {
                     }
                   }
                 }
-  
-                .swiper-button-next {}
-  
-                .swiper-button-prev {}
-  
               }
   
               .swiper-pagination {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-2 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-3 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-4 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-5 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-6 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-7 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-8 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
@@ -706,65 +744,60 @@ body {
                     }
                   }
                 }
-  
-                .swiper-button-next {}
-  
-                .swiper-button-prev {}
-  
               }
   
               .swiper-pagination {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-2 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-3 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-4 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-5 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-6 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-7 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-8 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
@@ -986,65 +1019,60 @@ body {
                     }
                   }
                 }
-  
-                .swiper-button-next {}
-  
-                .swiper-button-prev {}
-  
               }
   
               .swiper-pagination {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-2 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-3 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-4 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-5 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-6 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-7 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
   
               .swiper-pagination-8 {
-                position: initial;
-                margin: 10px 0 30px 0;
+                position: relative;
+                margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }

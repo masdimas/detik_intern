@@ -6,6 +6,7 @@
   <script src="./assets/js/index.js" type="module"></script>
   <script src="./node_modules/aos/dist/aos.js"></script>
   <script src="./assets/js/photo-gallery.js"></script>
+  <script src="./assets/js/school-swiper.js"></script>
   <!-- <script src="./assets/js/sidebar.js"></script> -->
   <script>
     // Initialize tooltips
@@ -17,25 +18,25 @@
     });
   </script>
 
-<script>
-$(document).ready(function () {
-  // Initialize the tooltip
-  $('#copy-link').tooltip();
+  <script>
+    $(document).ready(function() {
+      // Initialize the tooltip
+      $('#copy-link').tooltip();
 
-  // Add a click event to show the tooltip
-  $('#copy-link').on('click', function () {
-    var tooltip = $(this);
+      // Add a click event to show the tooltip
+      $('#copy-link').on('click', function() {
+        var tooltip = $(this);
 
-    // Show the tooltip
-    tooltip.tooltip('show');
+        // Show the tooltip
+        tooltip.tooltip('show');
 
-    // Add a timeout to hide the tooltip after 3 seconds
-    setTimeout(function () {
-      tooltip.tooltip('hide');
-    }, 3000); // 3000 milliseconds (3 seconds)
-  });
-});
-</script>
+        // Add a timeout to hide the tooltip after 3 seconds
+        setTimeout(function() {
+          tooltip.tooltip('hide');
+        }, 3000); // 3000 milliseconds (3 seconds)
+      });
+    });
+  </script>
 
   <script>
     $(function() {
@@ -59,135 +60,20 @@ $(document).ready(function () {
                 top: (maxY - top) + 'px'
               });
             }
+          } else {
+            $('#wrap-kategori').removeClass('fixed');
           }
-         else {
-          $('#wrap-kategori').removeClass('fixed');
         }
-      }
       });
     });
   </script>
 
   <script>
-      $(function() {
-          $("#copy-link").click(function(){
-              setTimeout(function() {
-                $('#element').tooltip('hide')
-          }, 2000)
-          })
-     });
-  </script>
-
-  <script>
-    var swiper = new Swiper(".school-slider1", {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      loop: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-
-    var swiper = new Swiper(".school-slider2", {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      loop: true,
-      pagination: {
-        el: ".swiper-pagination-2",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-
-    var swiper = new Swiper(".school-slider3", {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      loop: true,
-      pagination: {
-        el: ".swiper-pagination-3",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-
-    var swiper = new Swiper(".school-slider4", {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      loop: true,
-      pagination: {
-        el: ".swiper-pagination-4",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-
-    var swiper = new Swiper(".school-slider5", {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      loop: true,
-      pagination: {
-        el: ".swiper-pagination-5",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-
-    var swiper = new Swiper(".school-slider6", {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      loop: true,
-      pagination: {
-        el: ".swiper-pagination-6",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-
-    var swiper = new Swiper(".school-slider7", {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      loop: true,
-      pagination: {
-        el: ".swiper-pagination-7",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-
-    var swiper = new Swiper(".school-slider8", {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      loop: true,
-      pagination: {
-        el: ".swiper-pagination-8",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
+    $(function() {
+      $("#copy-link").click(function() {
+        setTimeout(function() {
+          $('#element').tooltip('hide')
+        }, 2000)
+      })
     });
   </script>
