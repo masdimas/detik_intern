@@ -1,6 +1,6 @@
 <section id="wp-school-competition" class="d-flex justify-content-center">
       <div
-        class="section-container d-flex justify-content-center align-items-center flex-column pb-5 gap-4"
+        class="section-container d-flex justify-content-center align-items-center flex-column pb-5 pt-lg-4 pt-1 gap-4"
       >
         <div
           class="d-flex justify-content-center align-items-center flex-column sc-desc gap-2"
@@ -17,31 +17,50 @@
           </p>
         </div>
         <div class="sc-cities-container mx-auto">
-          <img
-            class="sc-city-image"
-            src="./assets/images/wp-school-competition/sc-cities/bandung.png"
-            alt=""
-          />
-          <img
-            class="sc-city-image"
-            src="./assets/images/wp-school-competition/sc-cities/makassar.png"
-            alt=""
-          />
-          <img
-            class="sc-city-image"
-            src="./assets/images/wp-school-competition/sc-cities/medan.png"
-            alt=""
-          />
-          <img
-            class="sc-city-image"
-            src="./assets/images/wp-school-competition/sc-cities/denpasar.png"
-            alt=""
-          />
-          <img
-            class="sc-city-image"
-            src="./assets/images/wp-school-competition/sc-cities/jakarta.png"
-            alt=""
-          />
+          <a href="schoolcompetition.php">
+
+            <img
+              class="sc-city-image"
+              src="./assets/images/wp-school-competition/sc-cities/bandung.png"
+              alt=""
+            />
+          </a>
+          <a href="schoolcompetition.php">
+
+            <img
+              class="sc-city-image"
+              src="./assets/images/wp-school-competition/sc-cities/makassar.png"
+              alt=""
+            />
+          </a>
+          <a href="schoolcompetition.php">
+
+            <img
+              class="sc-city-image"
+              src="./assets/images/wp-school-competition/sc-cities/medan.png"
+              alt=""
+            />
+          </a>
+          <a href="schoolcompetition.php">
+
+            <img
+              class="sc-city-image"
+              src="./assets/images/wp-school-competition/sc-cities/denpasar.png"
+              alt=""
+            />
+          </a>
+          <a href="schoolcompetition.php">
+
+            <img
+              class="sc-city-image"
+              src="./assets/images/wp-school-competition/sc-cities/jakarta.png"
+              alt=""
+            />
+          </a>
+        
+          
+         
+         
         </div>
       </div>
     </section>
