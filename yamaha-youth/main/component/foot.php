@@ -17,6 +17,26 @@
     });
   </script>
 
+<script>
+$(document).ready(function () {
+  // Initialize the tooltip
+  $('#copy-link').tooltip();
+
+  // Add a click event to show the tooltip
+  $('#copy-link').on('click', function () {
+    var tooltip = $(this);
+
+    // Show the tooltip
+    tooltip.tooltip('show');
+
+    // Add a timeout to hide the tooltip after 3 seconds
+    setTimeout(function () {
+      tooltip.tooltip('hide');
+    }, 3000); // 3000 milliseconds (3 seconds)
+  });
+});
+</script>
+
   <script>
     $(function() {
       var top = $('#wrap-kategori').offset().top - parseFloat($('#wrap-kategori').css('marginTop').replace(/auto/, 0));
@@ -46,6 +66,16 @@
       }
       });
     });
+  </script>
+
+  <script>
+      $(function() {
+          $("#copy-link").click(function(){
+              setTimeout(function() {
+                $('#element').tooltip('hide')
+          }, 2000)
+          })
+     });
   </script>
 
   <script>

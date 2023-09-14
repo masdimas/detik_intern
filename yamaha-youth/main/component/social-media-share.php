@@ -17,7 +17,7 @@
 
                 <div
                   id="copy-link"
-                  data-bs-trigger="click  "
+                  data-bs-trigger="manual"
                   data-bs-placement="bottom"
                   data-bs-animation="true"
                   data-bs-toggle="tooltip"

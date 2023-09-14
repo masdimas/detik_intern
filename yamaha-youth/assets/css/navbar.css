@@ -6,6 +6,7 @@
   background-color: rgb(255, 255, 255, 0.3);
   border-radius: 30px;
   backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
   border: solid 1px #d1d5db;
   top: 10px;
 }
