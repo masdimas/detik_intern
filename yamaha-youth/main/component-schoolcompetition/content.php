@@ -33,7 +33,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="wrap-kategori d-none d-sm-block" id="wrap-kategori">
+                        <div class="wrap-kategori d-none d-sm-none d-md-block" id="wrap-kategori">
                             <a href="#best-moments">
                                 <div class="kategori">
                                     <span>🖼️ Best Moments</span>
@@ -85,7 +85,7 @@
                         </div>
                     </div>
                     <div class="kategori-mobile">
-                        <div class="wrap-kategori-mobile d-block d-sm-none">
+                        <div class="wrap-kategori-mobile d-block d-sm-block d-md-none">
                             <div class="box">
                                 <a href="#best-moments">
                                     <div class="kategori">
