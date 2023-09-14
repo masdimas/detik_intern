@@ -1,5 +1,5 @@
 <div class="wrap">
-    <div class="title">Best Moments</div>
+    <div class="title" id="best-moments">🖼️ Best Moments</div>
     <div class="slider-content-1">
         <div class="swiper school-slider1">
             <div class="swiper-wrapper">
@@ -22,7 +22,7 @@
 </div>
 
 <div class="wrap">
-    <div class="title">Miss Classy</div>
+    <div class="title" id="miss-classy">👑 Miss Classy</div>
     <div class="slider-content-1">
         <div class="swiper school-slider2">
             <div class="swiper-wrapper">
@@ -45,7 +45,7 @@
 </div>
 
 <div class="wrap">
-    <div class="title">Outfit Of The Day</div>
+    <div class="title" id="ootd">🧥 Outfit Of The Day</div>
     <div class="slider-content-1">
         <div class="swiper school-slider3">
             <div class="swiper-wrapper">
@@ -68,7 +68,7 @@
 </div>
 
 <div class="wrap">
-    <div class="title">Futsal</div>
+    <div class="title" id="futsal">⚽ Futsal</div>
     <div class="slider-content-1">
         <div class="swiper school-slider4">
             <div class="swiper-wrapper">
@@ -91,7 +91,7 @@
 </div>
 
 <div class="wrap">
-    <div class="title">Basketball</div>
+    <div class="title" id="basketball">🏀 Basketball</div>
     <div class="slider-content-1">
         <div class="swiper school-slider5">
             <div class="swiper-wrapper">
@@ -114,7 +114,7 @@
 </div>
 
 <div class="wrap">
-    <div class="title">Supporter</div>
+    <div class="title" id="supporter">📣 Supporter</div>
     <div class="slider-content-1">
         <div class="swiper school-slider6">
             <div class="swiper-wrapper">
@@ -137,7 +137,7 @@
 </div>
 
 <div class="wrap">
-    <div class="title">Cheersleader / Modern Dance</div>
+    <div class="title" id="cheersleader">💃🏻 Cheersleader / Modern Dance</div>
     <div class="slider-content-1">
         <div class="swiper school-slider7">
             <div class="swiper-wrapper">
@@ -160,7 +160,7 @@
 </div>
 
 <div class="wrap">
-    <div class="title">Content Creation challenge</div>
+    <div class="title" id="ccc">🎥 Content Creation challenge</div>
     <div class="slider-content-1">
         <div class="swiper school-slider8">
             <div class="swiper-wrapper">
