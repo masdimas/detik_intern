@@ -2,7 +2,7 @@
     <div class="container section-container">
         <div class="wrap-content">
             <div class="row justify-content-center g-2">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-sm-12 col-md-4">
                     <div class="left-side" id="left-side">
                         <div class="destination" id="destination">
                             <div class="wrap-destination">
@@ -84,7 +84,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-8">
+                <div class="col-12 col-sm-12 col-md-8">
                     <div class="content" id="content-fill">
                         <?php include "content-fill.php"; ?>
                     </div>

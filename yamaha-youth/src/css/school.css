@@ -23,7 +23,7 @@ body {
 #school-content .section-container .wrap-content .left-side .destination {
   position: absolute;
   height: 80vh;
-  width: 330px;
+  width: 100%;
 }
 #school-content .section-container .wrap-content .left-side .destination .wrap-destination {
   height: 100%;
@@ -96,6 +96,7 @@ body {
   position: fixed;
   top: 0;
   margin-top: 120px;
+  width: inherit;
 }
 #school-content .section-container .wrap-content .content .wrap .title {
   background: #5180A2;
