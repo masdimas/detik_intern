@@ -1,11 +1,12 @@
 <section class="pb-5" id="miss-classy">
     <div class="section-container m-auto px-sm-5 px-0 d-flex flex-md-row flex-column">
 
-        <aside class="col-xl-4 col-md-5 col-12 d-flex flex-column align-items-center">
-  
+        <aside class="col-xl-4 col-md-5 col-12 d-flex flex-column align-items-center d">
+            <div>
                 <div class="sidebar-city-image-canvas">
+                    <img src="./assets/images/miss-classy/miss-classy-pic/miss-classy-logo.svg" alt="" class="miss-classy-logo">
                     <img
-                    src="./assets/images/miss-classy/miss-classy-sidebar-city.jpg"
+                    src="./assets/images/miss-classy/miss-classy-pic/background-kota.jpg"
                     class="sidebar-city-img"
                     alt=""
                     />
@@ -60,8 +61,9 @@
                         </div>
                     </div>
                 </div>
-
+            </div>
         </aside>
+       
         <div class="miss-classy-vote col-xl-8 col-md-7 col-12 d-flex flex-column align-items-center">
             <ul
             class="nav nav-pills mb-3  justify-content-center"
@@ -73,10 +75,10 @@
                     class="nav-link active "
                     id="article-aggregator"
                     data-bs-toggle="pill"
-                    data-bs-target="#pills-article-aggregator"
+                    data-bs-target="#vote-card-container"
                     type="button"
                     role="tab"
-                    aria-controls="pills-article-aggregator"
+                    aria-controls="vote-card-container"
                     aria-selected="true"
                     >
                     Vote Classy People
@@ -87,39 +89,184 @@
                     class="nav-link"
                     id="video-aggregator"
                     data-bs-toggle="pill"
-                    data-bs-target="#pills-video-aggregator"
+                    data-bs-target="#vote-card-aggregator"
                     type="button"
                     role="tab"
-                    aria-controls="pills-video-aggregator"
+                    aria-controls="vote-card-aggregator"
                     aria-selected="false"
                     >
                     Top Picks
                     </button>
                 </li>
             </ul>
-            <div class="leaderboard-container w-100 d-flex flex-wrap justify-content-center px-xl-4 px-lg-2 gap-sm-3 gap-2">
-                <div class="leaderboard-rank w-100 d-flex">
-                    <div class="rank ">
-                        1
-                    </div>
-                    <div class="ranked-miss-classy d-flex align-items-center justify-content-between">
-                        <div class="d-flex align-items-center miss-classy-data">
-                            <div class="leaderboard-img-container">
-                                <img
-                                src="./assets/images/miss-classy/miss-classy-pic/miss-classy-1.jpg"
-                                alt=""
-                                />
-                            </div>
-                            <div class="leaderboard-data">
-                                <h4>Charlotte Brown</h4>
-                                <span>Akademi Angkatan Udara</span>
-                            </div>
+            <div class="tab-content" id="pills-tabContent">
+            
+                <div class="tab-pane fade leaderboard-container w-100 flex-wrap justify-content-center px-xl-4 px-lg-2 gap-3"
+                id="vote-card-aggregator">
+                    <div class="first-three-leaderboard w-100 d-flex">
+                        <div class="rank ">
+                            1
                         </div>
-                        <div class="leaderboard-vote">1234</div>
+                        <div class="ranked-miss-classy d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center miss-classy-data">
+                                <div class="leaderboard-img-container">
+                                    <img
+                                    src="./assets/images/miss-classy/miss-classy-pic/miss-classy-1.jpg"
+                                    alt=""
+                                    />
+                                </div>
+                                <div class="leaderboard-data">
+                                    <h4>Charlotte Brown</h4>
+                                    <span>Akademi Angkatan Udara</span>
+                                </div>
+                            </div>
+                            <div class="leaderboard-vote">1234</div>
+                        </div>
                     </div>
+                    <div class="first-three-leaderboard w-100 d-flex">
+                        <div class="rank ">
+                            1
+                        </div>
+                        <div class="ranked-miss-classy d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center miss-classy-data">
+                                <div class="leaderboard-img-container">
+                                    <img
+                                    src="./assets/images/miss-classy/miss-classy-pic/miss-classy-1.jpg"
+                                    alt=""
+                                    />
+                                </div>
+                                <div class="leaderboard-data">
+                                    <h4>Charlotte Brown</h4>
+                                    <span>Akademi Angkatan Udara</span>
+                                </div>
+                            </div>
+                            <div class="leaderboard-vote">1234</div>
+                        </div>
+                    </div>
+                    
+                    <div class="first-three-leaderboard w-100 d-flex">
+                        <div class="rank ">
+                            1
+                        </div>
+                        <div class="ranked-miss-classy d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center miss-classy-data">
+                                <div class="leaderboard-img-container">
+                                    <img
+                                    src="./assets/images/miss-classy/miss-classy-pic/miss-classy-1.jpg"
+                                    alt=""
+                                    />
+                                </div>
+                                <div class="leaderboard-data">
+                                    <h4>Charlotte Brown</h4>
+                                    <span>Akademi Angkatan Udara</span>
+                                </div>
+                            </div>
+                            <div class="leaderboard-vote">1234</div>
+                        </div>
+                    </div>
+    
+                    <div class="default-leaderboard w-100 d-flex">
+                        <div class="rank ">
+                            1
+                        </div>
+                        <div class="ranked-miss-classy d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center miss-classy-data">
+                                <div class="leaderboard-img-container">
+                                    <img
+                                    src="./assets/images/miss-classy/miss-classy-pic/miss-classy-1.jpg"
+                                    alt=""
+                                    />
+                                </div>
+                                <div class="leaderboard-data">
+                                    <h4>Charlotte Brown</h4>
+                                    <span>Akademi Angkatan Udara</span>
+                                </div>
+                            </div>
+                            <div class="leaderboard-vote">1234</div>
+                        </div>
+                    </div>
+                    <div class="default-leaderboard w-100 d-flex">
+                        <div class="rank ">
+                            1
+                        </div>
+                        <div class="ranked-miss-classy d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center miss-classy-data">
+                                <div class="leaderboard-img-container">
+                                    <img
+                                    src="./assets/images/miss-classy/miss-classy-pic/miss-classy-1.jpg"
+                                    alt=""
+                                    />
+                                </div>
+                                <div class="leaderboard-data">
+                                    <h4>Charlotte Brown</h4>
+                                    <span>Akademi Angkatan Udara</span>
+                                </div>
+                            </div>
+                            <div class="leaderboard-vote">1234</div>
+                        </div>
+                    </div>
+                    <div class="default-leaderboard w-100 d-flex">
+                        <div class="rank ">
+                            1
+                        </div>
+                        <div class="ranked-miss-classy d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center miss-classy-data">
+                                <div class="leaderboard-img-container">
+                                    <img
+                                    src="./assets/images/miss-classy/miss-classy-pic/miss-classy-1.jpg"
+                                    alt=""
+                                    />
+                                </div>
+                                <div class="leaderboard-data">
+                                    <h4>Charlotte Brown</h4>
+                                    <span>Akademi Angkatan Udara</span>
+                                </div>
+                            </div>
+                            <div class="leaderboard-vote">1234</div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="tab-pane fade show active vote-card-container flex-wrap justify-content-center px-xl-4 px-lg-2 gap-sm-3 gap-2"
+                id="vote-card-container">
+                    <div class="row  gap-sm-3 gap-2">
+                        <?php
+                            include "./main/component-miss-classy/miss-classy-vote-card.php";
+                        ?>
+                        <?php
+                            include "./main/component-miss-classy/miss-classy-vote-card.php";
+                        ?>
+                    </div>
+                    <div class="row  gap-sm-3 gap-2">
+                        <?php
+                            include "./main/component-miss-classy/miss-classy-vote-card.php";
+                        ?>
+                        <?php
+                            include "./main/component-miss-classy/miss-classy-vote-card.php";
+                        ?>
+                    </div>
+                    <div class="row  gap-sm-3 gap-2">
+                        <?php
+                            include "./main/component-miss-classy/miss-classy-vote-card.php";
+                        ?>
+                        <?php
+                            include "./main/component-miss-classy/miss-classy-vote-card.php";
+                        ?>
+                    </div>    
+                    <div class="row  gap-sm-3 gap-2">
+                        <?php
+                            include "./main/component-miss-classy/miss-classy-vote-card.php";
+                        ?>
+                        <?php
+                            include "./main/component-miss-classy/miss-classy-vote-card.php";
+                        ?>
+                    </div>    
                 </div>
             </div>
             
+            
+
         </div>
     </div>
 </section>
