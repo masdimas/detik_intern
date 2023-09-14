@@ -204,8 +204,11 @@ body {
     background-repeat: none;
   }
   #school-content {
-    margin-top: 120px;
+    margin-top: unset;
     margin-bottom: 120px;
+  }
+  #school-content .section-container {
+    padding: unset;
   }
   #school-content .section-container .wrap-content {
     height: auto;
@@ -215,7 +218,7 @@ body {
   }
   #school-content .section-container .wrap-content .left-side .destination {
     position: relative;
-    height: 438px;
+    height: 478px;
     width: 100%;
   }
   #school-content .section-container .wrap-content .left-side .destination .wrap-destination {
@@ -228,7 +231,7 @@ body {
     height: 180px;
   }
   #school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota img {
-    border-radius: 20px;
+    border-radius: 0px;
     width: 100%;
     object-fit: cover;
     height: 300px;
@@ -241,6 +244,8 @@ body {
     max-width: 267px;
     height: unset;
     object-fit: unset;
+    padding-top: 30px;
+    padding-bottom: 0px;
   }
   #school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .about-destination {
     margin-top: 30px;
@@ -293,6 +298,10 @@ body {
     width: 33.33333333%;
     display: flex;
     max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+  #school-content .section-container .wrap-content .content {
     padding-right: calc(var(--bs-gutter-x) * 0.5);
     padding-left: calc(var(--bs-gutter-x) * 0.5);
   }
