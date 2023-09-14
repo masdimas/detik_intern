@@ -25,9 +25,9 @@
                                             </div>
                                         </div>
 
-                                        <div class="share">
-
-                                        </div>
+                                        <?php
+                                            include "./main/component/social-media-share.php";
+                                        ?>
 
                                     </div>
                                 </div>

@@ -51,14 +51,14 @@ body {
 }
 #school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .about-destination {
   margin-top: 30px;
-  background: #B4DBF5;
+  background: #b4dbf5;
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 8px;
   padding: 12px;
 }
 #school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .about-destination .title {
-  color: #5180A2;
+  color: #5180a2;
   height: 100%;
   padding-top: 10px;
   padding-bottom: 2px;
@@ -78,6 +78,45 @@ body {
   line-height: normal;
   padding: 10px;
 }
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc #social-media-share {
+  background-color: #dff2ff;
+  width: fit-content;
+  padding: 0.5rem 0.4rem 0.5rem 1rem;
+  gap: 8px;
+}
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc #social-media-share span {
+  line-height: 1.4;
+  color: #274d6e;
+}
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc #social-media-share .share-facebook {
+  background-image: url(../images/social-media-share/facebook.svg);
+  transition: 0.2s ease;
+}
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc #social-media-share .share-twitter {
+  background-image: url(../images/social-media-share/twitter.svg);
+  transition: 0.2s ease;
+}
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc #social-media-share .share-telegram {
+  background-image: url(../images/social-media-share/telegram.svg);
+  transition: 0.2s ease;
+}
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc #social-media-share .share-whatsapp {
+  background-image: url(../images/social-media-share/whatsapp.svg);
+  transition: 0.2s ease;
+}
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc #social-media-share #copy-link {
+  cursor: pointer;
+}
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc #social-media-share #copy-link img {
+  border-radius: 20px;
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc #social-media-share .sosmed-share-logo {
+  width: 24px;
+  height: 24px;
+}
 #school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .wrap-kategori a {
   text-decoration: none;
   cursor: pointer;
@@ -85,10 +124,10 @@ body {
 #school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .wrap-kategori a .kategori {
   font-size: 14px;
   font-weight: 500;
-  background: #B4DBF5;
+  background: #b4dbf5;
   border-radius: 8px;
   text-transform: uppercase;
-  color: #5180A2;
+  color: #5180a2;
   padding: 10px 10px;
   margin: 10px 0;
 }
@@ -105,10 +144,10 @@ body {
 #school-content .section-container .wrap-content #wrap-kategori a .kategori {
   font-size: 14px;
   font-weight: 500;
-  background: #B4DBF5;
+  background: #b4dbf5;
   border-radius: 8px;
   text-transform: uppercase;
-  color: #5180A2;
+  color: #5180a2;
   padding: 10px 10px;
   margin: 10px 0;
 }
@@ -138,16 +177,16 @@ body {
 #school-content .section-container .wrap-content .kategori-mobile .wrap-kategori-mobile .box a .kategori {
   font-size: 14px;
   font-weight: 500;
-  background: #B4DBF5;
+  background: #b4dbf5;
   border-radius: 8px;
   text-transform: uppercase;
-  color: #5180A2;
+  color: #5180a2;
   padding: 10px 10px;
   margin: 10px 0;
 }
 #school-content .section-container .wrap-content .content .wrap .title {
-  background: #5180A2;
-  color: #FFF;
+  background: #5180a2;
+  color: #fff;
   padding: 10px 10px;
   margin: 10px 0;
   border-radius: 8px;
@@ -172,10 +211,10 @@ body {
   text-align: center;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination .swiper-pagination-bullet {
-  background: #9A0808;
+  background: #9a0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination .swiper-pagination-bullet-active {
-  background: #9A0808;
+  background: #9a0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-2 {
   position: relative;
@@ -184,10 +223,10 @@ body {
   text-align: center;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-2 .swiper-pagination-bullet {
-  background: #9A0808;
+  background: #9a0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-2 .swiper-pagination-bullet-active {
-  background: #9A0808;
+  background: #9a0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-3 {
   position: relative;
@@ -196,10 +235,10 @@ body {
   text-align: center;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-3 .swiper-pagination-bullet {
-  background: #9A0808;
+  background: #9a0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-3 .swiper-pagination-bullet-active {
-  background: #9A0808;
+  background: #9a0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-4 {
   position: relative;
@@ -208,10 +247,10 @@ body {
   text-align: center;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-4 .swiper-pagination-bullet {
-  background: #9A0808;
+  background: #9a0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-4 .swiper-pagination-bullet-active {
-  background: #9A0808;
+  background: #9a0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-5 {
   position: relative;
@@ -220,10 +259,10 @@ body {
   text-align: center;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-5 .swiper-pagination-bullet {
-  background: #9A0808;
+  background: #9a0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-5 .swiper-pagination-bullet-active {
-  background: #9A0808;
+  background: #9a0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-6 {
   position: relative;
@@ -232,10 +271,10 @@ body {
   text-align: center;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-6 .swiper-pagination-bullet {
-  background: #9A0808;
+  background: #9a0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-6 .swiper-pagination-bullet-active {
-  background: #9A0808;
+  background: #9a0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-7 {
   position: relative;
@@ -244,10 +283,10 @@ body {
   text-align: center;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-7 .swiper-pagination-bullet {
-  background: #9A0808;
+  background: #9a0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-7 .swiper-pagination-bullet-active {
-  background: #9A0808;
+  background: #9a0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-8 {
   position: relative;
@@ -256,10 +295,10 @@ body {
   text-align: center;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-8 .swiper-pagination-bullet {
-  background: #9A0808;
+  background: #9a0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-8 .swiper-pagination-bullet-active {
-  background: #9A0808;
+  background: #9a0808;
 }
 
 /* Responsive Breakpoint */
@@ -317,14 +356,14 @@ body {
   }
   #school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .about-destination {
     margin-top: 30px;
-    background: #B4DBF5;
+    background: #b4dbf5;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 8px;
     padding: 12px;
   }
   #school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .about-destination .title {
-    color: #5180A2;
+    color: #5180a2;
     height: 100%;
     padding-top: 10px;
     padding-bottom: 2px;
@@ -355,10 +394,10 @@ body {
   #school-content .section-container .wrap-content .left-side #wrap-kategori a .kategori {
     font-size: 14px;
     font-weight: 500;
-    background: #B4DBF5;
+    background: #b4dbf5;
     border-radius: 8px;
     text-transform: uppercase;
-    color: #5180A2;
+    color: #5180a2;
     padding: 10px 10px;
     margin: 10px 0;
   }
@@ -378,8 +417,8 @@ body {
     padding-left: calc(var(--bs-gutter-x) * 0.5);
   }
   #school-content .section-container .wrap-content .content .wrap .title {
-    background: #5180A2;
-    color: #FFF;
+    background: #5180a2;
+    color: #fff;
     padding: 10px 10px;
     margin: 10px 0;
     border-radius: 8px;
@@ -500,14 +539,14 @@ body {
   }
   #school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .about-destination {
     margin-top: 30px;
-    background: #B4DBF5;
+    background: #b4dbf5;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 8px;
     padding: 12px;
   }
   #school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .about-destination .title {
-    color: #5180A2;
+    color: #5180a2;
     height: 100%;
     padding-top: 10px;
     padding-bottom: 2px;
@@ -538,10 +577,10 @@ body {
   #school-content .section-container .wrap-content .left-side #wrap-kategori a .kategori {
     font-size: 14px;
     font-weight: 500;
-    background: #B4DBF5;
+    background: #b4dbf5;
     border-radius: 8px;
     text-transform: uppercase;
-    color: #5180A2;
+    color: #5180a2;
     padding: 10px 10px;
     margin: 10px 0;
   }
@@ -561,8 +600,8 @@ body {
     padding-left: calc(var(--bs-gutter-x) * 0.5);
   }
   #school-content .section-container .wrap-content .content .wrap .title {
-    background: #5180A2;
-    color: #FFF;
+    background: #5180a2;
+    color: #fff;
     padding: 10px 10px;
     margin: 10px 0;
     border-radius: 8px;
@@ -671,14 +710,14 @@ body {
   }
   #school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .about-destination {
     margin-top: 30px;
-    background: #B4DBF5;
+    background: #b4dbf5;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 8px;
     padding: 12px;
   }
   #school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .about-destination .title {
-    color: #5180A2;
+    color: #5180a2;
     height: 100%;
     padding-top: 10px;
     padding-bottom: 2px;
@@ -705,10 +744,10 @@ body {
   #school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .wrap-kategori a .kategori {
     font-size: 14px;
     font-weight: 500;
-    background: #B4DBF5;
+    background: #b4dbf5;
     border-radius: 8px;
     text-transform: uppercase;
-    color: #5180A2;
+    color: #5180a2;
     padding: 10px 10px;
     margin: 10px 0;
   }
@@ -725,10 +764,10 @@ body {
   #school-content .section-container .wrap-content #wrap-kategori a .kategori {
     font-size: 14px;
     font-weight: 500;
-    background: #B4DBF5;
+    background: #b4dbf5;
     border-radius: 8px;
     text-transform: uppercase;
-    color: #5180A2;
+    color: #5180a2;
     padding: 10px 10px;
     margin: 10px 0;
   }
@@ -758,16 +797,16 @@ body {
   #school-content .section-container .wrap-content .kategori-mobile .wrap-kategori-mobile .box a .kategori {
     font-size: 14px;
     font-weight: 500;
-    background: #B4DBF5;
+    background: #b4dbf5;
     border-radius: 8px;
     text-transform: uppercase;
-    color: #5180A2;
+    color: #5180a2;
     padding: 10px 10px;
     margin: 10px 0;
   }
   #school-content .section-container .wrap-content .content .wrap .title {
-    background: #5180A2;
-    color: #FFF;
+    background: #5180a2;
+    color: #fff;
     padding: 10px 10px;
     margin: 10px 0;
     border-radius: 8px;

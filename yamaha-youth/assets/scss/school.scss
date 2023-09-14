@@ -7,7 +7,7 @@ body {
   background-image: url("../../assets/images/school-competition/bg-school.jpg");
   background-position: top;
   background-size: cover;
-  background-repeat: none; 
+  background-repeat: none;
 }
 
 #school-content {
@@ -56,21 +56,22 @@ body {
 
                 .about-destination {
                   margin-top: 30px;
-                  background: #B4DBF5;
+                  background: #b4dbf5;
                   margin-left: 10px;
                   margin-right: 10px;
                   border-radius: 8px;
                   padding: 12px;
 
                   .title {
-                    color: #5180A2;
+                    color: #5180a2;
                     height: 100%;
                     padding-top: 10px;
                     padding-bottom: 2px;
 
                     h4 {
                       font-size: 20px;
-                      font-family: "gill-sans-1000", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+                      font-family: "gill-sans-1000", "Gill Sans MT", Calibri,
+                        "Trebuchet MS", sans-serif;
                     }
 
                     .captions {
@@ -88,7 +89,45 @@ body {
                   }
                 }
 
-                .share {}
+                #social-media-share {
+                  background-color: #dff2ff;
+                  width: fit-content;
+                  padding: 0.5rem 0.4rem 0.5rem 1rem;
+                  gap: 8px;
+                  span {
+                    line-height: 1.4;
+                    color: #274d6e;
+                  }
+                  .share-facebook {
+                    background-image: url(../images/social-media-share/facebook.svg);
+                    transition: 0.2s ease;
+                  }
+                  .share-twitter {
+                    background-image: url(../images/social-media-share/twitter.svg);
+                    transition: 0.2s ease;
+                  }
+                  .share-telegram {
+                    background-image: url(../images/social-media-share/telegram.svg);
+                    transition: 0.2s ease;
+                  }
+                  .share-whatsapp {
+                    background-image: url(../images/social-media-share/whatsapp.svg);
+                    transition: 0.2s ease;
+                  }
+                  #copy-link {
+                    cursor: pointer;
+                    img{
+                      border-radius: 20px;
+                      width: 100%;
+                      object-fit: cover;
+                      height: 300px;
+                    }
+                  }
+                  .sosmed-share-logo {
+                    width: 24px;
+                    height: 24px;
+                  }
+                }
 
                 .wrap-kategori {
                   a {
@@ -98,10 +137,10 @@ body {
                     .kategori {
                       font-size: 14px;
                       font-weight: 500;
-                      background: #B4DBF5;
+                      background: #b4dbf5;
                       border-radius: 8px;
                       text-transform: uppercase;
-                      color: #5180A2;
+                      color: #5180a2;
                       padding: 10px 10px;
                       margin: 10px 0;
                     }
@@ -123,7 +162,6 @@ body {
         //   padding-right: calc(var(--bs-gutter-x) * .5);
         //   padding-left: calc(var(--bs-gutter-x) * .5);
         // }
-
       }
 
       #wrap-kategori {
@@ -138,17 +176,17 @@ body {
           .kategori {
             font-size: 14px;
             font-weight: 500;
-            background: #B4DBF5;
+            background: #b4dbf5;
             border-radius: 8px;
             text-transform: uppercase;
-            color: #5180A2;
+            color: #5180a2;
             padding: 10px 10px;
             margin: 10px 0;
           }
         }
       }
 
-      #wrap-kategori.fixed{
+      #wrap-kategori.fixed {
         position: fixed;
         top: 0;
         margin-top: 120px;
@@ -156,30 +194,30 @@ body {
         width: 26%;
         display: flex;
         max-width: 100%;
-        padding-right: calc(var(--bs-gutter-x) * .5);
-        padding-left: calc(var(--bs-gutter-x) * .5);
+        padding-right: calc(var(--bs-gutter-x) * 0.5);
+        padding-left: calc(var(--bs-gutter-x) * 0.5);
       }
 
-      .kategori-mobile{
+      .kategori-mobile {
         .wrap-kategori-mobile {
           overflow-x: auto;
           white-space: nowrap;
-  
+
           .box {
             display: ruby;
             float: none;
-  
+
             a {
               text-decoration: none;
               cursor: pointer;
-  
+
               .kategori {
                 font-size: 14px;
                 font-weight: 500;
-                background: #B4DBF5;
+                background: #b4dbf5;
                 border-radius: 8px;
                 text-transform: uppercase;
-                color: #5180A2;
+                color: #5180a2;
                 padding: 10px 10px;
                 margin: 10px 0;
               }
@@ -188,13 +226,11 @@ body {
         }
       }
 
-      
-
       .content {
         .wrap {
           .title {
-            background: #5180A2;
-            color: #FFF;
+            background: #5180a2;
+            color: #fff;
             padding: 10px 10px;
             margin: 10px 0;
             border-radius: 8px;
@@ -224,11 +260,11 @@ body {
               margin: 25px 0 20px 0;
               height: 20px;
               text-align: center;
-              .swiper-pagination-bullet{
-                background: #9A0808;
+              .swiper-pagination-bullet {
+                background: #9a0808;
               }
-              .swiper-pagination-bullet-active{
-                background: #9A0808;
+              .swiper-pagination-bullet-active {
+                background: #9a0808;
               }
             }
 
@@ -237,11 +273,11 @@ body {
               margin: 25px 0 20px 0;
               height: 20px;
               text-align: center;
-              .swiper-pagination-bullet{
-                background: #9A0808;
+              .swiper-pagination-bullet {
+                background: #9a0808;
               }
-              .swiper-pagination-bullet-active{
-                background: #9A0808;
+              .swiper-pagination-bullet-active {
+                background: #9a0808;
               }
             }
 
@@ -250,11 +286,11 @@ body {
               margin: 25px 0 20px 0;
               height: 20px;
               text-align: center;
-              .swiper-pagination-bullet{
-                background: #9A0808;
+              .swiper-pagination-bullet {
+                background: #9a0808;
               }
-              .swiper-pagination-bullet-active{
-                background: #9A0808;
+              .swiper-pagination-bullet-active {
+                background: #9a0808;
               }
             }
 
@@ -263,11 +299,11 @@ body {
               margin: 25px 0 20px 0;
               height: 20px;
               text-align: center;
-              .swiper-pagination-bullet{
-                background: #9A0808;
+              .swiper-pagination-bullet {
+                background: #9a0808;
               }
-              .swiper-pagination-bullet-active{
-                background: #9A0808;
+              .swiper-pagination-bullet-active {
+                background: #9a0808;
               }
             }
 
@@ -276,11 +312,11 @@ body {
               margin: 25px 0 20px 0;
               height: 20px;
               text-align: center;
-              .swiper-pagination-bullet{
-                background: #9A0808;
+              .swiper-pagination-bullet {
+                background: #9a0808;
               }
-              .swiper-pagination-bullet-active{
-                background: #9A0808;
+              .swiper-pagination-bullet-active {
+                background: #9a0808;
               }
             }
 
@@ -289,11 +325,11 @@ body {
               margin: 25px 0 20px 0;
               height: 20px;
               text-align: center;
-              .swiper-pagination-bullet{
-                background: #9A0808;
+              .swiper-pagination-bullet {
+                background: #9a0808;
               }
-              .swiper-pagination-bullet-active{
-                background: #9A0808;
+              .swiper-pagination-bullet-active {
+                background: #9a0808;
               }
             }
 
@@ -302,11 +338,11 @@ body {
               margin: 25px 0 20px 0;
               height: 20px;
               text-align: center;
-              .swiper-pagination-bullet{
-                background: #9A0808;
+              .swiper-pagination-bullet {
+                background: #9a0808;
               }
-              .swiper-pagination-bullet-active{
-                background: #9A0808;
+              .swiper-pagination-bullet-active {
+                background: #9a0808;
               }
             }
 
@@ -315,11 +351,11 @@ body {
               margin: 25px 0 20px 0;
               height: 20px;
               text-align: center;
-              .swiper-pagination-bullet{
-                background: #9A0808;
+              .swiper-pagination-bullet {
+                background: #9a0808;
               }
-              .swiper-pagination-bullet-active{
-                background: #9A0808;
+              .swiper-pagination-bullet-active {
+                background: #9a0808;
               }
             }
           }
@@ -331,7 +367,7 @@ body {
 
 /* Responsive Breakpoint */
 
-//extra small 
+//extra small
 
 @media (min-width: 0px) and (max-width: 575px) {
   body {
@@ -341,44 +377,44 @@ body {
     background-size: cover;
     background-repeat: none;
   }
-  
+
   #school-content {
     margin-top: unset;
     margin-bottom: 120px;
-  
+
     .section-container {
       padding: unset;
       .wrap-content {
         height: auto;
-  
+
         .left-side {
           position: relative;
-  
+
           .destination {
             position: relative;
             height: 478px;
             width: 100%;
-  
+
             .wrap-destination {
               height: 100%;
               overflow-x: unset;
               overflow-y: unset;
-  
+
               .latarkota {
                 position: relative;
                 height: 180px;
-  
+
                 img {
                   border-radius: 0px;
                   width: 100%;
                   object-fit: cover;
                   height: 300px;
                 }
-  
+
                 .wrap-desc {
                   position: absolute;
                   top: 110px;
-  
+
                   .logo-wrap {
                     img {
                       max-width: 267px;
@@ -388,32 +424,33 @@ body {
                       padding-bottom: 0px;
                     }
                   }
-  
+
                   .about-destination {
                     margin-top: 30px;
-                    background: #B4DBF5;
+                    background: #b4dbf5;
                     margin-left: 10px;
                     margin-right: 10px;
                     border-radius: 8px;
                     padding: 12px;
-  
+
                     .title {
-                      color: #5180A2;
+                      color: #5180a2;
                       height: 100%;
                       padding-top: 10px;
                       padding-bottom: 2px;
-  
+
                       h4 {
                         font-size: 20px;
-                        font-family: "gill-sans-1000", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+                        font-family: "gill-sans-1000", "Gill Sans MT", Calibri,
+                          "Trebuchet MS", sans-serif;
                       }
-  
+
                       .captions {
                         background: #fff;
                         margin: 10px;
                         border-radius: 8px;
                         margin: 10px 0;
-  
+
                         p {
                           font-size: 12px;
                           line-height: normal;
@@ -422,15 +459,14 @@ body {
                       }
                     }
                   }
-  
-                  .share {}
-  
-                  
+
+                  .share {
+                  }
                 }
               }
             }
           }
-  
+
           // #destination.fixed {
           //   position: fixed;
           //   top: 0;
@@ -449,21 +485,21 @@ body {
             a {
               text-decoration: none;
               cursor: pointer;
-  
+
               .kategori {
                 font-size: 14px;
                 font-weight: 500;
-                background: #B4DBF5;
+                background: #b4dbf5;
                 border-radius: 8px;
                 text-transform: uppercase;
-                color: #5180A2;
+                color: #5180a2;
                 padding: 10px 10px;
                 margin: 10px 0;
               }
             }
           }
-  
-          #wrap-kategori.fixed{
+
+          #wrap-kategori.fixed {
             position: fixed;
             top: 0;
             margin-top: 120px;
@@ -471,32 +507,32 @@ body {
             width: 33.33333333%;
             display: flex;
             max-width: 100%;
-            padding-right: calc(var(--bs-gutter-x) * .5);
-            padding-left: calc(var(--bs-gutter-x) * .5);
+            padding-right: calc(var(--bs-gutter-x) * 0.5);
+            padding-left: calc(var(--bs-gutter-x) * 0.5);
           }
         }
 
         .content {
-          padding-right: calc(var(--bs-gutter-x) * .5);
-          padding-left: calc(var(--bs-gutter-x) * .5);
+          padding-right: calc(var(--bs-gutter-x) * 0.5);
+          padding-left: calc(var(--bs-gutter-x) * 0.5);
           .wrap {
             .title {
-              background: #5180A2;
-              color: #FFF;
+              background: #5180a2;
+              color: #fff;
               padding: 10px 10px;
               margin: 10px 0;
               border-radius: 8px;
               text-transform: uppercase;
             }
-  
+
             .slider-content-1 {
               .swiper {
                 border-radius: 8px;
                 height: 182px;
-  
+
                 .swiper-wrapper {
                   height: 361px;
-  
+
                   .swiper-slide {
                     img {
                       width: 100%;
@@ -506,56 +542,56 @@ body {
                   }
                 }
               }
-  
+
               .swiper-pagination {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-2 {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-3 {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-4 {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-5 {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-6 {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-7 {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-8 {
                 position: relative;
                 margin: 25px 0 20px 0;
@@ -580,44 +616,44 @@ body {
     background-size: cover;
     background-repeat: none;
   }
-  
+
   #school-content {
     margin-top: unset;
     margin-bottom: 120px;
-  
+
     .section-container {
       padding: unset;
       .wrap-content {
         height: auto;
-  
+
         .left-side {
           position: relative;
-  
+
           .destination {
             position: relative;
             height: 478px;
             width: 100%;
-  
+
             .wrap-destination {
               height: 100%;
               overflow-x: unset;
               overflow-y: unset;
-  
+
               .latarkota {
                 position: relative;
                 height: 180px;
-  
+
                 img {
                   border-radius: 0px;
                   width: 100%;
                   object-fit: cover;
                   height: 300px;
                 }
-  
+
                 .wrap-desc {
                   position: absolute;
                   top: 110px;
-  
+
                   .logo-wrap {
                     img {
                       max-width: 267px;
@@ -627,32 +663,33 @@ body {
                       padding-bottom: 0px;
                     }
                   }
-  
+
                   .about-destination {
                     margin-top: 30px;
-                    background: #B4DBF5;
+                    background: #b4dbf5;
                     margin-left: 10px;
                     margin-right: 10px;
                     border-radius: 8px;
                     padding: 12px;
-  
+
                     .title {
-                      color: #5180A2;
+                      color: #5180a2;
                       height: 100%;
                       padding-top: 10px;
                       padding-bottom: 2px;
-  
+
                       h4 {
                         font-size: 20px;
-                        font-family: "gill-sans-1000", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+                        font-family: "gill-sans-1000", "Gill Sans MT", Calibri,
+                          "Trebuchet MS", sans-serif;
                       }
-  
+
                       .captions {
                         background: #fff;
                         margin: 10px;
                         border-radius: 8px;
                         margin: 10px 0;
-  
+
                         p {
                           font-size: 12px;
                           line-height: normal;
@@ -661,15 +698,14 @@ body {
                       }
                     }
                   }
-  
-                  .share {}
-  
-                  
+
+                  .share {
+                  }
                 }
               }
             }
           }
-  
+
           // #destination.fixed {
           //   position: fixed;
           //   top: 0;
@@ -688,21 +724,21 @@ body {
             a {
               text-decoration: none;
               cursor: pointer;
-  
+
               .kategori {
                 font-size: 14px;
                 font-weight: 500;
-                background: #B4DBF5;
+                background: #b4dbf5;
                 border-radius: 8px;
                 text-transform: uppercase;
-                color: #5180A2;
+                color: #5180a2;
                 padding: 10px 10px;
                 margin: 10px 0;
               }
             }
           }
-  
-          #wrap-kategori.fixed{
+
+          #wrap-kategori.fixed {
             position: fixed;
             top: 0;
             margin-top: 120px;
@@ -710,32 +746,32 @@ body {
             width: 33.33333333%;
             display: flex;
             max-width: 100%;
-            padding-right: calc(var(--bs-gutter-x) * .5);
-            padding-left: calc(var(--bs-gutter-x) * .5);
+            padding-right: calc(var(--bs-gutter-x) * 0.5);
+            padding-left: calc(var(--bs-gutter-x) * 0.5);
           }
         }
 
         .content {
-          padding-right: calc(var(--bs-gutter-x) * .5);
-          padding-left: calc(var(--bs-gutter-x) * .5);
+          padding-right: calc(var(--bs-gutter-x) * 0.5);
+          padding-left: calc(var(--bs-gutter-x) * 0.5);
           .wrap {
             .title {
-              background: #5180A2;
-              color: #FFF;
+              background: #5180a2;
+              color: #fff;
               padding: 10px 10px;
               margin: 10px 0;
               border-radius: 8px;
               text-transform: uppercase;
             }
-  
+
             .slider-content-1 {
               .swiper {
                 border-radius: 8px;
                 height: 182px;
-  
+
                 .swiper-wrapper {
                   height: 361px;
-  
+
                   .swiper-slide {
                     img {
                       width: 100%;
@@ -745,56 +781,56 @@ body {
                   }
                 }
               }
-  
+
               .swiper-pagination {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-2 {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-3 {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-4 {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-5 {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-6 {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-7 {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-8 {
                 position: relative;
                 margin: 25px 0 20px 0;
@@ -815,39 +851,39 @@ body {
   #school-content {
     margin-top: 120px;
     margin-bottom: 120px;
-  
+
     .section-container {
       .wrap-content {
         height: auto;
-  
+
         .left-side {
           position: relative;
-  
+
           .destination {
             position: absolute;
             height: 80vh;
             width: 100%;
-  
+
             .wrap-destination {
               height: 100%;
               overflow-x: hidden;
               overflow-y: auto;
-  
+
               .latarkota {
                 position: relative;
                 height: 180px;
-  
+
                 img {
                   border-radius: 20px;
                   width: 100%;
                   object-fit: cover;
                   height: 300px;
                 }
-  
+
                 .wrap-desc {
                   position: absolute;
                   top: 110px;
-  
+
                   .logo-wrap {
                     img {
                       max-width: 267px;
@@ -855,32 +891,33 @@ body {
                       object-fit: unset;
                     }
                   }
-  
+
                   .about-destination {
                     margin-top: 30px;
-                    background: #B4DBF5;
+                    background: #b4dbf5;
                     margin-left: 10px;
                     margin-right: 10px;
                     border-radius: 8px;
                     padding: 12px;
-  
+
                     .title {
-                      color: #5180A2;
+                      color: #5180a2;
                       height: 100%;
                       padding-top: 10px;
                       padding-bottom: 2px;
-  
+
                       h4 {
                         font-size: 20px;
-                        font-family: "gill-sans-1000", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+                        font-family: "gill-sans-1000", "Gill Sans MT", Calibri,
+                          "Trebuchet MS", sans-serif;
                       }
-  
+
                       .captions {
                         background: #fff;
                         margin: 10px;
                         border-radius: 8px;
                         margin: 10px 0;
-  
+
                         p {
                           font-size: 12px;
                           line-height: normal;
@@ -889,21 +926,22 @@ body {
                       }
                     }
                   }
-  
-                  .share {}
-  
+
+                  .share {
+                  }
+
                   .wrap-kategori {
                     a {
                       text-decoration: none;
                       cursor: pointer;
-  
+
                       .kategori {
                         font-size: 14px;
                         font-weight: 500;
-                        background: #B4DBF5;
+                        background: #b4dbf5;
                         border-radius: 8px;
                         text-transform: uppercase;
-                        color: #5180A2;
+                        color: #5180a2;
                         padding: 10px 10px;
                         margin: 10px 0;
                       }
@@ -913,7 +951,7 @@ body {
               }
             }
           }
-  
+
           // #destination.fixed {
           //   position: fixed;
           //   top: 0;
@@ -925,9 +963,8 @@ body {
           //   padding-right: calc(var(--bs-gutter-x) * .5);
           //   padding-left: calc(var(--bs-gutter-x) * .5);
           // }
-  
         }
-  
+
         #wrap-kategori {
           position: absolute;
           top: 510px;
@@ -936,21 +973,21 @@ body {
           a {
             text-decoration: none;
             cursor: pointer;
-  
+
             .kategori {
               font-size: 14px;
               font-weight: 500;
-              background: #B4DBF5;
+              background: #b4dbf5;
               border-radius: 8px;
               text-transform: uppercase;
-              color: #5180A2;
+              color: #5180a2;
               padding: 10px 10px;
               margin: 10px 0;
             }
           }
         }
-  
-        #wrap-kategori.fixed{
+
+        #wrap-kategori.fixed {
           position: fixed;
           top: 0;
           margin-top: 120px;
@@ -958,30 +995,30 @@ body {
           width: 28%;
           display: flex;
           max-width: 100%;
-          padding-right: calc(var(--bs-gutter-x) * .5);
-          padding-left: calc(var(--bs-gutter-x) * .5);
+          padding-right: calc(var(--bs-gutter-x) * 0.5);
+          padding-left: calc(var(--bs-gutter-x) * 0.5);
         }
-  
-        .kategori-mobile{
+
+        .kategori-mobile {
           .wrap-kategori-mobile {
             overflow-x: auto;
             white-space: nowrap;
-    
+
             .box {
               display: ruby;
               float: none;
-    
+
               a {
                 text-decoration: none;
                 cursor: pointer;
-    
+
                 .kategori {
                   font-size: 14px;
                   font-weight: 500;
-                  background: #B4DBF5;
+                  background: #b4dbf5;
                   border-radius: 8px;
                   text-transform: uppercase;
-                  color: #5180A2;
+                  color: #5180a2;
                   padding: 10px 10px;
                   margin: 10px 0;
                 }
@@ -989,28 +1026,26 @@ body {
             }
           }
         }
-  
-        
-  
+
         .content {
           .wrap {
             .title {
-              background: #5180A2;
-              color: #FFF;
+              background: #5180a2;
+              color: #fff;
               padding: 10px 10px;
               margin: 10px 0;
               border-radius: 8px;
               text-transform: uppercase;
             }
-  
+
             .slider-content-1 {
               .swiper {
                 border-radius: 8px;
                 height: 322px;
-  
+
                 .swiper-wrapper {
                   height: 361px;
-  
+
                   .swiper-slide {
                     img {
                       width: 100%;
@@ -1020,56 +1055,56 @@ body {
                   }
                 }
               }
-  
+
               .swiper-pagination {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-2 {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-3 {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-4 {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-5 {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-6 {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-7 {
                 position: relative;
                 margin: 25px 0 20px 0;
                 height: 20px;
                 text-align: center;
               }
-  
+
               .swiper-pagination-8 {
                 position: relative;
                 margin: 25px 0 20px 0;
@@ -1086,4 +1121,5 @@ body {
 
 // large
 
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
