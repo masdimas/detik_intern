@@ -11,12 +11,23 @@
 #miss-classy .sidebar-city-image-canvas {
   max-width: 360px;
   max-height: 360px;
+  width: 100%;
+  height: 100%;
   border-radius: 20px;
   overflow: hidden;
+  position: relative;
 }
 
 #miss-classy .sidebar-city-img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  object-position: center center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
 #miss-classy .miss-classy-desc {
   max-width: 360px;
@@ -89,10 +100,19 @@
   width: 100%;
   overflow: hidden;
   border-radius: 20px;
+  position: relative;
 }
 
 #miss-classy .miss-classy-img-container img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  object-position: center center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
 #miss-classy .vote-miss-classy-card h4 {
   color: #5180a2;
@@ -112,4 +132,109 @@
   border: none;
   padding: 8px 12px;
   width: 100%;
+}
+
+#miss-classy .leaderboard-rank {
+  color: white;
+}
+#miss-classy .rank {
+  background-color: #fccd0e;
+  height: fit-content;
+  padding: 4px 8px 4px 20px;
+  border-radius: 8px 0px 0px 30px;
+  font-family: Outfit, Fredoka, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: right;
+}
+#miss-classy .ranked-miss-classy {
+  width: 100%;
+  background-color: #f0952b;
+  padding: 12px;
+  border-radius: 0px 20px 20px 20px;
+  gap: 16px;
+}
+
+#miss-classy .leaderboard-img-container {
+  max-width: 50px;
+  max-height: 50px;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+#miss-classy .leaderboard-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+#miss-classy .miss-classy-data {
+  gap: 16px;
+}
+#miss-classy .miss-classy-data h4 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#miss-classy .miss-classy-data span {
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+#miss-classy .leaderboard-vote {
+  font-family: Outfit, Fredoka, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  #miss-classy .vote-miss-classy-card {
+    max-width: 240px;
+  }
+}
+@media (max-width: 997px) {
+  #miss-classy .vote-miss-classy-card {
+    max-width: 155px;
+  }
+}
+@media (max-width: 576px) {
+  #miss-classy .sidebar-city-image-canvas {
+    max-width: none;
+    max-height: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+  #miss-classy .miss-classy-desc {
+    max-width: none;
+    padding: 18px;
+  }
+  #miss-classy {
+    padding-top: 0px;
+  }
+  #miss-classy .miss-classy-vote {
+    padding: 0 18px;
+  }
+}
+
+@media (max-width: 350px) {
+  #miss-classy .vote-miss-classy-card {
+    max-width: 125px;
+  }
 }

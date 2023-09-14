@@ -157,6 +157,12 @@ table {
   font-weight: 700;
   src: url("../fonts/Fredoka/static/Fredoka-Bold.ttf");
 }
+@font-face {
+  font-family: "Outfit";
+  font-style: semi-bold;
+  font-weight: 600;
+  src: url("../fonts/Outifit/Outfit-SemiBold.ttf");
+}
 
 * {
   font-family: "Fredoka";

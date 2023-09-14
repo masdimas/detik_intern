@@ -1,8 +1,8 @@
-<section class="" id="miss-classy">
-    <div class="section-container m-auto px-5 d-flex">
+<section class="pb-5" id="miss-classy">
+    <div class="section-container m-auto px-sm-5 px-0 d-flex flex-md-row flex-column">
 
-        <aside class="col-4">
-            <div class="sidebar-city">
+        <aside class="col-xl-4 col-md-5 col-12 d-flex flex-column align-items-center">
+  
                 <div class="sidebar-city-image-canvas">
                     <img
                     src="./assets/images/miss-classy/miss-classy-sidebar-city.jpg"
@@ -60,10 +60,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
         </aside>
-        <div class="miss-classy-vote col-8 d-flex flex-column align-items-center">
+        <div class="miss-classy-vote col-xl-8 col-md-7 col-12 d-flex flex-column align-items-center">
             <ul
             class="nav nav-pills mb-3  justify-content-center"
             id="pills-tab"
@@ -98,20 +97,29 @@
                     </button>
                 </li>
             </ul>
-            <div class="vote-card-container d-flex flex-wrap justify-content-around px-4">
-                <?php
-                    include "./main/component-miss-classy/miss-classy-vote-card.php";
-                ?>
-                <?php
-                    include "./main/component-miss-classy/miss-classy-vote-card.php";
-                ?>
-                <?php
-                    include "./main/component-miss-classy/miss-classy-vote-card.php";
-                ?>
-                <?php
-                    include "./main/component-miss-classy/miss-classy-vote-card.php";
-                ?>
+            <div class="leaderboard-container w-100 d-flex flex-wrap justify-content-center px-xl-4 px-lg-2 gap-sm-3 gap-2">
+                <div class="leaderboard-rank w-100 d-flex">
+                    <div class="rank ">
+                        1
+                    </div>
+                    <div class="ranked-miss-classy d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center miss-classy-data">
+                            <div class="leaderboard-img-container">
+                                <img
+                                src="./assets/images/miss-classy/miss-classy-pic/miss-classy-1.jpg"
+                                alt=""
+                                />
+                            </div>
+                            <div class="leaderboard-data">
+                                <h4>Charlotte Brown</h4>
+                                <span>Akademi Angkatan Udara</span>
+                            </div>
+                        </div>
+                        <div class="leaderboard-vote">1234</div>
+                    </div>
+                </div>
             </div>
+            
         </div>
     </div>
 </section>

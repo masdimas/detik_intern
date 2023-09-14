@@ -1,5 +1,5 @@
 
-    <div class="vote-miss-classy-card d-flex flex-column align-items-center mb-3">
+    <div class="vote-miss-classy-card d-flex flex-column align-items-center col-6 ">
         <div class="miss-classy-img-container mx-auto ">
             <img
             src="./assets/images/miss-classy/miss-classy-pic/miss-classy-1.jpg"
