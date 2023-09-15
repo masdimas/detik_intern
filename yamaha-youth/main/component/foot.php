@@ -7,6 +7,8 @@
   <script src="./node_modules/aos/dist/aos.js"></script>
   <script src="./assets/js/photo-gallery.js"></script>
   <script src="./assets/js/school-swiper.js"></script>
+  <script src="./assets/js/miss-classy-vote-modals.js"></script>
+  
   <!-- <script src="./assets/js/sidebar.js"></script> -->
   <script>
     // Initialize tooltips
