@@ -8,8 +8,8 @@
                     alt=""
                     />
                 </div>
-                <div class="w-100">
-                    <div class="d-flex flex-column align-items-center gap-1 mt-2">
+                <div class="w-100 ">
+                    <div class="d-flex flex-column align-items-center gap-1 mt-2 finalist-identity">
                         <h4 class="candidate-name">Charlotte Brown</h4>
                         <span class="candidate-school">SMAN 1 Bandung</span>
                     </div>
@@ -59,7 +59,7 @@
                     />
                 </div>
                 <div class="w-100">
-                    <div class="d-flex flex-column align-items-center gap-1 mt-2">
+                    <div class="d-flex flex-column align-items-center gap-1 mt-2 finalist-identity">
                         <h4 class="candidate-name">Ini sudah vote Mazzeh</h4>
                         <span class="candidate-school">SMAN 2 Bandung</span>
                     </div>
@@ -112,7 +112,7 @@
                     />
                 </div>
                 <div class="w-100">
-                    <div class="d-flex flex-column align-items-center gap-1 mt-2">
+                    <div class="d-flex flex-column align-items-center gap-1 mt-2 finalist-identity">
                         <h4 class="candidate-name">Konfirmasi Vote</h4>
                         <span class="candidate-school">SMAN 2 Bandung</span>
                     </div>
@@ -184,7 +184,7 @@
                     />
                 </div>
                 <div class="w-100">
-                    <div class="d-flex flex-column align-items-center gap-1 mt-2">
+                    <div class="d-flex flex-column align-items-center gap-1 mt-2 finalist-identity">
                         <h4 class="candidate-name">Charlotte Brown</h4>
                         <span class="candidate-school">SMAN 1 Bandung</span>
                     </div>
@@ -209,7 +209,7 @@
                     />
                 </div>
                 <div class="w-100">
-                    <div class="d-flex flex-column align-items-center gap-1 mt-2">
+                    <div class="d-flex flex-column align-items-center gap-1 mt-2 finalist-identity">
                         <h4 class="candidate-name">Charlotte Brown</h4>
                         <span class="candidate-school">SMAN 1 Bandung</span>
                     </div>
@@ -225,7 +225,7 @@
                     />
                 </div>
                 <div class="w-100">
-                    <div class="d-flex flex-column align-items-center gap-1 mt-2">
+                    <div class="d-flex flex-column align-items-center gap-1 mt-2 finalist-identity">
                         <h4 class="candidate-name">Charlotte Brown</h4>
                         <span class="candidate-school">SMAN 1 Bandung</span>
                     </div>
@@ -247,7 +247,7 @@
                     />
                 </div>
                 <div class="w-100">
-                    <div class="d-flex flex-column align-items-center gap-1 mt-2">
+                    <div class="d-flex flex-column align-items-center gap-1 mt-2 finalist-identity">
                         <h4 class="candidate-name">Charlotte Brown</h4>
                         <span class="candidate-school">SMAN 1 Bandung</span>
                     </div>
@@ -262,7 +262,7 @@
                     />
                 </div>
                 <div class="w-100">
-                    <div class="d-flex flex-column align-items-center gap-1 mt-2">
+                    <div class="d-flex flex-column align-items-center gap-1 mt-2 finalist-identity">
                         <h4 class="candidate-name">Charlotte Brown</h4>
                         <span class="candidate-school">SMAN 1 Bandung</span>
                     </div>

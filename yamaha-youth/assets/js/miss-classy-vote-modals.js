@@ -7,6 +7,14 @@ $(document).ready(function () {
   $("#redirect-top-picks").click(function () {
     // Close Modal 1
     $("#video-aggregator").click();
-    $("html, body").animate({ scrollTop: 0 }, "slow");
+    var targetPosition = $("#pills-tab").offset().top;
+    var scrollPosition = targetPosition - 50;
+
+    $("html, body").animate(
+      {
+        scrollTop: scrollPosition,
+      },
+      500
+    );
   });
 });
