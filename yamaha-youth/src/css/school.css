@@ -126,9 +126,9 @@ body {
   top: 0;
   margin-top: 120px;
   flex: 0 0 auto;
-  width: 27%;
+  width: 100%;
   display: flex;
-  max-width: 100%;
+  max-width: 360px;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
 }
@@ -1007,9 +1007,9 @@ body {
     top: 0;
     margin-top: 120px;
     flex: 0 0 auto;
-    width: 25%;
+    width: 100% !important;
     display: flex;
-    max-width: 100%;
+    max-width: 360px !important;
     padding-right: calc(var(--bs-gutter-x) * 0.5);
     padding-left: calc(var(--bs-gutter-x) * 0.5);
   }
