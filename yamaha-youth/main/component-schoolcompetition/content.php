@@ -85,6 +85,7 @@
 
                     <div class="kategori-mobile">
                         <div class="wrap-kategori-mobile d-block d-sm-block d-md-none">
+                        <?php include "./main/component/social-media-share.php"; ?>
                             <div class="box">
                                 <a href="#best-moments">
                                     <div class="kategori">

@@ -289,7 +289,7 @@ body {
   }
   #school-content .section-container .wrap-content .left-side .destination {
     position: relative;
-    height: 478px;
+    height: 458px;
     width: 100%;
   }
   #school-content .section-container .wrap-content .left-side .destination .wrap-destination {
@@ -375,6 +375,34 @@ body {
     max-width: 100%;
     padding-right: calc(var(--bs-gutter-x) * 0.5);
     padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+  #school-content .section-container .wrap-content .kategori-mobile {
+    padding-left: calc(var(--bs-gutter-x) * 1.5);
+  }
+  #school-content .section-container .wrap-content .kategori-mobile .wrap-kategori-mobile {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  #school-content .section-container .wrap-content .kategori-mobile .wrap-kategori-mobile #social-media-share {
+    margin-bottom: 1rem !important;
+  }
+  #school-content .section-container .wrap-content .kategori-mobile .wrap-kategori-mobile .box {
+    display: ruby;
+    float: none;
+  }
+  #school-content .section-container .wrap-content .kategori-mobile .wrap-kategori-mobile .box a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #school-content .section-container .wrap-content .kategori-mobile .wrap-kategori-mobile .box a .kategori {
+    font-size: 14px;
+    font-weight: 500;
+    background: #b4dbf5;
+    border-radius: 8px;
+    text-transform: uppercase;
+    color: #5180a2;
+    padding: 10px 10px;
+    margin: 10px 0;
   }
   #school-content .section-container .wrap-content .content {
     padding-right: calc(var(--bs-gutter-x) * 1.5);
