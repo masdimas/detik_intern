@@ -132,6 +132,10 @@ body {
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
 }
+#school-content .section-container .wrap-content #sosmed-mobile {
+  padding-top: 35px;
+  padding-bottom: 8px;
+}
 #school-content .section-container .wrap-content .kategori-mobile {
   padding-left: calc(var(--bs-gutter-x) * 1.5);
 }
@@ -510,7 +514,7 @@ body {
   }
   #school-content .section-container .wrap-content .left-side .destination {
     position: relative;
-    height: 478px;
+    height: 388px;
     width: 100%;
   }
   #school-content .section-container .wrap-content .left-side .destination .wrap-destination {

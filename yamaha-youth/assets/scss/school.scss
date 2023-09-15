@@ -222,7 +222,10 @@ body {
         padding-left: calc(var(--bs-gutter-x) * 0.5);
       }
 
-      
+      #sosmed-mobile{
+        padding-top: 35px;
+        padding-bottom: 8px;
+      }
 
       .kategori-mobile {
         padding-left: calc(var(--bs-gutter-x) * 1.5);
@@ -692,7 +695,7 @@ body {
 
           .destination {
             position: relative;
-            height: 478px;
+            height: 388px;
             width: 100%;
 
             .wrap-destination {
