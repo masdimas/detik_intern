@@ -45,47 +45,47 @@
         <div class="swiper school-slider2">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
+                    <a href="miss-classy.php">
                         <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
+                    <a href="miss-classy.php">
                         <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
+                    <a href="miss-classy.php">
                         <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
+                    <a href="miss-classy.php">
                         <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
+                    <a href="miss-classy.php">
                         <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
+                    <a href="miss-classy.php">
                         <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
+                    <a href="miss-classy.php">
                         <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
+                    <a href="miss-classy.php">
                         <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
+                    <a href="miss-classy.php">
                         <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                     </a>
                 </div>
