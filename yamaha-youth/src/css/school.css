@@ -78,45 +78,6 @@ body {
   line-height: normal;
   padding: 10px;
 }
-#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc #social-media-share {
-  background-color: #dff2ff;
-  width: fit-content;
-  padding: 0.5rem 0.4rem 0.5rem 1rem;
-  gap: 8px;
-}
-#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc #social-media-share span {
-  line-height: 1.4;
-  color: #274d6e;
-}
-#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc #social-media-share .share-facebook {
-  background-image: url(../images/social-media-share/facebook.svg);
-  transition: 0.2s ease;
-}
-#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc #social-media-share .share-twitter {
-  background-image: url(../images/social-media-share/twitter.svg);
-  transition: 0.2s ease;
-}
-#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc #social-media-share .share-telegram {
-  background-image: url(../images/social-media-share/telegram.svg);
-  transition: 0.2s ease;
-}
-#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc #social-media-share .share-whatsapp {
-  background-image: url(../images/social-media-share/whatsapp.svg);
-  transition: 0.2s ease;
-}
-#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc #social-media-share #copy-link {
-  cursor: pointer;
-}
-#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc #social-media-share #copy-link img {
-  border-radius: 20px;
-  width: 100%;
-  object-fit: cover;
-  height: 300px;
-}
-#school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc #social-media-share .sosmed-share-logo {
-  width: 24px;
-  height: 24px;
-}
 #school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .wrap-kategori a {
   text-decoration: none;
   cursor: pointer;
@@ -872,4 +833,4 @@ body {
     height: 20px;
     text-align: center;
   }
-}/*# sourceMappingURL=school.css.map */
+}

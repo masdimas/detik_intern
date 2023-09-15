@@ -1,4 +1,4 @@
-<div class="d-flex justify-content-center">
+<div class="d-flex justify-content-center" id="sosmed">
   <div class="social-media-share d-flex rounded-pill col-12 mt-4" id="social-media-share">
     <span>Share</span>
     <div class="share-facebook sosmed-share-logo rounded-pill"></div>

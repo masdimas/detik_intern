@@ -89,47 +89,60 @@ body {
                   }
                 }
 
-                #social-media-share {
-                  background-color: #dff2ff;
-                  width: fit-content;
-                  padding: 0.5rem 0.4rem 0.5rem 1rem;
-                  gap: 8px;
-                  span {
-                    line-height: 1.4;
-                    color: #274d6e;
-                  }
-                  .share-facebook {
-                    background-image: url(../images/social-media-share/facebook.svg);
-                    transition: 0.2s ease;
-                  }
-                  .share-twitter {
-                    background-image: url(../images/social-media-share/twitter.svg);
-                    transition: 0.2s ease;
-                  }
-                  .share-telegram {
-                    background-image: url(../images/social-media-share/telegram.svg);
-                    transition: 0.2s ease;
-                  }
-                  .share-whatsapp {
-                    background-image: url(../images/social-media-share/whatsapp.svg);
-                    transition: 0.2s ease;
-                  }
-                  #copy-link {
-                    cursor: pointer;
-                    img{
-                      border-radius: 20px;
-                      width: 100%;
-                      object-fit: cover;
-                      height: 300px;
-                    }
-                  }
-                  .sosmed-share-logo {
-                    width: 24px;
-                    height: 24px;
-                  }
-                }
+                
 
                 .wrap-kategori {
+                //   #sosmed{
+                //   position: absolute;
+                //   top: 560px;
+                //   #social-media-share {
+                //     background-color: #dff2ff;
+                //     width: fit-content;
+                //     padding: 0.5rem 0.4rem 0.5rem 1rem;
+                //     gap: 8px;
+                //     span {
+                //       line-height: 1.4;
+                //       color: #274d6e;
+                //     }
+                //     .share-facebook {
+                //       background-image: url(../images/social-media-share/facebook.svg);
+                //       transition: 0.2s ease;
+                //       width: 24px;
+                //       height: 24px;
+                //     }
+                //     .share-twitter {
+                //       background-image: url(../images/social-media-share/twitter.svg);
+                //       transition: 0.2s ease;
+                //       width: 24px;
+                //       height: 24px;
+                //     }
+                //     .share-telegram {
+                //       background-image: url(../images/social-media-share/telegram.svg);
+                //       transition: 0.2s ease;
+                //       width: 24px;
+                //       height: 24px;
+                //     }
+                //     .share-whatsapp {
+                //       background-image: url(../images/social-media-share/whatsapp.svg);
+                //       transition: 0.2s ease;
+                //       width: 24px;
+                //       height: 24px;
+                //     }
+                //     #copy-link {
+                //       cursor: pointer;
+                //       img{
+                //         border-radius: 20px;
+                //         width: 100%;
+                //         object-fit: cover;
+                //         height: 300px;
+                //       }
+                //     }
+                //     .sosmed-share-logo {
+                //       width: 24px;
+                //       height: 24px;
+                //     }
+                //   }
+                // }
                   a {
                     text-decoration: none;
                     cursor: pointer;
@@ -162,6 +175,8 @@ body {
         //   padding-right: calc(var(--bs-gutter-x) * .5);
         //   padding-left: calc(var(--bs-gutter-x) * .5);
         // }
+
+        
       }
 
       #wrap-kategori {
@@ -197,6 +212,8 @@ body {
         padding-right: calc(var(--bs-gutter-x) * 0.5);
         padding-left: calc(var(--bs-gutter-x) * 0.5);
       }
+
+      
 
       .kategori-mobile {
         .wrap-kategori-mobile {
