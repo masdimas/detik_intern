@@ -230,38 +230,10 @@
 
                 <div class="tab-pane fade show active vote-card-container flex-wrap justify-content-center px-xl-4 px-lg-2 gap-sm-3 gap-2"
                 id="vote-card-container">
-                    <div class="row  gap-sm-3 gap-2">
                         <?php
                             include "./main/component-miss-classy/miss-classy-vote-card.php";
                         ?>
-                        <?php
-                            include "./main/component-miss-classy/miss-classy-vote-card.php";
-                        ?>
-                    </div>
-                    <div class="row  gap-sm-3 gap-2">
-                        <?php
-                            include "./main/component-miss-classy/miss-classy-vote-card.php";
-                        ?>
-                        <?php
-                            include "./main/component-miss-classy/miss-classy-vote-card.php";
-                        ?>
-                    </div>
-                    <div class="row  gap-sm-3 gap-2">
-                        <?php
-                            include "./main/component-miss-classy/miss-classy-vote-card.php";
-                        ?>
-                        <?php
-                            include "./main/component-miss-classy/miss-classy-vote-card.php";
-                        ?>
-                    </div>    
-                    <div class="row  gap-sm-3 gap-2">
-                        <?php
-                            include "./main/component-miss-classy/miss-classy-vote-card.php";
-                        ?>
-                        <?php
-                            include "./main/component-miss-classy/miss-classy-vote-card.php";
-                        ?>
-                    </div>    
+                   
                 </div>
             </div>
             

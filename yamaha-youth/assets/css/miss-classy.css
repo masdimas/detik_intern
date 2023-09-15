@@ -277,6 +277,46 @@
   background-color: #b4dbf5;
 }
 
+#miss-classy .vote-button.voted {
+  background-color: #5e900d;
+  color: #e0ff48;
+}
+
+#miss-classy .vote-miss-classy-card .modal h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #5182a2;
+}
+#miss-classy .vote-miss-classy-card .modal .modal-text-content {
+  width: 50%;
+}
+#miss-classy .vote-miss-classy-card .modal h5 {
+  color: #1f2937;
+  font-family: Fredoka;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+#miss-classy .vote-miss-classy-card .modal span {
+  font-family: Fredoka;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #81889c;
+}
+#miss-classy .vote-miss-classy-card .modal .modal-cta {
+  background-color: #f0952b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+}
+
 @media (max-width: 1200px) {
   #miss-classy .vote-miss-classy-card {
     max-width: 240px;
