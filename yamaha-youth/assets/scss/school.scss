@@ -216,6 +216,7 @@ body {
       
 
       .kategori-mobile {
+        padding-left: calc(var(--bs-gutter-x) * 1.5);
         .wrap-kategori-mobile {
           overflow-x: auto;
           white-space: nowrap;
@@ -389,7 +390,7 @@ body {
 @media (min-width: 0px) and (max-width: 575px) {
   body {
     height: 100vh;
-    background-image: url("../../assets/images/school-competition/bg-school.jpg");
+    background-image: url("../../assets/images/school-competition/bg-school-mobile.jpg");
     background-position: top;
     background-size: cover;
     background-repeat: none;
@@ -530,8 +531,8 @@ body {
         }
 
         .content {
-          padding-right: calc(var(--bs-gutter-x) * 0.5);
-          padding-left: calc(var(--bs-gutter-x) * 0.5);
+          padding-right: calc(var(--bs-gutter-x) * 1.5);
+          padding-left: calc(var(--bs-gutter-x) * 1.5);
           .wrap {
             .title {
               background: #5180a2;
