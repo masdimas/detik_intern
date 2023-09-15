@@ -291,6 +291,7 @@
 }
 #miss-classy .vote-miss-classy-card .modal .modal-text-content {
   width: 50%;
+  margin-top: 2rem;
 }
 #miss-classy .vote-miss-classy-card .modal h5 {
   color: #1f2937;
