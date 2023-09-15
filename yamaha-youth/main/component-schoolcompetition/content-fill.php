@@ -4,49 +4,31 @@
         <div class="swiper school-slider1">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
             </div>
             <div class="swiper-button-next"></div>
@@ -62,7 +44,7 @@
     <div class="slider-content-1">
         <div class="swiper school-slider2">
             <div class="swiper-wrapper">
-            <div class="swiper-slide">
+                <div class="swiper-slide">
                     <a href="{clickurl}">
                         <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                     </a>
@@ -122,49 +104,31 @@
         <div class="swiper school-slider3">
             <div class="swiper-wrapper">
             <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
             </div>
             <div class="swiper-button-next"></div>
@@ -180,7 +144,7 @@
     <div class="slider-content-1">
         <div class="swiper school-slider4">
             <div class="swiper-wrapper">
-            <div class="swiper-slide">
+                <div class="swiper-slide">
                     <a href="{clickurl}">
                         <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                     </a>
@@ -240,49 +204,31 @@
         <div class="swiper school-slider5">
             <div class="swiper-wrapper">
             <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
             </div>
             <div class="swiper-button-next"></div>
@@ -299,49 +245,31 @@
         <div class="swiper school-slider6">
             <div class="swiper-wrapper">
             <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
             </div>
             <div class="swiper-button-next"></div>
@@ -358,49 +286,31 @@
         <div class="swiper school-slider7">
             <div class="swiper-wrapper">
             <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
             </div>
             <div class="swiper-button-next"></div>
@@ -417,49 +327,31 @@
         <div class="swiper school-slider8">
             <div class="swiper-wrapper">
             <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <a href="{clickurl}">
-                        <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
-                    </a>
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
                 </div>
             </div>
             <div class="swiper-button-next"></div>
