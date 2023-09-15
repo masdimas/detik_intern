@@ -92,6 +92,15 @@ body {
   padding: 10px 10px;
   margin: 10px 0;
 }
+#school-content .section-container .wrap-content .left-side #sosmed {
+  position: absolute;
+  top: 436px;
+  width: 100%;
+}
+#school-content .section-container .wrap-content .left-side #sosmed #social-media-share {
+  margin-left: auto;
+  margin-right: auto;
+}
 #school-content .section-container .wrap-content #wrap-kategori {
   position: absolute;
   top: 460px;
@@ -305,7 +314,7 @@ body {
     border-radius: 0px;
     width: 100%;
     object-fit: cover;
-    height: 300px;
+    height: 400px;
   }
   #school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc {
     position: absolute;
@@ -319,7 +328,7 @@ body {
     padding-bottom: 0px;
   }
   #school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .about-destination {
-    margin-top: 30px;
+    margin-top: 70px;
     background: #b4dbf5;
     margin-left: 10px;
     margin-right: 10px;
@@ -385,6 +394,7 @@ body {
   }
   #school-content .section-container .wrap-content .kategori-mobile .wrap-kategori-mobile #social-media-share {
     margin-bottom: 1rem !important;
+    margin-top: 4rem !important;
   }
   #school-content .section-container .wrap-content .kategori-mobile .wrap-kategori-mobile .box {
     display: ruby;

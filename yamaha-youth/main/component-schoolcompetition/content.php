@@ -29,9 +29,9 @@
                                 </div>
                             </div>
                         </div>
-
+                        <?php include "./main/component/social-media-share-sc.php"; ?>
                         <div class="wrap-kategori d-none d-sm-none d-md-block" id="wrap-kategori">
-                            <?php include "./main/component/social-media-share.php"; ?>
+                            
                             <a href="#best-moments">
                                 <div class="kategori">
                                     <span>🖼️ Best Moments</span>

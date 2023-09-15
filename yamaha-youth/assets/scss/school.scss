@@ -176,6 +176,15 @@ body {
         //   padding-left: calc(var(--bs-gutter-x) * .5);
         // }
 
+        #sosmed{
+          position: absolute;
+          top: 436px;
+          width: 100%;
+          #social-media-share{
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
         
       }
 
@@ -426,7 +435,7 @@ body {
                   border-radius: 0px;
                   width: 100%;
                   object-fit: cover;
-                  height: 300px;
+                  height: 400px;
                 }
 
                 .wrap-desc {
@@ -444,7 +453,7 @@ body {
                   }
 
                   .about-destination {
-                    margin-top: 30px;
+                    margin-top: 70px;
                     background: #b4dbf5;
                     margin-left: 10px;
                     margin-right: 10px;
@@ -538,6 +547,7 @@ body {
 
             #social-media-share{
               margin-bottom: 1rem !important;
+              margin-top: 4rem !important;
             }
   
             .box {
