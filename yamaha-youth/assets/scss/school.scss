@@ -176,12 +176,21 @@ body {
         //   padding-left: calc(var(--bs-gutter-x) * .5);
         // }
 
+        #sosmed{
+          position: absolute;
+          top: 438px;
+          width: 100%;
+          #social-media-share{
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
         
       }
 
       #wrap-kategori {
         position: absolute;
-        top: 460px;
+        top: 510px;
         width: 100%;
         height: 100vh;
         a {
@@ -206,14 +215,17 @@ body {
         top: 0;
         margin-top: 120px;
         flex: 0 0 auto;
-        width: 26%;
+        width: 100%;
         display: flex;
-        max-width: 100%;
+        max-width: 360px;
         padding-right: calc(var(--bs-gutter-x) * 0.5);
         padding-left: calc(var(--bs-gutter-x) * 0.5);
       }
 
-      
+      #sosmed-mobile{
+        padding-top: 35px;
+        padding-bottom: 8px;
+      }
 
       .kategori-mobile {
         padding-left: calc(var(--bs-gutter-x) * 1.5);
@@ -222,7 +234,7 @@ body {
           white-space: nowrap;
 
           .box {
-            display: ruby;
+            display: flex;
             float: none;
 
             a {
@@ -238,6 +250,7 @@ body {
                 color: #5180a2;
                 padding: 10px 10px;
                 margin: 10px 0;
+                margin-right: 6px;
               }
             }
           }
@@ -426,7 +439,7 @@ body {
                   border-radius: 0px;
                   width: 100%;
                   object-fit: cover;
-                  height: 300px;
+                  height: 400px;
                 }
 
                 .wrap-desc {
@@ -444,7 +457,7 @@ body {
                   }
 
                   .about-destination {
-                    margin-top: 30px;
+                    margin-top: 70px;
                     background: #b4dbf5;
                     margin-left: 10px;
                     margin-right: 10px;
@@ -478,8 +491,7 @@ body {
                     }
                   }
 
-                  .share {
-                  }
+                  
                 }
               }
             }
@@ -538,10 +550,11 @@ body {
 
             #social-media-share{
               margin-bottom: 1rem !important;
+              margin-top: 4rem !important;
             }
   
             .box {
-              display: ruby;
+              display: flex;
               float: none;
   
               a {
@@ -557,6 +570,7 @@ body {
                   color: #5180a2;
                   padding: 10px 10px;
                   margin: 10px 0;
+                  margin-right: 6px;
                 }
               }
             }
@@ -682,7 +696,7 @@ body {
 
           .destination {
             position: relative;
-            height: 478px;
+            height: 388px;
             width: 100%;
 
             .wrap-destination {
@@ -750,8 +764,7 @@ body {
                     }
                   }
 
-                  .share {
-                  }
+                  
                 }
               }
             }
@@ -912,7 +925,7 @@ body {
 
           .destination {
             position: absolute;
-            height: 80vh;
+            height: 502px;
             width: 100%;
 
             .wrap-destination {
@@ -978,8 +991,7 @@ body {
                     }
                   }
 
-                  .share {
-                  }
+                  
 
                   .wrap-kategori {
                     a {
@@ -1014,11 +1026,21 @@ body {
           //   padding-right: calc(var(--bs-gutter-x) * .5);
           //   padding-left: calc(var(--bs-gutter-x) * .5);
           // }
+
+          #sosmed{
+            position: absolute;
+            top: 487px;
+            width: 100%;
+            #social-media-share{
+              margin-left: auto;
+              margin-right: auto;
+            }
+          }
         }
 
         #wrap-kategori {
           position: absolute;
-          top: 510px;
+          top: 556px;
           width: 100%;
           height: 100vh;
           a {
@@ -1056,7 +1078,7 @@ body {
             white-space: nowrap;
 
             .box {
-              display: ruby;
+              display: flex;
               float: none;
 
               a {
@@ -1173,4 +1195,392 @@ body {
 // large
 
 @media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) and (max-width: 2000px) {
+  #school-content {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  
+    .section-container {
+      .wrap-content {
+        height: auto;
+  
+        .left-side {
+          position: relative;
+  
+          .destination {
+            position: absolute;
+            height: 100vh;
+            width: 100%;
+  
+            .wrap-destination {
+              height: 100%;
+              overflow-x: hidden;
+              overflow-y: auto;
+  
+              .latarkota {
+                position: relative;
+                height: 180px;
+  
+                img {
+                  border-radius: 20px;
+                  width: 100%;
+                  object-fit: cover;
+                  height: 300px;
+                }
+  
+                .wrap-desc {
+                  position: absolute;
+                  top: 110px;
+  
+                  .logo-wrap {
+                    img {
+                      max-width: 267px;
+                      height: unset;
+                      object-fit: unset;
+                    }
+                  }
+  
+                  .about-destination {
+                    margin-top: 30px;
+                    background: #b4dbf5;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border-radius: 8px;
+                    padding: 12px;
+  
+                    .title {
+                      color: #5180a2;
+                      height: 100%;
+                      padding-top: 10px;
+                      padding-bottom: 2px;
+  
+                      h4 {
+                        font-size: 20px;
+                        font-family: "gill-sans-1000", "Gill Sans MT", Calibri,
+                          "Trebuchet MS", sans-serif;
+                      }
+  
+                      .captions {
+                        background: #fff;
+                        margin: 10px;
+                        border-radius: 8px;
+                        margin: 10px 0;
+  
+                        p {
+                          font-size: 12px;
+                          line-height: normal;
+                          padding: 10px;
+                        }
+                      }
+                    }
+                  }
+  
+                  
+  
+                  .wrap-kategori {
+                  //   #sosmed{
+                  //   position: absolute;
+                  //   top: 560px;
+                  //   #social-media-share {
+                  //     background-color: #dff2ff;
+                  //     width: fit-content;
+                  //     padding: 0.5rem 0.4rem 0.5rem 1rem;
+                  //     gap: 8px;
+                  //     span {
+                  //       line-height: 1.4;
+                  //       color: #274d6e;
+                  //     }
+                  //     .share-facebook {
+                  //       background-image: url(../images/social-media-share/facebook.svg);
+                  //       transition: 0.2s ease;
+                  //       width: 24px;
+                  //       height: 24px;
+                  //     }
+                  //     .share-twitter {
+                  //       background-image: url(../images/social-media-share/twitter.svg);
+                  //       transition: 0.2s ease;
+                  //       width: 24px;
+                  //       height: 24px;
+                  //     }
+                  //     .share-telegram {
+                  //       background-image: url(../images/social-media-share/telegram.svg);
+                  //       transition: 0.2s ease;
+                  //       width: 24px;
+                  //       height: 24px;
+                  //     }
+                  //     .share-whatsapp {
+                  //       background-image: url(../images/social-media-share/whatsapp.svg);
+                  //       transition: 0.2s ease;
+                  //       width: 24px;
+                  //       height: 24px;
+                  //     }
+                  //     #copy-link {
+                  //       cursor: pointer;
+                  //       img{
+                  //         border-radius: 20px;
+                  //         width: 100%;
+                  //         object-fit: cover;
+                  //         height: 300px;
+                  //       }
+                  //     }
+                  //     .sosmed-share-logo {
+                  //       width: 24px;
+                  //       height: 24px;
+                  //     }
+                  //   }
+                  // }
+                    a {
+                      text-decoration: none;
+                      cursor: pointer;
+  
+                      .kategori {
+                        font-size: 14px;
+                        font-weight: 500;
+                        background: #b4dbf5;
+                        border-radius: 8px;
+                        text-transform: uppercase;
+                        color: #5180a2;
+                        padding: 10px 10px;
+                        margin: 10px 0;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+  
+          // #destination.fixed {
+          //   position: fixed;
+          //   top: 0;
+          //   margin-top: 120px;
+          //   flex: 0 0 auto;
+          //   width: 33.33333333%;
+          //   display: flex;
+          //   max-width: 100%;
+          //   padding-right: calc(var(--bs-gutter-x) * .5);
+          //   padding-left: calc(var(--bs-gutter-x) * .5);
+          // }
+  
+          #sosmed{
+            position: absolute;
+            top: 436px;
+            width: 100%;
+            #social-media-share{
+              margin-left: auto;
+              margin-right: auto;
+            }
+          }
+          
+        }
+  
+        #wrap-kategori {
+          position: absolute;
+          top: 510px;
+          width: 100%;
+          height: 100vh;
+          a {
+            text-decoration: none;
+            cursor: pointer;
+  
+            .kategori {
+              font-size: 14px;
+              font-weight: 500;
+              background: #b4dbf5;
+              border-radius: 8px;
+              text-transform: uppercase;
+              color: #5180a2;
+              padding: 10px 10px;
+              margin: 10px 0;
+            }
+          }
+        }
+  
+        #wrap-kategori.fixed {
+          position: fixed;
+          top: 0;
+          margin-top: 120px;
+          flex: 0 0 auto;
+          width: 100% !important;
+          display: flex;
+          max-width: 360px !important;
+          padding-right: calc(var(--bs-gutter-x) * 0.5);
+          padding-left: calc(var(--bs-gutter-x) * 0.5);
+        }
+  
+        #sosmed-mobile{
+          padding-top: 35px;
+          padding-bottom: 8px;
+        }
+  
+        .kategori-mobile {
+          padding-left: calc(var(--bs-gutter-x) * 1.5);
+          .wrap-kategori-mobile {
+            overflow-x: auto;
+            white-space: nowrap;
+  
+            .box {
+              display: flex;
+              float: none;
+  
+              a {
+                text-decoration: none;
+                cursor: pointer;
+  
+                .kategori {
+                  font-size: 14px;
+                  font-weight: 500;
+                  background: #b4dbf5;
+                  border-radius: 8px;
+                  text-transform: uppercase;
+                  color: #5180a2;
+                  padding: 10px 10px;
+                  margin: 10px 0;
+                  margin-right: 6px;
+                }
+              }
+            }
+          }
+        }
+  
+        .content {
+          .wrap {
+            .title {
+              background: #5180a2;
+              color: #fff;
+              padding: 10px 10px;
+              margin: 10px 0;
+              border-radius: 8px;
+              text-transform: uppercase;
+            }
+  
+            .slider-content-1 {
+              .swiper {
+                border-radius: 8px;
+                height: 322px;
+  
+                .swiper-wrapper {
+                  height: 361px;
+  
+                  .swiper-slide {
+                    img {
+                      width: 100%;
+                      object-fit: cover;
+                      height: auto;
+                    }
+                  }
+                }
+              }
+  
+              .swiper-pagination {
+                position: relative;
+                margin: 25px 0 20px 0;
+                height: 20px;
+                text-align: center;
+                .swiper-pagination-bullet {
+                  background: #9a0808;
+                }
+                .swiper-pagination-bullet-active {
+                  background: #9a0808;
+                }
+              }
+  
+              .swiper-pagination-2 {
+                position: relative;
+                margin: 25px 0 20px 0;
+                height: 20px;
+                text-align: center;
+                .swiper-pagination-bullet {
+                  background: #9a0808;
+                }
+                .swiper-pagination-bullet-active {
+                  background: #9a0808;
+                }
+              }
+  
+              .swiper-pagination-3 {
+                position: relative;
+                margin: 25px 0 20px 0;
+                height: 20px;
+                text-align: center;
+                .swiper-pagination-bullet {
+                  background: #9a0808;
+                }
+                .swiper-pagination-bullet-active {
+                  background: #9a0808;
+                }
+              }
+  
+              .swiper-pagination-4 {
+                position: relative;
+                margin: 25px 0 20px 0;
+                height: 20px;
+                text-align: center;
+                .swiper-pagination-bullet {
+                  background: #9a0808;
+                }
+                .swiper-pagination-bullet-active {
+                  background: #9a0808;
+                }
+              }
+  
+              .swiper-pagination-5 {
+                position: relative;
+                margin: 25px 0 20px 0;
+                height: 20px;
+                text-align: center;
+                .swiper-pagination-bullet {
+                  background: #9a0808;
+                }
+                .swiper-pagination-bullet-active {
+                  background: #9a0808;
+                }
+              }
+  
+              .swiper-pagination-6 {
+                position: relative;
+                margin: 25px 0 20px 0;
+                height: 20px;
+                text-align: center;
+                .swiper-pagination-bullet {
+                  background: #9a0808;
+                }
+                .swiper-pagination-bullet-active {
+                  background: #9a0808;
+                }
+              }
+  
+              .swiper-pagination-7 {
+                position: relative;
+                margin: 25px 0 20px 0;
+                height: 20px;
+                text-align: center;
+                .swiper-pagination-bullet {
+                  background: #9a0808;
+                }
+                .swiper-pagination-bullet-active {
+                  background: #9a0808;
+                }
+              }
+  
+              .swiper-pagination-8 {
+                position: relative;
+                margin: 25px 0 20px 0;
+                height: 20px;
+                text-align: center;
+                .swiper-pagination-bullet {
+                  background: #9a0808;
+                }
+                .swiper-pagination-bullet-active {
+                  background: #9a0808;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

@@ -29,9 +29,9 @@
                                 </div>
                             </div>
                         </div>
-
+                        <?php include "./main/component/social-media-share-sc.php"; ?>
                         <div class="wrap-kategori d-none d-sm-none d-md-block" id="wrap-kategori">
-                            <?php include "./main/component/social-media-share.php"; ?>
+                            
                             <a href="#best-moments">
                                 <div class="kategori">
                                     <span>🖼️ Best Moments</span>
@@ -82,10 +82,12 @@
 
                         </div>
                     </div>
+                    <div class="d-block d-sm-block d-md-none" id="sosmed-mobile">
+                    <?php include "./main/component/social-media-share.php"; ?>
+                    </div>
 
                     <div class="kategori-mobile">
                         <div class="wrap-kategori-mobile d-block d-sm-block d-md-none">
-                        <?php include "./main/component/social-media-share.php"; ?>
                             <div class="box">
                                 <a href="#best-moments">
                                     <div class="kategori">
