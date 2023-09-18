@@ -62,7 +62,7 @@
           Karya <span class="font-bold">video pendek</span> atau <span class="font-bold">poster iklan layanan masyarakat</span> yang di submit akan menjadi milik penyelenggara dan dapat secara bebas digunakan dalam rangka kebutuhan penyelenggara, dengan tetap memberikan Hak Ciptanya kepada peserta.
           </li>
           <li>
-          Dalam <span class="font-bold">video pendek</span> harus terdapat bumper out yang disertai logo LPS dan end tune jingle LPS minimal durasi 5 detik. Untuk logo LPS dan end tune jingle LPS dapat di download pada<a href="https://drive.google.com/file/d/16QYCD2zJwNcSO41ttLCLszlQdEUQAoDa/view" target="_blank">link berikut</a>.
+          Dalam <span class="font-bold">video pendek</span> harus terdapat bumper out yang disertai logo LPS dan end tune jingle LPS minimal durasi 5 detik. Untuk logo LPS dan end tune jingle LPS dapat di download pada<a href="https://drive.google.com/file/d/16QYCD2zJwNcSO41ttLCLszlQdEUQAoDa/view" target="_blank"> link berikut</a>.
           </li>
           <li>
           Dalam video pendek, peserta wajib menempatkan pesan mengenai berbagai manfaat menabung di bank yang salah satunya ialah <span class="font-bold">Tabungan Aman dijamin LPS.</span> Selain itu, video pendek juga wajib memuat konten dalam bentuk tulisan dan/atau voice over <span class="font-bold">LPS Sahabat Nasabah Indonesia.</span>
