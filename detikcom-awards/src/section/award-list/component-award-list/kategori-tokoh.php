@@ -13,7 +13,7 @@
     <div id="accordion-open-tokoh-awardlist-body-1" class="hidden" aria-labelledby="accordion-open-tokoh-awardlist-heading-1">
         <div class="pt-0 pb-[1.25rem] px-[1.25rem] bg-[#1a1527]">
             <div>
-                <p class="mb-2 text-white text-[17px] leading-[21px] font-light">This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element.</p>
+                <p class="mb-2 text-white text-[14px] leading-[21px] font-light">This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element.</p>
             </div>
         </div>
     </div>
@@ -27,7 +27,7 @@
     </h2>
     <div id="accordion-open-tokoh-awardlist-body-2" class="hidden" aria-labelledby="accordion-open-tokoh-awardlist-heading-2">
         <div class="pt-0 pb-[1.25rem] px-[1.25rem] bg-[#1a1527]">
-            <p class="mb-2 text-white text-[17px] leading-[21px] font-light">This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element.</p>
+            <p class="mb-2 text-white text-[14px] leading-[21px] font-light">This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element.</p>
         </div>
     </div>
     <h2 id="accordion-open-tokoh-awardlist-heading-3">
@@ -40,7 +40,7 @@
     </h2>
     <div id="accordion-open-tokoh-awardlist-body-3" class="hidden" aria-labelledby="accordion-open-tokoh-awardlist-heading-3">
         <div class="pt-0 pb-[1.25rem] px-[1.25rem] bg-[#1a1527]">
-            <p class="mb-2 text-white text-[17px] leading-[21px] font-light">This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element.</p>
+            <p class="mb-2 text-white text-[14px] leading-[21px] font-light">This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element.</p>
         </div>
     </div>
     <h2 id="accordion-open-tokoh-awardlist-heading-4">
@@ -53,7 +53,7 @@
     </h2>
     <div id="accordion-open-tokoh-awardlist-body-4" class="hidden" aria-labelledby="accordion-open-tokoh-awardlist-heading-4">
         <div class="pt-0 pb-[1.25rem] px-[1.25rem] rounded-b-xl bg-[#1a1527]">
-            <p class="mb-2 text-white text-[17px] leading-[21px] font-light">This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element.</p>
+            <p class="mb-2 text-white text-[14px] leading-[21px] font-light">This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element.</p>
         </div>
     </div>
 </div>

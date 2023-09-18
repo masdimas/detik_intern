@@ -10,7 +10,7 @@
                         <img class="w-[800px] h-auto" src="../assets/images/winners/para-peraih-penghargaan.png" alt="Image Description">
                         </div>
                         <div class=" w-full md:w-[474px] mx-auto">
-                        <p class="text-[14px] md:text-[20px] text-white leading-[21px] md:leading-[30px] font-thin font-['outfit-light']">Menelusuri cerita inspiratif dan prestasi gemilang para pemenang terkait dari berbagai sektor yang membanggakan di Detikcom Awards.</p>
+                        <p class="text-[14px] md:text-[14px] text-white leading-[21px] md:leading-[30px] font-thin font-['outfit-light']">Menelusuri cerita inspiratif dan prestasi gemilang para pemenang terkait dari berbagai sektor yang membanggakan di Detikcom Awards.</p>
                         </div>
                     </div>
                 </div>

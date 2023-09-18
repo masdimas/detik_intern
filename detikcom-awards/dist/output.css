@@ -1793,6 +1793,10 @@ input:checked + .toggle-bg {
   width: 100%;
 }
 
+.w-\[609px\] {
+  width: 609px;
+}
+
 .max-w-2xl {
   max-width: 42rem;
 }
