@@ -1,6 +1,6 @@
 <div class="bg-bg-photo-gallery">
   <div class="container max-w-[344px] sm:max-w-[640px] md:max-w-[820px] lg:max-w-[1020px] mx-auto pt-[25px] pb-[46px] sm:pt-[46px] sm:pb-[46px] text-center">
-    <h2 class="text-[#050012] text-[32px] font-['outfit-semibold']">Photo gallery</h2>
+    <h2 class="text-[#050012] text-[30px] font-['montserrat-semibold']">Photo gallery</h2>
 
   <div id="page" class="pt-[25px] sm:pt-[46px] sm:mx-[20px] md:mx-[0px]">
 	<div class="row">

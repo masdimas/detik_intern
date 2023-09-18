@@ -8,8 +8,8 @@
             </div>
             <div class="col-span-12 md:col-span-5 lg:col-span-4">
                 <div class="text-left text-white bg-[#37353D] h-full w-full px-8 py-10 rounded-[12px] select-none">
-                    <h4 class="text-[32px] pb-2 font-bold">detikcom Awards</h4>
-                    <p class="text-[16px] md:text-[14px] leading-[24px]">Penghargaan bergengsi yang diberikan kepada individu, merek, dan lembaga di Indonesia yang telah memberikan kontribusi luar biasa dalam berbagai bidang. Melalui Detikcom Awards, kami menghargai pencapaian yang menginspirasi, inovasi yang mencuat, dan perubahan positif yang telah dilakukan. </p>
+                    <h4 class="text-[20px] pb-2 font-semibold leading-[24.38px]">detikcom Awards 2023: Adapt and Transform to an Era of Change</h4>
+                    <p class="text-[14px] md:text-[12px] leading-[21px]">Penghargaan bergengsi yang diberikan kepada individu, merek, dan lembaga di Indonesia yang telah memberikan kontribusi luar biasa dalam berbagai bidang. Melalui Detikcom Awards, kami menghargai pencapaian yang menginspirasi, inovasi yang mencuat, dan perubahan positif yang telah dilakukan.  </p>
                     <div class="flex gap-3 py-4">
                         <span class="text-[14px] font-semibold">Share </span>
                         <a href="#">

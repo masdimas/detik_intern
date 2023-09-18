@@ -12,7 +12,7 @@
     <div class="mx-auto max-w-2xl pt-[40vh] sm:pt-48 lg:pt-50">
         <div class="text-center">
             <img src="../assets/images/hero/logo-detikcom-awards.png" class="w-[244px] md:w-[716px] mx-auto" alt="">
-            <span class="text-[14px] md:text-[20px] text-white">Adapt and Transform to an Era of Change</span>
+            <span class="text-[14px] md:text-[30px] bg-gradient-to-b from-[#CBAD6C] to-[#FAFAB0] bg-clip-text text-transparent font-regular">Adapt and Transform to an Era of Change</span>
         </div>
     </div>
 </div>

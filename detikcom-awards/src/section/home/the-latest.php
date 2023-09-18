@@ -1,10 +1,10 @@
 <div class="bg-[#050012]" id="the-latest">
     <div class="container w-full mx-auto md:pt-[80px] pb-[100px]">
 
-        <div class="wrapper">
-            <h4 class="font-['outfit-medium'] text-[16px] md:text-[24px] text-white text-center md:text-left">The Latest from<h4>
-                    <!-- <h2 class="font-['broadsheet-ldo'] text-[24px] md:text-[48px] text-white text-center md:text-left leading-[26px] sm:leading-[58px] pb-[40px] md:pb-0 "><h2> -->
-                    <div class="flex justify-center md:justify-start mb-[40px]">
+        <div class="wrapper flex flex-col">
+            <!-- <h2 class="font-['broadsheet-ldo'] text-[24px] md:text-[48px] text-white text-center md:text-left leading-[26px] sm:leading-[58px] pb-[40px] md:pb-0 "><h2> -->
+                <div class="flex flex-col md:justify-center mb-[40px] container max-w-[344px] sm:max-w-[640px] md:max-w-[820px] lg:max-w-[1020px] self-center">
+                        <h4 class="font-['montserrat-medium'] text-[16px] md:text-[24px] text-white text-center md:text-left">The Latest from</h4>
                         <img class="w-[243px] md:w-[399px]" src="../assets/images/the-latest/logo-latest.png" alt="">
                     </div>
                             <div class="carousel">
@@ -19,9 +19,9 @@
                                 
                                 <div class='card-content flex'>
                                     <div class='wrap-content self-end'>
-                                    <div class='card-title text-[24px] leading-[29px] text-white font-[broadsheet-ldo]'>Deretan Peraih Program Terpuji detikcom Awards 2023</div>
+                                    <div class='card-title text-[22px] leading-[26.4px] text-white font-[montserrat-bold] [text-shadow:_0_2px_4px_rgb(0_0_0_/_100%)] '>Deretan Peraih Program Terpuji detikcom Awards 2023</div>
                                     <div class='card-text'>
-                                        <p class='text-[16px] leading-[24px] text-white font-[outfit-regular]'>06/07/2023</p>
+                                        <p class='text-[16px] leading-[24px] text-white font-[montserrat-regular] [text-shadow:_0_2px_4px_rgb(0_0_0_/_100%)]'>06/07/2023</p>
                                     </div>
                                     </div>
                                 </div>
