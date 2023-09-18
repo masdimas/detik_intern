@@ -20,19 +20,11 @@
               </h3>
               <div class="paragraph rounded px-3 py-2">
                 <p>
-                  Classy Yamaha Youth Festival merupakan serangkaian fun event
-                  untuk high school students dari berbagai kota di Indonesia.
-                  Festival ini fokus pada spreading classy and fashionable
-                  spirit melalui produk Yamaha terbaru, Fazzio dan Grand Filano,
-                  untuk cool rides.
+                Classy Yamaha Youth Festival merupakan serangkaian acara untuk siswa SMA dari berbagai kota di Indonesia. Festival ini fokus pada spreading classy and fashionable spirit melalui produk Yamaha terbaru, yaitu Fazzio dan Grand Filano, untuk cool riders.
                 </p>
                 <br />
                 <p>
-                  Di Classy Yamaha Youth Festival, students akan berpartisipasi
-                  dalam various activities dan school competitions, music
-                  performances, fashion contests, dan riding style contests.
-                  Selain itu, akan ada juga lifestyle workshops mengenai classy
-                  and fashionable living.
+                Rangkaian acara Classy Yamaha Youth Festival diantaranya road show school to school dan school competition. Aktivitas yang akan dilakukan para siswa adalah workshop gaya hidup classy and fashionable living, sport and dance competition, fashion show dan penampilan musik spesial.
                 </p>
               </div>
             </div>

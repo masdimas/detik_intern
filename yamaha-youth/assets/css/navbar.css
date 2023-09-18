@@ -37,7 +37,9 @@
   display: none;
   cursor: pointer;
   border: solid 1px #e5e7eb;
-  padding: 20px;
+  padding: 8px;
+  width: 42px;
+  height: 42px;
 }
 
 .bar {
@@ -97,6 +99,10 @@
 }
 
 @media (max-width: 992px) {
+  .navbar-brand img{
+    width: 100%;
+    max-width: 80px;
+  }
   .navbar-toggler[aria-expanded="true"] .bar:nth-child(2) {
     opacity: 0;
   }
