@@ -1191,7 +1191,7 @@ input:checked + .toggle-bg {
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 16px;
+    font-size: 14px;
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
@@ -1335,14 +1335,14 @@ input:checked + .toggle-bg {
   width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 25px;
 }
 
 .date-contents {
   margin-top: 0.25rem;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 18px;
 }
 
@@ -2489,6 +2489,10 @@ input:checked + .toggle-bg {
   font-family: outfit-regular;
 }
 
+.text-\[10px\] {
+  font-size: 10px;
+}
+
 .text-\[12px\] {
   font-size: 12px;
 }
@@ -3348,10 +3352,6 @@ input:checked + .toggle-bg {
 
   .md\:text-\[14px\] {
     font-size: 14px;
-  }
-
-  .md\:text-\[16px\] {
-    font-size: 16px;
   }
 
   .md\:text-\[20px\] {

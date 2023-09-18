@@ -91,7 +91,7 @@
     @apply inline-flex flex-col items-center justify-center px-0 py-[10px];
   }
   .navbar-menu-span {
-    @apply text-[10px] md:text-[16px] text-white hover:text-white rounded-[12px] hover:bg-[#493c50] px-[8px] py-[3px] md:px-[20px] md:py-[10px] md:text-[#ffffff];
+    @apply text-[10px] md:text-[14px] text-white hover:text-white rounded-[12px] hover:bg-[#493c50] px-[8px] py-[3px] md:px-[20px] md:py-[10px] md:text-[#ffffff];
   }
   .about-sosmed-img {
     @apply w-[20px];
@@ -122,11 +122,11 @@
   }
 
   .p-contents {
-    @apply text-[20px] leading-[25px] font-bold overflow-ellipsis overflow-hidden w-full line-clamp-3;
+    @apply text-[18px] leading-[25px] font-bold overflow-ellipsis overflow-hidden w-full line-clamp-3;
   }
 
   .date-contents {
-    @apply text-[14px] leading-[18px] mt-1;
+    @apply text-[12px] leading-[18px] mt-1;
   }
 
   .active {

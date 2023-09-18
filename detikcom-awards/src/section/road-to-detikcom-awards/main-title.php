@@ -7,7 +7,7 @@
                         <div class="mx-auto">
                             <img class="w-[716px] h-auto" src="../assets/images/road-to-detikcom-awards/main-title.png" alt="Image Description">
                         </div>
-                        <p class="text-[14px] md:text-[16px] text-white leading-[21px] md:leading-[30px] font-thin font-['outfit-light']">Talkshow yang dibalut semi FGD bersama tokoh, brand, pemerintah daerah, serta kementerian & lembaga yang akan memberi tanggapan dari cerita inovasi dan keberhasilan di sekelilingnya.</p>
+                        <p class="text-[14px] md:text-[14px] text-white leading-[21px] md:leading-[30px] font-thin font-['outfit-light']">Talkshow yang dibalut semi FGD bersama tokoh, brand, pemerintah daerah, serta kementerian & lembaga yang akan memberi tanggapan dari cerita inovasi dan keberhasilan di sekelilingnya.</p>
                     </div>
                 </div>
             </div>
