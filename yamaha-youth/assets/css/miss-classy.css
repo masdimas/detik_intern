@@ -319,6 +319,7 @@
 #miss-classy .vote-miss-classy-card .modal .modal-text-content {
   width: 50%;
   margin-top: 2rem;
+  gap: 1rem;
 }
 #miss-classy .vote-miss-classy-card .modal h5 {
   color: #1f2937;
@@ -340,11 +341,21 @@
 }
 #miss-classy .vote-miss-classy-card .modal .modal-cta {
   background-color: #f0952b;
+  margin-bottom: 2rem;
   color: white;
   padding: 8px 20px;
   border: none;
+  transition: 0.2s ease;
+}
+#miss-classy .vote-miss-classy-card .modal .modal-cta:hover {
+  background-color: #ffdb4a;
+  color: #cca62c;
 }
 #miss-classy .modal-header,
+#miss-classy .modal-footer {
+  border: none;
+}
+
 #miss-classy .modal-footer {
   border: none;
 }
@@ -382,6 +393,23 @@
   }
   #miss-classy .vote-miss-classy-card .modal .modal-text-content {
     width: 90%;
+  }
+
+  #miss-classy .modal-dialog-centered {
+    align-items: end;
+    min-height: 100%;
+  }
+  #miss-classy .modal-dialog {
+    margin: 0;
+  }
+
+  #miss-classy .modal.fade .modal-dialog {
+    border: none;
+    transform: translate(0, 500px);
+  }
+
+  #miss-classy .modal.show .modal-dialog {
+    transform: none;
   }
 }
 

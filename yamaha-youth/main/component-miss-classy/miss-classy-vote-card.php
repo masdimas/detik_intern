@@ -132,7 +132,7 @@
                                 
                                 <img src="./assets/images/miss-classy/miss-classy-pic/vote-confirmation.svg" alt="">
                                 <div class="modal-text-content d-flex flex-column align-items-center">
-                                    <h5>Yakin dengan Miss Classy Pilihanmu?</h5>
+                                    <h5>Yakin memilih [Nama Finalis] sebagai Miss Classy Pilihanmu?</h5>
                                     <span>Kamu punya kuota 1x vote setiap 30 menit.</span>
 
                                 </div>
