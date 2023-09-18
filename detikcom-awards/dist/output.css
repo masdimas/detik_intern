@@ -2543,6 +2543,10 @@ input:checked + .toggle-bg {
   line-height: 1.25rem;
 }
 
+.text-\[30px\] {
+  font-size: 30px;
+}
+
 .font-bold {
   font-weight: 700;
 }
