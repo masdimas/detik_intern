@@ -1,0 +1,400 @@
+#content-creation {
+  background: url(../images/content-creation/content-creation-bg.jpg);
+  background-attachment: fixed;
+  background-position: top;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  padding-top: 125px;
+  background-color: #fff3e5;
+}
+
+/* Sidebar */
+
+#content-creation .sidebar-city-image-canvas {
+  max-width: 360px;
+  max-height: 360px;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+#content-creation .content-creation-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#content-creation .sidebar-city-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+#content-creation .content-creation-desc {
+  max-width: 360px;
+  padding: 18px;
+}
+#content-creation .sidebar-city-desc {
+  position: relative;
+  margin-top: -100px;
+  border-radius: 8px;
+  background-color: #b4dbf5;
+  border: solid 2px #c0e7f5;
+  color: #5180a2;
+}
+#content-creation .sidebar-city-desc h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+#content-creation .sidebar-city-desc .paragraph {
+  background-color: #dff2ff;
+  line-height: 1.2rem;
+}
+#content-creation .accordion-button {
+  background-color: #b4dbf5;
+  color: #5180a2;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+}
+#content-creation .accordion-body {
+  background-color: #b4dbf5;
+  padding: 1rem 1rem;
+}
+#content-creation .accordion-body .list-container {
+  background-color: #dff2ff;
+  padding: 0.75rem;
+  border-radius: 8px;
+}
+#content-creation .accordion-body ol {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.2rem;
+  color: #5180a2;
+  list-style: decimal;
+  padding-left: 1.25rem;
+}
+
+/* Sidebar */
+
+/* content-creation Vote */
+#gform-content-creation{
+  width: 100%;
+  height: 100%;
+}
+#content-creation #pills-tab {
+  background-color: #f0d6b7;
+  max-width: 340px;
+  width: 100%;
+  border-radius: 8px;
+}
+#content-creation #pills-tab button {
+  font-size: 14px;
+  padding: 12px 20px;
+  width: 100%;
+}
+
+#content-creation .vote-content-creation-card {
+  max-width: 280px;
+  background-color: #b4dbf5;
+  padding: 4px;
+  border-radius: 20px;
+  transition: all 0.2s ease-out;
+}
+#content-creation .vote-content-creation-card:hover {
+  background-color: #f0952b;
+}
+#content-creation .vote-content-creation-card:hover h4,
+#content-creation .vote-content-creation-card:hover span {
+  color: white;
+}
+#content-creation .vote-content-creation-card:hover .vote-button {
+  background-color: #ffdb4a;
+  color: #cca62c;
+}
+
+#content-creation .content-creation-img-container {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+}
+
+#content-creation .content-creation-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#content-creation .finalist-identity {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+#content-creation .vote-content-creation-card .finalist-identity h4,
+#content-creation .vote-content-creation-card .finalist-identity span {
+  /* hidden overflow data */
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  text-align: center;
+  word-spacing: 0.1rem;
+}
+#content-creation .vote-content-creation-card h4 {
+  color: #5180a2;
+  font-size: 14px;
+  font-weight: 600;
+}
+#content-creation .vote-content-creation-card span {
+  color: #5180a2;
+  font-size: 10px;
+  font-weight: 400;
+}
+#content-creation .vote-button {
+  background-color: #f0952b;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  width: 100%;
+}
+
+#content-creation .rank {
+  background-color: #fccd0e;
+  height: fit-content;
+  padding: 4px 8px 4px 20px;
+  border-radius: 8px 0px 0px 30px;
+  font-family: Outfit, Fredoka, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: right;
+}
+#content-creation .ranked-content-creation {
+  width: 100%;
+  background-color: #f0952b;
+  padding: 12px;
+  border-radius: 0px 20px 20px 20px;
+  gap: 16px;
+}
+
+#content-creation .leaderboard-container {
+  padding: 0 18px;
+}
+#content-creation .leaderboard-img-container {
+  max-width: 50px;
+  max-height: 50px;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+#content-creation .leaderboard-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+#content-creation .content-creation-data {
+  gap: 16px;
+}
+#content-creation .leaderboard-data {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  justify-content: center; /* Center the content horizontally */
+  align-items: start; /* Center the content vertically */
+}
+#content-creation .content-creation-data h4 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+
+  /* hidden overflow data */
+  width: 100%;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+}
+#content-creation .content-creation-data span {
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  /* hidden overflow data */
+  width: 100%;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#content-creation .leaderboard-vote {
+  font-family: Outfit, Fredoka, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+}
+
+.leaderboard-container,
+.vote-card-container {
+  display: flex;
+}
+
+#content-creation .content-creation-vote .nav-link {
+  height: 100%;
+}
+#content-creation .first-three-leaderboard {
+  color: white;
+}
+#content-creation .first-three-leaderboard .rank {
+  background-color: #fccd0e;
+}
+#content-creation .first-three-leaderboard .ranked-content-creation {
+  background-color: #f0952b;
+}
+
+#content-creation .default-leaderboard {
+  color: #5180a2;
+}
+#content-creation .default-leaderboard .rank {
+  background-color: #d2c58c;
+  color: white;
+}
+#content-creation .default-leaderboard .ranked-content-creation {
+  background-color: #b4dbf5;
+}
+
+#content-creation .vote-button.voted {
+  background-color: #5e900d;
+  color: #e0ff48;
+}
+
+#content-creation .vote-content-creation-card .modal h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #5182a2;
+}
+#content-creation .vote-content-creation-card .modal img {
+  margin-top: 2rem;
+}
+#content-creation .vote-content-creation-card .modal .modal-text-content {
+  width: 50%;
+  margin-top: 2rem;
+}
+#content-creation .vote-content-creation-card .modal h5 {
+  color: #1f2937;
+  font-family: Fredoka;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+#content-creation .vote-content-creation-card .modal span {
+  font-family: Fredoka;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #81889c;
+}
+#content-creation .vote-content-creation-card .modal .modal-cta {
+  background-color: #f0952b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+}
+#content-creation .modal-header,
+#content-creation .modal-footer {
+  border: none;
+}
+
+@media (max-width: 1200px) {
+  #content-creation .vote-content-creation-card {
+    max-width: 240px;
+  }
+}
+@media (max-width: 997px) {
+  #content-creation .vote-content-creation-card {
+    max-width: 155px;
+  }
+  #content-creation .vote-content-creation-card .modal .modal-text-content {
+    width: 75%;
+  }
+}
+@media (max-width: 576px) {
+  #gform-content-creation{
+    width: 100%;
+    height: 500px;
+  }
+  #content-creation .sidebar-city-image-canvas {
+    max-width: none;
+    max-height: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+  #content-creation .content-creation-desc {
+    max-width: none;
+    padding: 18px;
+  }
+  #content-creation {
+    padding-top: 0px;
+  }
+  /* #content-creation .content-creation-vote {
+    padding: 0 18px;
+  } */
+  #content-creation .vote-content-creation-card .modal .modal-text-content {
+    width: 90%;
+  }
+}
+
+@media (max-width: 350px) {
+  #content-creation .vote-content-creation-card {
+    max-width: 125px;
+  }
+}
