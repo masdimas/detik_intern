@@ -3,6 +3,12 @@
 <?php include "../components/head.php" ?>
 
 <body>
+  <?php
+    $home = false;
+    $discover = true;
+    $award_list = false;
+    $winners = false;
+  ?>
   <?php include "../components/navbar.php" ?>
   <?php include "../section/road-to-detikcom-awards/main-title.php" ?>
   <?php include "../section/road-to-detikcom-awards/stream.php" ?>
