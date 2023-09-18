@@ -4,7 +4,7 @@
 <div id="accordion-open-brand-awardlist" data-accordion="open" class="shadow-[0px_0px_4px_4px_rgba(3,0,0,0)] shadow-[#8b896c] rounded-xl">
     <h2 id="accordion-open-brand-awardlist-heading-1">
         <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-white rounded-t-xl focus:ring-[#1a1527] hover:bg-[#1a1527] !bg-[#1a1527] md:bg-[#1a1527] focus:bg-[#1a1527] visited:bg-[#1a1527] active:bg-[#1a1527] focus-within:bg-[#1a1527] focus-visible:bg-[#1a1527] target:bg-[#1a1527]" data-accordion-target="#accordion-open-brand-awardlist-body-1" aria-expanded="true" aria-controls="accordion-open-brand-awardlist-body-1">
-            <span class="flex items-center text-[24px] font-normal font-['broadsheet-ldo']">Nominee Penghargaan</span>
+            <span class="flex items-center text-[22px] font-normal font-['montserrat-regular']">Nominee Penghargaan</span>
             <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
             </svg>
@@ -19,7 +19,7 @@
     </div>
     <h2 id="accordion-open-brand-awardlist-heading-2">
         <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-white focus:ring-[#1a1527] hover:bg-[#1a1527] !bg-[#1a1527] md:bg-[#1a1527] focus:bg-[#1a1527] visited:bg-[#1a1527] active:bg-[#1a1527] focus-within:bg-[#1a1527] focus-visible:bg-[#1a1527] target:bg-[#1a1527] border-t-2 border-[#8b896c] " data-accordion-target="#accordion-open-brand-awardlist-body-2" aria-expanded="false" aria-controls="accordion-open-brand-awardlist-body-2">
-            <span class="flex items-center text-[24px] font-normal font-['broadsheet-ldo']">Nominee Penghargaan</span>
+            <span class="flex items-center text-[22px] font-normal font-['montserrat-regular']">Nominee Penghargaan</span>
             <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
             </svg>
@@ -32,7 +32,7 @@
     </div>
     <h2 id="accordion-open-brand-awardlist-heading-3">
         <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-white focus:ring-[#1a1527] hover:bg-[#1a1527] !bg-[#1a1527] md:bg-[#1a1527] focus:bg-[#1a1527] visited:bg-[#1a1527] active:bg-[#1a1527] focus-within:bg-[#1a1527] focus-visible:bg-[#1a1527] target:bg-[#1a1527] border-t-2 border-[#8b896c]" data-accordion-target="#accordion-open-brand-awardlist-body-3" aria-expanded="false" aria-controls="accordion-open-brand-awardlist-body-3">
-            <span class="flex items-center text-[24px] font-normal font-['broadsheet-ldo']">Nominee Penghargaan</span>
+            <span class="flex items-center text-[22px] font-normal font-['montserrat-regular']">Nominee Penghargaan</span>
             <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
             </svg>
@@ -45,7 +45,7 @@
     </div>
     <h2 id="accordion-open-brand-awardlist-heading-4">
         <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-white focus:ring-[#1a1527] hover:bg-[#1a1527] !bg-[#1a1527] md:bg-[#1a1527] focus:bg-[#1a1527] visited:bg-[#1a1527] active:bg-[#1a1527] focus-within:bg-[#1a1527] focus-visible:bg-[#1a1527] target:bg-[#1a1527] focus:rounded-none rounded-b-xl default:rounded-b-xl border-t-2 border-[#8b896c]" data-accordion-target="#accordion-open-brand-awardlist-body-4" aria-expanded="false" aria-controls="accordion-open-brand-awardlist-body-4">
-            <span class="flex items-center text-[24px] font-normal font-['broadsheet-ldo']">Nominee Penghargaan</span>
+            <span class="flex items-center text-[22px] font-normal font-['montserrat-regular']">Nominee Penghargaan</span>
             <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
             </svg>
