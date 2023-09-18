@@ -1,7 +1,7 @@
 <section class="fixed-top d-flex justify-content-center px-4" id="nav-bar">
       <nav class="navbar navbar-expand-lg navbar-light nav-bar w-100">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"
+          <a class="navbar-brand" href="index.php"
             ><img src="./assets/images/navbar/navbar-logo.png" alt="Classy Youth Yamaha Festival"></a>
 
           <button
@@ -22,10 +22,10 @@
           <div class="collapse navbar-collapse justify-content-lg-between d-lg-block flex-column flex-lg-row justify-content-center" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-3 gap-0 w-sm-100 w-lg-auto">
               <li class="nav-item">
-                <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="#home">Home</a>
+                <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="index.php#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-3 py-lg-2 py-3 w-100 wp-school-competition" href="#wp-school-competition">School Competition</a>
+                <a class="nav-link px-3 py-lg-2 py-3 w-100 wp-school-competition" href="index.php#wp-school-competition">School Competition</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle px-3 py-lg-2 py-3 w-100" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,10 +41,10 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-3 py-lg-2 py-3 w-100" href="#">Content Creation</a>
+                <a class="nav-link px-3 py-lg-2 py-3 w-100" href="content-creation.php">Content Creation</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-3 py-lg-2 py-3 w-100 aggregator" href="#aggregator">News</a>
+                <a class="nav-link px-3 py-lg-2 py-3 w-100 aggregator" href="index.php#aggregator">News</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle px-3 py-lg-2 py-3 w-100" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
