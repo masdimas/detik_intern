@@ -21,7 +21,7 @@
 
             <img
               class="sc-city-image"
-              src="./assets/images/wp-school-competition/sc-cities/bandung.png"
+              src="https://cdnstatic.detik.com/live/2023/09/event/klhk/230917-klhk-300x500.jpg"
               alt=""
             />
           </a>
