@@ -1,0 +1,55 @@
+.js .slider-single > div:nth-child(1n + 2) {
+  display: none;
+}
+
+.js .slider-single.slick-initialized > div:nth-child(1n + 2) {
+  display: block;
+}
+
+.slider-nav .slick-slide {
+  cursor: pointer;
+}
+
+.slick-slide.is-active h3 {
+  color: #c00;
+  background-color: #fff;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  font-size: 56px;
+}
+
+.slick-prev,
+.slick-next {
+  width: 56px;
+  height: 56px;
+  z-index: 2;
+}
+
+.slick-next {
+  right: 12px;
+}
+
+.slick-prev {
+  left: 12px;
+}
+
+
+@media (min-width: 0px) and (max-width: 575px) {
+  .slick-dots {
+    bottom: -96px;
+  }
+  .slick-dotted.slick-slider {
+    margin-bottom: unset;
+  }
+  .slick-dots li button::before {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
