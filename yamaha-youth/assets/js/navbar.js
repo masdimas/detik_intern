@@ -21,15 +21,3 @@ window.onscroll = () => {
     }
   });
 };
-
-document.getElementById("logout-button").addEventListener("click", function () {
-  // Use JavaScript to change the 'login' value to 0 when Logout is clicked
-  console.log(window.location.href);
-  window.location.href = "?login=0";
-});
-
-document.getElementById("login-button").addEventListener("click", function () {
-  // Use JavaScript to change the 'login' value to 0 when Logout is clicked
-  console.log(window.location.href);
-  window.location.href = "?login=1";
-});
