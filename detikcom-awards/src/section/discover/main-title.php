@@ -5,7 +5,7 @@
                 <div class="col-span-12 grid items-center select-none">
                     <div class="w-[320px] md:w-[474px] text-center mx-auto">
                         <h2 class="text-[60px] md:text-[96px] text-white font-semibold font-['broadsheet-ldo']">Discover</h2>
-                        <p class="text-[14px] md:text-[20px] text-white leading-[21px] md:leading-[30px] font-thin font-['outfit-light']">Jelajahi Berita Terkini dan Temukan Cerita Pemenang yang Menginspirasi dalam Detikcom Awards.</p>
+                        <p class="text-[14px] md:text-[14px] text-white leading-[21px] md:leading-[30px] font-thin font-['outfit-light']">Jelajahi Berita Terkini dan Temukan Cerita Pemenang yang Menginspirasi dalam Detikcom Awards.</p>
                     </div>
                 </div>
             </div>

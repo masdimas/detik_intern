@@ -4,13 +4,13 @@
             <div class="col-span-12 grid items-center">
                 <div class="w-full md:max-w-[320px] mx-auto bg-gradient-to-r from-[#323232] to-[#000000] rounded-[12px]">
                     <nav class="flex space-x-2" aria-label="Tabs" role="tablist" id="tab-discover">
-                        <button type="button" class="hs-tab-active:bg-[#ffffff33] hs-tab-active:text-white hs-tab-active:font-semibold py-1 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-semibold text-center text-gray-500 rounded-[12px] hover:text-[#80849f] dark:hover:text-gray-400 active w-1/3 justify-center" id="pills-with-brand-color-item-1" data-hs-tab="#pills-with-brand-color-1" aria-controls="pills-with-brand-color-1" role="tab">
+                        <button type="button" class="hs-tab-active:bg-[#ffffff33] hs-tab-active:text-white hs-tab-active:font-semibold py-1 px-4 inline-flex items-center gap-2 bg-transparent text-[14px] font-semibold text-center text-gray-500 rounded-[12px] hover:text-[#80849f] dark:hover:text-gray-400 active w-1/3 justify-center" id="pills-with-brand-color-item-1" data-hs-tab="#pills-with-brand-color-1" aria-controls="pills-with-brand-color-1" role="tab">
                             News
                         </button>
-                        <button type="button" class="hs-tab-active:bg-[#ffffff33] hs-tab-active:text-white hs-tab-active:font-semibold py-1 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-semibold text-center text-gray-500 rounded-[12px] hover:text-[#80849f] dark:hover:text-gray-400 w-1/3 justify-center" id="pills-with-brand-color-item-2" data-hs-tab="#pills-with-brand-color-2" aria-controls="pills-with-brand-color-2" role="tab">
+                        <button type="button" class="hs-tab-active:bg-[#ffffff33] hs-tab-active:text-white hs-tab-active:font-semibold py-1 px-4 inline-flex items-center gap-2 bg-transparent text-[14px] font-semibold text-center text-gray-500 rounded-[12px] hover:text-[#80849f] dark:hover:text-gray-400 w-1/3 justify-center" id="pills-with-brand-color-item-2" data-hs-tab="#pills-with-brand-color-2" aria-controls="pills-with-brand-color-2" role="tab">
                             Photo
                         </button>
-                        <button type="button" class="hs-tab-active:bg-[#ffffff33] hs-tab-active:text-white hs-tab-active:font-semibold py-1 px-4 inline-flex items-center gap-2 bg-transparent text-sm font-semibold text-center text-gray-500 rounded-[12px] hover:text-[#80849f] dark:hover:text-gray-400 w-1/3 justify-center" id="pills-with-brand-color-item-3" data-hs-tab="#pills-with-brand-color-3" aria-controls="pills-with-brand-color-3" role="tab">
+                        <button type="button" class="hs-tab-active:bg-[#ffffff33] hs-tab-active:text-white hs-tab-active:font-semibold py-1 px-4 inline-flex items-center gap-2 bg-transparent text-[14px] font-semibold text-center text-gray-500 rounded-[12px] hover:text-[#80849f] dark:hover:text-gray-400 w-1/3 justify-center" id="pills-with-brand-color-item-3" data-hs-tab="#pills-with-brand-color-3" aria-controls="pills-with-brand-color-3" role="tab">
                             Video
                         </button>
                     </nav>
