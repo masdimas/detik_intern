@@ -51,8 +51,8 @@
                 About Us
                 </a>
                 <ul class="dropdown-menu p-2" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Classy Yamaha Fazio</a></li>
-                  <li><a class="dropdown-item" href="#">Classy Yamaha Filano</a></li>              
+                  <li><a class="dropdown-item" href="https://www.yamaha-motor.co.id/product/fazzio/" target="_blank">Classy Yamaha Fazio</a></li>
+                  <li><a class="dropdown-item" href="https://www.yamaha-motor.co.id/product/grand-filano/" target="_blank">Classy Yamaha Filano</a></li>              
                 </ul>
               </li>
             </ul>

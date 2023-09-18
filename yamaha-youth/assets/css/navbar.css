@@ -63,8 +63,9 @@
 }
 
 .dropdown-menu[data-bs-popper] {
+  width: auto;
   top: 200%;
-  background-color: rgb(255, 255, 255, 0.3);
+  background-color: rgb(255, 255, 255, 0.8);
   backdrop-filter: blur(24px);
   border-radius: 20px;
   border: solid 1px #d1d5db;
@@ -133,5 +134,10 @@
     background-color: rgb(255, 255, 255, 0.3);
     border-radius: 20px;
     border: solid 1px #d1d5db;
+  }
+
+  .dropdown-menu[data-bs-popper] {
+    background-color: rgb(255, 255, 255, 0.1);
+    width: 100%;
   }
 }
