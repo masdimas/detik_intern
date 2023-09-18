@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-<?php
-include "./main/component/head.php";
-?>
+<?php include "./main/component/head.php"; ?>
 
 <body>
     <!-- Navbar -->

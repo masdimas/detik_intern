@@ -82,10 +82,10 @@
         format("truetype");
   }
   .navbar-wrap {
-    @apply grid h-full max-w-[360px] md:max-w-[639px] grid-cols-3 md:grid-cols-4 mx-auto font-medium rounded-lg backdrop-blur-sm bg-black/80;
+    @apply grid h-full max-w-[360px] md:max-w-[639px] grid-cols-3 md:grid-cols-4 mx-auto font-semibold rounded-lg backdrop-blur-sm bg-black/80;
   }
   .navbar-wrap-winner-show {
-    @apply grid h-full max-w-[360px] md:max-w-[639px] grid-cols-4 md:grid-cols-5 mx-auto font-medium rounded-lg backdrop-blur-sm bg-black/80;
+    @apply grid h-full max-w-[360px] md:max-w-[639px] grid-cols-4 md:grid-cols-5 mx-auto font-semibold rounded-lg backdrop-blur-sm bg-black/80;
   }
   .navbar-button {
     @apply inline-flex flex-col items-center justify-center px-0 py-[10px];
