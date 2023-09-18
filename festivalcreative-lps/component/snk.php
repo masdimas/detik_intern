@@ -7,8 +7,9 @@
         <h4>Latar Belakang Kegiatan</h4>
         <div>
           <p>
-          Tahun ini, LPS kembali menyelenggarakan kegiatan festival kreatif, yang merupakan kompetisi video pendek dengan tema literasi keuangan. Mengusung nama <span class="font-bold"><q>Festival Creartive LPS</q></span> kegiatan ini merupakan salah satu upaya LPS untuk mensosialisasi mengenai peran dan fungsi LPS serta turut aktif mendukung pemerintah dalam meningkatkan literasi keuangan masyarakat. Selain kompetisi video pendek, LPS juga menyelenggarakan kompetisi poster iklan layanan masyarakat dengan tema yang sama. LPS memilih dua media ini yaitu video dan poster karena dinilai lebih menarik dan lebih mudah dipahami oleh masyarakat
+          <span class="font-bold">Festival Creartive LPS</span> merupakan ajang kompetisi video pendek dan poster iklan layanan masyarakat yang ditujukan bagi insan kreatif Indonesia. Kegiatan ini secara rutin diselenggarakan oleh <span class="font-bold">Lembaga Penjamin Simpanan (LPS)</span> dan telah memasuki tahun kedua. Di tahun ini, LPS menambahkan satu kategori kompetisi yaitu kompetisi poster iklan layanan masyarakat.
           </p>
+          <p>Dengan mengusung nilai <q>Creative</q> serta <q>Active</q> kegiatan ini diharapkan dapat menjadi wadah positif masyarakat Indonesia khususnya generasi muda dalam mengekspresikan ide kreatifnya mengenai pentingnya menabung di bank kedalam bentuk video serta poster.</p>
         </div>
       </div>
 
@@ -16,68 +17,70 @@
         <h4>Syarat dan Ketentuan</h4>
         <ol>
           <li>
-            Peserta merupakan warga negara Indonesia (WNI)
+          Peserta merupakan warga negara Indonesia (WNI).
           </li>
           <li>
-            Pendaftaran lomba tidak dipungut biaya (GRATIS).
+          Pendaftaran lomba tidak dipungut biaya (GRATIS).
           </li>
           <li>
-            Lomba terbuka untuk Umum, baik secara perorangan maupun kelompok (dengan satu email persubmission).
+          Lomba terbuka untuk Umum, baik secara perorangan maupun kelompok (dengan satu email per submission).
           </li>
           <li>
-            Peserta wajib mengikuti akun resmi Instagram <a href="https://www.instagram.com/lps_idic/" target="_blank">@lps_idic</a> dan subscribe YouTube channel <a href="https://www.youtube.com/@LPS_IDIC" target="_blank">LPS_IDIC Official</a>
+          Peserta wajib mengikuti akun resmi Instagram <a href="https://www.instagram.com/lps_idic/" target="_blank">@lps_idic</a> dan subscribe YouTube channel <a href="https://www.youtube.com/@LPS_IDIC" target="_blank">LPS_IDIC Official</a>
           </li>
           <li>
-            Peserta diharuskan membuat karya video pendek atau poster iklan layanan masyarakat sesuai dengan tema yang sudah ditentukan.
+          Peserta diharuskan membuat karya video pendek atau poster iklan layanan masyarakat sesuai dengan tema yang sudah ditentukan.
           </li>
           <li>
-            Narasi video atau poster iklan layanan masyarakat dapat berupa himbauan, ajakan, testimoni, tutorial kepada masyarakat terkait tema.
+          Narasi video atau poster iklan layanan masyarakat dapat berupa himbauan, ajakan, testimoni, tutorial kepada masyarakat terkait tema.
           </li>
           <li>
-            Karya video pendek dengan format .mp4 atau .mov, resolusi minimal 1280x720 pixel dan berdurasi maksimal 3 menit.
+          Karya <span class="font-bold">video pendek</span> dengan format .mp4 atau .mov, resolusi minimal 1280x720 pixel dan berdurasi maksimal 3 menit.
           </li>
           <li>
-            Karya poster iklan layanan masyarakat berformat portrait, ukuran A3 tanpa garis atau resolusi minimal 1080x1350 pixel 300 dpi dengan format JPG/PNG.
+          Karya <span class="font-bold">poster iklan layanan masyarakat</span> berformat portrait, ukuran A3 tanpa garis atau resolusi minimal 1080x1350 pixel 300 dpi dengan format JPG/PNG.
           </li>
           <li>
-            Karya video dan poster iklan layanan masyarakat tidak mengandung
-            SARA dan tidak melanggar hukum/aturan yang berlaku.
+          Karya <span class="font-bold">video pendek</span> dan <span class="font-bold">poster iklan layanan masyarakat</span> tidak mengandung SARA dan tidak melanggar hukum/aturan yang berlaku.
           </li>
           <li>
-            Karya video pendek di upload di channel YouTube peserta dan yang akan di submit via microsite <a href="https://detik.com/festivalcreartivelps" target="_blank">https://detik.com/festivalcreartivelps</a> adalah link YouTube dari video tersebut beserta judul dan deskripsi video.
+          Karya <span class="font-bold">video pendek</span> di upload di channel YouTube peserta dan yang akan di submit via microsite <a href="https://detik.com/festivalcreartivelps" target="_blank">https://detik.com/festivalcreartivelps</a> adalah link YouTube dari video tersebut beserta judul dan deskripsi video.
           </li>
           <li>
-            Karya poster iklan layanan masyarakat di upload di akun Instagram peserta dan yang akan disubmit via microsite <a href="https://detik.com/festivalcreartivelps" target="_blank">https://detik.com/festivalcreartivelps</a> adalah link dari postingan poster tersebut beserta judul dan deskripsi poster.
+          Karya poster <span class="font-bold">iklan layanan masyarakat</span> di upload di akun Instagram peserta dan yang akan disubmit via microsite <a href="https://detik.com/festivalcreartivelps" target="_blank">https://detik.com/festivalcreartivelps</a> adalah link dari postingan poster tersebut beserta judul dan deskripsi poster.
           </li>
           <li>
-            Hasil karya video pendek dan poster iklan layanan masyarakat dinarasikan menggunakan Bahasa Indonesia.
+          Hasil karya <span class="font-bold">video pendek</span> dan <span class="font-bold">poster iklan layanan masyarakat</span> dinarasikan menggunakan Bahasa Indonesia.
           </li>
           <li>
-            Karya video pendek atau poster iklan layanan masyarakat yang di submit merupakan karya asli pribadi/kelompok dan peserta wajib bertanggung jawab penuh terhadap karya tersebut.
+          Karya <span class="font-bold">video pendek</span> atau <span class="font-bold">poster iklan layanan masyarakat</span> yang di submit merupakan karya asli pribadi/kelompok dan peserta wajib bertanggung jawab penuh terhadap karya tersebut.
           </li>
           <li>
-            Musik/suara latar karya video pendek atau segala elemen dalam poster iklan layanan masyarakat tidak melanggar ketentuan terkait Hak Cipta.
+          Musik/suara latar karya <span class="font-bold">video pendek</span> atau segala elemen dalam <span class="font-bold">poster iklan layanan masyarakat</span> tidak melanggar ketentuan terkait Hak Cipta.
           </li>
           <li>
-            Karya video pendek atau poster iklan layanan masyarakat yang di submit akan menjadi milik penyelenggara dan dapat secara bebas digunakan dalam rangka kebutuhan penyelenggara, dengan tetap memberikan Hak Ciptanya kepada peserta.
+          Karya <span class="font-bold">video pendek</span> atau <span class="font-bold">poster iklan layanan masyarakat</span> yang di submit akan menjadi milik penyelenggara dan dapat secara bebas digunakan dalam rangka kebutuhan penyelenggara, dengan tetap memberikan Hak Ciptanya kepada peserta.
           </li>
           <li>
-            Dalam video pendek harus terdapat bumper out yang disertai logo LPS dan end tune jingle LPS minimal durasi 5 detik. Untuk logo LPS dan end tune jingle LPS dapat di download pada <a href="https://drive.google.com/file/d/16QYCD2zJwNcSO41ttLCLszlQdEUQAoDa/view" target="_blank">link berikut</a>.
+          Dalam <span class="font-bold">video pendek</span> harus terdapat bumper out yang disertai logo LPS dan end tune jingle LPS minimal durasi 5 detik. Untuk logo LPS dan end tune jingle LPS dapat di download pada<a href="https://drive.google.com/file/d/16QYCD2zJwNcSO41ttLCLszlQdEUQAoDa/view" target="_blank">link berikut</a>.
           </li>
           <li>
-            Dalam video pendek harus terdapat pesan atau narasi mengenai manfaat menabung di bank salah satunya Aman Dijamin LPS dan narasi LPS Sahabat Nasabah Indonesia.
+          Dalam video pendek, peserta wajib menempatkan pesan mengenai berbagai manfaat menabung di bank yang salah satunya ialah <span class="font-bold">Tabungan Aman dijamin LPS.</span> Selain itu, video pendek juga wajib memuat konten dalam bentuk tulisan dan/atau voice over <span class="font-bold">LPS Sahabat Nasabah Indonesia.</span>
           </li>
           <li>
-            Pihak penyelenggara dan dewan juri tidak bertanggung jawab atas segala tuntutan hukum atas karya video pendek atau poster iklan layanan masyarakat yang dikirimkan, termasuk namun tidak terbatas pada kepemilikan atau hak cipta.
+          Dalam poster iklan layanan masyarakat, peserta wajib menempatkan konten berupa <span class="font-bold">Ajakan Menabung di Bank</span> serta konten <span class="font-bold">Tabungan Aman Dijamin LPS.</span> 
           </li>
           <li>
-            Penyelenggara berhak mendiskualifikasi karya video pendek atau poster iklan layanan masyarakat peserta sebelum dan sesudah penjurian apabila dianggap tidak memenuhi ketentuan.
+          Pihak penyelenggara dan dewan juri tidak bertanggung jawab atas segala tuntutan hukum atas karya <span class="font-bold">video pendek</span> atau <span class="font-bold">poster iklan layanan masyarakat</span> yang dikirimkan, termasuk namun tidak terbatas pada kepemilikan atau hak cipta.
           </li>
           <li>
-            Peserta dianggap telah menyetujui semua persyaratan yang ditetapkan atas karya video pendek atau poster iklan layanan masyarakat yang dikirim.
+          Penyelenggara berhak mendiskualifikasi <span class="font-bold">karya video</span> pendek atau <span class="font-bold">poster iklan layanan masyarakat</span> peserta sebelum dan sesudah penjurian apabila dianggap tidak memenuhi ketentuan.
           </li>
           <li>
-            Pemenang hasil lomba merupakan keputusan mutlak dewan juri atau penyelenggara dan tidak dapat diganggu gugat.
+          Peserta dianggap telah menyetujui semua persyaratan yang ditetapkan atas <span class="font-bold">karya video</span> pendek atau <span class="font-bold">poster iklan layanan masyarakat</span> yang dikirim.
+          </li>
+          <li>
+          Pemenang hasil lomba merupakan keputusan mutlak dewan juri atau penyelenggara dan tidak dapat diganggu gugat.
           </li>
         </ol>
       </div>
@@ -86,7 +89,7 @@
         <h4>Parameter Penilaian Lomba Video</h4>
         <ol>
           <li>
-          Kesesuaian Substansi dengan Tema yang diangkat “Bangun Budaya Menabung, Wujudkan Finansial yang sehat”. (Bobot 40%)
+          Kesesuaian Substansi dengan Tema yang diangkat <q class="font-bold">Bangun Budaya Menabung, Wujudkan Finansial yang sehat</q><span class="font-bold">.</span> 
             <ul>
               <li>Relevansi terhadap tema</li>
               <li>Pemahaman peserta</li>
@@ -94,14 +97,14 @@
             </ul>
           </li>
           <li>
-            Teknis Pengambilan Gambar & Editing. (Bobot 30%)
+            Teknis Pengambilan Gambar &amp; Editing.
             <ul>
               <li>Angle</li>
               <li>Pencahayaan</li>
               <li>Audio</li>
             </ul>
           </li>
-          <li>Kualitas Pesan dan Komunikasi (Bobot 30%)</li>
+          <li>Kualitas Pesan dan Komunikasi</li>
           <ul>
               <li>Alur Cerita</li>
               <li>Penulisan Cerita</li>
@@ -113,7 +116,7 @@
         <h4>Parameter Penilaian Lomba Poster</h4>
         <ol>
           <li>
-          Kesesuaian Substansi dengan Tema yang diangkat “Bangun Budaya Menabung, Wujudkan Finansial yang sehat”. (Bobot 40%)
+          Kesesuaian Substansi dengan Tema yang diangkat <q class="font-bold">Bangun Budaya Menabung, Wujudkan Finansial yang sehat</q><span class="font-bold">.</span> 
             <ul>
               <li>Relevansi terhadap tema</li>
               <li>Pemahaman peserta</li>
@@ -121,13 +124,13 @@
             </ul>
           </li>
           <li>
-          Kreativitas dan Orisinalitas Karya. (Bobot 30%)
+          Kreativitas dan Orisinalitas Karya.
             <ul>
               <li>Pemilihan proporsi warna dan penggunaan elemen desain</li>
               <li>Ide kreatif dalam cara penyampaian pesan</li>
             </ul>
           </li>
-          <li>Kualitas Pesan dan Komunikasi (Bobot 30%)</li>
+          <li>Kualitas Pesan dan Komunikasi</li>
           <ul>
               <li>Cara penyampaian pesan yang tepat (jelas dan efektif)</li>
               <li>Konten di dalam poster dapat dengan mudah dipahami dan menarik minat pembaca</li>
