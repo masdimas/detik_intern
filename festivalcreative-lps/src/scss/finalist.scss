@@ -1,0 +1,95 @@
+#finalist{
+    padding-bottom: 121px;
+    .mycontainer{
+        max-width: 1040px;
+        padding: 20px;
+        border-radius: 32px;
+        border: 1px solid rgba(55, 53, 61, 0.30);
+        background: #FFF;
+        .section-title{
+            font-family: "montserat-semibold";
+            color: #1B4193;
+            font-size: 23px;
+            line-height: normal;
+            margin-bottom: 32px;
+        }
+        .finalist-data{
+            margin-bottom: 32px;
+            &:hover{
+                .finalist-thumbnail{
+                    img{
+                        transform: scale(1.2);
+                    }
+                }
+            }
+            .box-instagram{
+                height: 500px;
+                overflow: scroll;
+                margin-bottom: 15px;
+                border-radius: 16px;
+                border: 1px solid #CECECE;
+                .instagram-media{
+                    min-width: 100% !important;
+                }
+            }
+            .finalist-thumbnail{
+                background-color: rgb(136, 136, 136);
+                position: relative;
+                width: 100%;
+                padding-top: 56.25%;
+                border-radius: 16px;
+                overflow: hidden;
+                margin-bottom: 16px;
+                img{
+                    position:  absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    width: 100%;
+                    height: 100%;
+                    transition: 0.3s;
+                }
+            }
+            .finalist-title{
+                font-family: "montserat-bold";
+                color: #063464;
+                font-size: 16px;
+                line-height: 24px;
+                margin-bottom: 5px;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;  
+                overflow: hidden;
+            }
+            .finalist-name{
+                font-family: "montserat-regular";
+                color: #444444;
+                font-size: 14px;
+                line-height: normal;
+                display: -webkit-box;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;  
+                overflow: hidden;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    #finalist{
+        .mycontainer{
+            border-radius: 0;
+            .finalist-data{
+                .box-instagram{
+                    height: 300px !important;
+                }
+                .finalist-title{
+                    font-size: 14px;
+                    -webkit-line-clamp: 3;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}

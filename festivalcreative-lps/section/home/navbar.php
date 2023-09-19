@@ -11,7 +11,7 @@
         </div>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-5 gap-3">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-4 gap-3">
           <li class="nav-item">
             <a class="nav-link" href="index.php">Home</a>
           </li>
@@ -24,6 +24,18 @@
           <li class="nav-item">
             <a class="nav-link" href="snk-view.php">Syarat & Ketentuan</a>
           </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Participation Gallery
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="participation-gallery.php?gallery=video">Video Competition</a></li>
+            <li><a class="dropdown-item" href="participation-gallery.php?gallery=poster">Poster Competition</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="snk-view.php">Roadshow</a>
+        </li>
           <li class="nav-item d-flex justify-content-center">
             <a class="btn rounded-pill px-4 py-2" href="index.php#form-section">
               Daftar Sekarang
