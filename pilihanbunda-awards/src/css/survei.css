@@ -1,0 +1,49 @@
+#surveiform .container .header-survei h1 {
+  font-family: "goldplay-bold";
+  font-size: 48px;
+  text-align: center;
+  color: #B0367C;
+}
+#surveiform .container .header-survei p {
+  font-family: "DMSans-Regular";
+  text-align: center;
+  font-size: 16px;
+  margin: 0 200px;
+  font-weight: 400;
+}
+#surveiform .container .embed-survei iframe {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+  #surveiform .container .header-survei {
+    padding-top: 140px;
+  }
+  #surveiform .container .header-survei h1 {
+    font-size: 30px;
+  }
+  #surveiform .container .header-survei p {
+    font-size: 14px;
+    margin: 0;
+  }
+  #surveiform .container .embed-survei iframe {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  #surveiform .container .header-survei {
+    padding-top: 150px;
+  }
+  #surveiform .container .header-survei h1 {
+    font-size: 30px;
+  }
+  #surveiform .container .header-survei p {
+    font-size: 14px;
+    margin: 0;
+  }
+  #surveiform .container .embed-survei iframe {
+    width: 100%;
+  }
+}
