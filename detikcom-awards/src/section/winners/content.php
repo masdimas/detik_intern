@@ -7,12 +7,6 @@
             <div class="col-span-12 grid items-center">
             <?php include "../section/winners/component-winners/kategori-brand.php" ?>
             </div>
-            <div class="col-span-12 grid items-center">
-            <?php include "../section/winners/component-winners/kategori-kementerian.php" ?>
-            </div>
-            <div class="col-span-12 grid items-center">
-            <?php include "../section/winners/component-winners/kategori-pemda.php" ?>
-            </div>
         </div>
     </div>
 </div>

@@ -4,7 +4,7 @@
             <button type="button" class="flex-col items-center justify-center px-5 py-2 group hidden md:block">
                 <img src="../assets/images/hero/logo-detikcom-awards.png" class="w-[132px]" alt="">
             </button>
-            <button id="nav-home" type="button" class="navbar-button" onclick="window.location.href='index.php';">
+            <button id="nav-home" type="button" class="navbar-button font-normal" onclick="window.location.href='index.php';">
                 <?php
                     if($home){
                         echo "<img src='../assets/images/navbar/icon-home-active.png' class='w-[24px] block md:hidden' alt=''>";
@@ -14,7 +14,7 @@
                 ?>
                 <span class="navbar-menu-span font-['montserrat-medium']">Home</span>
             </button>
-            <button id="nav-discovery" type="button" class="navbar-button" onclick="window.location.href='discover.php';">
+            <button id="nav-discovery" type="button" class="navbar-button font-normal" onclick="window.location.href='discover.php';">
                 <?php
                     if($discover){
                         echo "<img src='../assets/images/navbar/icon-discovery-active.png' class='w-[24px] block md:hidden' alt=''>";
@@ -24,7 +24,7 @@
                 ?>
                 <span class="navbar-menu-span font-['montserrat-medium']">Discover</span>
             </button>
-            <button id="nav-awardlist" type="button" class="navbar-button" onclick="window.location.href='award-list.php';">
+            <button id="nav-awardlist" type="button" class="navbar-button font-normal" onclick="window.location.href='award-list.php';">
                 <?php
                     if($award_list){
                         echo "<img src='../assets/images/navbar/icon-award-active.png' class='w-[24px] block md:hidden' alt=''>";
@@ -34,7 +34,7 @@
                 ?>
                 <span class="navbar-menu-span font-['montserrat-medium']">Award List</span>
             </button>
-            <!-- <button id="nav-winners" type="button" class="navbar-button" onclick="window.location.href='winners.php';">
+            <!-- <button id="nav-winners" type="button" class="navbar-button font-normal" onclick="window.location.href='winners.php';">
             <?php
                     if($award_list){
                         echo "<img src='../assets/images/navbar/icon-winners-active.png' class='w-[24px] block md:hidden' alt=''>";
