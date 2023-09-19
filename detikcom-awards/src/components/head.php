@@ -36,5 +36,13 @@
 
   <link type="image/x-icon" rel="shortcut icon" href="https://cdn.detik.net.id/detikcom/images/favicon.ico?v=202307141594">
 
+  <style>
+    @media (min-width: 768px){
+      .winner-show{
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+      }
+    }
+  </style>
+
 
 </head>
