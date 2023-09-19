@@ -12,7 +12,7 @@
                         echo "<img src='../assets/images/navbar/icon-home.png' class='w-[24px] block md:hidden' alt=''>";
                     }
                 ?>
-                <span class="navbar-menu-span font-['montserrat-semibold']">Home</span>
+                <span class="navbar-menu-span font-['montserrat-medium']">Home</span>
             </button>
             <button id="nav-discovery" type="button" class="navbar-button" onclick="window.location.href='discover.php';">
                 <?php
@@ -22,7 +22,7 @@
                         echo "<img src='../assets/images/navbar/icon-discovery.png' class='w-[24px] block md:hidden' alt=''>";
                     }
                 ?>
-                <span class="navbar-menu-span font-['montserrat-semibold']">Discover</span>
+                <span class="navbar-menu-span font-['montserrat-medium']">Discover</span>
             </button>
             <button id="nav-awardlist" type="button" class="navbar-button" onclick="window.location.href='award-list.php';">
                 <?php
@@ -32,7 +32,7 @@
                         echo "<img src='../assets/images/navbar/icon-award.png' class='w-[24px] block md:hidden' alt=''>";
                     }
                 ?>
-                <span class="navbar-menu-span font-['montserrat-semibold']">Award List</span>
+                <span class="navbar-menu-span font-['montserrat-medium']">Award List</span>
             </button>
             <!-- <button id="nav-winners" type="button" class="navbar-button" onclick="window.location.href='winners.php';">
             <?php

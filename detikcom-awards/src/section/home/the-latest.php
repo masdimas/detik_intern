@@ -1,11 +1,11 @@
 <div class="bg-[#050012]" id="the-latest">
-    <div class="container w-full mx-auto md:pt-[80px] pb-[100px]">
+    <div class="container w-full mx-auto md:pt-[10px] pb-[100px]">
 
         <div class="wrapper flex flex-col">
             <!-- <h2 class="font-['broadsheet-ldo'] text-[24px] md:text-[48px] text-white text-center md:text-left leading-[26px] sm:leading-[58px] pb-[40px] md:pb-0 "><h2> -->
                 <div class="flex flex-col md:justify-center mb-[40px] container max-w-[344px] sm:max-w-[640px] md:max-w-[820px] lg:max-w-[1020px] self-center">
-                        <h4 class="font-['montserrat-medium'] text-[16px] md:text-[24px] text-white text-center md:text-left">The Latest from</h4>
-                        <img class="w-[243px] md:w-[399px]" src="../assets/images/the-latest/logo-latest.png" alt="">
+                        <h4 class="font-['montserrat-medium'] text-[16px] md:text-[24px] text-white text-center sm:text-left">The Latest from</h4>
+                        <img class="w-[243px] md:w-[399px] mx-auto sm:mx-0" src="../assets/images/the-latest/logo-latest.png" alt="">
                     </div>
                             <div class="carousel">
                                 <?php
