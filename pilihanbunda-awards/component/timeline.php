@@ -15,7 +15,7 @@
                         <div class="col-auto text-center flex-column  d-sm-flex line">
                             
                             <h5 class="m-2">
-                                <img src="./src/image/timeline/badge.png" alt="">
+                                <img src="./src/image/timeline/badge.png" alt="" class="img-disabled">
                             </h5>
                             <div class="row h-50">
                                 <div class="col border-end border-primary">&nbsp;</div>
@@ -26,7 +26,7 @@
                         <div class="col contain">
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="card-title">SURVEI</h4>
+                                    <h4 class="card-title card-title-disabled">SURVEI</h4>
                                     <p class="card-text">Agustus - September 2023</p>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@
                         <div class="col contain">
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="card-title card-title-disabled">VOTING</h4>
+                                    <h4 class="card-title">VOTING</h4>
                                     <p class="card-text">Oktober - Desember 2023</p>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@
                         <div class="col-auto text-center flex-column  d-sm-flex line">
                             
                             <h5 class="m-2">
-                                <img src="./src/image/timeline/badge.png" alt="">
+                                <img src="./src/image/timeline/badge.png" alt="" class="img-disabled">
                             </h5>
                             <div class="row h-50">
                                 <div class="col">&nbsp;</div>

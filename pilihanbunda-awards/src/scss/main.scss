@@ -21,6 +21,10 @@
     url(../fonts/DMSans-Medium.ttf) format("truetype");
 }
 
+:root {
+  --flex-gap: 1rem; /* Variable for gap */
+}
+
 body {
   a {
     text-decoration: none;
@@ -408,6 +412,9 @@ body {
             img {
               width: 24px;
             }
+            .img-disabled {
+              opacity: 30%;
+            }
           }
 
           .border-end {
@@ -553,6 +560,152 @@ body {
                 margin-left: 5px;
               }
             }
+          }
+        }
+      }
+    }
+  }
+
+  #aggregator {
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 21px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      .aggregator-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #d865a3;
+        font-family: "DMSans-Bold", sans-serif;
+        h3 {
+          font-size: 23px;
+          font-weight: 700;
+          line-height: 29.95px;
+        }
+        span {
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 18.23px;
+        }
+        @media (max-width: 576px) {
+          span {
+            display: none;
+          }
+        }
+      }
+
+      .aggregator-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: var(--flex-gap);
+        .aggregator-card {
+          cursor: pointer;
+          --flex-items: 1; /* Variable for number of items */
+          width: calc(
+            (100% / var(--flex-items)) -
+              (((var(--flex-items) - 1) / var(--flex-items)) * var(--flex-gap))
+          );
+
+          border-radius: 8px;
+          overflow: hidden;
+          .image-canvas {
+            width: 100%;
+            height: 140px;
+            overflow: hidden;
+            img {
+              object-fit: cover;
+              width: 100%;
+              height: 100%;
+              transition: all 0.2s ease;
+            }
+          }
+          .aggregator-detail {
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            background-color: #fffafa;
+            transition: all 0.2s ease;
+            .aggregator-timestamp {
+              font-family: "DMSans-Regular", sans-serif;
+              font-weight: 400;
+              font-size: 10px;
+              line-height: 13.02px;
+              color: #292929;
+            }
+            .aggregator-headline {
+              font-family: "DMSans-Bold", sans-serif;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 20.83px;
+              color: #d865a3;
+              overflow: hidden;
+              display: -webkit-box;
+              -webkit-line-clamp: 3; /* number of lines to show */
+              line-clamp: 3;
+              -webkit-box-orient: vertical;
+              transition: all 0.2s ease;
+            }
+          }
+        }
+
+        .aggregator-card:hover {
+          .image-canvas {
+            img {
+              transform: scale(1.2);
+            }
+          }
+
+          .aggregator-detail {
+            background-color: #fff1f2;
+            .aggregator-headline {
+              color: #d51294;
+            }
+          }
+        }
+
+        .show-more-btn {
+          display: none;
+          font-family: "DMSans-Bold";
+          font-weight: 700;
+          font-size: 14px;
+          color: #d865a3;
+          background-color: #fff1f2;
+          border-radius: 8px;
+          padding: 8px 12px;
+        }
+        @media (max-width: 576px) {
+          .aggregator-card {
+            display: flex;
+            .image-canvas {
+              width: 112px;
+              height: 112px;
+            }
+            .aggregator-detail {
+              width: 75%;
+            }
+          }
+
+          .show-more-btn {
+            display: block;
+          }
+        }
+        @media (min-width: 576px) {
+          .aggregator-card {
+            --flex-items: 2; /* Variable for number of items */
+          }
+        }
+        @media (min-width: 768px) {
+          .aggregator-card {
+            --flex-items: 3; /* Variable for number of items */
+          }
+        }
+        @media (min-width: 1100px) {
+          .aggregator-card {
+            --flex-items: 4; /* Variable for number of items */
           }
         }
       }

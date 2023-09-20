@@ -6,6 +6,7 @@
   <?php include"component/hero.php" ?>
   <?php include"component/timeline.php" ?>
   <?php include"component/about.php" ?>
+  <?php include"component/aggregator.php" ?>
   <?php include"component/footer.php" ?>
   </body>
   <?php include"component/foot.php" ?>
