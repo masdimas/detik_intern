@@ -188,3 +188,15 @@ table {
   font-family: "gill-sans-1000", "Gill Sans MT", Calibri, "Trebuchet MS",
     sans-serif;
 }
+
+.fredoka-500{
+  font-family: "Fredoka";
+  font-style: medium;
+  font-weight: 500;
+}
+
+.fredoka-600{
+  font-family: "Fredoka-600";
+  font-style: semibold;
+  font-weight: 600;
+}
