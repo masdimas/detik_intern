@@ -1,0 +1,390 @@
+#page {
+    .slider-single {
+        .slick-list {
+            .slick-track {
+                .slick-slide .slick-current .slick-active {
+                    -webkit-filter: unset !important;
+                    /* Safari 6.0 - 9.0 */
+                    filter: unset !important;
+                }
+            }
+        }
+    }
+
+    .slider-nav {
+        .slick-list {
+            .slick-track {
+                .slick-slide {
+                    cursor: pointer;
+                }
+
+                .slick-slide {
+                    -webkit-filter: grayscale(100%);
+                    /* Safari 6.0 - 9.0 */
+                    filter: grayscale(100%);
+                }
+
+                .is-active {
+                    -webkit-filter: unset !important;
+                    /* Safari 6.0 - 9.0 */
+                    filter: unset !important;
+                }
+            }
+        }
+    }
+}
+
+#the-latest {
+    .wrapper {
+        width: 100%;
+        text-align: center;
+
+        .carousel {
+            margin-bottom: 20px;
+
+            .slick-prev {
+                top: -6%;
+                left: 96%;
+                width: 16px;
+            }
+
+            .slick-prev::before {
+                font-size: 16px;
+                content: url('../assets/images/the-latest/chevron-left.png');
+            }
+
+            .slick-next {
+                top: -6%;
+                right: 0px;
+                width: 16px;
+            }
+
+            .slick-next::before {
+                font-size: 16px;
+                content: url('../assets/images/the-latest/chevron-right.png');
+            }
+
+            .slick-list {
+                .slick-track {
+                    .slick-slide {
+                        margin: 16px;
+
+                        .card {
+                            height: 400px;
+
+                            .card-header {}
+
+                            .card-body {
+                                width: 100%;
+                                height: 100%;
+                                vertical-align: top;
+                                position: relative;
+                                height: 100%;
+
+                                .card-content {
+                                    text-align: left;
+                                    color: #333;
+                                    padding: 15px;
+                                    position: absolute;
+                                    bottom: 0;
+                                    background: rgb(115, 93, 60);
+                                    background: linear-gradient(0deg, rgba(115, 93, 60, 1) 0%, rgba(115, 93, 60, 0.7455357142857143) 35%, rgba(0, 0, 0, 0) 100%);
+                                    height: 100%;
+                                    border-radius: 12px;
+
+                                    .wrap-content {
+                                        height: auto;
+
+                                        .card-title {}
+
+                                        .card-text {
+                                            font-size: 14px;
+                                            font-weight: 300;
+
+                                            p {}
+                                        }
+                                    }
+                                }
+
+
+                            }
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+    #the-latest {
+        .container {
+            max-width: 720px !important;
+
+            .wrapper {
+                width: 100%;
+                padding-top: 20px;
+                text-align: center;
+
+                .carousel {
+                    margin-bottom: 100px;
+
+                    .slick-prev {
+                        top: 110%;
+                        left: 40%;
+                        width: 16px;
+                    }
+
+                    .slick-prev::before {
+                        font-size: 16px;
+                        content: url('../assets/images/the-latest/chevron-left.png');
+                    }
+
+                    .slick-next {
+                        top: 110%;
+                        right: 40%;
+                        width: 16px;
+                    }
+
+                    .slick-next::before {
+                        font-size: 16px;
+                        content: url('../assets/images/the-latest/chevron-right.png');
+                    }
+
+                    .slick-list {
+                        .slick-track {
+                            .slick-slide {
+                                margin: 16px;
+
+                                .card {
+                                    height: 400px;
+
+                                    .card-header {}
+
+                                    .card-body {
+                                        width: 100%;
+                                        height: 100%;
+                                        vertical-align: top;
+                                        position: relative;
+                                        height: 100%;
+
+                                        .card-content {
+                                            text-align: left;
+                                            color: #333;
+                                            padding: 15px;
+                                            position: absolute;
+                                            bottom: 0;
+                                            background: rgb(115, 93, 60);
+                                            background: linear-gradient(0deg, rgba(115, 93, 60, 1) 0%, rgba(115, 93, 60, 0.7455357142857143) 35%, rgba(0, 0, 0, 0) 100%);
+                                            height: 100%;
+                                            border-radius: 12px;
+
+                                            .wrap-content {
+                                                height: auto;
+
+                                                .card-title {}
+
+                                                .card-text {
+                                                    font-size: 14px;
+                                                    font-weight: 300;
+
+                                                    p {}
+                                                }
+                                            }
+                                        }
+
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+
+                }
+            }
+        }
+
+    }
+}
+
+@media (min-width: 481px) and (max-width: 799px) {
+    #the-latest {
+        .container {
+            max-width: 720px !important;
+
+            .wrapper {
+                width: 100%;
+                padding-top: 20px;
+                text-align: center;
+
+                .carousel {
+                    margin-bottom: 100px;
+
+                    .slick-prev {
+                        top: 110%;
+                        left: 35%;
+                        width: 16px;
+                    }
+
+                    .slick-prev::before {
+                        font-size: 16px;
+                        content: url('../assets/images/the-latest/chevron-left.png');
+                    }
+
+                    .slick-next {
+                        top: 110%;
+                        right: 35%;
+                        width: 16px;
+                    }
+
+                    .slick-next::before {
+                        font-size: 16px;
+                        content: url('../assets/images/the-latest/chevron-right.png');
+                    }
+
+                    .slick-list {
+                        .slick-track {
+                            .slick-slide {
+                                margin: 16px;
+
+                                .card {
+                                    height: 400px;
+
+                                    .card-header {}
+
+                                    .card-body {
+                                        width: 100%;
+                                        height: 100%;
+                                        vertical-align: top;
+                                        position: relative;
+                                        height: 100%;
+
+                                        .card-content {
+                                            text-align: left;
+                                            color: #333;
+                                            padding: 15px;
+                                            position: absolute;
+                                            bottom: 0;
+                                            background: rgb(115, 93, 60);
+                                            background: linear-gradient(0deg, rgba(115, 93, 60, 1) 0%, rgba(115, 93, 60, 0.7455357142857143) 35%, rgba(0, 0, 0, 0) 100%);
+                                            height: 100%;
+                                            border-radius: 12px;
+
+                                            .wrap-content {
+                                                height: auto;
+
+                                                .card-title {}
+
+                                                .card-text {
+                                                    font-size: 14px;
+                                                    font-weight: 300;
+
+                                                    p {}
+                                                }
+                                            }
+                                        }
+
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+
+                }
+            }
+        }
+
+    }
+}
+
+@media (min-width: 800px) and (max-width: 991px) {
+    #the-latest {
+        .wrapper {
+            width: 100%;
+            padding-top: 20px;
+            text-align: center;
+
+            .carousel {
+                margin-bottom: 20px;
+
+                .slick-prev {
+                    top: -6%;
+                    left: 95%;
+                    width: 16px;
+                }
+
+                .slick-prev::before {
+                    font-size: 16px;
+                    content: url('../assets/images/the-latest/chevron-left.png');
+                }
+
+                .slick-next {
+                    top: -6%;
+                    right: 0px;
+                    width: 16px;
+                }
+
+                .slick-next::before {
+                    font-size: 16px;
+                    content: url('../assets/images/the-latest/chevron-right.png');
+                }
+
+                .slick-list {
+                    .slick-track {
+                        .slick-slide {
+                            margin: 16px;
+
+                            .card {
+                                height: 400px;
+
+                                .card-header {}
+
+                                .card-body {
+                                    width: 100%;
+                                    height: 100%;
+                                    vertical-align: top;
+                                    position: relative;
+                                    height: 100%;
+
+                                    .card-content {
+                                        text-align: left;
+                                        color: #333;
+                                        padding: 15px;
+                                        position: absolute;
+                                        bottom: 0;
+                                        background: rgb(115, 93, 60);
+                                        background: linear-gradient(0deg, rgba(115, 93, 60, 1) 0%, rgba(115, 93, 60, 0.7455357142857143) 35%, rgba(0, 0, 0, 0) 100%);
+                                        height: 100%;
+                                        border-radius: 12px;
+
+                                        .wrap-content {
+                                            height: auto;
+
+                                            .card-title {}
+
+                                            .card-text {
+                                                font-size: 14px;
+                                                font-weight: 300;
+
+                                                p {}
+                                            }
+                                        }
+                                    }
+
+
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+            }
+        }
+    }
+}
