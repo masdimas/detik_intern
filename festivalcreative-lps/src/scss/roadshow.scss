@@ -1,0 +1,110 @@
+#roadshow-slider{
+    .mycontainer{
+        .mySwiper2{
+            .roadshow-slider{
+                background-color: rgb(136, 136, 136);
+                position: relative;
+                width: 100% !important;
+                padding-top: 56.25%;
+                border-radius: 8px;
+                overflow: hidden;
+                margin-bottom: 16px;
+                img{
+                    position:  absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .swiper-pagination{
+                position: relative;
+                margin-top: 12px;
+                .swiper-pagination-bullet{
+                    background-color: #9a0808 !important;
+                }
+            }
+        }
+    }
+}
+
+#roadshow-article{
+    padding-bottom: 121px;
+    .mycontainer{
+        max-width: 1040px;
+        padding: 20px;
+        border-radius: 32px;
+        border: 1px solid rgba(55, 53, 61, 0.30);
+        background: #FFF;
+        .section-title{
+            font-family: "montserat-semibold";
+            color: #1B4193;
+            font-size: 23px;
+            line-height: normal;
+            margin-bottom: 32px;
+        }
+        .roadshow-article-data{
+            margin-bottom: 32px;
+            &:hover{
+                .roadshow-article-thumbnail{
+                    img{
+                        transform: scale(1.2);
+                    }
+                }
+            }
+            .box-instagram{
+                height: 500px;
+                overflow: scroll;
+                margin-bottom: 15px;
+                border-radius: 16px;
+                border: 1px solid #CECECE;
+                .instagram-media{
+                    min-width: 100% !important;
+                }
+            }
+            .roadshow-article-thumbnail{
+                background-color: rgb(136, 136, 136);
+                position: relative;
+                width: 100%;
+                padding-top: 56.25%;
+                border-radius: 8px;
+                overflow: hidden;
+                margin-bottom: 12px;
+                img{
+                    position:  absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    width: 100%;
+                    height: 100%;
+                    transition: 0.3s;
+                }
+            }
+            .roadshow-article-title{
+                font-family: "montserat-bold";
+                color: #063464;
+                font-size: 14px;
+                line-height: normal;
+                margin-bottom: 8px;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;  
+                overflow: hidden;
+            }
+            .roadshow-article-name{
+                font-family: "montserat-regular";
+                color: #444444;
+                font-size: 10px;
+                line-height: normal;
+                display: -webkit-box;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;  
+                overflow: hidden;
+            }
+        }
+    }
+}

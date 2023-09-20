@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="row d-flex justify-content-center">
-                <div class='col-lg-4 col-md-4 col-6'>
+                <div class='col-lg-4 col-md-4 col-12'>
                     <a href='https://www.youtube.com/watch?v=nfWXR_eveNI' target='_blank'>
                         <div class='finalist-data'>
                             <div class='finalist-thumbnail'>
@@ -23,7 +23,7 @@
                         </div>
                     </a>
                 </div>
-                <div class='col-lg-4 col-md-4 col-6'>
+                <div class='col-lg-4 col-md-4 col-12'>
                     <a href='https://www.youtube.com/watch?v=nfWXR_eveNI' target='_blank'>
                         <div class='finalist-data'>
                             <div class='finalist-thumbnail'>
@@ -38,7 +38,7 @@
                         </div>
                     </a>
                 </div>
-                <div class='col-lg-4 col-md-4 col-6'>
+                <div class='col-lg-4 col-md-4 col-12'>
                     <a href='https://www.youtube.com/watch?v=qR4XMQ0uZ1E' target='_blank'>
                         <div class='finalist-data'>
                             <div class='finalist-thumbnail'>

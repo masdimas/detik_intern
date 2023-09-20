@@ -21,6 +21,24 @@
   </script>
 
 <script>
+    var swiper = new Swiper(".mySwiper2", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: true,
+    },
+      pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+        clickable: true,
+      },
+      navigation: false,
+    });
+  </script>
+
+<script>
     var text_max_judul = 100;
     $('#count_message_judul').html('0 / ' + text_max_judul + ' Karakter ');
 
