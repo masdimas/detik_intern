@@ -11,7 +11,7 @@
                 <?php
                     for($x=1; $x<=17; $x++){
                         echo "
-                            <div class='col-lg-4 col-md-4 col-6'>
+                            <div class='col-lg-4 col-md-4 col-12'>
                                 <a href='https://www.youtube.com' target='_blank'>
                                     <div class='finalist-data'>
                                         <div class='finalist-thumbnail'>
