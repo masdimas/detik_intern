@@ -64,6 +64,9 @@ body #nav-bar .nav-bar .nav-link.active,
 body #nav-bar .nav-bar .nav-link:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
+body #nav-bar .nav-bar .nav-link {
+  padding: 0;
+}
 body #nav-bar .nav-bar .dropdown-item.active,
 body #nav-bar .nav-bar .dropdown-item:active,
 body #nav-bar .nav-bar .dropdown-item:hover {
@@ -105,12 +108,12 @@ body #nav-bar .nav-bar .dropdown-menu[data-bs-popper] {
   border: solid 1px #d1d5db;
 }
 body #nav-bar .nav-bar .auth-nav .dropdown-menu[data-bs-popper] {
-  left: -200px;
+  left: -210px;
   background-color: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(24px);
   border-radius: 20px;
   border: solid 1px #d1d5db;
-  top: 125%;
+  top: 160%;
   overflow-x: hidden;
   overflow-y: hidden;
   white-space: nowrap;
