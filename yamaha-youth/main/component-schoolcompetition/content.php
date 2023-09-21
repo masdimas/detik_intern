@@ -34,7 +34,7 @@
                             
                             <a href="#best-moments">
                                 <div class="kategori">
-                                    <span>🖼️ Best Moments</span>
+                                    <span><img src="./assets/images/school-competition/icon/1.png" alt=""> Best Moments</span>
                                 </div>
                             </a>
 

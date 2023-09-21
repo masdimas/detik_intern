@@ -121,6 +121,10 @@ body {
   padding: 10px 10px;
   margin: 10px 0;
 }
+#school-content .section-container .wrap-content #wrap-kategori a .kategori img {
+  width: 24px;
+  height: 24px;
+}
 #school-content .section-container .wrap-content #wrap-kategori.fixed {
   position: fixed;
   top: 0;
@@ -276,6 +280,127 @@ body {
   background: #9a0808;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination-8 .swiper-pagination-bullet-active {
+  background: #9a0808;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper {
+  border-radius: 8px;
+  height: 602px;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper .swiper-wrapper {
+  height: 361px;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper .swiper-wrapper .swiper-slide .instagram-media {
+  background: white;
+  max-width: 100% !important;
+  width: calc(100% - 2px);
+  border-radius: 3px;
+  border: 1px solid rgb(219, 219, 219);
+  box-shadow: none;
+  display: block;
+  margin: 0px 0px 12px;
+  min-width: 326px;
+  padding: 0px;
+  height: 600px;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination {
+  position: relative;
+  margin: 25px 0 20px 0;
+  height: 20px;
+  text-align: center;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination .swiper-pagination-bullet {
+  background: #9a0808;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination .swiper-pagination-bullet-active {
+  background: #9a0808;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-2 {
+  position: relative;
+  margin: 25px 0 20px 0;
+  height: 20px;
+  text-align: center;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-2 .swiper-pagination-bullet {
+  background: #9a0808;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-2 .swiper-pagination-bullet-active {
+  background: #9a0808;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-3 {
+  position: relative;
+  margin: 25px 0 20px 0;
+  height: 20px;
+  text-align: center;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-3 .swiper-pagination-bullet {
+  background: #9a0808;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-3 .swiper-pagination-bullet-active {
+  background: #9a0808;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-4 {
+  position: relative;
+  margin: 25px 0 20px 0;
+  height: 20px;
+  text-align: center;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-4 .swiper-pagination-bullet {
+  background: #9a0808;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-4 .swiper-pagination-bullet-active {
+  background: #9a0808;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-5 {
+  position: relative;
+  margin: 25px 0 20px 0;
+  height: 20px;
+  text-align: center;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-5 .swiper-pagination-bullet {
+  background: #9a0808;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-5 .swiper-pagination-bullet-active {
+  background: #9a0808;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-6 {
+  position: relative;
+  margin: 25px 0 20px 0;
+  height: 20px;
+  text-align: center;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-6 .swiper-pagination-bullet {
+  background: #9a0808;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-6 .swiper-pagination-bullet-active {
+  background: #9a0808;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-7 {
+  position: relative;
+  margin: 25px 0 20px 0;
+  height: 20px;
+  text-align: center;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-7 .swiper-pagination-bullet {
+  background: #9a0808;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-7 .swiper-pagination-bullet-active {
+  background: #9a0808;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-8 {
+  position: relative;
+  margin: 25px 0 20px 0;
+  height: 20px;
+  text-align: center;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-8 .swiper-pagination-bullet {
+  background: #9a0808;
+}
+#school-content #content-creation-wrap .slider-content-1 .swiper-pagination-8 .swiper-pagination-bullet-active {
   background: #9a0808;
 }
 
@@ -1062,6 +1187,19 @@ body {
     width: 100%;
     object-fit: cover;
     height: auto;
+  }
+  #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper .swiper-wrapper .swiper-slide .instagram-media {
+    background: white;
+    max-width: 100% !important;
+    width: calc(100% - 2px);
+    border-radius: 3px;
+    border: 1px solid rgb(219, 219, 219);
+    box-shadow: none;
+    display: block;
+    margin: 0px 0px 12px;
+    min-width: 326px;
+    padding: 0px;
+    height: 592px;
   }
   #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper-pagination {
     position: relative;
