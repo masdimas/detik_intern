@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="./assets/include/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/include/swiper/swiper.min.css">
     <link rel="stylesheet" href="./assets/include/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
+    <!-- <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css"> -->
     
-    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
+    <!-- <link rel="stylesheet" href="./node_modules/aos/dist/aos.css"> -->
 
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/general.css">
