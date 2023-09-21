@@ -430,6 +430,9 @@ body #aggregator .container .aggregator-header {
   color: #d865a3;
   font-family: "DMSans-Bold", sans-serif;
 }
+body #aggregator .container .aggregator-header a {
+  color: #d865a3;
+}
 body #aggregator .container .aggregator-header h3 {
   font-size: 23px;
   font-weight: 700;

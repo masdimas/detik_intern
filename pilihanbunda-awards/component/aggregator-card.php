@@ -1,4 +1,4 @@
-<div class="aggregator-card ">
+<a class="aggregator-card " target="_blank" href="#">
                 <div class="image-canvas">
                     <img src="./src/image/aggregator/sample-aggregator-img.jpg" alt="">
                 </div>
@@ -10,4 +10,4 @@
                         </h4>
                     <!-- </div> -->
                 </div>
-            </div>
+            </a>

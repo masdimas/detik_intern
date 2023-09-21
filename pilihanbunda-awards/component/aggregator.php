@@ -4,9 +4,11 @@
             <h3>
                 Berita Pilihan Bunda
             </h3>
-            <span>
-                Lihat Lebih Banyak
-            </span>
+            <a href="#" target="_blank">
+                <span>
+                    Lihat Lebih Banyak
+                </span>
+            </a>
         </div>
         <div class="aggregator-container">
             <?php include"component/aggregator-card.php" ?>
