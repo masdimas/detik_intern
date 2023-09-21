@@ -107,8 +107,8 @@
 #miss-classy .vote-miss-classy-card:hover {
   background-color: #f0952b;
 }
-#miss-classy .vote-miss-classy-card:hover h4,
-#miss-classy .vote-miss-classy-card:hover span {
+#miss-classy .vote-miss-classy-card:hover .candidate-name,
+#miss-classy .vote-miss-classy-card:hover .candidate-school {
   color: white;
 }
 #miss-classy .vote-miss-classy-card:hover .vote-button {
@@ -308,22 +308,22 @@
   color: #e0ff48;
 }
 
-#miss-classy .vote-miss-classy-card .modal h3 {
+#miss-classy .modal h3 {
   font-size: 24px;
   font-weight: 600;
   line-height: 24px;
   letter-spacing: 0px;
   color: #5182a2;
 }
-#miss-classy .vote-miss-classy-card .modal img {
+#miss-classy .modal img {
   margin-top: 2rem;
 }
-#miss-classy .vote-miss-classy-card .modal .modal-text-content {
+#miss-classy .modal .modal-text-content {
   width: 50%;
   margin-top: 2rem;
   gap: 1rem;
 }
-#miss-classy .vote-miss-classy-card .modal h5 {
+#miss-classy .modal h5 {
   color: #1f2937;
   font-family: Fredoka;
   font-size: 16px;
@@ -332,7 +332,7 @@
   letter-spacing: 0px;
   text-align: center;
 }
-#miss-classy .vote-miss-classy-card .modal span {
+#miss-classy .modal span {
   font-family: Fredoka;
   font-size: 14px;
   font-weight: 400;
@@ -341,7 +341,7 @@
   text-align: center;
   color: #81889c;
 }
-#miss-classy .vote-miss-classy-card .modal .modal-cta {
+#miss-classy .modal .modal-cta {
   background-color: #f0952b;
   margin-bottom: 2rem;
   color: white;
@@ -349,7 +349,7 @@
   border: none;
   transition: 0.2s ease;
 }
-#miss-classy .vote-miss-classy-card .modal .modal-cta:hover {
+#miss-classy .modal .modal-cta:hover {
   background-color: #ffdb4a;
   color: #cca62c;
 }
@@ -396,7 +396,7 @@
   #miss-classy .vote-miss-classy-card {
     max-width: 155px;
   }
-  #miss-classy .vote-miss-classy-card .modal .modal-text-content {
+  #miss-classy .modal .modal-text-content {
     width: 75%;
   }
 }
@@ -418,7 +418,7 @@
   #miss-classy .miss-classy-vote {
     padding: 0 18px;
   }
-  #miss-classy .vote-miss-classy-card .modal .modal-text-content {
+  #miss-classy .modal .modal-text-content {
     width: 90%;
   }
 
