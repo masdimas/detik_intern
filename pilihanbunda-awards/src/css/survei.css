@@ -1,8 +1,11 @@
+#surveiform {
+  padding-top: 110px;
+}
 #surveiform .container .header-survei h1 {
   font-family: "goldplay-bold";
   font-size: 48px;
   text-align: center;
-  color: #B0367C;
+  color: #b0367c;
 }
 #surveiform .container .header-survei p {
   font-family: "DMSans-Regular";
@@ -18,11 +21,8 @@
 }
 
 @media (min-width: 0px) and (max-width: 575px) {
-  #surveiform .container .header-survei {
-    padding-top: 140px;
-  }
   #surveiform .container .header-survei h1 {
-    font-size: 30px;
+    font-size: 24px;
   }
   #surveiform .container .header-survei p {
     font-size: 14px;
@@ -33,9 +33,6 @@
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
-  #surveiform .container .header-survei {
-    padding-top: 150px;
-  }
   #surveiform .container .header-survei h1 {
     font-size: 30px;
   }

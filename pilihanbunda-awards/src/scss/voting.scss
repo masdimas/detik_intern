@@ -1,7 +1,7 @@
-#surveiform {
+#votingform {
   padding-top: 110px;
   .container {
-    .header-survei {
+    .header-voting {
       h1 {
         font-family: "goldplay-bold";
         font-size: 48px;
@@ -16,7 +16,7 @@
         font-weight: 400;
       }
     }
-    .embed-survei {
+    .embed-voting {
       iframe {
         position: relative;
         left: 50%;
@@ -27,18 +27,19 @@
 }
 
 @media (min-width: 0px) and (max-width: 575px) {
-  #surveiform {
+  #votingform {
     .container {
-      .header-survei {
+      .header-voting {
+        padding-top: 140px;
         h1 {
-          font-size: 24px;
+          font-size: 30px;
         }
         p {
           font-size: 14px;
           margin: 0;
         }
       }
-      .embed-survei {
+      .embed-voting {
         iframe {
           width: 100%;
         }
@@ -48,9 +49,10 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  #surveiform {
+  #votingform {
     .container {
-      .header-survei {
+      .header-voting {
+        padding-top: 150px;
         h1 {
           font-size: 30px;
         }
@@ -59,7 +61,7 @@
           margin: 0;
         }
       }
-      .embed-survei {
+      .embed-voting {
         iframe {
           width: 100%;
         }

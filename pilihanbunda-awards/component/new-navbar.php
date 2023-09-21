@@ -21,16 +21,16 @@
           <div class="collapse navbar-collapse justify-content-lg-end d-lg-block flex-column flex-lg-row justify-content-center ms-auto" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-3 gap-0 w-sm-100 w-lg-auto">
               <li class="nav-item">
-                <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="index.php?login=1#home">Home</a>
+                <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="index.php?login=1#hero">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="index.php?login=1#about">Tentang Program</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="index.php?login=1#home">Berita </a>
+                <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="index.php?login=1#aggregator">Berita </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="index.php?login=1#home">Voting </a>
+                <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="survei.php?login=0">Survei</a>
               </li>
              
               <li class="nav-item dropdown auth-nav">

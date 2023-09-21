@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./src/css/main.css">
     <link rel="stylesheet" href="./src/css/survei.css">
     <link rel="stylesheet" href="./src/css/subnavbar.css">
+    <link rel="stylesheet" href="./src/css/voting.css">
     <link rel="shortcut icon" href="https://cdn.haibunda.com/images/ico_haibunda.png?v=4.3.9" type="image/x-icon" />
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
   </head>
