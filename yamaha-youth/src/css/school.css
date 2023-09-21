@@ -173,9 +173,24 @@ body {
   border-radius: 8px;
   text-transform: uppercase;
   color: #5180a2;
-  padding: 10px 10px;
+  padding: 5px 10px;
   margin: 10px 0;
   margin-right: 6px;
+}
+#school-content .section-container .wrap-content .kategori-mobile .wrap-kategori-mobile .box a .kategori .box {
+  display: flex;
+}
+#school-content .section-container .wrap-content .kategori-mobile .wrap-kategori-mobile .box a .kategori .box .box-icon {
+  display: inline-block;
+  margin-right: 8px;
+}
+#school-content .section-container .wrap-content .kategori-mobile .wrap-kategori-mobile .box a .kategori .box .box-icon img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+#school-content .section-container .wrap-content .kategori-mobile .wrap-kategori-mobile .box a .kategori .box span {
+  align-self: center;
 }
 #school-content .section-container .wrap-content .content .wrap .title {
   background: #5180a2;
@@ -184,6 +199,21 @@ body {
   margin: 10px 0;
   border-radius: 8px;
   text-transform: uppercase;
+}
+#school-content .section-container .wrap-content .content .wrap .title .box {
+  display: flex;
+}
+#school-content .section-container .wrap-content .content .wrap .title .box .box-icon {
+  display: inline-block;
+  margin-right: 8px;
+}
+#school-content .section-container .wrap-content .content .wrap .title .box .box-icon img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+#school-content .section-container .wrap-content .content .wrap .title .box span {
+  align-self: center;
 }
 #school-content .section-container .wrap-content .content .wrap .slider-content-1 .swiper {
   border-radius: 8px;
@@ -552,9 +582,24 @@ body {
     border-radius: 8px;
     text-transform: uppercase;
     color: #5180a2;
-    padding: 10px 10px;
+    padding: 5px 10px;
     margin: 10px 0;
     margin-right: 6px;
+  }
+  #school-content .section-container .wrap-content .kategori-mobile .wrap-kategori-mobile .box a .kategori .box {
+    display: flex;
+  }
+  #school-content .section-container .wrap-content .kategori-mobile .wrap-kategori-mobile .box a .kategori .box .box-icon {
+    display: inline-block;
+    margin-right: 8px;
+  }
+  #school-content .section-container .wrap-content .kategori-mobile .wrap-kategori-mobile .box a .kategori .box .box-icon img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+  }
+  #school-content .section-container .wrap-content .kategori-mobile .wrap-kategori-mobile .box a .kategori .box span {
+    align-self: center;
   }
   #school-content .section-container .wrap-content .content {
     padding-right: calc(var(--bs-gutter-x) * 1.5);

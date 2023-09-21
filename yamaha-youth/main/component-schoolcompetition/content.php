@@ -131,49 +131,89 @@
                             <div class="box">
                                 <a href="#best-moments">
                                     <div class="kategori">
-                                        <span>🖼️ Best Moments</span>
+                                        <div class="box">
+                                            <div class="box-icon">
+                                                <img src="./assets/images/school-competition/icon/1.png" alt="">
+                                            </div>
+                                            <span>Best Moment</span>
+                                        </div>
                                     </div>
                                 </a>
 
                                 <a href="#miss-classy">
                                     <div class="kategori">
-                                        <span>👑 Miss Classy</span>
+                                        <div class="box">
+                                            <div class="box-icon">
+                                                <img src="./assets/images/school-competition/icon/2.png" alt="">
+                                            </div>
+                                            <span>Miss Classy</span>
+                                        </div>
                                     </div>
                                 </a>
 
                                 <a href="#ootd">
                                     <div class="kategori">
-                                        <span>🧥 Outfit Of The Day</span>
+                                        <div class="box">
+                                            <div class="box-icon">
+                                                <img src="./assets/images/school-competition/icon/3.png" alt="">
+                                            </div>
+                                            <span>Outfit Of The Day</span>
+                                        </div>
                                     </div>
                                 </a>
 
                                 <a href="#futsal">
                                     <div class="kategori">
-                                        <span>⚽ Futsal</span>
+                                        <div class="box">
+                                            <div class="box-icon">
+                                                <img src="./assets/images/school-competition/icon/4.png" alt="">
+                                            </div>
+                                            <span>Futsal</span>
+                                        </div>
                                     </div>
                                 </a>
 
                                 <a href="#basketball">
                                     <div class="kategori">
-                                        <span>🏀 Basketball</span>
+                                        <div class="box">
+                                            <div class="box-icon">
+                                                <img src="./assets/images/school-competition/icon/5.png" alt="">
+                                            </div>
+                                            <span>Basketball</span>
+                                        </div>
                                     </div>
                                 </a>
 
                                 <a href="#supporter">
                                     <div class="kategori">
-                                        <span>📣 Supporter</span>
+                                        <div class="box">
+                                            <div class="box-icon">
+                                                <img src="./assets/images/school-competition/icon/6.png" alt="">
+                                            </div>
+                                            <span>Supporter</span>
+                                        </div>
                                     </div>
                                 </a>
 
                                 <a href="#cheersleader">
                                     <div class="kategori">
-                                        <span>💃🏻 Cheersleader / Modern Dance</span>
+                                        <div class="box">
+                                            <div class="box-icon">
+                                                <img src="./assets/images/school-competition/icon/7.png" alt="">
+                                            </div>
+                                            <span>Cheersleader / Modern Dance</span>
+                                        </div>
                                     </div>
                                 </a>
 
                                 <a href="#ccc">
                                     <div class="kategori">
-                                        <span>🎥 Content Creation challenge</span>
+                                        <div class="box">
+                                            <div class="box-icon">
+                                                <img src="./assets/images/school-competition/icon/8.png" alt="">
+                                            </div>
+                                            <span>Content Creation challenge</span>
+                                        </div>
                                     </div>
                                 </a>
                             </div>

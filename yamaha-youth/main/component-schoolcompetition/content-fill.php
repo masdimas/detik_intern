@@ -1,5 +1,12 @@
 <div class="wrap">
-    <div class="title" id="best-moments">🖼️ Best Moments</div>
+    <div class="title" id="best-moments">
+        <div class="box">
+            <div class="box-icon">
+                <img src="./assets/images/school-competition/icon/1.png" alt="">
+            </div>
+            <span>Best Moments</span>
+        </div>
+    </div>
     <div class="slider-content-1">
         <div class="swiper school-slider1">
             <div class="swiper-wrapper">
@@ -40,7 +47,14 @@
 </div>
 
 <div class="wrap">
-    <div class="title" id="miss-classy">👑 Miss Classy</div>
+    <div class="title" id="miss-classy">
+        <div class="box">
+            <div class="box-icon">
+                <img src="./assets/images/school-competition/icon/2.png" alt="">
+            </div>
+            <span>Miss Classy</span>
+        </div>
+    </div>
     <div class="slider-content-1">
         <div class="swiper school-slider2">
             <div class="swiper-wrapper">
@@ -99,7 +113,14 @@
 </div>
 
 <div class="wrap">
-    <div class="title" id="ootd">🧥 Outfit Of The Day</div>
+    <div class="title" id="ootd">
+        <div class="box">
+            <div class="box-icon">
+                <img src="./assets/images/school-competition/icon/3.png" alt="">
+            </div>
+            <span>Outfit Of The Day</span>
+        </div>
+    </div>
     <div class="slider-content-1">
         <div class="swiper school-slider3">
             <div class="swiper-wrapper">
@@ -140,7 +161,14 @@
 </div>
 
 <div class="wrap">
-    <div class="title" id="futsal">⚽ Futsal</div>
+    <div class="title" id="futsal">
+        <div class="box">
+            <div class="box-icon">
+                <img src="./assets/images/school-competition/icon/4.png" alt="">
+            </div>
+            <span>Futsal</span>
+        </div>
+    </div>
     <div class="slider-content-1">
         <div class="swiper school-slider4">
             <div class="swiper-wrapper">
@@ -199,7 +227,14 @@
 </div>
 
 <div class="wrap">
-    <div class="title" id="basketball">🏀 Basketball</div>
+    <div class="title" id="basketball">
+        <div class="box">
+            <div class="box-icon">
+                <img src="./assets/images/school-competition/icon/5.png" alt="">
+            </div>
+            <span>Basketball</span>
+        </div>
+    </div>
     <div class="slider-content-1">
         <div class="swiper school-slider5">
             <div class="swiper-wrapper">
@@ -240,7 +275,14 @@
 </div>
 
 <div class="wrap">
-    <div class="title" id="supporter">📣 Supporter</div>
+    <div class="title" id="supporter">
+        <div class="box">
+            <div class="box-icon">
+                <img src="./assets/images/school-competition/icon/6.png" alt="">
+            </div>
+            <span>Supporter</span>
+        </div>
+    </div>
     <div class="slider-content-1">
         <div class="swiper school-slider6">
             <div class="swiper-wrapper">
@@ -281,7 +323,14 @@
 </div>
 
 <div class="wrap">
-    <div class="title" id="cheersleader">💃🏻 Cheersleader / Modern Dance</div>
+    <div class="title" id="cheersleader">
+        <div class="box">
+            <div class="box-icon">
+                <img src="./assets/images/school-competition/icon/7.png" alt="">
+            </div>
+            <span>Cheersleader / Modern Dance</span>
+        </div>
+    </div>
     <div class="slider-content-1">
         <div class="swiper school-slider7">
             <div class="swiper-wrapper">
@@ -323,7 +372,14 @@
 
 
 <div class="wrap" id="content-creation-wrap">
-    <div class="title" id="content-creation">🎥 Content Creation challenge</div>
+    <div class="title" id="content-creation">
+        <div class="box">
+            <div class="box-icon">
+                <img src="./assets/images/school-competition/icon/8.png" alt="">
+            </div>
+            <span>Content Creation challenge</span>
+        </div>
+    </div>
     <div class="slider-content-1">
         <div class="swiper school-slider8">
             <div class="swiper-wrapper">
