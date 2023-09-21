@@ -446,7 +446,7 @@ body {
     .slider-content-1 {
       .swiper {
         border-radius: 8px;
-        height: 1010px;
+        height: 530px;
 
         .swiper-wrapper {
           height: 361px;
@@ -462,14 +462,14 @@ body {
               background: white;
               max-width: 320px !important;
               width: 320px;
-              border-radius: 3px;
+              border-radius: 8px !important;
               border: 1px solid rgb(219, 219, 219);
               box-shadow: none;
               display: block;
               margin: 0px 0px 12px;
               min-width: 320px;
               padding: 0px;
-              height: 1010px;
+              height: 520px;
               margin-left: auto !important;
               margin-right: auto !important;
             }
@@ -1678,14 +1678,14 @@ body {
                       background: white;
                       max-width: 100% !important;
                       width: calc(100% - 2px);
-                      border-radius: 3px;
+                      border-radius: 8px !important;
                       border: 1px solid rgb(219, 219, 219);
                       box-shadow: none;
                       display: block;
                       margin: 0px 0px 12px;
                       min-width: 326px;
                       padding: 0px;
-                      height: 592px;
+                      height: 520px;
                     }
                   }
                 }
