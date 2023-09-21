@@ -121,9 +121,20 @@ body {
   padding: 10px 10px;
   margin: 10px 0;
 }
-#school-content .section-container .wrap-content #wrap-kategori a .kategori img {
+#school-content .section-container .wrap-content #wrap-kategori a .kategori .box {
+  display: flex;
+}
+#school-content .section-container .wrap-content #wrap-kategori a .kategori .box .box-icon {
+  display: inline-block;
+  margin-right: 8px;
+}
+#school-content .section-container .wrap-content #wrap-kategori a .kategori .box .box-icon img {
   width: 24px;
   height: 24px;
+  object-fit: cover;
+}
+#school-content .section-container .wrap-content #wrap-kategori a .kategori .box span {
+  align-self: center;
 }
 #school-content .section-container .wrap-content #wrap-kategori.fixed {
   position: fixed;
