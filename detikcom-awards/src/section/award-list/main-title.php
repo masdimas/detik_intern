@@ -10,7 +10,7 @@
                         <img class="w-[609px] h-auto mx-auto" src="../assets/images/award-list/daftar-penghargaan.png" alt="Image Description">
                         </div>
                         <div class=" w-full md:w-[474px] mx-auto">
-                        <p class="text-[14px] md:text-[14px] text-white leading-[21px] md:leading-[30px] font-thin font-['outfit-light'] select-none">Daftar penghargaan terkait dari berbagai bidang, merayakan prestasi-pencapaian dalam fokus sektor berbeda di Detikcom Awards.</p>
+                        <p class="text-[14px] md:text-[14px] text-white leading-[21px] md:leading-[30px] font-thin font-['outfit-light'] select-none">Daftar penghargaan terkait dari berbagai bidang, merayakan prestasi-pencapaian dalam fokus sektor berbeda di detikcom Awards.</p>
                         </div>
                     </div>
                 </div>

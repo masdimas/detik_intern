@@ -5,7 +5,7 @@
                 <div class="col-span-12 md:col-span-7 lg:col-span-7 grid items-center">
                     <div class="px-8 pt-8 pb-8 md:pb-28">
                         <h2 class="text-[30px] text-white font-semibold break-words">Nominasi Award</h2>
-                        <p class="text-[14px] text-white leading-[21px] pt-2">Lebih dari 15 nominasi penghargaan dari berbagai bidang, merayakan prestasi dalam fokus sektor berbeda di Detikcom Awards. Menghargai kontribusi luar biasa individu, merek, dan lembaga yang membuat perbedaan positif dalam membangun masa depan Indonesia.</p>
+                        <p class="text-[14px] text-white leading-[21px] pt-2">Lebih dari 15 nominasi penghargaan dari berbagai bidang, merayakan prestasi dalam fokus sektor berbeda di detikcom Awards. Menghargai kontribusi luar biasa individu, merek, dan lembaga yang membuat perbedaan positif dalam membangun masa depan Indonesia.</p>
                     </div>
                 </div>
                 <div class="col-span-12 md:col-span-5 lg:col-span-5">
