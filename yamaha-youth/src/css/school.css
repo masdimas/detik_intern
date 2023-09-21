@@ -325,7 +325,7 @@ body {
 }
 #school-content #content-creation-wrap .slider-content-1 .swiper {
   border-radius: 8px;
-  height: 602px;
+  height: 1010px;
 }
 #school-content #content-creation-wrap .slider-content-1 .swiper .swiper-wrapper {
   height: 361px;
@@ -337,16 +337,18 @@ body {
 }
 #school-content #content-creation-wrap .slider-content-1 .swiper .swiper-wrapper .swiper-slide .instagram-media {
   background: white;
-  max-width: 100% !important;
-  width: calc(100% - 2px);
+  max-width: 320px !important;
+  width: 320px;
   border-radius: 3px;
   border: 1px solid rgb(219, 219, 219);
   box-shadow: none;
   display: block;
   margin: 0px 0px 12px;
-  min-width: 326px;
+  min-width: 320px;
   padding: 0px;
-  height: 600px;
+  height: 1010px;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 #school-content #content-creation-wrap .slider-content-1 .swiper-pagination {
   position: relative;
