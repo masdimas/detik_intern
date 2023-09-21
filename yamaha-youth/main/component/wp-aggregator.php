@@ -43,229 +43,71 @@
             role="tabpanel"
             aria-labelledby="pills-home-tab"
           >
-            <div class="aggregator-card col-xl-4 col-md-6 col-12">
-              <div class="img-container">
-                <img
-                  src="./assets/images/wp-aggregator/aggregator-img-1.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="aggregator-card-content">
-                <h4>
-                  Yamaha Rangkul Para Generasi Muda, Gelar Fazzio Youth Project
-                  di Seluruh Indonesia
-                </h4>
-                <span>Rabu, 21 Jun 2023 07:45 WIB</span>
-              </div>
-            </div>
-            <div class="aggregator-card col-xl-4 col-md-6 col-12">
-              <div class="img-container">
-                <img
-                  src="./assets/images/wp-aggregator/aggregator-img-1.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="aggregator-card-content">
-                <h4>
-                  Yamaha Rangkul Para Generasi Muda, Gelar Fazzio Youth Project
-                  di Seluruh Indonesia
-                </h4>
-                <span>Rabu, 21 Jun 2023 07:45 WIB</span>
-              </div>
-            </div>
-            <div class="aggregator-card col-xl-4 col-md-6 col-12">
-              <div class="img-container">
-                <img
-                  src="./assets/images/wp-aggregator/aggregator-img-1.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="aggregator-card-content">
-                <h4>
-                  Yamaha Rangkul Para Generasi Muda, Gelar Fazzio Youth Project
-                  di Seluruh Indonesia
-                </h4>
-                <span>Rabu, 21 Jun 2023 07:45 WIB</span>
-              </div>
-            </div>
-            <div class="aggregator-card col-xl-4 col-md-6 col-12">
-              <div class="img-container">
-                <img
-                  src="./assets/images/wp-aggregator/aggregator-img-1.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="aggregator-card-content">
-                <h4>
-                  Yamaha Rangkul Para Generasi Muda, Gelar Fazzio Youth Project
-                  di Seluruh Indonesia
-                </h4>
-                <span>Rabu, 21 Jun 2023 07:45 WIB</span>
-              </div>
-            </div>
+            <?php
+              for($x=0; $x<4; $x++){
+                echo "
+                    <div class='aggregator-card col-xl-4 col-md-6 col-12'>
+                      <a href='{clickurl}' target='_blank'>
+                        <div class='img-container'>
+                          <img
+                            src='./assets/images/wp-aggregator/aggregator-img-1.jpg'
+                            alt=''
+                          />
+                        </div>
+                        <div class='aggregator-card-content'>
+                          <h4>
+                            Yamaha Rangkul Para Generasi Muda, Gelar Fazzio Youth Project
+                            di Seluruh Indonesia
+                          </h4>
+                          <span>Rabu, 21 Jun 2023 07:45 WIB</span>
+                        </div>
+                      </a>
+                    </div>
+                ";
+              }
+            ?>
           </div>
+
           <div
             class="tab-pane fade container flex-wrap"
             id="pills-video-aggregator"
             role="tabpanel"
             aria-labelledby="pills-profile-tab"
           >
-            <div class="aggregator-card col-xl-4 col-md-6 col-12">
-              <div class="img-container">
-                <img
-                  src="./assets/images/wp-aggregator/aggregator-img-1.jpg"
-                  alt=""
-                />
-                <div class="video-duration-container p-3">
-                  <div
-                    class="video-duration d-flex justify-content-center align-item-center px-3 py-2 rounded-pill gap-2"
-                  >
-                    <img
-                      src="./assets/images/wp-aggregator/play-icon-aggregator.svg"
-                      alt="Play"
-                    />
-                    <span>69:69</span>
-                  </div>
+          <?php
+              for($y=0; $y<6; $y++){
+                echo "
+                <div class='aggregator-card col-xl-4 col-md-6 col-12'>
+                  <a href='' target='_blank'>
+                    <div class='img-container'>
+                      <img
+                        src='./assets/images/wp-aggregator/aggregator-img-1.jpg'
+                        alt=''
+                      />
+                      <div class='video-duration-container p-3'>
+                        <div
+                          class='video-duration d-flex justify-content-center align-item-center px-3 py-2 rounded-pill gap-2'
+                        >
+                          <img
+                            src='./assets/images/wp-aggregator/play-icon-aggregator.svg'
+                            alt='Play'
+                          />
+                          <span>69:69</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='aggregator-card-content'>
+                      <h4>
+                        Yamaha Rangkul Para Generasi Muda, Gelar Fazzio Youth Project
+                        di Seluruh Indonesia
+                      </h4>
+                      <span>Rabu, 21 Jun 2023 07:45 WIB</span>
+                    </div>
+                  </a>
                 </div>
-              </div>
-              <div class="aggregator-card-content">
-                <h4>
-                  Yamaha Rangkul Para Generasi Muda, Gelar Fazzio Youth Project
-                  di Seluruh Indonesia
-                </h4>
-                <span>Rabu, 21 Jun 2023 07:45 WIB</span>
-              </div>
-            </div>
-            <div class="aggregator-card col-xl-4 col-md-6 col-12">
-              <div class="img-container">
-                <img
-                  src="./assets/images/wp-aggregator/aggregator-img-1.jpg"
-                  alt=""
-                />
-                <div class="video-duration-container p-3">
-                  <div
-                    class="video-duration d-flex justify-content-center align-item-center px-3 py-2 rounded-pill gap-2"
-                  >
-                    <img
-                      src="./assets/images/wp-aggregator/play-icon-aggregator.svg"
-                      alt="Play"
-                    />
-                    <span>69:69</span>
-                  </div>
-                </div>
-              </div>
-              <div class="aggregator-card-content">
-                <h4>
-                  Yamaha Rangkul Para Generasi Muda, Gelar Fazzio Youth Project
-                  di Seluruh Indonesia
-                </h4>
-                <span>Rabu, 21 Jun 2023 07:45 WIB</span>
-              </div>
-            </div>
-            <div class="aggregator-card col-xl-4 col-md-6 col-12">
-              <div class="img-container">
-                <img
-                  src="./assets/images/wp-aggregator/aggregator-img-1.jpg"
-                  alt=""
-                />
-                <div class="video-duration-container p-3">
-                  <div
-                    class="video-duration d-flex justify-content-center align-item-center px-3 py-2 rounded-pill gap-2"
-                  >
-                    <img
-                      src="./assets/images/wp-aggregator/play-icon-aggregator.svg"
-                      alt="Play"
-                    />
-                    <span>69:69</span>
-                  </div>
-                </div>
-              </div>
-              <div class="aggregator-card-content">
-                <h4>
-                  Yamaha Rangkul Para Generasi Muda, Gelar Fazzio Youth Project
-                  di Seluruh Indonesia
-                </h4>
-                <span>Rabu, 21 Jun 2023 07:45 WIB</span>
-              </div>
-            </div>
-            <div class="aggregator-card col-xl-4 col-md-6 col-12">
-              <div class="img-container">
-                <img
-                  src="./assets/images/wp-aggregator/aggregator-img-1.jpg"
-                  alt=""
-                />
-                <div class="video-duration-container p-3">
-                  <div
-                    class="video-duration d-flex justify-content-center align-item-center px-3 py-2 rounded-pill gap-2"
-                  >
-                    <img
-                      src="./assets/images/wp-aggregator/play-icon-aggregator.svg"
-                      alt="Play"
-                    />
-                    <span>69:69</span>
-                  </div>
-                </div>
-              </div>
-              <div class="aggregator-card-content">
-                <h4>
-                  Yamaha Rangkul Para Generasi Muda, Gelar Fazzio Youth Project
-                  di Seluruh Indonesia
-                </h4>
-                <span>Rabu, 21 Jun 2023 07:45 WIB</span>
-              </div>
-            </div>
-            <div class="aggregator-card col-xl-4 col-md-6 col-12">
-              <div class="img-container">
-                <img
-                  src="./assets/images/wp-aggregator/aggregator-img-1.jpg"
-                  alt=""
-                />
-                <div class="video-duration-container p-3">
-                  <div
-                    class="video-duration d-flex justify-content-center align-item-center px-3 py-2 rounded-pill gap-2"
-                  >
-                    <img
-                      src="./assets/images/wp-aggregator/play-icon-aggregator.svg"
-                      alt="Play"
-                    />
-                    <span>69:69</span>
-                  </div>
-                </div>
-              </div>
-              <div class="aggregator-card-content">
-                <h4>
-                  Yamaha Rangkul Para Generasi Muda, Gelar Fazzio Youth Project
-                  di Seluruh Indonesia
-                </h4>
-                <span>Rabu, 21 Jun 2023 07:45 WIB</span>
-              </div>
-            </div>
-            <div class="aggregator-card col-xl-4 col-md-6 col-12">
-              <div class="img-container">
-                <img
-                  src="./assets/images/wp-aggregator/aggregator-img-1.jpg"
-                  alt=""
-                />
-                <div class="video-duration-container p-3">
-                  <div
-                    class="video-duration d-flex justify-content-center align-item-center px-3 py-2 rounded-pill gap-2"
-                  >
-                    <img
-                      src="./assets/images/wp-aggregator/play-icon-aggregator.svg"
-                      alt="Play"
-                    />
-                    <span>69:69</span>
-                  </div>
-                </div>
-              </div>
-              <div class="aggregator-card-content">
-                <h4>
-                  Yamaha Rangkul Para Generasi Muda, Gelar Fazzio Youth Project
-                  di Seluruh Indonesia
-                </h4>
-                <span>Rabu, 21 Jun 2023 07:45 WIB</span>
-              </div>
-            </div>
+                ";
+              }
+            ?>
           </div>
         </div>
 

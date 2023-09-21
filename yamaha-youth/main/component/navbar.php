@@ -20,7 +20,7 @@
             </div>
           </button>
           <div class="collapse navbar-collapse justify-content-lg-between d-lg-block flex-column flex-lg-row justify-content-center" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-3 gap-0 w-sm-100 w-lg-auto">
+            <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-2 gap-0 w-sm-100 w-lg-auto">
               <li class="nav-item">
                 <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="index.php#home">Home</a>
               </li>
@@ -44,15 +44,15 @@
                 <a class="nav-link px-3 py-lg-2 py-3 w-100" href="content-creation.php">Content Creation</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-3 py-lg-2 py-3 w-100 aggregator" href="index.php#aggregator">News</a>
+                <a class="nav-link px-3 py-lg-2 py-3 w-100 aggregator" href="index.php#aggregator">Latest Update</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle px-3 py-lg-2 py-3 w-100" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 About Us
                 </a>
                 <ul class="dropdown-menu p-2" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="https://www.yamaha-motor.co.id/product/fazzio/" target="_blank">Classy Yamaha Fazio</a></li>
-                  <li><a class="dropdown-item" href="https://www.yamaha-motor.co.id/product/grand-filano/" target="_blank">Classy Yamaha Filano</a></li>              
+                  <li><a class="dropdown-item" href="https://www.yamaha-motor.co.id/product/fazzio/" target="_blank">Classy Yamaha Fazzio</a></li>
+                  <li><a class="dropdown-item" href="https://www.yamaha-motor.co.id/product/grand-filano/" target="_blank">Classy Yamaha Grand Filano</a></li>              
                 </ul>
               </li>
             </ul>

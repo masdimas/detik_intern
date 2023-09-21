@@ -11,9 +11,7 @@
             class="mx-auto"
           />
           <p class="text-center">
-            Aktivitas yang akan dilakukan para siswa adalah workshop gaya hidup
-            classy and fashionable living, sport and dance competition, fashion
-            show dan penampilan musik spesial.
+          Kompetisi antar sekolah ter-seru untuk anak SMA yang diselenggarakan berbagai kota di Indonesia. Jadilah juara untuk kompetisi olahraga Basket, Futsal, Volly, Dance, Miss Classy, dan kompetisi seru lainnya!
           </p>
         </div>
         <div class="sc-cities-container mx-auto">
