@@ -8,7 +8,7 @@
 
                 <div class="grid grid-cols-4 md:grid-cols-4 gap-4">
                     <div class="col-span-4 md:col-span-3">
-                        <p class="mt-2 text-white text-[10px] text-center md:text-left font-normal">Penghargaan bergengsi yang diberikan kepada individu, merek, dan lembaga di Indonesia yang telah memberikan kontribusi luar biasa dalam berbagai bidang. Melalui Detikcom Awards, kami menghargai pencapaian yang menginspirasi, inovasi yang mencuat, dan perubahan positif yang telah dilakukan. </p>
+                        <p class="mt-2 text-white text-[10px] text-center md:text-left font-normal">Penghargaan bergengsi yang diberikan kepada individu, merek, dan lembaga di Indonesia yang telah memberikan kontribusi luar biasa dalam berbagai bidang. Melalui detikcom Awards, kami menghargai pencapaian yang menginspirasi, inovasi yang mencuat, dan perubahan positif yang telah dilakukan. </p>
                     </div>
                     <div class="grid grid-rows-4 grid-cols-4 grid-flow-col md:grid-cols-1 md:grid-rows-1 md:block hidden justify-end">
                         <div class="flex row-span-2 md:row-span-2 justify-center gap-0 sm:gap-2 md:gap-2 space-x-0 text-[12px] py-2 font-normal">
