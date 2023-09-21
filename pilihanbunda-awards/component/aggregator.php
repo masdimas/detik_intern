@@ -15,9 +15,11 @@
             <?php include"component/aggregator-card.php" ?>
             <?php include"component/aggregator-card.php" ?>
             <?php include"component/aggregator-card.php" ?>
-            <button class="btn show-more-btn">
-                Lihat Lebih Banyak
-            </button>
+            <a href="#" target="_blank">
+                <button class="btn show-more-btn">
+                    Lihat Lebih Banyak
+                </button>
+            </a>
         </div>  
     </div>
 </div>  

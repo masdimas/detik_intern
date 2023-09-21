@@ -617,7 +617,7 @@ body {
 
       .aggregator-container {
         display: flex;
-        justify-content: center;
+        justify-content: start;
         flex-wrap: wrap;
         gap: var(--flex-gap);
         .aggregator-card {
@@ -627,7 +627,7 @@ body {
             (100% / var(--flex-items)) -
               (((var(--flex-items) - 1) / var(--flex-items)) * var(--flex-gap))
           );
-
+          height: 240px;
           border-radius: 8px;
           overflow: hidden;
           .image-canvas {
@@ -648,6 +648,7 @@ body {
             gap: 8px;
             background-color: #fffafa;
             transition: all 0.2s ease;
+            height: 100%;
             .aggregator-timestamp {
               font-family: "DMSans-Regular", sans-serif;
               font-weight: 400;
@@ -697,11 +698,14 @@ body {
           padding: 8px 12px;
         }
         @media (max-width: 576px) {
+          justify-content: center;
           .aggregator-card {
             display: flex;
+            height: 112px;
+            overflow: hidden;
             .image-canvas {
               width: 112px;
-              height: 112px;
+              height: 100%;
             }
             .aggregator-detail {
               width: 75%;

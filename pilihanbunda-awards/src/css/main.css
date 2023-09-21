@@ -465,7 +465,7 @@ body #aggregator .container .aggregator-header span {
 }
 body #aggregator .container .aggregator-container {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   flex-wrap: wrap;
   gap: var(--flex-gap);
 }
@@ -473,6 +473,7 @@ body #aggregator .container .aggregator-container .aggregator-card {
   cursor: pointer;
   --flex-items: 1; /* Variable for number of items */
   width: calc(100% / var(--flex-items) - (var(--flex-items) - 1) / var(--flex-items) * var(--flex-gap));
+  height: 240px;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -494,6 +495,7 @@ body #aggregator .container .aggregator-container .aggregator-card .aggregator-d
   gap: 8px;
   background-color: #fffafa;
   transition: all 0.2s ease;
+  height: 100%;
 }
 body #aggregator .container .aggregator-container .aggregator-card .aggregator-detail .aggregator-timestamp {
   font-family: "DMSans-Regular", sans-serif;
@@ -535,12 +537,17 @@ body #aggregator .container .aggregator-container .show-more-btn {
   padding: 8px 12px;
 }
 @media (max-width: 576px) {
+  body #aggregator .container .aggregator-container {
+    justify-content: center;
+  }
   body #aggregator .container .aggregator-container .aggregator-card {
     display: flex;
+    height: 112px;
+    overflow: hidden;
   }
   body #aggregator .container .aggregator-container .aggregator-card .image-canvas {
     width: 112px;
-    height: 112px;
+    height: 100%;
   }
   body #aggregator .container .aggregator-container .aggregator-card .aggregator-detail {
     width: 75%;
