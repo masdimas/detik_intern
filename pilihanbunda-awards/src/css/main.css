@@ -556,6 +556,9 @@ body #aggregator .container .aggregator-container .show-more-btn {
     display: block;
   }
 }
+body #aggregator .container .aggregator-container .show-more-btn {
+  margin-top: 30px;
+}
 @media (min-width: 576px) {
   body #aggregator .container .aggregator-container .aggregator-card {
     --flex-items: 2; /* Variable for number of items */

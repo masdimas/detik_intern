@@ -716,6 +716,10 @@ body {
             display: block;
           }
         }
+
+        .show-more-btn {
+          margin-top: 30px;
+        }
         @media (min-width: 576px) {
           .aggregator-card {
             --flex-items: 2; /* Variable for number of items */
