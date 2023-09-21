@@ -544,3 +544,23 @@
         <div class="swiper-pagination-8"></div>
     </div>
 </div>
+
+<div class="wrap">
+    <div class="title" id="single-page">
+        <div class="box">
+            <div class="box-icon">
+                <img src="./assets/images/school-competition/icon/8.png" alt="">
+            </div>
+            <span>Single page</span>
+        </div>
+    </div>
+    <div class="slider-content-1">
+        <div class="swiper school-slider9">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./assets/images/school-competition/slider/dummy-1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

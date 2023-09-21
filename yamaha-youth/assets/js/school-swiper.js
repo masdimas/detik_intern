@@ -149,3 +149,15 @@ var swiper = new Swiper(".school-slider1", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+  var swiper = new Swiper(".school-slider9", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    autoplay: false,
+    loop: false,
+    pagination: false,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
