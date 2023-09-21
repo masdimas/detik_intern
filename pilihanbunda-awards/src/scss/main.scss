@@ -86,7 +86,7 @@ body {
       -webkit-backdrop-filter: blur(24px);
       border: solid 1px #d1d5db;
       top: 10px;
-      padding: 10px;
+      padding: 20px 10px;
 
       .container-fluid {
         .navbar-brand {
@@ -267,6 +267,18 @@ body {
         .dropdown-menu[data-bs-popper] {
           background-color: rgb(255, 255, 255, 0.1);
           width: 100%;
+        }
+      }
+      @media (max-width: 576px) {
+        padding: 12px;
+        .container-fluid {
+          padding: 0;
+          .navbar-brand {
+            img {
+              width: auto;
+              height: 25px;
+            }
+          }
         }
       }
     }
@@ -777,46 +789,46 @@ body {
 
 @media (min-width: 0px) and (max-width: 575px) {
   body {
-    .navbar {
-      padding-top: 15px;
-      position: absolute;
-      width: 100%;
-      background: unset;
-      .container {
-        display: block;
+    // .navbar {
+    //   padding-top: 15px;
+    //   position: absolute;
+    //   width: 100%;
+    //   background: unset;
+    //   .container {
+    //     display: block;
 
-        .navbar-brand {
-          img {
-            width: 208px;
-          }
-        }
+    //     .navbar-brand {
+    //       img {
+    //         width: 208px;
+    //       }
+    //     }
 
-        .navbar-nav {
-          display: -webkit-box;
-          overflow-x: scroll;
-          margin-top: 10px;
+    //     .navbar-nav {
+    //       display: -webkit-box;
+    //       overflow-x: scroll;
+    //       margin-top: 10px;
 
-          .nav-item {
-            padding-right: 40px;
-            font-size: 16px;
+    //       .nav-item {
+    //         padding-right: 40px;
+    //         font-size: 16px;
 
-            .nav-link {
-              font-size: 14px;
-              font-family: "DMSans-Bold";
-            }
+    //         .nav-link {
+    //           font-size: 14px;
+    //           font-family: "DMSans-Bold";
+    //         }
 
-            .nav-link.active {
-              font-size: 14px;
-              font-family: "DMSans-Bold";
-            }
+    //         .nav-link.active {
+    //           font-size: 14px;
+    //           font-family: "DMSans-Bold";
+    //         }
 
-            .nav-link:hover {
-              color: #00a6ba;
-            }
-          }
-        }
-      }
-    }
+    //         .nav-link:hover {
+    //           color: #00a6ba;
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
 
     // #myID {
     //     display: none;

@@ -1,4 +1,4 @@
-<section class="fixed-top d-flex justify-content-center px-4" id="nav-bar">
+<section class="fixed-top d-flex justify-content-center px-2" id="nav-bar">
       <nav class="navbar navbar-expand-lg navbar-light nav-bar w-100">
         <div class="container-fluid">
           <a class="navbar-brand py-0" href="index.php"

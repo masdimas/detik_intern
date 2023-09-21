@@ -35,7 +35,7 @@ body #nav-bar .nav-bar {
   -webkit-backdrop-filter: blur(24px);
   border: solid 1px #d1d5db;
   top: 10px;
-  padding: 10px;
+  padding: 20px 10px;
 }
 body #nav-bar .nav-bar .container-fluid .navbar-brand img {
   width: 208px;
@@ -194,6 +194,18 @@ body #nav-bar .nav-bar .login-button {
   body #nav-bar .nav-bar .dropdown-menu[data-bs-popper] {
     background-color: rgba(255, 255, 255, 0.1);
     width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  body #nav-bar .nav-bar {
+    padding: 12px;
+  }
+  body #nav-bar .nav-bar .container-fluid {
+    padding: 0;
+  }
+  body #nav-bar .nav-bar .container-fluid .navbar-brand img {
+    width: auto;
+    height: 25px;
   }
 }
 body #myID {
@@ -598,38 +610,6 @@ body #footer footer .copy {
 }
 
 @media (min-width: 0px) and (max-width: 575px) {
-  body .navbar {
-    padding-top: 15px;
-    position: absolute;
-    width: 100%;
-    background: unset;
-  }
-  body .navbar .container {
-    display: block;
-  }
-  body .navbar .container .navbar-brand img {
-    width: 208px;
-  }
-  body .navbar .container .navbar-nav {
-    display: -webkit-box;
-    overflow-x: scroll;
-    margin-top: 10px;
-  }
-  body .navbar .container .navbar-nav .nav-item {
-    padding-right: 40px;
-    font-size: 16px;
-  }
-  body .navbar .container .navbar-nav .nav-item .nav-link {
-    font-size: 14px;
-    font-family: "DMSans-Bold";
-  }
-  body .navbar .container .navbar-nav .nav-item .nav-link.active {
-    font-size: 14px;
-    font-family: "DMSans-Bold";
-  }
-  body .navbar .container .navbar-nav .nav-item .nav-link:hover {
-    color: #00a6ba;
-  }
   body #hero {
     background: url("../image/hero/bg-mobile.png");
     background-size: cover;
