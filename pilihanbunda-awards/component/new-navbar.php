@@ -32,6 +32,9 @@
               <li class="nav-item">
                 <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="survei.php?login=0">Survei</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="voting.php?login=0">Voting</a>
+              </li>
              
               <li class="nav-item dropdown auth-nav">
                 <?php 

@@ -22,6 +22,9 @@
         margin: 0 200px;
         font-weight: 400;
       }
+      .sosmed {
+        margin-top: 1rem;
+      }
       #social-media-share {
         width: fit-content;
         display: flex;
@@ -56,6 +59,10 @@
             color: #b0367c;
             font-family: "DMSans-Bold", sans-serif;
           }
+          .accordion-button:focus {
+            border: none;
+            box-shadow: none;
+          }
           .accordion-body {
             color: #89727c;
             font-family: "DMSans-Regular", sans-serif;
@@ -74,7 +81,10 @@
     }
 
     .embed-voting {
+      max-width: 640px;
+      width: 100%;
       iframe {
+        width: 100%;
         position: relative;
         left: 50%;
         transform: translate(-50%);

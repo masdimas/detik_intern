@@ -5,8 +5,8 @@
             <p>Ikutan voting "Pilihan Bunda" yuk, Bun! Rekomendasikan produk terbaik untuk keperluan sehari-hari untuk Bunda dan keluarga. Ada saldo e-wallet senilai total Rp10 juta rupiah untuk 100 Bunda yang beruntung.<br><br>Periode: 14 Oktober - 1 Desember 2023
             </p>
 
-            <div class="d-flex justify-content-center " id="sosmed">
-                <div class="social-media-share rounded-pill mt-2" id="social-media-share">
+            <div class="d-flex justify-content-center sosmed" id="sosmed">
+                <div class="social-media-share rounded-pill" id="social-media-share">
                     <span>Share</span>
                     <img src="./src/image/voting/facebook.svg" alt="">
                     <img src="./src/image/voting/twitter.svg" alt="">
@@ -21,7 +21,7 @@
             </div>
         </div>
 
-        <div class="voting-instruction mb-5">
+        <div class="voting-instruction mb-5 mt-md-5 mt-3">
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
@@ -31,20 +31,27 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                        Tata cara voting dengan polong:
-                            <ol class="rounded">
-                                <li>Masuk menggunakan akun MPC atau daftar menggunakan email / nomor HP.</li>
-                                <li>Pilih salah satu Brand/Tokoh pilihan Bunda untuk masing-masing kategori yang Bunda rekomendasikan.</li>
-                                <li>Apabila ada kategori yang <b>tidak sesuai</b> dengan kondisi atau pengalaman bunda pilih “tidak memilih kategori”</li>
-                                <li>Klik “Submit” jika sudah yakin dengan pilihan Bunda</li>
-                            </ol>   
-                            Tata cara voting dengan Google:
-                            <ol>
-                                <li>Masuk menggunakan akun google atau gmail Bunda.</li>
-                                <li>Pilih salah satu Brand/Tokoh pilihan Bunda untuk masing-masing kategori yang Bunda rekomendasikan.</li>
-                                <li>Apabila ada kategori yang <b>tidak sesuai</b> dengan kondisi atau pengalaman bunda pilih “tidak memilih kategori”</li>
-                                <li>Klik “Submit” jika sudah yakin dengan pilihan Bunda</li>
-                            </ol> 
+                        <?php
+                            if($_GET["voting"] == "polong"){
+                                echo "Tata cara voting dengan polong:
+                                <ol class='rounded'>
+                                    <li>Masuk menggunakan akun MPC atau daftar menggunakan email / nomor HP.</li>
+                                    <li>Pilih salah satu Brand/Tokoh pilihan Bunda untuk masing-masing kategori yang Bunda rekomendasikan.</li>
+                                    <li>Apabila ada kategori yang <b>tidak sesuai</b> dengan kondisi atau pengalaman bunda pilih “tidak memilih kategori”</li>
+                                    <li>Klik “Submit” jika sudah yakin dengan pilihan Bunda</li>
+                                </ol> ";
+                            } else if($_GET["voting"] == "google"){
+                                echo "
+                                Tata cara voting dengan Google:
+                                <ol class='rounded'>
+                                    <li>Masuk menggunakan akun google atau gmail Bunda.</li>
+                                    <li>Pilih salah satu Brand/Tokoh pilihan Bunda untuk masing-masing kategori yang Bunda rekomendasikan.</li>
+                                    <li>Apabila ada kategori yang <b>tidak sesuai</b> dengan kondisi atau pengalaman bunda pilih “tidak memilih kategori”</li>
+                                    <li>Klik “Submit” jika sudah yakin dengan pilihan Bunda</li>
+                                </ol> 
+                                ";
+                            }
+                        ?>
                         </div>
                     </div>
                 </div>
@@ -63,8 +70,8 @@
 
             </div>
         </div>
-        <div class="embed-voting">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdu_jspRPPOZ7SdbCv9K_xWHcBhraddptYCZjQaKmra7kcP_Q/viewform?embedded=true" width="640" height="1118" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <div class="embed-voting mt-md-5 mt-3">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdu_jspRPPOZ7SdbCv9K_xWHcBhraddptYCZjQaKmra7kcP_Q/viewform?embedded=true" height="1118" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
      
     </div>
