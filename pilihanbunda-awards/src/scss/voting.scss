@@ -1,7 +1,14 @@
 #votingform {
   padding-top: 110px;
   .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .header-voting {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
       h1 {
         font-family: "goldplay-bold";
         font-size: 48px;
@@ -15,7 +22,57 @@
         margin: 0 200px;
         font-weight: 400;
       }
+      #social-media-share {
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 6px 12px;
+        gap: 8px;
+
+        font-family: "DMSans-Medium", sans-serif;
+
+        box-shadow: 0px 4px 3px rgb(0, 0, 0, 0.07),
+          0px 2px 2px rgb(0, 0, 0, 0.06);
+
+        img {
+          cursor: pointer;
+        }
+      }
     }
+
+    .voting-instruction {
+      max-width: 640px;
+      width: 100%;
+      .accordion {
+        .accordion-item {
+          border: solid 1px #d51294;
+          ol {
+            background-color: #fffafa;
+            padding: 8px;
+            padding-left: 1.25rem;
+          }
+          .accordion-button {
+            color: #b0367c;
+            font-family: "DMSans-Bold", sans-serif;
+          }
+          .accordion-body {
+            color: #89727c;
+            font-family: "DMSans-Regular", sans-serif;
+          }
+
+          .accordion-button:not(.collapsed) {
+            color: #b0367c;
+            background-color: #ffffff;
+            box-shadow: none;
+          }
+        }
+        // .accordion-item:nth-of-type(1) {
+        //   border-bottom: none;
+        // }
+      }
+    }
+
     .embed-voting {
       iframe {
         position: relative;
@@ -30,12 +87,11 @@
   #votingform {
     .container {
       .header-voting {
-        padding-top: 140px;
         h1 {
-          font-size: 30px;
+          font-size: 24px;
         }
         p {
-          font-size: 14px;
+          font-size: 12px;
           margin: 0;
         }
       }
@@ -52,7 +108,6 @@
   #votingform {
     .container {
       .header-voting {
-        padding-top: 150px;
         h1 {
           font-size: 30px;
         }

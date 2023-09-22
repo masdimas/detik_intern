@@ -1,6 +1,16 @@
 #votingform {
   padding-top: 110px;
 }
+#votingform .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#votingform .container .header-voting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 #votingform .container .header-voting h1 {
   font-family: "goldplay-bold";
   font-size: 48px;
@@ -14,6 +24,44 @@
   margin: 0 200px;
   font-weight: 400;
 }
+#votingform .container .header-voting #social-media-share {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 8px;
+  font-family: "DMSans-Medium", sans-serif;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.07), 0px 2px 2px rgba(0, 0, 0, 0.06);
+}
+#votingform .container .header-voting #social-media-share img {
+  cursor: pointer;
+}
+#votingform .container .voting-instruction {
+  max-width: 640px;
+  width: 100%;
+}
+#votingform .container .voting-instruction .accordion .accordion-item {
+  border: solid 1px #d51294;
+}
+#votingform .container .voting-instruction .accordion .accordion-item ol {
+  background-color: #fffafa;
+  padding: 8px;
+  padding-left: 1.25rem;
+}
+#votingform .container .voting-instruction .accordion .accordion-item .accordion-button {
+  color: #b0367c;
+  font-family: "DMSans-Bold", sans-serif;
+}
+#votingform .container .voting-instruction .accordion .accordion-item .accordion-body {
+  color: #89727c;
+  font-family: "DMSans-Regular", sans-serif;
+}
+#votingform .container .voting-instruction .accordion .accordion-item .accordion-button:not(.collapsed) {
+  color: #b0367c;
+  background-color: #ffffff;
+  box-shadow: none;
+}
 #votingform .container .embed-voting iframe {
   position: relative;
   left: 50%;
@@ -21,14 +69,11 @@
 }
 
 @media (min-width: 0px) and (max-width: 575px) {
-  #votingform .container .header-voting {
-    padding-top: 140px;
-  }
   #votingform .container .header-voting h1 {
-    font-size: 30px;
+    font-size: 24px;
   }
   #votingform .container .header-voting p {
-    font-size: 14px;
+    font-size: 12px;
     margin: 0;
   }
   #votingform .container .embed-voting iframe {
@@ -36,9 +81,6 @@
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
-  #votingform .container .header-voting {
-    padding-top: 150px;
-  }
   #votingform .container .header-voting h1 {
     font-size: 30px;
   }
