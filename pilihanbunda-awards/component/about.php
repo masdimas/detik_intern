@@ -10,14 +10,14 @@
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-4">
                 <div class="deskripsi">
-                    <span>Survei Pilihan Bunda</span>
-                    <p>Dengan ini kami mengumumkan bahwa fase Survei Pilihan Bunda telah berakhir! Para Bunda yang telah mengikuti Survei dan beruntung mendapatkan hadiah e-wallet, akan diumumkan di Artikel HaiBunda Pilihan Bunda Awards 2023!</p>
+                    <span>Voting Pilihan Bunda</span>
+                    <p>Survei Pilihan Bunda telah berakhir. Terima kasih kepada semua Bunda yang telah berpartisipasi. Sekarang, saatnya voting! Mulai dari 14 Oktober hingga 1 Desember 2023, ada kesempatan memenangkan saldo e-wallet Rp10 juta untuk 100 Bunda beruntung. Yuk, Bun! Jangan lewatkan kesempatan ini!</p>
                     <div class="hadiah">
                     <img class="" src="./src/image/about/hadiah.png" alt="">
                     </div>
                     <div class="kirim-ide">
                         <a href="survei.php">
-                        <button type="button" class="btn btn-primary">CEK NAMA PEMENANG DI SINI, YUK!<img src="./src/image/about/icon-arrow-right.png" alt=""></button>
+                        <button type="button" class="btn btn-primary">VOTING SEKARANG, YUK!<img src="./src/image/about/icon-arrow-right.png" alt=""></button>
                         </a>
                     </div>
                 </div>

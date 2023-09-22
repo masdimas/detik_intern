@@ -33,7 +33,7 @@
                         <div class="accordion-body">
                         <?php
                             if($_GET["voting"] == "polong"){
-                                echo "Tata cara voting dengan polong:
+                                echo "
                                 <ol class='rounded'>
                                     <li>Masuk menggunakan akun MPC atau daftar menggunakan email / nomor HP.</li>
                                     <li>Pilih salah satu Brand/Tokoh pilihan Bunda untuk masing-masing kategori yang Bunda rekomendasikan.</li>
@@ -42,7 +42,6 @@
                                 </ol> ";
                             } else if($_GET["voting"] == "google"){
                                 echo "
-                                Tata cara voting dengan Google:
                                 <ol class='rounded'>
                                     <li>Masuk menggunakan akun google atau gmail Bunda.</li>
                                     <li>Pilih salah satu Brand/Tokoh pilihan Bunda untuk masing-masing kategori yang Bunda rekomendasikan.</li>

@@ -69,6 +69,9 @@
   background-color: #ffffff;
   box-shadow: none;
 }
+#votingform .container .voting-instruction .accordion .accordion-item b {
+  font-family: "goldplay-bold";
+}
 #votingform .container .embed-voting {
   max-width: 640px;
   width: 100%;
@@ -103,4 +106,4 @@
   #votingform .container .embed-voting iframe {
     width: 100%;
   }
-}/*# sourceMappingURL=voting.css.map */
+}

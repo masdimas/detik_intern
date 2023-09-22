@@ -29,9 +29,9 @@
               <li class="nav-item">
                 <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="index.php?login=1#aggregator">Berita </a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="survei.php?login=0">Survei</a>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="voting.php?login=0">Voting</a>
               </li>

@@ -2,7 +2,7 @@
     <div class="container mb-5">
         <div class="header-survei mb-5">
             <h1>SURVEI PILIHAN BUNDA</h1>
-            <p>Survei Pilihan Bunda telah berakhir. Sebagai bentuk rasa terima kasih kami, untuk Bunda yang beruntung akan mendapatkan hadiah berupa saldo e-wallet senilai Rp10 juta untuk 100 Bunda. Pemenang akan ditampilkan diumumkan di Artikel HaiBunda Pilihan Bunda Awards 2023.<br><br>Periode: 18 Agustus 2023 - 18 September 2023
+            <p>Survei Pilihan Bunda telah berakhir. Sebagai bentuk rasa terima kasih kami, untuk Bunda yang beruntung akan mendapatkan hadiah berupa saldo e-wallet senilai Rp 5 juta untuk 50 Bunda. Pemenang akan diumumkan di Artikel HaiBunda Pilihan Bunda Awards 2023.
             </p>
         </div>
         <div class="embed-survei">
