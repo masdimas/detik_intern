@@ -59,9 +59,26 @@
 .dropdown-menu {
   width: 250px;
 }
-.account-name {
+.auth-nav .dropdown-menu .account-name {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+.auth-nav .dropdown-menu .account-name:active,
+.auth-nav .dropdown-menu .account-name:hover {
+  background-color: rgb(255, 255, 255, 0.3);
+}
+
+.auth-nav .dropdown-menu .account-name p {
+  width: 100%;
+
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  text-align: start;
 }
 
 .dropdown-menu[data-bs-popper] {
@@ -73,8 +90,9 @@
   border: solid 1px #d1d5db;
 }
 .auth-nav .dropdown-menu[data-bs-popper] {
-  left: -150px;
-  background-color: rgb(255, 255, 255, 0.3);
+  max-width: 250px;
+  left: -155px;
+  background-color: rgb(255, 255, 255, 0.7);
   backdrop-filter: blur(24px);
   border-radius: 20px;
   border: solid 1px #d1d5db;
@@ -99,7 +117,7 @@
 }
 
 @media (max-width: 992px) {
-  .navbar-brand img{
+  .navbar-brand img {
     width: 100%;
     max-width: 80px;
   }
@@ -136,6 +154,7 @@
 
   .dropdown-menu {
     width: 100%;
+    max-width: 100%;
     position: relative;
     background-color: rgb(255, 255, 255, 0.3);
     border-radius: 20px;
@@ -145,5 +164,15 @@
   .dropdown-menu[data-bs-popper] {
     background-color: rgb(255, 255, 255, 0.1);
     width: 100%;
+  }
+
+  .auth-nav .dropdown-menu .account-name p {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 400px) {
+  .auth-nav .dropdown-menu .account-name p {
+    max-width: 100px;
   }
 }
