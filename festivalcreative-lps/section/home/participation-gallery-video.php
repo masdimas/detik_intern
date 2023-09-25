@@ -3,7 +3,7 @@
             <div class="row">
                 <div class="col-12">
                     <h1 class="section-title">
-                        Finalis Kompetisi Video 2022
+                        Finalis Kompetisi Video
                     </h1>
                 </div>
             </div>
@@ -12,20 +12,18 @@
                     $array_submission = array(
                         array(
                             "id-finalist-data",
-                            "https://www.youtube.com/watch?v=nfWXR_eveNI",
-                            "./src/image/finalist/1-2022-thumbnail.jpeg",
-                            "LPS Creavid 2022 | Uangmu, Tanggung Jawabmu",
-                            "Noer Akmal"
+                            "https://www.youtube.com",
+                            "https://cdnstatic.detik.com/live/2023/09/cpm_premium/afpi/230915-afpi-registrasi-300x600.jpg",
+                            "title",
+                            "pengirim"
                         ),
-               
                         array(
                             "id-finalist-data",
-                            "https://www.youtube.com/watch?v=qR4XMQ0uZ1E",
-                            "./src/image/finalist/3-2022-thumbnail.jpg",
-                            "SUMRINGAH",
-                            "Roiyan Cahya"
+                            "https://www.youtube.com",
+                            "https://cdnstatic.detik.com/live/2023/09/cpm_premium/afpi/230915-afpi-registrasi-300x600.jpg",
+                            "title 2",
+                            "pengirim 2"
                         ),
-
                     )
                 ?>
                 <?php for($x=0; $x  < count($array_submission); $x++){ ?>
