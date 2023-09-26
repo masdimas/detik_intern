@@ -594,6 +594,9 @@ body {
 //extra small
 
 @media (min-width: 0px) and (max-width: 575px) {
+  #wrap-left{
+    height: auto;
+  }
   body {
     height: 100vh;
     background-image: url("../../assets/images/school-competition/bg-school-mobile.jpg");
@@ -882,6 +885,10 @@ body {
 //small
 
 @media (min-width: 576px) and (max-width: 767px) {
+  #wrap-left{
+    height: auto;
+  }
+
   body {
     height: 100vh;
     background-image: url("../../assets/images/school-competition/bg-school.jpg");
@@ -1120,6 +1127,9 @@ body {
 //medium
 
 @media (min-width: 768px) and (max-width: 991px) {
+  #wrap-left{
+    height: auto;
+  }
   #school-content {
     margin-top: 120px;
     margin-bottom: 120px;
@@ -1403,9 +1413,16 @@ body {
 // large
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  #wrap-left{
+    height: auto;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 2000px) {
+  #wrap-left{
+    height: auto;
+  }
+
   #school-content {
     margin-top: 120px;
     margin-bottom: 120px;
