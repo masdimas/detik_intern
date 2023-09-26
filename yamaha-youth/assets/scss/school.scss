@@ -61,6 +61,7 @@ body {
                   margin-right: 10px;
                   border-radius: 8px;
                   padding: 12px;
+                  height: 203px;
 
                   .title {
                     color: #5180a2;
@@ -178,7 +179,7 @@ body {
 
         #sosmed{
           position: absolute;
-          top: 438px;
+          top: 430px;
           width: 100%;
           #social-media-share{
             margin-left: auto;
@@ -582,6 +583,10 @@ body {
       }
     }
   }
+}
+
+#wrap-left{
+  height: 510px;
 }
 
 /* Responsive Breakpoint */

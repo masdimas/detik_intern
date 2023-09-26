@@ -56,6 +56,7 @@ body {
   margin-right: 10px;
   border-radius: 8px;
   padding: 12px;
+  height: 203px;
 }
 #school-content .section-container .wrap-content .left-side .destination .wrap-destination .latarkota .wrap-desc .about-destination .title {
   color: #5180a2;
@@ -94,7 +95,7 @@ body {
 }
 #school-content .section-container .wrap-content .left-side #sosmed {
   position: absolute;
-  top: 438px;
+  top: 430px;
   width: 100%;
 }
 #school-content .section-container .wrap-content .left-side #sosmed #social-media-share {
@@ -445,6 +446,10 @@ body {
 }
 #school-content #content-creation-wrap .slider-content-1 .swiper-pagination-8 .swiper-pagination-bullet-active {
   background: #9a0808;
+}
+
+#wrap-left {
+  height: 510px;
 }
 
 /* Responsive Breakpoint */

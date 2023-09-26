@@ -2,7 +2,7 @@
     <div class="container section-container">
         <div class="wrap-content">
             <div class="row justify-content-center g-2">
-                <div class="col-12 col-sm-12 col-md-4">
+                <div class="col-12 col-sm-12 col-md-4" id="wrap-left">
                     <div class="left-side" id="left-side">
                         <div class="destination" id="destination">
                             <div class="wrap-destination">
@@ -27,9 +27,10 @@
 
                                     </div>
                                 </div>
+                                <?php include "./main/component/social-media-share-sc.php"; ?>
                             </div>
                         </div>
-                        <?php include "./main/component/social-media-share-sc.php"; ?>
+                        
                         <div class="wrap-kategori d-none d-sm-none d-md-block" id="wrap-kategori">
 
                             <a href="#best-moments">
@@ -122,6 +123,7 @@
 
                         </div>
                     </div>
+                    
                     <div class="d-block d-sm-block d-md-none" id="sosmed-mobile">
                         <?php include "./main/component/social-media-share.php"; ?>
                     </div>
