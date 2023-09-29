@@ -1,7 +1,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.bundle.min.js"></script>
 
 <!-- Old Navbar Script -->
-<script>
+<!-- <script>
     myID = document.getElementById("myID");
 
     var myScrollFunc = function() {
@@ -14,7 +14,7 @@
     };
 
     window.addEventListener("scroll", myScrollFunc);
-</script>
+</script> -->
 
 <script>
     $(document).ready(function() {
