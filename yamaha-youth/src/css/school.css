@@ -326,7 +326,7 @@ body {
 }
 #school-content #content-creation-wrap .slider-content-1 .swiper {
   border-radius: 8px;
-  height: 530px;
+  height: 600px;
 }
 #school-content #content-creation-wrap .slider-content-1 .swiper .swiper-wrapper {
   height: 361px;
@@ -347,7 +347,7 @@ body {
   margin: 0px 0px 12px;
   min-width: 320px;
   padding: 0px;
-  height: 520px;
+  height: 600px;
   margin-left: auto !important;
   margin-right: auto !important;
 }
