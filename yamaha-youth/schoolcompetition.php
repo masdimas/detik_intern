@@ -46,7 +46,7 @@ include "./main/component/foot.php";
             $('#wrap-kategori').removeClass('fixed').css({
               position: 'absolute',
               // top: (maxY - top) + 'px'
-              top : (top + 60) + 'px',
+              top : (top) + 'px',
             });
           }
         } else {

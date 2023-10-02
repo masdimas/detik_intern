@@ -55,7 +55,7 @@
                                 </div>
                             </a>
 
-                            <a href="#ootd">
+                            <!-- <a href="#ootd">
                                 <div class="kategori">
                                     <div class="box">
                                         <div class="box-icon">
@@ -119,7 +119,7 @@
                                         <span>Content Creation challenge</span>
                                     </div>
                                 </div>
-                            </a>
+                            </a> -->
 
                         </div>
                     </div>
