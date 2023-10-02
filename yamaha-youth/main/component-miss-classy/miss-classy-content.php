@@ -95,7 +95,7 @@
                     </button>
                 </li>
             </ul>
-            <div class="tab-content" id="pills-tabContent">
+            <div class="tab-content w-100" id="pills-tabContent">
             
                 <div class="tab-pane fade leaderboard-container w-100 flex-wrap justify-content-center px-xl-4 px-lg-2 gap-3" id="vote-card-aggregator">
                     

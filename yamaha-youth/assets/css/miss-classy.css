@@ -101,7 +101,6 @@
 }
 
 #miss-classy .vote-miss-classy-card {
-  max-width: 280px;
   background-color: #b4dbf5;
   padding: 4px;
   border-radius: 20px;
@@ -392,12 +391,12 @@
 
 @media (max-width: 1200px) {
   #miss-classy .vote-miss-classy-card {
-    max-width: 240px;
+    /* max-width: 240px; */
   }
 }
 @media (max-width: 997px) {
   #miss-classy .vote-miss-classy-card {
-    max-width: 155px;
+    /* max-width: 155px; */
   }
   #miss-classy .modal .modal-text-content {
     width: 75%;
@@ -449,6 +448,6 @@
 
 @media (max-width: 350px) {
   #miss-classy .vote-miss-classy-card {
-    max-width: 125px;
+    /* max-width: 125px; */
   }
 }

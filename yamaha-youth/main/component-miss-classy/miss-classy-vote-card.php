@@ -1,7 +1,10 @@
 
 <!-- Voted and Not logged in State -->
-<div class="row flex-nowrap gap-sm-3 gap-2 w-100 justify-content-center">
-            <div class="vote-miss-classy-card d-flex flex-column align-items-center col-6 ">
+
+
+<div class="row flex-wrap w-100 justify-content-start m-auto gy-sm-2 g-3">
+    <div class="col-6">
+        <div class="vote-miss-classy-card d-flex flex-column align-items-center">
                 <div class="miss-classy-img-container mx-auto ">
                     <img
                     src="./assets/images/miss-classy/miss-classy-pic/miss-classy-1.jpg"
@@ -25,7 +28,27 @@
                    
                 </div>
             </div>
-            <div class="vote-miss-classy-card d-flex flex-column align-items-center col-6 ">
+    </div>
+    <div class="col-6">
+
+        <div class="vote-miss-classy-card d-flex flex-column align-items-center">
+            <div class="miss-classy-img-container mx-auto ">
+                <img
+                src="./assets/images/miss-classy/miss-classy-pic/miss-classy-1.jpg"
+                alt=""
+                />
+            </div>
+            <div class="w-100">
+                <div class="d-flex flex-column align-items-center gap-1 mt-2 finalist-identity">
+                    <h4 class="candidate-name">Belum Login</h4>
+                    <span class="candidate-school">SMAN 2 Bandung</span>
+                </div>
+                <button class="vote-button rounded-pill mt-2" data-bs-toggle="modal" data-bs-target="#notLoggedIn">VOTE</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+            <div class="vote-miss-classy-card d-flex flex-column align-items-center">
                 <div class="miss-classy-img-container mx-auto ">
                     <img
                     src="./assets/images/miss-classy/miss-classy-pic/miss-classy-1.jpg"
@@ -43,6 +66,50 @@
                     
                 </div>
             </div>
+    </div>
+    <div class="col-6">
+            <div class="vote-miss-classy-card d-flex flex-column align-items-center">
+                <div class="miss-classy-img-container mx-auto ">
+                    <img
+                    src="./assets/images/miss-classy/miss-classy-pic/miss-classy-1.jpg"
+                    alt=""
+                    />
+                </div>
+                <div class="w-100">
+                    <div class="d-flex flex-column align-items-center gap-1 mt-2 finalist-identity">
+                        <h4 class="candidate-name">Konfirmasi Vote</h4>
+                        <span class="candidate-school">SMAN 2 Bandung</span>
+                    </div>
+                    <button class="vote-button rounded-pill mt-2" data-bs-toggle="modal" data-bs-target="#confirmVote">VOTE</button>
+                </div>
+            </div> 
+    </div>
+    <div class="col-6">
+            <div class="vote-miss-classy-card d-flex flex-column align-items-center">
+                <div class="miss-classy-img-container mx-auto ">
+                    <img
+                    src="./assets/images/miss-classy/miss-classy-pic/miss-classy-1.jpg"
+                    alt=""
+                    />
+                </div>
+                <div class="w-100">
+                    <div class="d-flex flex-column align-items-center gap-1 mt-2 finalist-identity">
+                        <h4 class="candidate-name">Charlotte Brown</h4>
+                        <span class="candidate-school">SMAN 1 Bandung</span>
+                    </div>
+                    <button class="vote-button rounded-pill mt-2">VOTE</button>
+                </div>
+            </div>
+    </div>
+
+            
+
+
+      
+
+       
+            
+         
         
 
                         
@@ -50,7 +117,7 @@
 
 
 <!-- Confirm-Success State -->
-<div class="row flex-nowrap  gap-sm-3 gap-2 w-100 justify-content-center">
+<!-- <div class="row flex-nowrap  gap-sm-3 gap-2 w-100 justify-content-center">
 
             <div class="vote-miss-classy-card d-flex flex-column align-items-center col-6 ">
                 <div class="miss-classy-img-container mx-auto ">
@@ -83,7 +150,7 @@
                     <button class="vote-button rounded-pill mt-2">VOTE</button>
                 </div>
             </div>
-</div>
+</div> -->
 
 <!-- Not Login State -->
 
