@@ -112,7 +112,7 @@
     </div>
 </div>
 
-<!-- <div class="wrap">
+<div class="wrap">
     <div class="title" id="ootd">
         <div class="box">
             <div class="box-icon">
@@ -516,4 +516,4 @@
             </div>
         </div>
     </div>
-</div> -->
+</div>
