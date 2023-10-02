@@ -1,4 +1,4 @@
-<div id="votingform">
+<section id="votingform">
     <div class="container mb-5">
         <div class="header-voting mb-5">
             <h1>VOTING PILIHAN BUNDA</h1>
@@ -75,4 +75,4 @@
      
     </div>
    
-</div>
+</section>

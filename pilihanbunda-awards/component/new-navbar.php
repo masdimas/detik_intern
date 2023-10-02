@@ -1,4 +1,4 @@
-<section class="fixed-top d-flex justify-content-center px-2" id="nav-bar">
+<div class="fixed-top d-flex justify-content-center px-2" id="nav-bar">
       <nav class="navbar navbar-expand-lg navbar-light nav-bar w-100">
         <div class="container-fluid">
           <a class="navbar-brand py-0" href="index.php"
@@ -21,19 +21,19 @@
           <div class="collapse navbar-collapse justify-content-lg-end d-lg-block flex-column flex-lg-row justify-content-center ms-auto" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-3 gap-0 w-sm-100 w-lg-auto">
               <li class="nav-item">
-                <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="index.php?login=1#hero">Home</a>
+                <a class="nav-link px-3 py-lg-2 py-3 w-100 hero" href="index.php?login=1#hero">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="index.php?login=1#about">Tentang Program</a>
+                <a class="nav-link px-3 py-lg-2 py-3 w-100 about" href="index.php?login=1#about">Tentang Program</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="index.php?login=1#aggregator">Berita </a>
+                <a class="nav-link px-3 py-lg-2 py-3 w-100 aggregator" href="index.php?login=1#aggregator">Berita </a>
               </li>
               <!-- <li class="nav-item">
                 <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="survei.php?login=0">Survei</a>
               </li> -->
               <li class="nav-item">
-                <a class="nav-link px-3 py-lg-2 py-3 w-100 home" href="voting.php?login=0">Voting</a>
+                <a class="nav-link px-3 py-lg-2 py-3 w-100 votingform" href="voting.php?login=0">Voting</a>
               </li>
              
               <li class="nav-item dropdown auth-nav">
@@ -54,4 +54,4 @@
           </div>
         </div>
       </nav>
-</section>
+</div>

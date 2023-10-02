@@ -1,4 +1,4 @@
-<div id="aggregator">
+<section id="aggregator">
     <div class="container">
         <div class="aggregator-header">
             <h3>
@@ -22,4 +22,4 @@
             </a>
         </div>  
     </div>
-</div>  
+</section>  

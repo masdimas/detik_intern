@@ -1,4 +1,4 @@
-<div id="hero">
+<section id="hero">
     <div class="container">
         <div class="hero-wrap">
             <div class="img-wrap">
@@ -31,4 +31,4 @@
         </div>
     </div>
 
-</div>
+</section>
