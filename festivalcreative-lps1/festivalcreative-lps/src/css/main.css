@@ -1,0 +1,931 @@
+@font-face {
+  font-family: "montserat-medium";
+  src: local("montserat-medium"), url(../fonts/Montserrat-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "montserat-bold";
+  src: local("montserat-bold"), url(../fonts/Montserrat-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "montserat-semibold";
+  src: local("montserat-semibold"), url(../fonts/Montserrat-SemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "montserat-regular";
+  src: local("montserat-regular"), url(../fonts/Montserrat-Regular.ttf) format("truetype");
+}
+body {
+  background-color: #FFFFFF;
+  background: url(../image/universal/bg-home.jpg);
+  background-size: cover;
+  background-position: top;
+  margin-bottom: -250px;
+}
+body a {
+  text-decoration: none;
+}
+body .container {
+  max-width: 1000px;
+}
+body #headline .container .headline {
+  padding-top: 120px;
+}
+body #headline .container .headline img {
+  max-width: 474px;
+}
+body #headline .container .sub-headline {
+  padding-top: 40px;
+}
+body #headline .container .sub-headline img {
+  max-width: 607px;
+}
+body #form {
+  padding-top: 40px;
+}
+body #form .container .requisite-wrap {
+  padding: 20px 0;
+}
+body #form .container .requisite-wrap .requisite {
+  background: #FCF8F0;
+  padding: 25px;
+  border-radius: 12px 0 0 12px;
+  height: 100%;
+}
+body #form .container .requisite-wrap .requisite .about .about-icon-box {
+  margin-bottom: 40px;
+}
+body #form .container .requisite-wrap .requisite .about .about-icon-box .about-icon {
+  width: 100%;
+  max-width: 336px;
+}
+body #form .container .requisite-wrap .requisite .about .title {
+  font-size: 20px;
+  color: #1C3C70;
+  font-family: "montserat-bold";
+  margin-bottom: 15px !important;
+}
+body #form .container .requisite-wrap .requisite .about .konten {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  font-family: "montserat-regular";
+  color: #292929;
+}
+body #form .container .requisite-wrap .requisite .about .konten b {
+  font-family: "montserat-bold";
+}
+body #form .container .requisite-wrap .requisite .snk .title {
+  font-size: 23px;
+  color: #1C3C70;
+  font-family: "montserat-bold";
+}
+body #form .container .requisite-wrap .requisite .snk .konten {
+  font-size: 14px;
+  font-family: "montserat-regular";
+}
+body #form .container .requisite-wrap .requisite .snk .konten ol {
+  padding: 0 16px;
+}
+body #form .container .requisite-wrap .requisite .snk .konten a:link {
+  color: #292929;
+}
+body #form .container .requisite-wrap .requisite .snk .konten div {
+  text-align: center;
+}
+body #form .container .requisite-wrap .requisite .snk .konten div img {
+  max-width: 280px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+body #form .container .fill-wrap {
+  padding: 20px 0;
+}
+body #form .container .fill-wrap .fill {
+  background: #FFFFFF;
+  padding: 25px;
+  border-radius: 0 12px 12px 0;
+  height: 100%;
+}
+body #form .container .fill-wrap .fill .title-wrap {
+  text-align: center;
+}
+body #form .container .fill-wrap .fill .title-wrap .title {
+  font-size: 23px;
+  color: #EE420C;
+  font-family: "montserat-bold";
+  width: 100%;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+body #form .container .fill-wrap .fill .form-wrap form .input-group #inputGroupPrepend2 {
+  font-family: "montserat-regular";
+  font-size: 12px;
+  color: #999999;
+}
+body #form .container .fill-wrap .fill .form-wrap form .input-group #inputGroupPrepend3 {
+  font-family: "montserat-regular";
+  font-size: 12px;
+  color: #999999;
+}
+body #form .container .fill-wrap .fill .form-wrap form .custom-file-button input[type=file] {
+  margin-left: -2px !important;
+  color: #999999;
+}
+body #form .container .fill-wrap .fill .form-wrap form .custom-file-button input[type=file]::-webkit-file-upload-button {
+  display: none;
+}
+body #form .container .fill-wrap .fill .form-wrap form .custom-file-button input[type=file]::file-selector-button {
+  display: none;
+}
+body #form .container .fill-wrap .fill .form-wrap form .custom-file-button label {
+  font-family: "montserat-regular";
+  color: #999999;
+  font-size: 12px;
+}
+body #form .container .fill-wrap .fill .form-wrap form .custom-file-button:hover label {
+  background-color: #dde0e3;
+  cursor: pointer;
+}
+body #form .container .fill-wrap .fill .form-wrap form label {
+  font-family: "montserat-semibold";
+  font-size: 14px;
+  color: #1C3C70;
+}
+body #form .container .fill-wrap .fill .form-wrap form select {
+  font-family: "montserat-regular";
+  font-size: 12px;
+  color: #999999;
+}
+body #form .container .fill-wrap .fill .form-wrap form select::placeholder {
+  color: #999999;
+}
+body #form .container .fill-wrap .fill .form-wrap form input {
+  font-family: "montserat-regular";
+  font-size: 12px;
+}
+body #form .container .fill-wrap .fill .form-wrap form input::placeholder {
+  color: #999999;
+}
+body #form .container .fill-wrap .fill .form-wrap form .text-area {
+  padding: 6px;
+  background: #F0F0F0;
+  border-radius: 8px;
+}
+body #form .container .fill-wrap .fill .form-wrap form .text-area textarea {
+  resize: none;
+  font-family: "montserat-regular";
+  font-size: 12px;
+  border: unset;
+}
+body #form .container .fill-wrap .fill .form-wrap form .text-area textarea::placeholder {
+  color: #999999;
+}
+body #form .container .fill-wrap .fill .form-wrap form #text_judul {
+  height: 87px;
+}
+body #form .container .fill-wrap .fill .form-wrap form #text {
+  height: 134px;
+}
+body #form .container .fill-wrap .fill .form-wrap form #text_poster {
+  height: 134px;
+}
+body #form .container .fill-wrap .fill .form-wrap form .form-text {
+  font-family: "montserat-regular";
+  font-size: 12px;
+  color: #999999;
+}
+body #form .container .fill-wrap .fill .form-wrap form .wrap-count {
+  height: 20px;
+  background: #f0f0f0;
+  margin-top: 5px;
+}
+body #form .container .fill-wrap .fill .form-wrap form .wrap-count #count_message_judul {
+  background-color: smoke;
+  margin-top: 2px;
+  margin-right: 5px;
+  float: right !important;
+  color: #999999;
+  font-size: 12px;
+  font-family: "montserat-regular";
+}
+body #form .container .fill-wrap .fill .form-wrap form .wrap-count #count_message_judul_poster {
+  background-color: smoke;
+  margin-top: 2px;
+  margin-right: 5px;
+  float: right !important;
+  color: #999999;
+  font-size: 12px;
+  font-family: "montserat-regular";
+}
+body #form .container .fill-wrap .fill .form-wrap form .wrap-count #count_message {
+  background-color: smoke;
+  margin-top: 2px;
+  margin-right: 5px;
+  float: right !important;
+  color: #999999;
+  font-size: 12px;
+  font-family: "montserat-regular";
+}
+body #form .container .fill-wrap .fill .form-wrap form .wrap-count #count_message_poster {
+  background-color: smoke;
+  margin-top: 2px;
+  margin-right: 5px;
+  float: right !important;
+  color: #999999;
+  font-size: 12px;
+  font-family: "montserat-regular";
+}
+body #form .container .fill-wrap .fill .form-wrap form .alert div {
+  font-family: "montserat-semibold";
+  font-size: 12px;
+  color: #1F2937;
+}
+body #form .container .fill-wrap .fill .form-wrap form .alert div p {
+  font-family: "montserat-regular";
+  font-size: 10px;
+  color: #6B7280;
+}
+body #form .container .fill-wrap .fill .form-wrap form .form-check-label {
+  font-size: 12px;
+  color: #1F2937;
+}
+body #form .container .fill-wrap .fill .form-wrap form button {
+  width: 100%;
+  background-color: #257AE4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-family: "montserat-regular";
+}
+body #form .container .fill-wrap .fill .form-wrap form button img {
+  width: 18px;
+  height: auto;
+  margin-left: 10px;
+}
+body #banner {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+body #banner .container .banner-wrap .swiper .swiper-wrapper .swiper-slide .banner-desktop {
+  width: 970px;
+  height: 250px;
+  object-fit: cover;
+  position: relative;
+  margin: auto;
+  border-radius: 8px;
+}
+body #banner .container .banner-wrap .swiper .swiper-wrapper .swiper-slide .banner-mobile {
+  width: 324px;
+  height: 250px;
+  object-fit: cover;
+  position: relative;
+  margin: auto;
+  border-radius: 8px;
+}
+body #banner .container .banner-wrap .swiper-pagination {
+  position: relative;
+  margin-top: 20px;
+}
+body #banner .container .banner-wrap .swiper-pagination .swiper-pagination-bullet {
+  background-color: #9a0808 !important;
+}
+body #new-snk {
+  margin-bottom: 40px;
+}
+body #new-snk .mycontainer {
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid #FD6801;
+  background: #FCF8F0;
+}
+body #new-snk .mycontainer .new-snk-title {
+  font-family: "montserat-bold";
+  font-size: 23px;
+  line-height: 32px;
+  color: #1C3C70;
+  margin-bottom: 15px;
+}
+body #new-snk .mycontainer .new-snk-list {
+  font-family: "montserat-regular";
+  font-size: 14px;
+  line-height: 20px;
+  color: #292929;
+  margin-bottom: 15px;
+}
+body #new-snk .mycontainer .new-snk-cta {
+  font-family: "montserat-bold";
+  font-size: 14px;
+  line-height: 32px;
+  color: #F4564A;
+}
+body #new-snk .mycontainer .new-snk-cta img {
+  width: 16px;
+  margin-left: 15px;
+  margin-top: -1px;
+}
+body #timeline {
+  margin-bottom: 120px;
+}
+body #sponsor {
+  padding: 20px 0 220px 0;
+}
+body #sponsor .container .spsr-wrap {
+  background: #fff;
+  border-radius: 20px;
+  height: auto;
+}
+body #sponsor .container .spsr-wrap .desktop {
+  display: block;
+}
+body #sponsor .container .spsr-wrap .desktop img {
+  max-width: 100%;
+  height: auto;
+}
+body #sponsor .container .spsr-wrap .mobile {
+  display: none;
+}
+body #sponsor .container .spsr-wrap .mobile img {
+  max-width: 100%;
+  height: auto;
+}
+body #form-modal #myModal .modal-dialog {
+  max-width: 766px;
+}
+body #form-modal #myModal .modal-dialog .modal-content {
+  border-radius: 15px;
+}
+body #form-modal #myModal .modal-dialog .modal-content .modal-header {
+  border-bottom: unset;
+  padding-top: 16px;
+}
+body #form-modal #myModal .modal-dialog .modal-content .modal-header button {
+  right: 10px !important;
+}
+body #form-modal #myModal .modal-dialog .modal-content .modal-header button img {
+  width: 20px;
+}
+body #form-modal #myModal .modal-dialog .modal-content .modal-body {
+  text-align: center;
+  padding: 10px 50px;
+}
+body #form-modal #myModal .modal-dialog .modal-content .modal-body .wrap-img {
+  margin-bottom: 40px;
+}
+body #form-modal #myModal .modal-dialog .modal-content .modal-body .wrap-img img {
+  width: 257px;
+}
+body #form-modal #myModal .modal-dialog .modal-content .modal-body h4 {
+  font-size: 20px;
+  line-height: 28px;
+  font-family: "montserat-bold";
+  color: #25438E;
+}
+body #form-modal #myModal .modal-dialog .modal-content .modal-body p {
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "montserat-regular";
+  color: #292929;
+}
+body #form-modal #myModal .modal-dialog .modal-content .box-sticky {
+  position: relative;
+  display: block;
+  color: #000000;
+  bottom: 8px;
+  padding: 1em 0;
+  width: 100%;
+  z-index: 999;
+  padding: 10px 0 40px 0;
+}
+body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky {
+  justify-content: center;
+  display: flex;
+}
+body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shared {
+  background: #ffffff;
+  padding: 8px;
+  border-radius: 50px;
+  box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.25) !important;
+}
+body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shared span {
+  font-size: 14px;
+  font-family: "montserat-medium";
+  color: #292929;
+  padding: 0 6px;
+}
+body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shared a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shared a img {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+/* Responsive Breakpoint */
+@media (min-width: 0px) and (max-width: 575px) {
+  body {
+    background-color: #FFFFFF;
+    background: url(../image/universal/bg-home-mobile.png);
+    background-size: cover;
+    background-position: bottom;
+  }
+  body .container {
+    max-width: 100%;
+  }
+  body #nav-bar nav div a img {
+    width: 67px;
+  }
+  body #nav-bar nav div button .hamburger {
+    padding: 5px;
+  }
+  body #headline .container .headline {
+    padding-top: 120px;
+  }
+  body #headline .container .headline img {
+    max-width: 250px;
+    height: auto;
+  }
+  body #headline .container .sub-headline {
+    padding-top: 40px;
+  }
+  body #headline .container .sub-headline img {
+    max-width: 100%;
+    height: auto;
+  }
+  body #form {
+    padding-top: 40px;
+  }
+  body #form .container .requisite-wrap {
+    padding: 20px;
+  }
+  body #form .container .requisite-wrap .requisite {
+    background: #FCF8F0;
+    padding: 25px;
+    border-radius: 12px;
+    height: 100%;
+  }
+  body #form .container .requisite-wrap .requisite .about .title {
+    font-size: 23px;
+    color: #1C3C70;
+    font-family: "montserat-bold";
+  }
+  body #form .container .requisite-wrap .requisite .about .konten {
+    font-size: 14px;
+    font-family: "montserat-regular";
+  }
+  body #form .container .requisite-wrap .requisite .snk .title {
+    font-size: 23px;
+    color: #1C3C70;
+    font-family: "montserat-bold";
+  }
+  body #form .container .requisite-wrap .requisite .snk .konten {
+    font-size: 14px;
+    font-family: "montserat-regular";
+  }
+  body #form .container .requisite-wrap .requisite .snk .konten ol {
+    padding: 0 16px;
+  }
+  body #form .container .requisite-wrap .requisite .snk .konten div {
+    text-align: center;
+    padding-top: 30px;
+  }
+  body #form .container .requisite-wrap .requisite .snk .konten div img {
+    max-width: 280px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  body #form .container .fill-wrap {
+    padding: 20px;
+  }
+  body #form .container .fill-wrap .fill {
+    background: #FFFFFF;
+    padding: 25px;
+    border-radius: 12px;
+    height: 100%;
+  }
+  body #form .container .fill-wrap .fill .title-wrap {
+    text-align: center;
+  }
+  body #form .container .fill-wrap .fill .title-wrap .title {
+    font-size: 23px;
+    color: #EE420C;
+    font-family: "montserat-bold";
+    width: 100%;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form label {
+    font-family: "montserat-semibold";
+    font-size: 14px;
+    color: #1C3C70;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form input {
+    font-family: "montserat-regular";
+    font-size: 12px;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form input::placeholder {
+    color: #999999;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .text-area {
+    padding: 6px;
+    background: #F0F0F0;
+    border-radius: 8px;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .text-area textarea {
+    resize: none;
+    font-family: "montserat-regular";
+    font-size: 12px;
+    border: unset;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .text-area textarea::placeholder {
+    color: #999999;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .form-text {
+    font-family: "montserat-regular";
+    font-size: 12px;
+    color: #999999;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .wrap-count {
+    height: 20px;
+    background: #f0f0f0;
+    margin-top: 5px;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .wrap-count #count_message {
+    background-color: smoke;
+    margin-top: 2px;
+    margin-right: 5px;
+    float: right !important;
+    color: #999999;
+    font-size: 12px;
+    font-family: "montserat-regular";
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .form-check-label {
+    font-size: 12px;
+    color: #1F2937;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form button {
+    width: 100%;
+    background-color: #257AE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form button img {
+    width: 18px;
+    height: auto;
+    margin-left: 10px;
+  }
+  body #banner {
+    margin-top: 0 !important;
+  }
+  body #sponsor {
+    padding: 20px 0 220px 0;
+  }
+  body #sponsor .container .spsr-wrap {
+    background: #fff;
+    border-radius: 20px;
+    height: auto;
+  }
+  body #sponsor .container .spsr-wrap .desktop {
+    display: none;
+  }
+  body #sponsor .container .spsr-wrap .desktop img {
+    width: 100%;
+    height: auto;
+  }
+  body #sponsor .container .spsr-wrap .mobile {
+    display: block;
+  }
+  body #sponsor .container .spsr-wrap .mobile img {
+    width: 100%;
+    height: auto;
+  }
+  body #form-modal #myModal .modal-dialog {
+    max-width: 766px;
+  }
+  body #form-modal #myModal .modal-dialog .modal-content {
+    border-radius: 15px;
+  }
+  body #form-modal #myModal .modal-dialog .modal-content .modal-header {
+    border-bottom: unset;
+    padding-top: 16px;
+  }
+  body #form-modal #myModal .modal-dialog .modal-content .modal-header button {
+    right: 10px !important;
+  }
+  body #form-modal #myModal .modal-dialog .modal-content .modal-header button img {
+    width: 20px;
+  }
+  body #form-modal #myModal .modal-dialog .modal-content .modal-body {
+    text-align: center;
+    padding: 10px 15px;
+  }
+  body #form-modal #myModal .modal-dialog .modal-content .modal-body .wrap-img {
+    margin-bottom: 40px;
+  }
+  body #form-modal #myModal .modal-dialog .modal-content .modal-body .wrap-img img {
+    width: 100%;
+  }
+  body #form-modal #myModal .modal-dialog .modal-content .modal-body h4 {
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "montserat-bold";
+    color: #25438E;
+  }
+  body #form-modal #myModal .modal-dialog .modal-content .modal-body p {
+    font-size: 12px;
+    line-height: 22px;
+    font-family: "montserat-regular";
+    color: #292929;
+  }
+  body #form-modal #myModal .modal-dialog .modal-content .box-sticky {
+    position: relative;
+    display: block;
+    color: #000000;
+    bottom: 8px;
+    padding: 1em 0;
+    width: 100%;
+    z-index: 999;
+    padding: 10px 0 40px 0;
+  }
+  body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky {
+    justify-content: center;
+    display: flex;
+  }
+  body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shared {
+    background: #ffffff;
+    padding: 8px;
+    border-radius: 50px;
+    box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.25) !important;
+  }
+  body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shared span {
+    font-size: 14px;
+    font-family: "montserat-medium";
+    color: #292929;
+    padding: 0 6px;
+  }
+  body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shared a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  body #form-modal #myModal .modal-dialog .modal-content .box-sticky .sticky #shared a img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  body #headline .container .headline {
+    padding-top: 140px;
+  }
+  body #headline .container .headline img {
+    max-width: 100%;
+    height: auto;
+  }
+  body #headline .container .sub-headline {
+    padding-top: 40px;
+  }
+  body #headline .container .sub-headline img {
+    max-width: 607px;
+    height: auto;
+  }
+  body #form {
+    padding-top: 40px;
+  }
+  body #form .container {
+    max-width: 720px;
+  }
+  body #form .container .requisite-wrap {
+    padding: 20px 0;
+  }
+  body #form .container .requisite-wrap .requisite {
+    background: #FCF8F0;
+    padding: 25px;
+    border-radius: 12px;
+    height: 100%;
+  }
+  body #form .container .requisite-wrap .requisite .about .title {
+    font-size: 23px;
+    color: #1C3C70;
+    font-family: "montserat-bold";
+  }
+  body #form .container .requisite-wrap .requisite .about .konten {
+    font-size: 14px;
+    font-family: "montserat-regular";
+  }
+  body #form .container .requisite-wrap .requisite .snk .title {
+    font-size: 23px;
+    color: #1C3C70;
+    font-family: "montserat-bold";
+  }
+  body #form .container .requisite-wrap .requisite .snk .konten {
+    font-size: 14px;
+    font-family: "montserat-regular";
+  }
+  body #form .container .requisite-wrap .requisite .snk .konten ol {
+    padding: 0 16px;
+  }
+  body #form .container .fill-wrap {
+    padding: 20px 0;
+  }
+  body #form .container .fill-wrap .fill {
+    background: #FFFFFF;
+    padding: 25px;
+    border-radius: 12px;
+    height: 100%;
+  }
+  body #form .container .fill-wrap .fill .title-wrap {
+    text-align: center;
+  }
+  body #form .container .fill-wrap .fill .title-wrap .title {
+    font-size: 23px;
+    color: #BD191A;
+    font-family: "montserat-bold";
+  }
+  body #form .container .fill-wrap .fill .form-wrap form label {
+    font-family: "montserat-semibold";
+    font-size: 14px;
+    color: #1C3C70;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form input {
+    font-family: "montserat-regular";
+    font-size: 12px;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form input::placeholder {
+    color: #999999;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .text-area {
+    padding: 6px;
+    background: #F0F0F0;
+    border-radius: 8px;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .text-area textarea {
+    resize: none;
+    font-family: "montserat-regular";
+    font-size: 12px;
+    border: unset;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .text-area textarea::placeholder {
+    color: #999999;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .form-text {
+    font-family: "montserat-regular";
+    font-size: 12px;
+    color: #999999;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .wrap-count {
+    height: 20px;
+    background: #f0f0f0;
+    margin-top: 5px;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .wrap-count #count_message {
+    background-color: smoke;
+    margin-top: 2px;
+    margin-right: 5px;
+    float: right !important;
+    color: #999999;
+    font-size: 12px;
+    font-family: "montserat-regular";
+  }
+  body #form .container .fill-wrap .fill .form-wrap form button {
+    width: 100%;
+    background-color: #257AE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form button img {
+    width: 18px;
+    height: auto;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  body #headline .container .headline {
+    padding-top: 140px;
+  }
+  body #headline .container .headline img {
+    max-width: 474px;
+  }
+  body #headline .container .sub-headline {
+    padding-top: 40px;
+  }
+  body #headline .container .sub-headline img {
+    max-width: 607px;
+  }
+  body #form {
+    padding-top: 40px;
+  }
+  body #form .container {
+    max-width: 720px;
+  }
+  body #form .container .requisite-wrap {
+    padding: 20px 0;
+  }
+  body #form .container .requisite-wrap .requisite {
+    background: #FCF8F0;
+    padding: 25px;
+    border-radius: 12px;
+    height: 100%;
+  }
+  body #form .container .requisite-wrap .requisite .about .title {
+    font-size: 23px;
+    color: #1C3C70;
+    font-family: "montserat-bold";
+  }
+  body #form .container .requisite-wrap .requisite .about .konten {
+    font-size: 14px;
+    font-family: "montserat-regular";
+  }
+  body #form .container .requisite-wrap .requisite .snk .title {
+    font-size: 23px;
+    color: #1C3C70;
+    font-family: "montserat-bold";
+  }
+  body #form .container .requisite-wrap .requisite .snk .konten {
+    font-size: 14px;
+    font-family: "montserat-regular";
+  }
+  body #form .container .requisite-wrap .requisite .snk .konten ol {
+    padding: 0 16px;
+  }
+  body #form .container .fill-wrap {
+    padding: 20px 0;
+  }
+  body #form .container .fill-wrap .fill {
+    background: #FFFFFF;
+    padding: 25px;
+    border-radius: 12px;
+    height: 100%;
+  }
+  body #form .container .fill-wrap .fill .title-wrap {
+    text-align: center;
+  }
+  body #form .container .fill-wrap .fill .title-wrap .title {
+    font-size: 23px;
+    color: #BD191A;
+    font-family: "montserat-bold";
+  }
+  body #form .container .fill-wrap .fill .form-wrap form label {
+    font-family: "montserat-semibold";
+    font-size: 14px;
+    color: #1C3C70;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form input {
+    font-family: "montserat-regular";
+    font-size: 12px;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form input::placeholder {
+    color: #999999;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .text-area {
+    padding: 6px;
+    background: #F0F0F0;
+    border-radius: 8px;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .text-area textarea {
+    resize: none;
+    font-family: "montserat-regular";
+    font-size: 12px;
+    border: unset;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .text-area textarea::placeholder {
+    color: #999999;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .form-text {
+    font-family: "montserat-regular";
+    font-size: 12px;
+    color: #999999;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .wrap-count {
+    height: 20px;
+    background: #f0f0f0;
+    margin-top: 5px;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form .wrap-count #count_message {
+    background-color: smoke;
+    margin-top: 2px;
+    margin-right: 5px;
+    float: right !important;
+    color: #999999;
+    font-size: 12px;
+    font-family: "montserat-regular";
+  }
+  body #form .container .fill-wrap .fill .form-wrap form button {
+    width: 100%;
+    background-color: #257AE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  body #form .container .fill-wrap .fill .form-wrap form button img {
+    width: 18px;
+    height: auto;
+    margin-left: 10px;
+  }
+}
