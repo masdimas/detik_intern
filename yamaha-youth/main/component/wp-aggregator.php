@@ -1,6 +1,6 @@
  <!-- Aggregator -->
  <section id="aggregator" class="py-5">
-      <div class="section-container">
+      <div class="section-container w-100">
         <h1 class="gill-sans-1000 text-center">LATEST UPDATE</h1>
         <ul
           class="nav nav-pills mb-3 p-2 justify-content-center"
@@ -38,34 +38,37 @@
         </ul>
         <div class="tab-content" id="pills-tabContent">
           <div
-            class="tab-pane fade show active container flex-wrap"
+            class="tab-pane fade show active container flex-wrap justify-content-center py-2"
             id="pills-article-aggregator"
             role="tabpanel"
             aria-labelledby="pills-home-tab"
           >
-            <?php
-              for($x=0; $x<4; $x++){
-                echo "
-                    <div class='aggregator-card col-xl-4 col-md-6 col-12'>
-                      <a href='{clickurl}' target='_blank'>
-                        <div class='img-container'>
-                          <img
-                            src='./assets/images/wp-aggregator/aggregator-img-1.jpg'
-                            alt=''
-                          />
-                        </div>
-                        <div class='aggregator-card-content'>
-                          <h4>
-                            Yamaha Rangkul Para Generasi Muda, Gelar Fazzio Youth Project
-                            di Seluruh Indonesia
-                          </h4>
-                          <span>Rabu, 21 Jun 2023 07:45 WIB</span>
-                        </div>
-                      </a>
-                    </div>
-                ";
-              }
-            ?>
+            <div class="d-flex flex-wrap"> 
+              <?php
+                for($x=0; $x<6; $x++){
+                  echo "
+                      <div class='aggregator-card col-xl-4 col-md-6 col-12'>
+                        <a href='{clickurl}' target='_blank'>
+                          <div class='img-container'>
+                            <img
+                              src='./assets/images/wp-aggregator/aggregator-img-1.jpg'
+                              alt=''
+                            />
+                          </div>
+                          <div class='aggregator-card-content'>
+                            <h4>
+                              Yamaha Rangkul Para Generasi Muda, Gelar Fazzio Youth Project
+                              di Seluruh Indonesia
+                            </h4>
+                            <span>Rabu, 21 Jun 2023 07:45 WIB</span>
+                          </div>
+                        </a>
+                      </div>
+                  ";
+                }
+              ?>
+            </div>
+            <a type="button" class="cta-button d-flex align-items-center btn " href="#" target="_blank">Selengkapnya <img src="./assets/images/wp-aggregator/icon-arrow-right-cta.svg" alt="->"></a>
           </div>
 
           <div
@@ -108,6 +111,7 @@
                 ";
               }
             ?>
+            
           </div>
         </div>
 
