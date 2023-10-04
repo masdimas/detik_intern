@@ -24,6 +24,13 @@ body a {
 body .container {
   max-width: 1100px;
 }
+body #nav-bar .nav-avatar {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  border-radius: 100px;
+  border: 2px solid #D865A3;
+}
 body #nav-bar .nav-bar {
   box-sizing: border-box;
   -moz-box-sizing: border-box;

@@ -40,7 +40,7 @@
                 <?php 
                   if ($_GET["login"] == "1") {
                     echo "<a class='nav-link dropdown-toggle d-none d-lg-block ms-lg-3' href='#' id='navbarDropdown' role='button' data-bs-toggle='dropdown' aria-expanded='false'>
-                            <img src='./src/image/navbar/userauth-logo.svg' alt='Account' />
+                            <img class='nav-avatar' src='./src/image/navbar/userauth-logo.svg' alt='Account' />
                           </a>
                           <ul class='dropdown-menu p-2 account-desc ' aria-labelledby='navbarDropdown'>
                             <li class='d-flex flex-nowrap align-items-center justify-content-between'><a class='dropdown-item account-name' href='#'><span>I Gusti Bagus Ngurah Bayu Dharma Nugaraha</span></a> <button class='btn logout-button auth-button' id='logout-button'>Logout</button></li>              

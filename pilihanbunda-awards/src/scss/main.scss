@@ -73,6 +73,13 @@ body {
   //     }
   //   }
   #nav-bar {
+    .nav-avatar{
+      width: 44px;
+      height: 44px;
+      object-fit: cover;
+      border-radius: 100px;
+      border: 2px solid #D865A3;
+    }
     .nav-bar {
       box-sizing: border-box;
       -moz-box-sizing: border-box;
