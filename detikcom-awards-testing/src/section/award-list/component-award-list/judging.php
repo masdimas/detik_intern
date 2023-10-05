@@ -1,0 +1,10 @@
+<div class="grid grid-cols-12 gap-1 bg-[#37353D] rounded-[12px] mt-4">
+    <div class="col-span-12 grid items-center">
+        <div class="px-8 pt-8 pb-8">
+            <h2 class="text-[30px] text-white font-semibold break-words">Judging & Criteria</h2>
+            <p class="text-[14px] text-white leading-[24px] pt-2">detikcom Awards merupakan ajang penghargaan yang dijalankan dengan penilaian ketat dan transparan. Kami memperhatikan berbagai kriteria yang mencakup inovasi, dampak, kualitas, keberlanjutan, dan relevansi dalam menentukan para penerima penghargaan. Proses penilaian dilakukan oleh Tim Komite Assessment Detikcom yang melakukan analisis kuantitatif dan kualitatif. Melalui metode polling, survei, dan FGD, kami melibatkan 1.000 pembaca Detikcom sebagai responden untuk mencari tokoh, merek, atau lembaga yang adaptif dan bertransformasi di era perubahan.</p>
+            <p class="text-[14px] text-white leading-[24px] pt-2">Dalam detikcom Awards, kami memberikan penghargaan kepada mereka yang memberikan kontribusi signifikan dalam memajukan Indonesia. Kami mengapresiasi upaya mereka dalam menciptakan perubahan positif dan menjadikan persaingan sehat serta inovasi sebagai pijakan penting. Kriteria yang teliti dan jelas menjadi pedoman kami dalam menilai dan menghargai prestasi mereka yang berdampak besar dalam masyarakat. detikcom Awards bukan sekadar acara penghargaan, melainkan juga menjadi panggung untuk menginspirasi dan memberikan pengakuan kepada individu, merek, dan lembaga yang menjadi pionir dalam transformasi dan kemajuan Indonesia.</p>
+            <p class="text-[14px] text-white leading-[24px] pt-2">Dalam semangat membangun bangsa yang lebih baik, detikcom Awards mendorong adanya perubahan positif melalui penghargaan yang diberikan kepada mereka yang benar-benar layak. Kami berharap penghargaan ini akan menjadi motivasi bagi semua pihak untuk terus berinovasi, berkontribusi, dan menciptakan perubahan yang signifikan dalam berbagai sektor di Indonesia.</p>
+        </div>
+    </div>
+</div>

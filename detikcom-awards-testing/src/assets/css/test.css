@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.navbar-container {
+  @apply container max-w-[320px] sm:max-w-[639px] mx-auto bg-white;
+}/*# sourceMappingURL=test.css.map */

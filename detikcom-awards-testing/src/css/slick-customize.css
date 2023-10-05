@@ -1,0 +1,258 @@
+#page .slider-single .slick-list .slick-track .slick-slide .slick-current .slick-active {
+  -webkit-filter: unset !important;
+  /* Safari 6.0 - 9.0 */
+  filter: unset !important;
+}
+#page .slider-nav .slick-list .slick-track .slick-slide {
+  cursor: pointer;
+}
+#page .slider-nav .slick-list .slick-track .slick-slide {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+#page .slider-nav .slick-list .slick-track .is-active {
+  -webkit-filter: unset !important;
+  /* Safari 6.0 - 9.0 */
+  filter: unset !important;
+}
+
+#the-latest .wrapper {
+  width: 100%;
+  text-align: center;
+}
+#the-latest .wrapper .carousel {
+  margin-bottom: 20px;
+}
+#the-latest .wrapper .carousel .slick-prev {
+  top: -6%;
+  left: 96%;
+  width: 16px;
+}
+#the-latest .wrapper .carousel .slick-prev::before {
+  font-size: 16px;
+  content: url("../assets/images/the-latest/chevron-left.png");
+}
+#the-latest .wrapper .carousel .slick-next {
+  top: -6%;
+  right: 0px;
+  width: 16px;
+}
+#the-latest .wrapper .carousel .slick-next::before {
+  font-size: 16px;
+  content: url("../assets/images/the-latest/chevron-right.png");
+}
+#the-latest .wrapper .carousel .slick-list .slick-track .slick-slide {
+  margin: 16px;
+}
+#the-latest .wrapper .carousel .slick-list .slick-track .slick-slide .card {
+  height: 400px;
+}
+#the-latest .wrapper .carousel .slick-list .slick-track .slick-slide .card .card-body {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+  position: relative;
+  height: 100%;
+}
+#the-latest .wrapper .carousel .slick-list .slick-track .slick-slide .card .card-body .card-content {
+  text-align: left;
+  color: #333;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  background: rgb(115, 93, 60);
+  background: linear-gradient(0deg, rgb(115, 93, 60) 0%, rgba(115, 93, 60, 0.7455357143) 35%, rgba(0, 0, 0, 0) 100%);
+  height: 100%;
+  border-radius: 12px;
+}
+#the-latest .wrapper .carousel .slick-list .slick-track .slick-slide .card .card-body .card-content .wrap-content {
+  height: auto;
+}
+#the-latest .wrapper .carousel .slick-list .slick-track .slick-slide .card .card-body .card-content .wrap-content .card-text {
+  font-size: 14px;
+  font-weight: 300;
+}
+@media (min-width: 0px) and (max-width: 480px) {
+  #the-latest .container {
+    max-width: 720px !important;
+  }
+  #the-latest .container .wrapper {
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+  }
+  #the-latest .container .wrapper .carousel {
+    margin-bottom: 100px;
+  }
+  #the-latest .container .wrapper .carousel .slick-prev {
+    top: 110%;
+    left: 40%;
+    width: 16px;
+  }
+  #the-latest .container .wrapper .carousel .slick-prev::before {
+    font-size: 16px;
+    content: url("../assets/images/the-latest/chevron-left.png");
+  }
+  #the-latest .container .wrapper .carousel .slick-next {
+    top: 110%;
+    right: 40%;
+    width: 16px;
+  }
+  #the-latest .container .wrapper .carousel .slick-next::before {
+    font-size: 16px;
+    content: url("../assets/images/the-latest/chevron-right.png");
+  }
+  #the-latest .container .wrapper .carousel .slick-list .slick-track .slick-slide {
+    margin: 16px;
+  }
+  #the-latest .container .wrapper .carousel .slick-list .slick-track .slick-slide .card {
+    height: 400px;
+  }
+  #the-latest .container .wrapper .carousel .slick-list .slick-track .slick-slide .card .card-body {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    position: relative;
+    height: 100%;
+  }
+  #the-latest .container .wrapper .carousel .slick-list .slick-track .slick-slide .card .card-body .card-content {
+    text-align: left;
+    color: #333;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    background: rgb(115, 93, 60);
+    background: linear-gradient(0deg, rgb(115, 93, 60) 0%, rgba(115, 93, 60, 0.7455357143) 35%, rgba(0, 0, 0, 0) 100%);
+    height: 100%;
+    border-radius: 12px;
+  }
+  #the-latest .container .wrapper .carousel .slick-list .slick-track .slick-slide .card .card-body .card-content .wrap-content {
+    height: auto;
+  }
+  #the-latest .container .wrapper .carousel .slick-list .slick-track .slick-slide .card .card-body .card-content .wrap-content .card-text {
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
+@media (min-width: 481px) and (max-width: 799px) {
+  #the-latest .container {
+    max-width: 720px !important;
+  }
+  #the-latest .container .wrapper {
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+  }
+  #the-latest .container .wrapper .carousel {
+    margin-bottom: 100px;
+  }
+  #the-latest .container .wrapper .carousel .slick-prev {
+    top: 110%;
+    left: 35%;
+    width: 16px;
+  }
+  #the-latest .container .wrapper .carousel .slick-prev::before {
+    font-size: 16px;
+    content: url("../assets/images/the-latest/chevron-left.png");
+  }
+  #the-latest .container .wrapper .carousel .slick-next {
+    top: 110%;
+    right: 35%;
+    width: 16px;
+  }
+  #the-latest .container .wrapper .carousel .slick-next::before {
+    font-size: 16px;
+    content: url("../assets/images/the-latest/chevron-right.png");
+  }
+  #the-latest .container .wrapper .carousel .slick-list .slick-track .slick-slide {
+    margin: 16px;
+  }
+  #the-latest .container .wrapper .carousel .slick-list .slick-track .slick-slide .card {
+    height: 400px;
+  }
+  #the-latest .container .wrapper .carousel .slick-list .slick-track .slick-slide .card .card-body {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    position: relative;
+    height: 100%;
+  }
+  #the-latest .container .wrapper .carousel .slick-list .slick-track .slick-slide .card .card-body .card-content {
+    text-align: left;
+    color: #333;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    background: rgb(115, 93, 60);
+    background: linear-gradient(0deg, rgb(115, 93, 60) 0%, rgba(115, 93, 60, 0.7455357143) 35%, rgba(0, 0, 0, 0) 100%);
+    height: 100%;
+    border-radius: 12px;
+  }
+  #the-latest .container .wrapper .carousel .slick-list .slick-track .slick-slide .card .card-body .card-content .wrap-content {
+    height: auto;
+  }
+  #the-latest .container .wrapper .carousel .slick-list .slick-track .slick-slide .card .card-body .card-content .wrap-content .card-text {
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
+@media (min-width: 800px) and (max-width: 991px) {
+  #the-latest .wrapper {
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+  }
+  #the-latest .wrapper .carousel {
+    margin-bottom: 20px;
+  }
+  #the-latest .wrapper .carousel .slick-prev {
+    top: -6%;
+    left: 95%;
+    width: 16px;
+  }
+  #the-latest .wrapper .carousel .slick-prev::before {
+    font-size: 16px;
+    content: url("../assets/images/the-latest/chevron-left.png");
+  }
+  #the-latest .wrapper .carousel .slick-next {
+    top: -6%;
+    right: 0px;
+    width: 16px;
+  }
+  #the-latest .wrapper .carousel .slick-next::before {
+    font-size: 16px;
+    content: url("../assets/images/the-latest/chevron-right.png");
+  }
+  #the-latest .wrapper .carousel .slick-list .slick-track .slick-slide {
+    margin: 16px;
+  }
+  #the-latest .wrapper .carousel .slick-list .slick-track .slick-slide .card {
+    height: 400px;
+  }
+  #the-latest .wrapper .carousel .slick-list .slick-track .slick-slide .card .card-body {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    position: relative;
+    height: 100%;
+  }
+  #the-latest .wrapper .carousel .slick-list .slick-track .slick-slide .card .card-body .card-content {
+    text-align: left;
+    color: #333;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    background: rgb(115, 93, 60);
+    background: linear-gradient(0deg, rgb(115, 93, 60) 0%, rgba(115, 93, 60, 0.7455357143) 35%, rgba(0, 0, 0, 0) 100%);
+    height: 100%;
+    border-radius: 12px;
+  }
+  #the-latest .wrapper .carousel .slick-list .slick-track .slick-slide .card .card-body .card-content .wrap-content {
+    height: auto;
+  }
+  #the-latest .wrapper .carousel .slick-list .slick-track .slick-slide .card .card-body .card-content .wrap-content .card-text {
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
