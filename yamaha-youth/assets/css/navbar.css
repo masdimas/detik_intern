@@ -21,7 +21,13 @@
   justify-content: center;
   transition: all 0.2s ease;
 }
-
+#nav-bar .nav-avatar {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  border-radius: 100px;
+  /* border: 2px solid #D865A3; */
+}
 #nav-bar .nav-item a {
   color: #274d6e;
 }
