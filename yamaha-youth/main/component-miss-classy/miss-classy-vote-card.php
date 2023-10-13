@@ -8,7 +8,7 @@
                     alt=""
                     />
                 </div>
-                <div class="w-100 ">
+                <div class="w-100 p-2">
                     <div class="d-flex flex-column align-items-center gap-1 mt-2 finalist-identity">
                         <h4 class="candidate-name">Sudah Vote</h4>
                         <span class="candidate-school">SMAN 1 Bandung</span>
@@ -35,7 +35,7 @@
                 alt=""
                 />
             </div>
-            <div class="w-100">
+            <div class="w-100 p-2">
                 <div class="d-flex flex-column align-items-center gap-1 mt-2 finalist-identity">
                     <h4 class="candidate-name">Belum Login</h4>
                     <span class="candidate-school">SMAN 2 Bandung</span>
@@ -52,7 +52,7 @@
                     alt=""
                     />
                 </div>
-                <div class="w-100">
+                <div class="w-100 p-2">
                     <div class="d-flex flex-column align-items-center gap-1 mt-2 finalist-identity">
                         <h4 class="candidate-name">Belum Login</h4>
                         <span class="candidate-school">SMAN 2 Bandung</span>
@@ -72,7 +72,7 @@
                     alt=""
                     />
                 </div>
-                <div class="w-100">
+                <div class="w-100 p-2">
                     <div class="d-flex flex-column align-items-center gap-1 mt-2 finalist-identity">
                         <h4 class="candidate-name">Konfirmasi Vote</h4>
                         <span class="candidate-school">SMAN 2 Bandung</span>
@@ -89,12 +89,12 @@
                     alt=""
                     />
                 </div>
-                <div class="w-100">
+                <div class="w-100 p-2">
                     <div class="d-flex flex-column align-items-center gap-1 mt-2 finalist-identity">
-                        <h4 class="candidate-name">Charlotte Brown</h4>
+                        <h4 class="candidate-name">Vote Error</h4>
                         <span class="candidate-school">SMAN 1 Bandung</span>
                     </div>
-                    <button class="vote-button rounded-pill mt-2">VOTE</button>
+                    <button class="vote-button rounded-pill mt-2" data-bs-toggle="modal" data-bs-target="#voteError">VOTE</button>
                 </div>
             </div>
     </div>
@@ -102,6 +102,33 @@
 </div>
 
 
+<!-- Modal Error Vote-->
+<div class="modal fade " id="voteError" tabindex="-1" aria-labelledby="voteErrorLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content p-3">
+            <div class="modal-header">
+                <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex flex-column justify-content-center align-items-center">
+                <h3>Maaf Banget Ya..</h3>
+                <img src="./assets/images/miss-classy/miss-classy-pic/30min-vote-timeout.svg" alt="" />
+                <div class="modal-text-content d-flex flex-column align-items-center">
+                    <h5>Terjadi kesalahan dalam sistem voting kami</h5>
+                    <span>Kamu bisa coba lagi nanti ya. Terima kasih atas kesabaran dan pengertian kamu</span>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button 
+                class="mx-auto modal-cta rounded-pill"
+                data-bs-dismiss="modal"
+                >
+                    OK
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Modal Sudah Vote-->
 <div class="modal fade " id="voteTimeout" tabindex="-1" aria-labelledby="voteTimeoutLabel" aria-hidden="true">
