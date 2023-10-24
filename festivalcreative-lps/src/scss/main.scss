@@ -139,7 +139,39 @@ body {
                     padding: 25px; 
                     border-radius: 0 12px 12px 0;
                     height: 100%;
-
+                    #closed-submission{
+                        .form-close-illustration{
+                            width: 100%;
+                            max-width: 254px;
+                            margin-bottom: 20px;
+                        }
+                        .title{
+                            font-size: 23px;
+                            color: #EE420C;
+                            font-family: "montserat-bold";
+                            margin-bottom: 20px;
+                        }
+                        p{
+                            font-size: 14px;
+                            color: #292929;
+                            font-family: montserat-regular;
+                            line-height: 20px;
+                            margin-bottom: 20px;
+                        }
+                        .btn-default{
+                            background: #257AE4;
+                            color: #ffffff;
+                            font-size: 14px;
+                            font-family: montserat-medium;
+                            width: 100%;
+                            .arrow-right{
+                                width: 100%;
+                                max-width: 18px;
+                                margin-top: -1px;
+                                margin-left: 8px;
+                            }
+                        }
+                    }
                     .title-wrap {
                         text-align: center;
 

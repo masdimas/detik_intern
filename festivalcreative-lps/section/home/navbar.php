@@ -24,10 +24,10 @@
           <li class="nav-item">
             <a class="nav-link" href="snk-view.php">Syarat & Ketentuan</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="participation-gallery.php?gallery=video-2022">Participation Gallery</a>
-          </li>
-          <!-- <li class="nav-item dropdown">
+          </li> -->
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Participation Gallery
             </a>
@@ -35,7 +35,7 @@
               <li><a class="dropdown-item" href="participation-gallery.php?gallery=video">Video Competition</a></li>
               <li><a class="dropdown-item" href="participation-gallery.php?gallery=poster">Poster Competition</a></li>
             </ul>
-          </li> -->
+          </li>
         <li class="nav-item">
             <a class="nav-link" href="roadshow.php">Roadshow</a>
         </li>
