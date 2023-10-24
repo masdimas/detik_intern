@@ -39,11 +39,17 @@
         <li class="nav-item">
             <a class="nav-link" href="roadshow.php">Roadshow</a>
         </li>
-          <li class="nav-item d-flex justify-content-center">
-            <a class="btn rounded-pill px-4 py-2" href="index.php#form-section">
-              Daftar Sekarang
+        <?php
+          if($_GET["form"] != "closed"){
+            echo "
+            <li class='nav-item d-flex justify-content-center'>
+            <a class='btn rounded-pill px-4 py-2' href='index.php#form-section'>
+                Daftar Sekarang
             </a>
-          </li>
+            </li>
+            ";
+          }
+        ?>
         </ul>
       </div>
     </div>

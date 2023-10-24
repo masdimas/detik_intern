@@ -1,21 +1,5 @@
-<?php
-                    for($x=1; $x<=17; $x++){
-                        echo "
-                            <div class='col-lg-4 col-md-4 col-12'>
-                                <a href='https://www.youtube.com' target='_blank'>
-                                    <div class='finalist-data'>
-                                        <div class='finalist-thumbnail'>
-                                            <img src='./src/image/finalist/thumbnail.jpg' alt='thumbnail'>
-                                        </div>
-                                        <h1 class='finalist-title'>
-                                            Investasi Pendidikan untuk Masa Depan Finansial yang Sehat Investasi Pendidikan untuk Masa Depan Finansial yang Sehat
-                                        </h1>
-                                        <p class='finalist-name'>
-                                            Muhammad Dimas Septiandi Muhammad Dimas Septiandi
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                        ";
-                    }
-                ?>
+<li class='nav-item d-flex justify-content-center'>
+<a class='btn rounded-pill px-4 py-2' href='index.php#form-section'>
+    Daftar Sekarang
+</a>
+</li>

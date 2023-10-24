@@ -36,7 +36,18 @@ body {
     .container {
         max-width: 1000px;
     }
-
+    #nav-bar{
+        ul{
+            li{
+                a{
+                    &:active{
+                        color: #000000 !important;
+                        background: none !important;
+                    }
+                }
+            }
+        }
+    }
 
     #headline {
         .container {

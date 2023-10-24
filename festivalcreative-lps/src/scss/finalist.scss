@@ -24,7 +24,8 @@
             }
             .box-instagram{
                 height: 500px;
-                overflow: scroll;
+                overflow-x: hidden;
+                overflow-y: scroll;
                 margin-bottom: 15px;
                 border-radius: 16px;
                 border: 1px solid #CECECE;

@@ -27,6 +27,10 @@ body a {
 body .container {
   max-width: 1000px;
 }
+body #nav-bar ul li a:active {
+  color: #000000 !important;
+  background: none !important;
+}
 body #headline .container .headline {
   padding-top: 120px;
 }
