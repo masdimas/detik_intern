@@ -1,0 +1,53 @@
+.tb-map {
+    fill : #114e8d;
+    cursor: pointer;
+}
+.tb-point {
+    cursor: pointer;
+}
+.tb-point:hover {
+  stroke: #002868 !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: #002868;
+  cursor: pointer;
+}
+.tooltip ul {
+  padding-left: 0;
+  list-style:none;
+}
+
+.tooltip {
+    pointer-events:none; /*let mouse events pass through*/
+    opacity:0;
+    transition: opacity 0.3s;
+    text-shadow:1px 1px 0px gray;
+}
+
+div.tooltip {
+    background: lightblue;
+    border:solid gray;
+    position: absolute;
+    max-width: 8em;
+    text-align:center;
+}
+div.fixed {
+    position:fixed;
+}
+g.tooltip:not(.css) {
+  fill:currentColor;
+}
+g.tooltip rect {
+    fill: lightblue;
+    stroke: gray;
+}
+circle:hover + g.tooltip.css {
+  opacity:1;
+}
+
+button{
+  display:block;
+  margin: 0 auto 20px;
+  padding: 0.5em;
+  /*box-shadow: 0 0 2px 2px navy;*/
+}
